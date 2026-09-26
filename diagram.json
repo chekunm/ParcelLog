@@ -12,20 +12,20 @@
   "connections": [
     ["$serialMonitor:TX", "nucleo:PA3", "", []],
     ["$serialMonitor:RX", "nucleo:PA2", "", []],
-    ["imu:VCC", "nucleo:3V3", "red", []],
-    ["imu:GND", "nucleo:GND", "black", []],
+    ["imu:VCC", "nucleo:3V3.1", "red", []],
+    ["imu:GND", "nucleo:GND.1", "black", []],
     ["imu:SCL", "nucleo:PB8", "green", []],
     ["imu:SDA", "nucleo:PB9", "blue", []],
-    ["imu:AD0", "nucleo:GND", "black", []],
-    ["light:VCC", "nucleo:3V3", "red", []],
-    ["light:GND", "nucleo:GND", "black", []],
+    ["imu:AD0", "nucleo:GND.1", "black", []],
+    ["light:VCC", "nucleo:3V3.1", "red", []],
+    ["light:GND", "nucleo:GND.1", "black", []],
     ["light:AO", "nucleo:PA0", "orange", []],
-    ["pir:VCC", "nucleo:3V3", "red", []],
-    ["pir:GND", "nucleo:GND", "black", []],
+    ["pir:VCC", "nucleo:3V3.1", "red", []],
+    ["pir:GND", "nucleo:GND.1", "black", []],
     ["pir:OUT", "nucleo:PB1", "purple", []],
-    ["mode:1", "nucleo:GND", "black", []],
-    ["mode:2", "nucleo:PB0", "yellow", []],
-    ["mode:3", "nucleo:3V3", "red", []]
+    ["mode:1", "nucleo:GND.1", "black", []],
+    ["mode:2", "nucleo:PB0.1", "yellow", []],
+    ["mode:3", "nucleo:3V3.1", "red", []]
   ],
   "dependencies": {}
 }
