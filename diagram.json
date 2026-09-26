@@ -5,6 +5,8 @@
   "parts": [
     {"type": "board-st-nucleo-c031c6", "id": "nucleo", "top": 0, "left": 0, "attrs": {}},
     {"type": "wokwi-mpu6050", "id": "imu", "top": -130, "left": 310, "attrs": {}},
+    {"type": "wokwi-resistor", "id": "sclPullup", "top": -110, "left": 220, "attrs": {"value": "4700"}},
+    {"type": "wokwi-resistor", "id": "sdaPullup", "top": -70, "left": 220, "attrs": {"value": "4700"}},
     {"type": "wokwi-photoresistor-sensor", "id": "light", "top": 80, "left": 340, "attrs": {"lux": "500"}},
     {"type": "wokwi-pir-motion-sensor", "id": "pir", "top": 235, "left": 335, "attrs": {"delayTime": "3"}},
     {"type": "wokwi-slide-switch", "id": "mode", "top": 360, "left": 340, "attrs": {"bounce": "0"}}
@@ -16,6 +18,10 @@
     ["imu:GND", "nucleo:GND.1", "black", []],
     ["imu:SCL", "nucleo:PB8", "green", []],
     ["imu:SDA", "nucleo:PB9", "blue", []],
+    ["sclPullup:1", "nucleo:3V3.1", "red", []],
+    ["sclPullup:2", "imu:SCL", "green", []],
+    ["sdaPullup:1", "nucleo:3V3.1", "red", []],
+    ["sdaPullup:2", "imu:SDA", "blue", []],
     ["imu:AD0", "nucleo:GND.1", "black", []],
     ["light:VCC", "nucleo:3V3.1", "red", []],
     ["light:GND", "nucleo:GND.1", "black", []],

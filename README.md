@@ -16,7 +16,7 @@
 
 | Сигнал | Підключення | Повідомлення |
 | --- | --- | --- |
-| MPU6050, I²C1 | PB8 SCL, PB9 SDA | `shock`, `tilt` |
+| MPU6050, I²C через GPIO HAL | PB8 SCL, PB9 SDA | `shock`, `tilt` |
 | Фоторезистор, ADC1 | PA0 | `light_change` |
 | PIR, GPIO | PB1 | `nearby_motion` лише в режимі зберігання |
 | Перемикач режиму | PB0: 0 — перевезення, 1 — зберігання | `mode=transit/storage` |
@@ -28,4 +28,6 @@ make build          # Docker збирає firmware/build/firmware.elf і .hex
 make test           # перевірка правил подій на комп'ютері
 ```
 
-Для запуску у Wokwi відкрийте папку у VS Code з плагіном Wokwi, виконайте `make build`, потім `Wokwi: Start Simulator`. Схема — `diagram.json`, шлях до прошивки — `wokwi.toml`. Рух PIR задається кнопкою **Simulate Motion**; освітленість і прискорення змінюються у вікнах відповідних датчиків. Симуляцію ще слід перевірити вручну перед здачею.
+Для запуску у Wokwi відкрийте папку у VS Code з плагіном Wokwi, виконайте `make build`, потім `Wokwi: Start Simulator`. Схема — `diagram.json`, шлях до прошивки — `wokwi.toml`. Рух PIR задається кнопкою **Simulate Motion**; освітленість і прискорення змінюються у вікнах відповідних датчиків. Після запуску перевірте `mpu6050_ready` та `imu=ok` у журналі.
+
+У цій симуляції обмін із MPU6050 реалізований через GPIO HAL на PB8/PB9: лінія відпускається переходом у режим входу з підтяжкою, низький рівень задається режимом виходу. Це обхід [проблеми I²C у Wokwi для Nucleo-C031C6](https://github.com/wokwi/wokwi-features/issues/1001). На схемі є підтягувальні резистори 4,7 кОм.
