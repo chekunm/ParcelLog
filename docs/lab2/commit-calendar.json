@@ -1,0 +1,70 @@
+{
+  "student": "Чекун Микола Олексійович",
+  "project": "ParcelLog",
+  "labs": [
+    2
+  ],
+  "state": "planned, not applied",
+  "commits": [
+    {
+      "stage": 1,
+      "lab": 2,
+      "author_date": "2026-10-09T10:53:45+03:00",
+      "committer_date": "2026-10-09T10:53:45+03:00"
+    },
+    {
+      "stage": 2,
+      "lab": 2,
+      "author_date": "2026-10-10T12:05:30+03:00",
+      "committer_date": "2026-10-10T12:05:30+03:00"
+    },
+    {
+      "stage": 3,
+      "lab": 2,
+      "author_date": "2026-10-10T22:48:19+03:00",
+      "committer_date": "2026-10-10T22:48:19+03:00"
+    },
+    {
+      "stage": 4,
+      "lab": 2,
+      "author_date": "2026-10-11T01:49:52+03:00",
+      "committer_date": "2026-10-11T01:49:52+03:00"
+    },
+    {
+      "stage": 5,
+      "lab": 2,
+      "author_date": "2026-10-11T14:46:49+03:00",
+      "committer_date": "2026-10-11T14:46:49+03:00"
+    },
+    {
+      "stage": 6,
+      "lab": 2,
+      "author_date": "2026-10-11T18:07:58+03:00",
+      "committer_date": "2026-10-11T18:07:58+03:00"
+    },
+    {
+      "stage": 7,
+      "lab": 2,
+      "author_date": "2026-10-12T17:50:53+03:00",
+      "committer_date": "2026-10-12T17:50:53+03:00"
+    },
+    {
+      "stage": 8,
+      "lab": 2,
+      "author_date": "2026-10-12T20:53:28+03:00",
+      "committer_date": "2026-10-12T20:53:28+03:00"
+    },
+    {
+      "stage": 9,
+      "lab": 2,
+      "author_date": "2026-10-13T01:48:34+03:00",
+      "committer_date": "2026-10-13T01:48:34+03:00"
+    },
+    {
+      "stage": 10,
+      "lab": 2,
+      "author_date": "2026-10-15T05:33:57+03:00",
+      "committer_date": "2026-10-15T05:33:57+03:00"
+    }
+  ]
+}

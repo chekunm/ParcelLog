@@ -15,7 +15,7 @@ clean:
 
 test:
 	mkdir -p tests/build
-	$(CC) -std=c11 -Wall -Wextra -Werror -Ifirmware/Core/Inc \
-		tests/test_parcel_rules.c firmware/Core/Src/parcel_rules.c \
+	$(CC) -std=c11 -Wall -Wextra -Werror -Ifirmware/App \
+		tests/test_parcel_rules.c firmware/App/parcel_rules.c \
 		-o tests/build/test_parcel_rules
 	tests/build/test_parcel_rules

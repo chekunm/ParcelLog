@@ -60,6 +60,22 @@ int main(void)
   sample.light_valid = false;
   assert(ParcelRules_Update(&rules, &sample) == 0);
 
+  /* A missing or below-threshold sample breaks consecutive confirmation. */
+  ParcelRules_Init(&rules, PARCEL_TRANSIT);
+  sample = baseline(); sample.ax = 11000;
+  assert(ParcelRules_Update(&rules, &sample) == 0);
+  assert(ParcelRules_Update(&rules, &sample) == 0);
+  sample.imu_valid = false;
+  assert(ParcelRules_Update(&rules, &sample) == 0);
+  sample.imu_valid = true;
+  assert(ParcelRules_Update(&rules, &sample) == 0);
+  assert(ParcelRules_Update(&rules, &sample) == 0);
+  assert(ParcelRules_Update(&rules, &sample) == PARCEL_EVENT_TILT);
+  sample.ax = 0; ParcelRules_Update(&rules, &sample);
+  sample.ax = INT16_MIN;
+  assert(ParcelRules_Update(&rules, &sample) == PARCEL_EVENT_SHOCK);
+  assert(ParcelRules_Update(&rules, &sample) == 0);
+  assert(ParcelRules_Update(&rules, &sample) == PARCEL_EVENT_TILT);
   puts("parcel_rules: ok");
   return 0;
 }

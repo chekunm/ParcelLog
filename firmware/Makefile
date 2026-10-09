@@ -38,7 +38,7 @@ BUILD_DIR = build
 C_SOURCES =  \
 Core/Src/main.c \
 Core/Src/mpu6050.c \
-Core/Src/parcel_rules.c \
+App/parcel_rules.c \
 Core/Src/stm32c0xx_it.c \
 Core/Src/stm32c0xx_hal_msp.c \
 Core/Src/syscalls.c \
@@ -119,6 +119,7 @@ AS_INCLUDES =
 # C includes
 C_INCLUDES =  \
 -ICore/Inc \
+-IApp \
 -IDrivers/STM32C0xx_HAL_Driver/Inc \
 -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy \
 -IDrivers/CMSIS/Device/ST/STM32C0xx/Include \

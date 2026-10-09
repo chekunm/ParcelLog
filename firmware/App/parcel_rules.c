@@ -61,7 +61,11 @@ uint32_t ParcelRules_Update(ParcelRules *rules, const ParcelSample *sample)
     } else if (x < TILT_OFF && y < TILT_OFF) {
       rules->tilt_samples = 0;
       rules->tilt_active = false;
+    } else {
+      rules->tilt_samples = 0;
     }
+  } else {
+    rules->tilt_samples = 0;
   }
 
   if (sample->light_valid) {
