@@ -22,8 +22,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
-#include "mpu6050.h"
-#include "parcel_rules.h"
+#include "runtime.h"
+#include "board.h"
 #include <stdio.h>
 
 /* USER CODE END Includes */
@@ -45,7 +45,6 @@
 
 /* Private variables ---------------------------------------------------------*/
 
-ADC_HandleTypeDef hadc1;
 I2C_HandleTypeDef hi2c1;
 
 UART_HandleTypeDef huart2;
@@ -57,7 +56,6 @@ UART_HandleTypeDef huart2;
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
-static HAL_StatusTypeDef MX_ADC1_Init(void);
 static void MX_I2C1_Init(void);
 static void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN PFP */
@@ -67,44 +65,7 @@ static void MX_USART2_UART_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
-int __io_putchar(int ch)
-{
-  uint8_t byte = (uint8_t)ch;
-  if (HAL_UART_Transmit(&huart2, &byte, 1, HAL_MAX_DELAY) != HAL_OK)
-  {
-    return EOF;
-  }
-  return ch;
-}
-
-static bool ReadLight(uint16_t *light)
-{
-  if (HAL_ADC_Start(&hadc1) != HAL_OK) {
-    return false;
-  }
-  if (HAL_ADC_PollForConversion(&hadc1, 10) != HAL_OK) {
-    HAL_ADC_Stop(&hadc1);
-    return false;
-  }
-  *light = (uint16_t)HAL_ADC_GetValue(&hadc1);
-  return HAL_ADC_Stop(&hadc1) == HAL_OK;
-}
-
-static void LogEvents(uint32_t now, uint32_t events)
-{
-  if (events & PARCEL_EVENT_SHOCK) {
-    printf("[%lu ms] shock\r\n", (unsigned long)now);
-  }
-  if (events & PARCEL_EVENT_TILT) {
-    printf("[%lu ms] tilt\r\n", (unsigned long)now);
-  }
-  if (events & PARCEL_EVENT_LIGHT_CHANGE) {
-    printf("[%lu ms] light_change\r\n", (unsigned long)now);
-  }
-  if (events & PARCEL_EVENT_NEARBY_MOTION) {
-    printf("[%lu ms] nearby_motion\r\n", (unsigned long)now);
-  }
-}
+int __io_putchar(int ch) { return board_put_char(ch); }
 
 /* USER CODE END 0 */
 
@@ -115,17 +76,6 @@ static void LogEvents(uint32_t now, uint32_t events)
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-  ParcelRules rules;
-  ParcelSample sample = {0};
-  bool adc_ready;
-  bool imu_ready = false;
-  bool light_was_valid = false;
-  uint32_t last_sample;
-  uint32_t last_status;
-  uint32_t last_led;
-  uint32_t last_imu_retry;
-  uint32_t tick_count = 0;
-
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -149,17 +99,7 @@ int main(void)
   MX_I2C1_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-  adc_ready = MX_ADC1_Init() == HAL_OK;
-  ParcelRules_Init(&rules, PARCEL_TRANSIT);
-  last_sample = HAL_GetTick() - 100u;
-  last_status = HAL_GetTick();
-  last_led = HAL_GetTick();
-  last_imu_retry = HAL_GetTick() - 2000u;
-
-  printf("ParcelLog ready; mode=transit\r\n");
-  if (!adc_ready) {
-    printf("light_sensor_unavailable\r\n");
-  }
+  runtime_init();
 
   /* USER CODE END 2 */
 
@@ -170,108 +110,9 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    uint32_t now = HAL_GetTick();
-    if (now - last_sample >= 100u) {
-      ParcelMode mode;
-      uint32_t events;
-      last_sample = now;
-      sample.pir_motion = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_1) == GPIO_PIN_SET;
-      mode = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_0) == GPIO_PIN_SET
-                 ? PARCEL_STORAGE : PARCEL_TRANSIT;
-      if (mode != rules.mode) {
-        ParcelRules_SetMode(&rules, mode, sample.pir_motion);
-        printf("[%lu ms] mode=%s\r\n", (unsigned long)now,
-               mode == PARCEL_STORAGE ? "storage" : "transit");
-      }
-
-      if (!imu_ready && now - last_imu_retry >= 2000u) {
-        last_imu_retry = now;
-        imu_ready = Mpu6050_Init(&hi2c1) == HAL_OK;
-        if (imu_ready) {
-          printf("[%lu ms] mpu6050_ready\r\n", (unsigned long)now);
-        } else {
-          printf("[%lu ms] mpu6050_unavailable\r\n", (unsigned long)now);
-        }
-      }
-      sample.imu_valid = false;
-      if (imu_ready) {
-        Mpu6050Acceleration accel;
-        if (Mpu6050_ReadAcceleration(&hi2c1, &accel) == HAL_OK) {
-          sample.ax = accel.ax;
-          sample.ay = accel.ay;
-          sample.az = accel.az;
-          sample.imu_valid = true;
-        } else {
-          imu_ready = false;
-          last_imu_retry = now;
-          printf("[%lu ms] mpu6050_read_error\r\n", (unsigned long)now);
-        }
-      }
-
-      sample.light_valid = adc_ready && ReadLight(&sample.light);
-      if (adc_ready && sample.light_valid != light_was_valid) {
-        printf("[%lu ms] light_sensor_%s\r\n", (unsigned long)now,
-               sample.light_valid ? "ready" : "read_error");
-        light_was_valid = sample.light_valid;
-      }
-      events = ParcelRules_Update(&rules, &sample);
-      LogEvents(now, events);
-    }
-
-    if (now - last_status >= 1000u) {
-      last_status = now;
-      printf("tick %lu [%lu ms] status mode=%s imu=%s ax=%d ay=%d az=%d light=%s%u pir=%u\r\n",
-             (unsigned long)++tick_count,
-             (unsigned long)now,
-             rules.mode == PARCEL_STORAGE ? "storage" : "transit",
-             sample.imu_valid ? "ok" : "error",
-             sample.imu_valid ? sample.ax : 0,
-             sample.imu_valid ? sample.ay : 0,
-             sample.imu_valid ? sample.az : 0,
-             sample.light_valid ? "" : "error:",
-             sample.light_valid ? sample.light : 0u,
-             sample.pir_motion ? 1u : 0u);
-    }
-    if (now - last_led >= 500u) {
-      last_led = now;
-      HAL_GPIO_TogglePin(Led_GPIO_Port, Led_Pin);
-    }
-    HAL_Delay(10);
+    runtime_poll();
   }
   /* USER CODE END 3 */
-}
-
-static HAL_StatusTypeDef MX_ADC1_Init(void)
-{
-  ADC_ChannelConfTypeDef channel = {0};
-
-  hadc1.Instance = ADC1;
-  hadc1.Init.ClockPrescaler = ADC_CLOCK_SYNC_PCLK_DIV2;
-  hadc1.Init.Resolution = ADC_RESOLUTION_12B;
-  hadc1.Init.DataAlign = ADC_DATAALIGN_RIGHT;
-  hadc1.Init.ScanConvMode = ADC_SCAN_SEQ_FIXED;
-  hadc1.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
-  hadc1.Init.LowPowerAutoWait = DISABLE;
-  hadc1.Init.LowPowerAutoPowerOff = DISABLE;
-  hadc1.Init.ContinuousConvMode = DISABLE;
-  hadc1.Init.NbrOfConversion = 1;
-  hadc1.Init.DiscontinuousConvMode = DISABLE;
-  hadc1.Init.ExternalTrigConv = ADC_SOFTWARE_START;
-  hadc1.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
-  hadc1.Init.DMAContinuousRequests = DISABLE;
-  hadc1.Init.Overrun = ADC_OVR_DATA_OVERWRITTEN;
-  hadc1.Init.SamplingTimeCommon1 = ADC_SAMPLETIME_160CYCLES_5;
-  hadc1.Init.SamplingTimeCommon2 = ADC_SAMPLETIME_160CYCLES_5;
-  hadc1.Init.OversamplingMode = DISABLE;
-  hadc1.Init.TriggerFrequencyMode = ADC_TRIGGER_FREQ_LOW;
-  if (HAL_ADC_Init(&hadc1) != HAL_OK) {
-    return HAL_ERROR;
-  }
-
-  channel.Channel = ADC_CHANNEL_0;
-  channel.Rank = ADC_RANK_CHANNEL_NUMBER;
-  channel.SamplingTime = ADC_SAMPLINGTIME_COMMON_1;
-  return HAL_ADC_ConfigChannel(&hadc1, &channel);
 }
 
 /**

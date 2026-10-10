@@ -1,4 +1,4 @@
-IMAGE ?= stm32c0-wokwi-build:local
+IMAGE ?= parcellog-build:lab2
 
 .PHONY: image build clean test
 
@@ -21,3 +21,6 @@ test:
 	tests/build/test_parcel_rules
 	$(CC) -std=c11 -Wall -Wextra -Werror -Ifirmware/Devices tests/test_mpu.c firmware/Devices/mpu6050.c -o tests/build/test_mpu
 	tests/build/test_mpu
+
+	$(CC) -std=c11 -Wall -Wextra -Werror -DRUNTIME_TEST_PRINTF -Itests/fakes -Ifirmware/Platform -Ifirmware/App -Ifirmware/Devices tests/test_runtime.c firmware/Platform/runtime.c firmware/App/parcel_rules.c firmware/Devices/mpu6050.c -o tests/build/test_runtime
+	tests/build/test_runtime
