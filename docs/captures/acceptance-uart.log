@@ -1,0 +1,57 @@
+tick [37001 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [38001 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [38924 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [39001 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [40001 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+[40916 ms] selftest addr=0x68 result=0 mpu6050_ready
+tick [41001 ms] mode=transit imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0
+tick [42001 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [43001 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [44001 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [45001 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [46001 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=2 time_ms=46305 event=mode_changed mode=storage
+tick [47001 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=3 time_ms=47205 event=shock mode=storage
+seq=4 time_ms=47205 event=light_change mode=storage
+seq=5 time_ms=47205 event=nearby_motion mode=storage
+seq=6 time_ms=47405 event=tilt mode=storage
+tick [48001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=1 tx_overflow=0
+tick [49001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=1 tx_overflow=0
+tick [50001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=1 tx_overflow=0
+tick [51001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [52001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [53001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [54001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [55001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [56001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [57001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [58001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [59001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [60001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [61001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [62001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [63001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [64001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [65001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [66001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [67001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [68001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+[68650 ms] selftest addr=0x69 result=1 mpu6050_unavailable
+[68650 ms] selftest addr=0x68 result=0 mpu6050_ready
+tick [68650 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=32 pir=0 tx_overflow=0
+tick [69001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [70001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [71001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [72001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [73001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [74001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [75001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [76001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [77001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [78001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [79001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [80001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [81001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [82001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [83001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0

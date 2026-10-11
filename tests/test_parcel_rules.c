@@ -76,6 +76,14 @@ int main(void)
   assert(ParcelRules_Update(&rules, &sample) == PARCEL_EVENT_SHOCK);
   assert(ParcelRules_Update(&rules, &sample) == 0);
   assert(ParcelRules_Update(&rules, &sample) == PARCEL_EVENT_TILT);
+  ParcelRules_Init(&rules, PARCEL_TRANSIT);
+  sample = baseline(); sample.ax = 10649;
+  assert(ParcelRules_Update(&rules, &sample) == 0);
+  sample.ax = 9000; assert(ParcelRules_Update(&rules, &sample) == 0);
+  sample.ax = 10649;
+  assert(ParcelRules_Update(&rules, &sample) == 0);
+  assert(ParcelRules_Update(&rules, &sample) == 0);
+  assert(ParcelRules_Update(&rules, &sample) == PARCEL_EVENT_TILT);
   puts("parcel_rules: ok");
   return 0;
 }

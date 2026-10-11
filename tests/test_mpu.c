@@ -2,6 +2,7 @@
 #include <assert.h>
 #include <stdio.h>
 #include <string.h>
+#include "fixtures/mpu-captured.h"
 
 typedef struct { BusResult result; uint8_t id; unsigned writes, reads, fail_write; } Fake;
 static BusResult read_bus(void *context, uint8_t address, uint8_t reg, uint8_t *data, size_t size) {
@@ -50,6 +51,13 @@ int main(void) {
         assert(mpu6050_init(&device) == BUS_TIMEOUT && failed.writes == index);
     }
     assert(sample.accel_raw[0] == INT16_MIN && sample.accel_raw[1] == INT16_MAX);
+    mpu6050_decode(captured_stationary, &sample);
+    assert(sample.accel_mg[0] == 0 && sample.accel_mg[1] == 0 && sample.accel_mg[2] == 1000);
+    assert(sample.temperature_mc == 24001);
+    mpu6050_decode(captured_moving, &sample);
+    assert(sample.accel_mg[0] == 1999 && sample.accel_mg[1] == 0 && sample.accel_mg[2] == 1000);
+    assert(sample.gyro_mdps[0] == CAPTURED_GYRO_X_MDPS);
+    assert(sample.temperature_mc == 24001);
     puts("MPU6050: identity, initialization order, units, signed limits and bus failures passed");
     return 0;
 }

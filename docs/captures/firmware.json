@@ -1,0 +1,8 @@
+{
+  "firmware/Devices/mpu6050.c": "394602071c0a5ed0bd9ef1d716afa38bbeae8c85b2e2338eacfbfdce65c9988f",
+  "firmware/Devices/mpu6050.h": "97a79de9c4f94403a11278cc6effc7a936e714e922e00414c20f711c71d5c927",
+  "firmware/App/parcel_rules.c": "fc086d6f8436edba167d2289d9aac0eb77b026b07e16646a66af1113981886e0",
+  "firmware/Platform/runtime.c": "21ccec3222a248a31d05966de24034e72d81ecdad3cf8c554ba6c90c788897d5",
+  "firmware/Platform/board.c": "291abbfdf84b9236a924f8cb40d4f11d8e8b0626c561522ad72f34ad8b865e15",
+  "firmware/build/firmware.hex": "1b1e641d6c7aebdf87748b6b338c71c0ad2cce23dce8ec5a7ee8ed60dad7c0f9"
+}

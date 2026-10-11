@@ -1,0 +1,22 @@
+{
+  "started_at": "2026-10-15T14:50:23.251553+03:00",
+  "duration_seconds": 12.014450292,
+  "port": 4505,
+  "end_reason": "duration_elapsed",
+  "commands": [
+    {
+      "wall_seconds": 1.0026005420000002,
+      "command": "imuaddr 0x69"
+    },
+    {
+      "wall_seconds": 6.000529334,
+      "command": "imuaddr 0x68"
+    },
+    {
+      "wall_seconds": 9.007237209,
+      "command": "status"
+    }
+  ],
+  "uart_bytes": 1786,
+  "clock": "Host monotonic schedule; UART time_ms comes from the simulated MCU"
+}

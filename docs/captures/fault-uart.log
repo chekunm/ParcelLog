@@ -1,0 +1,17 @@
+tick [99001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+[99233 ms] selftest addr=0x69 result=1 mpu6050_unavailable
+tick [100001 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=32 pir=0 tx_overflow=0
+tick [101001 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=32 pir=0 tx_overflow=0
+[101306 ms] selftest addr=0x69 result=1 mpu6050_unavailable
+tick [102001 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=32 pir=0 tx_overflow=0
+tick [103001 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=32 pir=0 tx_overflow=0
+[103306 ms] selftest addr=0x69 result=1 mpu6050_unavailable
+tick [104001 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=32 pir=0 tx_overflow=0
+[104234 ms] selftest addr=0x68 result=0 mpu6050_ready
+tick [105001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [106001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [107001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [107241 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [108001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [109001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0
+tick [110001 ms] mode=storage imu=ok raw=32767,0,16384 mg=1999,0,1000 gyro=0,0,0 temp_mc=24001 light=32 pir=0 tx_overflow=0

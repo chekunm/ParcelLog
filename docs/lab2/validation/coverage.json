@@ -1,0 +1,33 @@
+{
+  "scope": "Portable App and Devices only; Board/HAL are excluded",
+  "files": [
+    {
+      "source": "firmware/Devices/mpu6050.c",
+      "lines": 24,
+      "executed": 24,
+      "branches": 14,
+      "taken": 14,
+      "uncovered_lines": []
+    },
+    {
+      "source": "firmware/App/parcel_rules.c",
+      "lines": 50,
+      "executed": 50,
+      "branches": 42,
+      "taken": 40,
+      "uncovered_lines": []
+    }
+  ],
+  "totals": {
+    "lines": 74,
+    "executed": 74,
+    "branches": 56,
+    "taken": 54,
+    "line_percent": 100.0,
+    "branch_taken_percent": 96.43
+  },
+  "gate": {
+    "line_percent": 85,
+    "branch_taken_percent": 70
+  }
+}

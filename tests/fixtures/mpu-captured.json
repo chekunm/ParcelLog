@@ -1,0 +1,134 @@
+{
+  "source": "acceptance.vcd",
+  "sha256": "62dff25c292ff9bdde6c23f8a05a78e0d6edac21bd6af2343bf46ada51a5fefa",
+  "stationary": {
+    "start_ns": 12390825,
+    "bytes": [
+      209,
+      0,
+      0,
+      0,
+      0,
+      64,
+      0,
+      239,
+      92,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "acks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "byte_end_ns": [
+      12480825,
+      12570825,
+      12660825,
+      12750825,
+      12840825,
+      12930825,
+      13020825,
+      13110825,
+      13200825,
+      13290825,
+      13380825,
+      13470825,
+      13560825,
+      13650825,
+      13740825
+    ],
+    "end_ns": 13755825,
+    "end": "STOP"
+  },
+  "moving": {
+    "start_ns": 47205914125,
+    "bytes": [
+      209,
+      127,
+      255,
+      0,
+      0,
+      64,
+      0,
+      239,
+      92,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "acks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "byte_end_ns": [
+      47206004125,
+      47206094125,
+      47206184125,
+      47206274125,
+      47206364125,
+      47206454125,
+      47206544125,
+      47206634125,
+      47206724125,
+      47206814125,
+      47206904125,
+      47206994125,
+      47207084125,
+      47207174125,
+      47207264125
+    ],
+    "end_ns": 47207279125,
+    "end": "STOP"
+  },
+  "inputs": {
+    "stationary_acceleration_g": [
+      0,
+      0,
+      1
+    ],
+    "moving_acceleration_g": [
+      2,
+      0,
+      1
+    ],
+    "moving_gyro_dps": [
+      0,
+      0,
+      0
+    ],
+    "temperature_c": 24
+  }
+}

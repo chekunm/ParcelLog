@@ -1,0 +1,248 @@
+{
+  "source": "acceptance.vcd",
+  "sha256": "62dff25c292ff9bdde6c23f8a05a78e0d6edac21bd6af2343bf46ada51a5fefa",
+  "end_ns": 130181600650,
+  "scl_period_median_ns": 10000.0,
+  "adc_period_median_ns": 99995650,
+  "adc_marker_width_median_ns": 65225.0,
+  "PIR_pulses": [
+    {
+      "start_ns": 47166220150,
+      "width_ns": 3000000025
+    }
+  ],
+  "whoami": [
+    {
+      "start_ns": 5631150,
+      "bytes": [
+        208,
+        117
+      ],
+      "acks": [
+        true,
+        true
+      ],
+      "byte_end_ns": [
+        5721150,
+        5871100
+      ],
+      "end_ns": 5886100,
+      "end": "STOP"
+    },
+    {
+      "start_ns": 6096625,
+      "bytes": [
+        209,
+        104
+      ],
+      "acks": [
+        true,
+        false
+      ],
+      "byte_end_ns": [
+        6186625,
+        6276625
+      ],
+      "end_ns": 6291625,
+      "end": "STOP"
+    }
+  ],
+  "first_burst": [
+    {
+      "start_ns": 11966450,
+      "bytes": [
+        208,
+        59
+      ],
+      "acks": [
+        true,
+        true
+      ],
+      "byte_end_ns": [
+        12056450,
+        12194000
+      ],
+      "end_ns": 12209000,
+      "end": "STOP"
+    },
+    {
+      "start_ns": 12390825,
+      "bytes": [
+        209,
+        0,
+        0,
+        0,
+        0,
+        64,
+        0,
+        239,
+        92,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "acks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "byte_end_ns": [
+        12480825,
+        12570825,
+        12660825,
+        12750825,
+        12840825,
+        12930825,
+        13020825,
+        13110825,
+        13200825,
+        13290825,
+        13380825,
+        13470825,
+        13560825,
+        13650825,
+        13740825
+      ],
+      "end_ns": 13755825,
+      "end": "STOP"
+    }
+  ],
+  "motion_burst": {
+    "start_ns": 47205914125,
+    "bytes": [
+      209,
+      127,
+      255,
+      0,
+      0,
+      64,
+      0,
+      239,
+      92,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "acks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "byte_end_ns": [
+      47206004125,
+      47206094125,
+      47206184125,
+      47206274125,
+      47206364125,
+      47206454125,
+      47206544125,
+      47206634125,
+      47206724125,
+      47206814125,
+      47206904125,
+      47206994125,
+      47207084125,
+      47207174125,
+      47207264125
+    ],
+    "end_ns": 47207279125,
+    "end": "STOP"
+  },
+  "nack": {
+    "start_ns": 68650331650,
+    "bytes": [
+      210
+    ],
+    "acks": [
+      false
+    ],
+    "byte_end_ns": [
+      68650421650
+    ],
+    "end_ns": 68650436650,
+    "end": "STOP"
+  },
+  "events": [
+    {
+      "time_ns": 26984675,
+      "text": "seq=1 time_ms=4 event=light_ready mode=transit"
+    },
+    {
+      "time_ns": 46306483550,
+      "text": "seq=2 time_ms=46305 event=mode_changed mode=storage"
+    },
+    {
+      "time_ns": 47208568000,
+      "text": "seq=3 time_ms=47205 event=shock mode=storage"
+    },
+    {
+      "time_ns": 47215796425,
+      "text": "seq=4 time_ms=47205 event=light_change mode=storage"
+    },
+    {
+      "time_ns": 47224125050,
+      "text": "seq=5 time_ms=47205 event=nearby_motion mode=storage"
+    },
+    {
+      "time_ns": 47408544850,
+      "text": "seq=6 time_ms=47405 event=tilt mode=storage"
+    }
+  ],
+  "fault_events": [
+    {
+      "time_ns": 26984675,
+      "text": "seq=1 time_ms=4 event=light_ready mode=transit"
+    },
+    {
+      "time_ns": 46306483550,
+      "text": "seq=2 time_ms=46305 event=mode_changed mode=storage"
+    },
+    {
+      "time_ns": 47208568000,
+      "text": "seq=3 time_ms=47205 event=shock mode=storage"
+    },
+    {
+      "time_ns": 47215796425,
+      "text": "seq=4 time_ms=47205 event=light_change mode=storage"
+    },
+    {
+      "time_ns": 47224125050,
+      "text": "seq=5 time_ms=47205 event=nearby_motion mode=storage"
+    },
+    {
+      "time_ns": 47408544850,
+      "text": "seq=6 time_ms=47405 event=tilt mode=storage"
+    }
+  ],
+  "imu_burst_period_median_ns": 99995650
+}

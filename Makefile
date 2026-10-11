@@ -14,6 +14,7 @@ clean:
 	$(MAKE) -C firmware clean
 
 test:
+	python3 tools/check_project.py
 	$(MAKE) -C tests test
 sanitize:
 	$(MAKE) -C tests sanitize
