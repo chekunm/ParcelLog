@@ -1,0 +1,8 @@
+digraph ParcelLog {rankdir=TB; graph [bgcolor="white",fontname="Arial"]; node [shape=box,style="rounded,filled",fillcolor="#edf3f5",fontname="Arial",fontsize=12]; core[label="Core / main / IRQ
+Clock and peripheral configuration"]; runtime[label="Platform runtime
+100 ms polling / physical GPIO mode / UART parser"]; board[label="Platform board
+I2C AUTOEND / ADC marker / IRQ queues"]; driver[label="Devices MPU6050
+SensorBus / signed raw and physical units"]; rules[label="App ParcelRules
+Shock / 3-sample tilt / light / PIR edge"]; hal[label="STM32 HAL + CMSIS
+Unchanged vendor sources"]; tests[label="Host tests
+Fake bus / board / clock / UART",fillcolor="#fff6dc"]; core->runtime; core->board; runtime->board; runtime->driver; runtime->rules; board->hal; driver->board[label="SensorBus callbacks"]; tests->rules[style=dashed]; tests->driver[style=dashed]; tests->runtime[style=dashed];}
