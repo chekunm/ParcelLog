@@ -1,0 +1,101 @@
+docker build -t parcellog-build:lab2 docker
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 443B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:22.04@sha256:5ec03bb3441e8b0bf3b4f9cd4629a1ae763010dc3035bb8da3ae6cf026486401
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/ubuntu:22.04@sha256:5ec03bb3441e8b0bf3b4f9cd4629a1ae763010dc3035bb8da3ae6cf026486401
+#4 resolve docker.io/library/ubuntu:22.04@sha256:5ec03bb3441e8b0bf3b4f9cd4629a1ae763010dc3035bb8da3ae6cf026486401 done
+#4 DONE 0.0s
+
+#5 [2/3] RUN apt-get update && apt-get install -y --no-install-recommends     gcc     libc6-dev     python3     make     gcc-arm-none-eabi     binutils-arm-none-eabi     libnewlib-arm-none-eabi     ca-certificates     && rm -rf /var/lib/apt/lists/*
+#5 CACHED
+
+#6 [3/3] WORKDIR /workspace
+#6 CACHED
+
+#7 exporting to image
+#7 exporting layers done
+#7 exporting manifest sha256:c4ee5937cae819fcc2365cba1a4b0a6f5ebb01bb5a8c8a711b02489cb1782204 done
+#7 exporting config sha256:14edf2a803832a078fea8dad60a5aba4f31a3acfcb4ce5dabd0c21b29e41c61a done
+#7 exporting attestation manifest sha256:fb540a792091d1199e197fcdc8f20827671a028e0b10d0e208cc236f9c617013 done
+#7 exporting manifest list sha256:b87c086f5f091f300e5439093fa4e8832d108fd0d68c242411da9afa90854aff done
+#7 naming to docker.io/library/parcellog-build:lab2 done
+#7 unpacking to docker.io/library/parcellog-build:lab2 done
+#7 DONE 0.0s
+docker run --rm -v "/Users/pliffdax/Projects/university/Study/People/Чекун Микола Олексійович/2026-Fall/SP/Lab01/Work/ParcelLog:/workspace" -w /workspace \
+		--user "501:20" parcellog-build:lab2 \
+		make -C firmware all
+make: Entering directory '/workspace/firmware'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/workspace/firmware'
+docker run --rm -v "/Users/pliffdax/Projects/university/Study/People/Чекун Микола Олексійович/2026-Fall/SP/Lab01/Work/ParcelLog:/workspace" -w /workspace --user "501:20" parcellog-build:lab2 make test sanitize
+python3 tools/check_project.py
+Portable dependency rules passed
+Vendored HAL/CMSIS SHA256 passed
+make -C tests test
+make[1]: Entering directory '/workspace/tests'
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O0 -g -Wall -Wextra -Werror test_mpu.c ../firmware/Devices/mpu6050.c -o "build/Linux-aarch64/test_mpu"
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O0 -g -Wall -Wextra -Werror test_parcel_rules.c ../firmware/App/parcel_rules.c -o "build/Linux-aarch64/test_parcel_rules"
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O0 -g -Wall -Wextra -Werror -DRUNTIME_TEST_PRINTF test_runtime.c ../firmware/Platform/runtime.c ../firmware/App/parcel_rules.c ../firmware/Devices/mpu6050.c -o "build/Linux-aarch64/test_runtime"
+MPU6050: identity, initialization order, units, signed limits and bus failures passed
+parcel_rules: ok
+runtime: simultaneous events, GPIO mode entry, NACK recovery, ADC retry, parser and tick wrap passed
+make[1]: Leaving directory '/workspace/tests'
+make -C tests sanitize
+make[1]: Entering directory '/workspace/tests'
+make test BUILD=build/Linux-aarch64/sanitize CFLAGS='-std=c11 -O1 -g -Wall -Wextra -Werror -fsanitize=address,undefined -fno-omit-frame-pointer'
+make[2]: Entering directory '/workspace/tests'
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O1 -g -Wall -Wextra -Werror -fsanitize=address,undefined -fno-omit-frame-pointer test_mpu.c ../firmware/Devices/mpu6050.c -o "build/Linux-aarch64/sanitize/test_mpu"
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O1 -g -Wall -Wextra -Werror -fsanitize=address,undefined -fno-omit-frame-pointer test_parcel_rules.c ../firmware/App/parcel_rules.c -o "build/Linux-aarch64/sanitize/test_parcel_rules"
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O1 -g -Wall -Wextra -Werror -fsanitize=address,undefined -fno-omit-frame-pointer -DRUNTIME_TEST_PRINTF test_runtime.c ../firmware/Platform/runtime.c ../firmware/App/parcel_rules.c ../firmware/Devices/mpu6050.c -o "build/Linux-aarch64/sanitize/test_runtime"
+MPU6050: identity, initialization order, units, signed limits and bus failures passed
+parcel_rules: ok
+runtime: simultaneous events, GPIO mode entry, NACK recovery, ADC retry, parser and tick wrap passed
+make[2]: Leaving directory '/workspace/tests'
+make[1]: Leaving directory '/workspace/tests'
+docker run --rm -v "/Users/pliffdax/Projects/university/Study/People/Чекун Микола Олексійович/2026-Fall/SP/Lab01/Work/ParcelLog:/workspace" -w /workspace --user "501:20" parcellog-build:lab2 python3 tools/coverage.py
+MPU6050: identity, initialization order, units, signed limits and bus failures passed
+parcel_rules: ok
+runtime: simultaneous events, GPIO mode entry, NACK recovery, ADC retry, parser and tick wrap passed
+{
+  "scope": "Portable App and Devices only; Board/HAL are excluded",
+  "files": [
+    {
+      "source": "firmware/Devices/mpu6050.c",
+      "lines": 24,
+      "executed": 24,
+      "branches": 14,
+      "taken": 14,
+      "uncovered_lines": []
+    },
+    {
+      "source": "firmware/App/parcel_rules.c",
+      "lines": 50,
+      "executed": 50,
+      "branches": 42,
+      "taken": 40,
+      "uncovered_lines": []
+    }
+  ],
+  "totals": {
+    "lines": 74,
+    "executed": 74,
+    "branches": 56,
+    "taken": 54,
+    "line_percent": 100.0,
+    "branch_taken_percent": 96.43
+  },
+  "gate": {
+    "line_percent": 85,
+    "branch_taken_percent": 70
+  }
+}

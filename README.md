@@ -1,33 +1,22 @@
 # ParcelLog
 
-Реєстратор стану посилки під час перевезення та зберігання.
+Прототип спостереження за посилкою на STM32C031C6: MPU6050, LDR, PIR та фізичний перемикач transit/storage. Події не встановлюють особу людини або факт відкриття упаковки. UART-журнал не переживає reset.
 
-Сигнали:
+[Звіт ЛР2](docs/lab2/report.pdf) · [PRD](docs/PRD.md) · [Pinout](docs/pinout.md) · [Архітектура](docs/architecture.md) · [Власні захвати](docs/captures/README.md)
 
-- MPU6050: удар або нахил посилки;
-- фоторезистор: зміна освітлення всередині упаковки;
-- PIR: рух поруч із посилкою під час зберігання.
-
-Ці сигнали не встановлюють, хто відкрив посилку. [Терміни проєкту](CONTEXT.md).
-
-[Вимоги до прототипу](docs/PRD.md) · [Компоненти й підключення](docs/hardware-components.md)
-
-Прошивка для STM32C031C6 опитує датчики кожні 100 мс і виводить події та стан через USART2 (115200 бод). Час у повідомленнях відраховується від запуску; після перезапуску журнал у UART не зберігається. Світлодіод блимає кожні 500 мс.
-
-| Сигнал | Підключення | Повідомлення |
-| --- | --- | --- |
-| MPU6050, I²C через GPIO HAL | PB8 SCL, PB9 SDA | `shock`, `tilt` |
-| Фоторезистор, ADC1 | PA0 | `light_change` |
-| PIR, GPIO | PB1 | `nearby_motion` лише в режимі зберігання |
-| Перемикач режиму | PB0: 0 — перевезення, 1 — зберігання | `mode=transit/storage` |
-
-Пороги для демонстрації: прискорення від 1,7 g, нахил від 0,65 g на трьох вимірах, зміна освітлення від початкового значення на 500 відліків 12-бітного ADC. Це умовні пороги для симуляції, а не калібрування реальної посилки.
+Середовище: Ubuntu 24.04, Docker, STM32 HAL, Wokwi.
 
 ```sh
-make build          # Docker збирає firmware/build/firmware.elf і .hex
-make test           # перевірка правил подій на комп'ютері
+make build
+make test
+make test-linux
+make coverage
 ```
 
-Для запуску у Wokwi відкрийте папку у VS Code з плагіном Wokwi, виконайте `make build`, потім `Wokwi: Start Simulator`. Схема — `diagram.json`, шлях до прошивки — `wokwi.toml`. Рух PIR задається кнопкою **Simulate Motion**; освітленість і прискорення змінюються у вікнах відповідних датчиків. Після запуску перевірте `mpu6050_ready` та `imu=ok` у журналі.
+У VS Code відкрити корінь проєкту та виконати Wokwi: Start Simulator. Початково MPU X/Y=0, Z=1 g, gyro=0; LDR 500 lux, PIR LOW. PB0=LOW означає transit, HIGH означає storage. PIR підключено до PB1. UART 115200 8N1 приймає `status`, `selftest`, `imuaddr 0x69`, `imuaddr 0x68`. Немає команд calibrate, ack або програмного вибору mode. ADC marker PA4, LED heartbeat PA5.
 
-У цій симуляції обмін із MPU6050 реалізований через GPIO HAL на PB8/PB9: лінія відпускається переходом у режим входу з підтяжкою, низький рівень задається режимом виходу. Це обхід [проблеми I²C у Wokwi для Nucleo-C031C6](https://github.com/wokwi/wokwi-features/issues/1001). На схемі є підтягувальні резистори 4,7 кОм.
+App і Devices не включають HAL. Platform реалізує hardware I2C AUTOEND із deadline 10 ms, ADC calibration/retry та UART IRQ queues. Старий GPIO bit-bang з ЛР1 замінено апаратним I2C; вихідні HAL/CMSIS з commit 2b82b2a збережено, SHA256 перевіряються автоматично.
+
+Власний запис 15.10.2026 підтвердив WHO_AM_I 0x68, SCL 100 кГц, 100-мс опитування IMU/ADC, контрольований NACK і відновлення. Три host suites та ASan/UBSan пройшли. Coverage App+Devices 100% рядків,96,43% гілок; Board/HAL не включені, runtime fake перевіряється окремо. Живлення й аналогова точність фізичного стенда не вимірювались.
+
+ЛР2 у feature/lab-2; pull request до main створюється окремо.
