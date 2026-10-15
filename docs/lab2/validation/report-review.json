@@ -1,0 +1,9 @@
+{
+  "pages": 12,
+  "text_audit": "passed; no service/student-delivery phrases",
+  "visual_review": "final 12 pages reviewed, dense listing and conclusion inspected; no overfull boxes",
+  "captures": "actual Wokwi/PulseView, pointer and macOS controls excluded from final crops",
+  "hex_matches_capture": true,
+  "physical_hardware_tested": false,
+  "vm_transfer": "pending power outage"
+}
