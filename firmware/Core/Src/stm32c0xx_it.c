@@ -19,6 +19,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "instrument.h"
 #include "stm32c0xx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -127,7 +128,9 @@ void SysTick_Handler(void)
   /* USER CODE BEGIN SysTick_IRQn 0 */
 
   /* USER CODE END SysTick_IRQn 0 */
+  instrument_irq_enter();
   HAL_IncTick();
+  instrument_irq_leave();
   /* USER CODE BEGIN SysTick_IRQn 1 */
 
   /* USER CODE END SysTick_IRQn 1 */
@@ -159,4 +162,4 @@ void EXTI4_15_IRQHandler(void)
 /* USER CODE END 1 */
 
 extern UART_HandleTypeDef huart2;
-void USART2_IRQHandler(void) { HAL_UART_IRQHandler(&huart2); }
+void USART2_IRQHandler(void) { instrument_irq_enter(); HAL_UART_IRQHandler(&huart2); instrument_irq_leave(); }

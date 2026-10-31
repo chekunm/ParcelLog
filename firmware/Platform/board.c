@@ -1,5 +1,6 @@
 #include "board.h"
 #include "main.h"
+#include "instrument.h"
 
 extern UART_HandleTypeDef huart2;
 static ADC_HandleTypeDef adc;
@@ -8,6 +9,8 @@ static bool initialize_adc(void);
 static volatile uint16_t rx_head, rx_tail;
 static volatile bool rx_overflow;
 static uint8_t rx_byte, rx_ring[256];
+static uint32_t rx_times[256], rx_taken_at;
+static volatile uint32_t pir_rose_at;
 static volatile uint16_t tx_head, tx_tail;
 static volatile bool tx_busy, tx_overflow;
 static uint8_t tx_ring[2048];
@@ -122,7 +125,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *uart) {
     if (uart != &huart2) return;
     uint16_t next = (uint16_t)((rx_head + 1u) & 255u);
     if (next == rx_tail) rx_overflow = true;
-    else { rx_ring[rx_head] = rx_byte; rx_head = next; }
+    else { rx_ring[rx_head] = rx_byte; rx_times[rx_head] = instrument_now(); rx_head = next; }
     (void)HAL_UART_Receive_IT(&huart2, &rx_byte, 1);
 }
 void HAL_UART_ErrorCallback(UART_HandleTypeDef *uart) {
@@ -131,6 +134,7 @@ void HAL_UART_ErrorCallback(UART_HandleTypeDef *uart) {
 int board_get_char(void) {
     if (rx_head == rx_tail) return -1;
     uint8_t value = rx_ring[rx_tail];
+    rx_taken_at = rx_times[rx_tail];
     rx_tail = (uint16_t)((rx_tail + 1u) & 255u);
     return value;
 }
@@ -157,7 +161,9 @@ bool board_read_light(uint16_t *value) {
 void board_init(void) {
     GPIO_InitTypeDef gpio = {0};
     __HAL_RCC_GPIOA_CLK_ENABLE(); __HAL_RCC_GPIOB_CLK_ENABLE();
-    gpio.Pin = GPIO_PIN_0 | GPIO_PIN_1; gpio.Mode = GPIO_MODE_INPUT; gpio.Pull = GPIO_PULLDOWN; HAL_GPIO_Init(GPIOB, &gpio);
+    gpio.Pin = GPIO_PIN_0; gpio.Mode = GPIO_MODE_INPUT; gpio.Pull = GPIO_PULLDOWN; HAL_GPIO_Init(GPIOB, &gpio);
+    gpio.Pin = GPIO_PIN_1; gpio.Mode = GPIO_MODE_IT_RISING; HAL_GPIO_Init(GPIOB, &gpio);
+    HAL_NVIC_SetPriority(EXTI0_1_IRQn, 1, 0); HAL_NVIC_EnableIRQ(EXTI0_1_IRQn);
     gpio.Pin = GPIO_PIN_4; gpio.Mode = GPIO_MODE_OUTPUT_PP; gpio.Pull = GPIO_NOPULL; HAL_GPIO_Init(GPIOA, &gpio);
     gpio.Pin = GPIO_PIN_0; gpio.Mode = GPIO_MODE_ANALOG; HAL_GPIO_Init(GPIOA, &gpio);
     adc_ready = initialize_adc();
@@ -184,3 +190,11 @@ static bool initialize_adc(void) {
     if (adc_ready) adc_ready = HAL_ADCEx_Calibration_Start(&adc) == HAL_OK;
     return adc_ready;
 }
+
+unsigned board_tx_free(void) { return (tx_tail - tx_head - 1u) & 2047u; }
+uint32_t board_rx_timestamp(void) { return rx_taken_at; }
+uint32_t board_motion_timestamp(void) { return pir_rose_at; }
+void HAL_GPIO_EXTI_Rising_Callback(uint16_t pin) {
+    if (pin == GPIO_PIN_1) pir_rose_at = instrument_now();
+}
+void EXTI0_1_IRQHandler(void) { HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_1); }

@@ -23,6 +23,7 @@
 /* USER CODE BEGIN Includes */
 
 #include "runtime.h"
+#include "instrument.h"
 #include "board.h"
 #include <stdio.h>
 
@@ -75,6 +76,7 @@ int __io_putchar(int ch) { return board_put_char(ch); }
   */
 int main(void)
 {
+  instrument_early();
   /* USER CODE BEGIN 1 */
   /* USER CODE END 1 */
 
@@ -89,6 +91,7 @@ int main(void)
 
   /* Configure the system clock */
   SystemClock_Config();
+  instrument_init();
 
   /* USER CODE BEGIN SysInit */
 
@@ -111,6 +114,7 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
     runtime_poll();
+    instrument_idle();
   }
   /* USER CODE END 3 */
 }

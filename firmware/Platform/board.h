@@ -1,6 +1,7 @@
 #ifndef PROJECT_BOARD_H
 #define PROJECT_BOARD_H
 #include "mpu6050.h"
+#include "shipment_log.h"
 #include <stdbool.h>
 #include <stdint.h>
 void board_init(void);
@@ -13,4 +14,8 @@ int board_get_char(void);
 bool board_rx_overflow(void);
 int board_put_char(int value);
 bool board_tx_overflow(void);
+ShipmentStorage board_shipment_storage(void);
+unsigned board_tx_free(void);
+uint32_t board_rx_timestamp(void);
+uint32_t board_motion_timestamp(void);
 #endif

@@ -23,6 +23,7 @@
 /* Includes */
 #include <errno.h>
 #include <stdint.h>
+#include <malloc.h>
 
 /**
  * Pointer to the current high watermark of the heap usage
@@ -76,4 +77,14 @@ void *_sbrk(ptrdiff_t incr)
   __sbrk_heap_end += incr;
 
   return (void *)prev_heap_end;
+}
+
+uint32_t instrument_heap(void) {
+  extern uint8_t _end;
+  return __sbrk_heap_end ? (uint32_t)(__sbrk_heap_end - &_end) : 0;
+}
+void instrument_heap_usage(uint32_t *used, uint32_t *free_bytes) {
+  struct mallinfo info = mallinfo();
+  *used = (uint32_t)info.uordblks;
+  *free_bytes = (uint32_t)info.fordblks;
 }
