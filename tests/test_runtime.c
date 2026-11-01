@@ -1,10 +1,27 @@
 #include "runtime.h"
 #include "board.h"
+#include "instrument.h"
 #include <assert.h>
 #include <stdarg.h>
 #include <stdio.h>
 #include <string.h>
 static uint32_t now;
+uint32_t SystemCoreClock=48000000;
+uint32_t instrument_now(void) { return now*1000u; }
+void instrument_init(void) {}
+uint32_t instrument_stack(void) { return 0; }
+uint32_t instrument_heap(void) { return 0; }
+void instrument_heap_usage(uint32_t *used,uint32_t *free_bytes) { *used=*free_bytes=0; }
+uint64_t instrument_sleep_us(void) { return 0; }
+void instrument_probe(unsigned p, bool b) { (void)p; (void)b; }
+unsigned board_tx_free(void) { return 2047; }
+uint32_t board_rx_timestamp(void) { return instrument_now(); }
+uint32_t board_motion_timestamp(void) { return instrument_now(); }
+static uint8_t memory[4096];
+static bool rd(void*c,uint32_t a,uint8_t*d,size_t n) {(void)c;memcpy(d,memory+a,n);return true;}
+static bool wr(void*c,uint32_t a,const uint8_t*d) {(void)c;for(unsigned i=0;i<8;++i)memory[a+i]&=d[i];return true;}
+static bool er(void*c) {(void)c;memset(memory,255,sizeof memory);return true;}
+ShipmentStorage board_shipment_storage(void) {return (ShipmentStorage){NULL,rd,wr,er};}
 static bool storage, pir, adc_ok = true;
 static unsigned adc_calls, led_calls;
 static uint16_t light = 1000;
@@ -36,9 +53,9 @@ static BusResult write_bus(void *c, uint8_t a, uint8_t reg, const uint8_t *d, si
     (void)c; (void)a; (void)reg; (void)d; (void)n; return BUS_OK;
 }
 SensorBus board_sensor_bus(void) { return (SensorBus){NULL, read_bus, write_bus}; }
-static void send(const char *s) { strcpy(input, s); input_pos = 0; runtime_poll(); input[0] = 0; input_pos = 0; }
+static void send(const char *s) { strcpy(input, s); input_pos = 0; while(input[input_pos]) {++now;runtime_poll();} input[0] = 0; input_pos = 0; }
 int main(void) {
-    runtime_init(); runtime_poll();
+    er(NULL); runtime_init(); runtime_poll();
     assert(strstr(output, "mpu6050_ready"));
     pir = true; storage = true; now = 100; runtime_poll();
     assert(!strstr(output, "nearby_motion"));

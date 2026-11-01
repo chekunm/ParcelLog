@@ -68,8 +68,8 @@
       "top": -130,
       "left": 570,
       "attrs": {
-        "channelNames": "SCL,SDA,UART_TX,PIR,ADC_MARK,LED,UART_RX,MODE",
-        "bufferSize": "4000000",
+        "channelNames": "SAMPLE,FLASH,UART_TX,PIR,ADC_MARK,RESPONSE,UART_RX,MODE",
+        "bufferSize": "10000000",
         "triggerMode": "off"
       }
     }
@@ -196,13 +196,13 @@
       []
     ],
     [
-      "nucleo:PB8",
+      "nucleo:PA6",
       "logic:D0",
       "gray",
       []
     ],
     [
-      "nucleo:PB9",
+      "nucleo:PA7",
       "logic:D1",
       "gray",
       []
@@ -226,7 +226,7 @@
       []
     ],
     [
-      "nucleo:PA5",
+      "nucleo:PA8",
       "logic:D5",
       "gray",
       []

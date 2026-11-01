@@ -1,0 +1,10 @@
+[wokwi]
+version = 1
+firmware = 'firmware/build/firmware.hex'
+elf = 'firmware/build/firmware.elf'
+rfc2217ServerPort = 4505
+vcdFile = 'docs/captures/lab3/flash-trigger-20261030.vcd'
+
+[[chip]]
+name = 'flash-trigger'
+binary = 'tests/wokwi-flash-trigger/trigger.chip.wasm'
