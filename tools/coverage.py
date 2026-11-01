@@ -17,8 +17,8 @@ compiler = os.environ.get('CC', 'cc')
 gcov = os.environ.get('GCOV', 'gcov')
 flags = ['-std=c11', '-O0', '-g', '-Wall', '-Wextra', '-Werror']
 includes = [f'-I{root / part}' for part in ['firmware/Devices', 'firmware/App', 'firmware/Platform', 'tests/fakes']]
-portable = ['firmware/Devices/mpu6050.c', 'firmware/App/parcel_rules.c']
-suites = ['test_mpu', 'test_parcel_rules', 'test_runtime']
+portable = ['firmware/Devices/mpu6050.c', 'firmware/App/parcel_rules.c', 'firmware/App/shipment_log.c', 'firmware/App/run_meter.c']
+suites = ['test_mpu', 'test_parcel_rules', 'test_runtime', 'test_shipment_log', 'test_run_meter']
 objects = []
 instrumented = []
 for relative in portable + ['firmware/Platform/runtime.c']:
@@ -39,6 +39,8 @@ runner.write_text('\n'.join(f'int unit_{suite}(void);' for suite in suites) + '\
                   '\n'.join(f'  if (unit_{suite}()) return 1;' for suite in suites) + '\n  return 0;\n}\n')
 subprocess.run([compiler, *flags, str(runner), *objects, '--coverage', '-lm', '-o', str(output / 'suite')], check=True)
 subprocess.run([str(output / 'suite')], check=True, cwd=output)
+subprocess.run([compiler, *flags, *includes, '-DRUNTIME_TEST_PRINTF', str(root/'tests/test_runtime_scenarios.c'), *objects[:len(portable)+1], '--coverage', '-o', str(output/'scenarios')], check=True)
+subprocess.run([str(output/'scenarios')], check=True, cwd=output)
 for gcno in instrumented:
     subprocess.run([gcov, '-b', '-c', str(gcno)], check=True, cwd=output, stdout=subprocess.DEVNULL)
 results = []

@@ -1,7 +1,7 @@
 name: ParcelLog verification
 on:
   push:
-    branches: [main, feature/lab-2]
+    branches: [main, feature/lab-2, feature/lab-3]
   pull_request:
     branches: [main]
 permissions:
