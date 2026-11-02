@@ -1,0 +1,363 @@
+BUILD git=b5284ef82242+lab3-worktree source=3baa36f7992671ba clock_hz=48000000 timer=SysTick_1ms format=1
+seq=1 time_ms=16 event=boot mode=transit t_us=19000
+ParcelLog ready; GPIO PB0 selects transit/storage; commands: status selftest imuaddr 0x68/0x69 mark log stats erase CONFIRM
+[26 ms] selftest addr=0x68 result=0 mpu6050_ready
+seq=2 time_ms=26 event=light_ready mode=transit t_us=36000
+seq=3 time_ms=115 event=inspection mode=transit t_us=115000
+LOG slot=0 invalid
+LOG slot=1 invalid
+LOG slot=2 invalid
+LOG slot=3 invalid
+LOG slot=4 invalid
+LOG slot=5 invalid
+LOG slot=6 invalid
+LOG slot=7 invalid
+LOG slot=8 invalid
+LOG slot=9 invalid
+LOG slot=10 invalid
+LOG slot=11 invalid
+LOG slot=12 invalid
+LOG slot=13 invalid
+LOG slot=14 invalid
+LOG slot=15 invalid
+LOG slot=16 invalid
+LOG slot=17 invalid
+LOG slot=18 invalid
+LOG slot=19 invalid
+LOG slot=20 invalid
+LOG slot=21 invalid
+LOG slot=22 invalid
+LOG slot=23 invalid
+LOG slot=24 invalid
+LOG slot=25 invalid
+LOG slot=26 invalid
+LOG slot=27 invalid
+LOG slot=28 invalid
+LOG slot=29 invalid
+LOG slot=30 invalid
+LOG slot=31 invalid
+LOG slot=32 invalid
+LOG slot=33 invalid
+LOG slot=34 invalid
+LOG slot=35 invalid
+LOG slot=36 invalid
+LOG slot=37 invalid
+LOG slot=38 invalid
+LOG slot=39 invalid
+LOG slot=40 invalid
+LOG slot=41 invalid
+LOG slot=42 invalid
+LOG slot=43 invalid
+LOG slot=44 invalid
+LOG slot=45 invalid
+LOG slot=46 invalid
+LOG slot=47 invalid
+LOG slot=48 invalid
+LOG slot=49 invalid
+LOG slot=50 invalid
+LOG slot=51 invalid
+LOG slot=52 invalid
+LOG slot=53 invalid
+LOG slot=54 invalid
+LOG slot=55 invalid
+LOG slot=56 invalid
+LOG slot=57 invalid
+LOG slot=58 invalid
+LOG slot=59 invalid
+LOG slot=60 invalid
+LOG slot=61 invalid
+LOG slot=62 invalid
+LOG slot=63 invalid
+LOG slot=64 invalid
+LOG slot=65 invalid
+LOG slot=66 invalid
+LOG slot=67 invalid
+LOG slot=68 invalid
+LOG slot=69 invalid
+LOG slot=70 invalid
+LOG slot=71 invalid
+LOG slot=72 invalid
+LOG slot=73 invalid
+LOG slot=74 invalid
+LOG slot=75 invalid
+LOG slot=76 invalid
+LOG slot=77 invalid
+LOG slot=78 invalid
+LOG slot=79 invalid
+LOG slot=80 invalid
+LOG slot=81 invalid
+LOG slot=82 invalid
+LOG slot=83 invalid
+LOG slot=84 invalid
+LOG slot=85 invalid
+LOG slot=86 invalid
+LOG slot=87 invalid
+LOG slot=88 invalid
+LOG slot=89 invalid
+LOG slot=90 invalid
+LOG slot=91 invalid
+LOG slot=92 invalid
+LOG slot=93 invalid
+LOG slot=94 invalid
+LOG slot=95 invalid
+LOG slot=96 invalid
+LOG slot=97 invalid
+LOG slot=98 invalid
+LOG slot=99 invalid
+LOG slot=100 invalid
+LOG slot=101 invalid
+LOG slot=102 invalid
+LOG slot=103 invalid
+LOG slot=104 invalid
+LOG slot=105 invalid
+LOG slot=106 invalid
+LOG slot=107 invalid
+LOG slot=108 invalid
+LOG slot=109 invalid
+LOG slot=110 invalid
+LOG slot=111 invalid
+LOG slot=112 invalid
+LOG slot=113 invalid
+LOG slot=114 invalid
+LOG slot=115 invalid
+LOG slot=116 invalid
+LOG slot=117 invalid
+LOG slot=118 invalid
+LOG slot=119 invalid
+LOG slot=120 invalid
+LOG slot=121 invalid
+LOG slot=122 invalid
+LOG slot=123 invalid
+LOG slot=124 invalid
+LOG slot=125 invalid
+LOG slot=126 invalid
+LOG slot=127 invalid
+LOG end
+[816 ms] mpu6050_read_error=2
+seq=4 time_ms=816 event=imu_fault mode=transit t_us=827000
+tick [1017 ms] mode=transit imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+tick [2016 ms] mode=transit imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0
+seq=5 time_ms=2098 event=inspection mode=transit t_us=2098000
+LOG slot=0 invalid
+LOG slot=1 invalid
+LOG slot=2 invalid
+LOG slot=3 invalid
+LOG slot=4 invalid
+LOG slot=5 invalid
+LOG slot=6 invalid
+LOG slot=7 invalid
+LOG slot=8 invalid
+LOG slot=9 invalid
+LOG slot=10 invalid
+LOG slot=11 invalid
+LOG slot=12 invalid
+LOG slot=13 invalid
+LOG slot=14 invalid
+LOG slot=15 invalid
+LOG slot=16 invalid
+LOG slot=17 invalid
+LOG slot=18 invalid
+LOG slot=19 invalid
+LOG slot=20 invalid
+LOG slot=21 invalid
+LOG slot=22 invalid
+LOG slot=23 invalid
+LOG slot=24 invalid
+LOG slot=25 invalid
+LOG slot=26 invalid
+LOG slot=27 invalid
+LOG slot=28 invalid
+LOG slot=29 invalid
+LOG slot=30 invalid
+LOG slot=31 invalid
+LOG slot=32 invalid
+LOG slot=33 invalid
+LOG slot=34 invalid
+LOG slot=35 invalid
+LOG slot=36 invalid
+LOG slot=37 invalid
+LOG slot=38 invalid
+LOG slot=39 invalid
+LOG slot=40 invalid
+LOG slot=41 invalid
+LOG slot=42 invalid
+LOG slot=43 invalid
+LOG slot=44 invalid
+LOG slot=45 invalid
+LOG slot=46 invalid
+LOG slot=47 invalid
+LOG slot=48 invalid
+LOG slot=49 invalid
+LOG slot=50 invalid
+LOG slot=51 invalid
+LOG slot=52 invalid
+LOG slot=53 invalid
+LOG slot=54 invalid
+LOG slot=55 invalid
+LOG slot=56 invalid
+LOG slot=57 invalid
+LOG slot=58 invalid
+LOG slot=59 invalid
+LOG slot=60 invalid
+LOG slot=61 invalid
+LOG slot=62 invalid
+LOG slot=63 invalid
+LOG slot=64 invalid
+LOG slot=65 invalid
+LOG slot=66 invalid
+LOG slot=67 invalid
+LOG slot=68 invalid
+LOG slot=69 invalid
+LOG slot=70 invalid
+LOG slot=71 invalid
+LOG slot=72 invalid
+LOG slot=73 invalid
+LOG slot=74 invalid
+LOG slot=75 invalid
+LOG slot=76 invalid
+LOG slot=77 invalid
+LOG slot=78 invalid
+LOG slot=79 invalid
+LOG slot=80 invalid
+LOG slot=81 invalid
+LOG slot=82 invalid
+LOG slot=83 invalid
+LOG slot=84 invalid
+LOG slot=85 invalid
+LOG slot=86 invalid
+LOG slot=87 invalid
+LOG slot=88 invalid
+LOG slot=89 invalid
+LOG slot=90 invalid
+LOG slot=91 invalid
+LOG slot=92 invalid
+LOG slot=93 invalid
+LOG slot=94 invalid
+LOG slot=95 invalid
+LOG slot=96 invalid
+LOG slot=97 invalid
+LOG slot=98 invalid
+LOG slot=99 invalid
+LOG slot=100 invalid
+LOG slot=101 invalid
+LOG slot=102 invalid
+LOG slot=103 invalid
+LOG slot=104 invalid
+LOG slot=105 invalid
+LOG slot=106 invalid
+LOG slot=107 invalid
+LOG slot=108 invalid
+LOG slot=109 invalid
+LOG slot=110 invalid
+LOG slot=111 invalid
+LOG slot=112 invalid
+LOG slot=113 invalid
+LOG slot=114 invalid
+LOG slot=115 invalid
+LOG slot=116 invalid
+LOG slot=117 invalid
+LOG slot=118 invalid
+LOG slot=119 invalid
+LOG slot=120 invalid
+LOG slot=121 invalid
+LOG slot=122 invalid
+LOG slot=123 invalid
+LOG slot=124 invalid
+LOG slot=125 invalid
+LOG slot=126 invalid
+LOG slot=127 invalid
+LOG end
+[2816 ms] selftest addr=0x68 result=0 mpu6050_ready
+tick [3018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=3135000 sleep_hi=0 sleep_lo=0 stack_watermark=784 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=5 intact=0 damaged=128 next=128
+STAT task=command n=2891 min_us=0 avg_us=25 max_us=17000 jitter_min_us=0 jitter_max_us=16000 skipped=228 deadline_miss=1
+STAT task=sample n=32 min_us=0 avg_us=1875 max_us=15000 jitter_min_us=-9000 jitter_max_us=0 skipped=0 deadline_miss=0
+STAT task=status n=3 min_us=5000 avg_us=7000 max_us=9000 jitter_min_us=-1000 jitter_max_us=2000 skipped=0 deadline_miss=0
+STAT task=led n=6 min_us=0 avg_us=0 max_us=0 jitter_min_us=-5000 jitter_max_us=11000 skipped=0 deadline_miss=0
+STAT task=save n=6 min_us=0 avg_us=2500 max_us=15000
+STAT task=export n=258 min_us=0 avg_us=1186 max_us=2000
+STAT task=loop n=31964 min_us=0 avg_us=97 max_us=17000
+STAT task=command_latency n=5 min_us=1000 avg_us=4800 max_us=17000
+STAT task=pir_latency n=0 min_us=0 avg_us=0 max_us=0
+tick [4018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [5018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [6016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=6114000 sleep_hi=0 sleep_lo=0 stack_watermark=784 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=5 intact=0 damaged=128 next=128
+STAT task=command n=5774 min_us=0 avg_us=14 max_us=17000 jitter_min_us=0 jitter_max_us=16000 skipped=324 deadline_miss=2
+STAT task=sample n=61 min_us=0 avg_us=1967 max_us=15000 jitter_min_us=-9000 jitter_max_us=5000 skipped=0 deadline_miss=0
+STAT task=status n=6 min_us=5000 avg_us=6000 max_us=9000 jitter_min_us=-2000 jitter_max_us=2000 skipped=0 deadline_miss=0
+STAT task=led n=12 min_us=0 avg_us=83 max_us=1000 jitter_min_us=-9000 jitter_max_us=11000 skipped=0 deadline_miss=0
+STAT task=save n=6 min_us=0 avg_us=2500 max_us=15000
+STAT task=export n=267 min_us=0 avg_us=1299 max_us=7000
+STAT task=loop n=69968 min_us=0 avg_us=87 max_us=17000
+STAT task=command_latency n=6 min_us=1000 avg_us=5500 max_us=17000
+STAT task=pir_latency n=0 min_us=0 avg_us=0 max_us=0
+tick [7018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [8018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [9018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [10018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [11018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [12018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [13018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [14018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [15018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [16016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [17018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [18018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [19018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [20018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [21018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [22016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [23016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [24018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [25018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [26018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [27018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [28018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [29016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [30018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [31018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [32016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [33018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [34018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [35016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [36018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [37018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [38018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [39018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [40018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [41018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [42018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [43016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [44018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [45018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [46018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [47018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [48018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [49018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [50018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [51018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [52018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [53018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [54018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [55018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [56016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [57018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [58018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [59018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [60016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [61018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [62018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [63018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [64018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [65018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [66018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [67018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [68018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [69018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [70018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [71018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [72018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [73018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [74018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0

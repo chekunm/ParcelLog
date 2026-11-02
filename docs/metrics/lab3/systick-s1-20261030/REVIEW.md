@@ -1,0 +1,5 @@
+# S1 — Wokwi SysTick, 30 October 2026
+
+One run with ELF SHA256 `2b22b7cc8a8a7a47687667399a58bd45a28b6be3d93b43c37b479bc78aabe6b2`, without GDB. UART collector recorded 454.803 wall seconds and last complete stats at 330.771 MCU seconds: sample n=3308, skipped=0, deadline_miss=0. UART file SHA256 `0144b442fa4e8e952b9a119241b0ea39832cc63be8d7d3f0bcfcb45a472b0411`. Collector ended before Stop and its end is not an MCU interruption.
+
+After Mac unlock the own simulator was stopped and exported. VCD SHA256 `eff21f78595e1e8bd2a5d964461218dd64129aafb029b95178dbec8607a9e979`; model span 834.983099225 s, 8350 SAMPLE pulses, 8349 periods min 89.386850 ms, mean 99.996660 ms, max 106.321900 ms. Sample marker max 15.922975 ms. VCD extends beyond UART coverage and does not prove continuous wall-time progress. The two artifacts cover different intervals. SysTick is quantized to 1 ms, and VCD width includes possible interrupt time; these are not hard WCET bounds. The storage failure and CPU measurement limitations remain.

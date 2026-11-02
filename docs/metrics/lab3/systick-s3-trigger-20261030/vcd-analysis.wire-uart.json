@@ -1,0 +1,1502 @@
+[
+  {
+    "time_ns": 20843150,
+    "text": "BUILD git=b5284ef82242+lab3-worktree source=3baa36f7992671ba clock_hz=48000000 timer=SysTick_1ms format=1"
+  },
+  {
+    "time_ns": 38619000,
+    "text": "seq=1 time_ms=16 event=boot mode=transit t_us=19000"
+  },
+  {
+    "time_ns": 47422550,
+    "text": "ParcelLog ready; GPIO PB0 selects transit/storage; commands: status selftest imuaddr 0x68/0x69 mark log stats erase CONFIRM"
+  },
+  {
+    "time_ns": 68188050,
+    "text": "seq=2 time_ms=26 event=mode_changed mode=storage t_us=27000"
+  },
+  {
+    "time_ns": 78323200,
+    "text": "[26 ms] selftest addr=0x68 result=0 mpu6050_ready"
+  },
+  {
+    "time_ns": 86796850,
+    "text": "seq=3 time_ms=26 event=light_ready mode=storage t_us=39000"
+  },
+  {
+    "time_ns": 1024471250,
+    "text": "tick [1018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 2024596150,
+    "text": "tick [2018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 3024290825,
+    "text": "tick [3018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 3708217575,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 3722633025,
+    "text": "seq=4 time_ms=3716 event=nearby_motion mode=storage t_us=3718000"
+  },
+  {
+    "time_ns": 4024410000,
+    "text": "tick [4018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 4332943050,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 4337767225,
+    "text": "seq=5 time_ms=4330 event=nearby_motion mode=storage t_us=4333000"
+  },
+  {
+    "time_ns": 4958145525,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 5022626700,
+    "text": "seq=6 time_ms=5016 event=nearby_motion mode=storage t_us=5018000"
+  },
+  {
+    "time_ns": 5033590725,
+    "text": "tick [5021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 5608225500,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 5622633950,
+    "text": "seq=7 time_ms=5616 event=nearby_motion mode=storage t_us=5618000"
+  },
+  {
+    "time_ns": 6024232825,
+    "text": "tick [6018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 6273772875,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 6322621875,
+    "text": "seq=8 time_ms=6316 event=nearby_motion mode=storage t_us=6318000"
+  },
+  {
+    "time_ns": 6949742275,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 7022430275,
+    "text": "seq=9 time_ms=7016 event=nearby_motion mode=storage t_us=7018000"
+  },
+  {
+    "time_ns": 7033394400,
+    "text": "tick [7020 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 7607579100,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 7622600525,
+    "text": "seq=10 time_ms=7616 event=nearby_motion mode=storage t_us=7618000"
+  },
+  {
+    "time_ns": 8024355650,
+    "text": "tick [8018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 8224748725,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 8229588900,
+    "text": "seq=11 time_ms=8222 event=nearby_motion mode=storage t_us=8225000"
+  },
+  {
+    "time_ns": 8899492175,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 8922589950,
+    "text": "seq=12 time_ms=8916 event=nearby_motion mode=storage t_us=8918000"
+  },
+  {
+    "time_ns": 9024326325,
+    "text": "tick [9018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 9549578650,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 9622546375,
+    "text": "seq=13 time_ms=9616 event=nearby_motion mode=storage t_us=9618000"
+  },
+  {
+    "time_ns": 10024320500,
+    "text": "tick [10018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 10174652100,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 10222564375,
+    "text": "seq=14 time_ms=10216 event=nearby_motion mode=storage t_us=10218000"
+  },
+  {
+    "time_ns": 10841446475,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 10922555525,
+    "text": "seq=15 time_ms=10916 event=nearby_motion mode=storage t_us=10918000"
+  },
+  {
+    "time_ns": 11024150900,
+    "text": "tick [11018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 11491522925,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 11522535775,
+    "text": "seq=16 time_ms=11516 event=nearby_motion mode=storage t_us=11518000"
+  },
+  {
+    "time_ns": 12024311075,
+    "text": "tick [12018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 12123949500,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 12128833125,
+    "text": "seq=17 time_ms=12121 event=nearby_motion mode=storage t_us=12124000"
+  },
+  {
+    "time_ns": 12791431850,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 12822482200,
+    "text": "seq=18 time_ms=12816 event=nearby_motion mode=storage t_us=12818000"
+  },
+  {
+    "time_ns": 13024104750,
+    "text": "tick [13018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 13441537800,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 13522657100,
+    "text": "seq=19 time_ms=13516 event=nearby_motion mode=storage t_us=13518000"
+  },
+  {
+    "time_ns": 14024397650,
+    "text": "tick [14018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 14059029925,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 14122335125,
+    "text": "seq=20 time_ms=14116 event=nearby_motion mode=storage t_us=14118000"
+  },
+  {
+    "time_ns": 14749889775,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 14822494025,
+    "text": "seq=21 time_ms=14816 event=nearby_motion mode=storage t_us=14818000"
+  },
+  {
+    "time_ns": 15024073575,
+    "text": "tick [15018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 15383253100,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 15422448775,
+    "text": "seq=22 time_ms=15416 event=nearby_motion mode=storage t_us=15418000"
+  },
+  {
+    "time_ns": 16024359500,
+    "text": "tick [16018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 16051280925,
+    "text": "erase_ok=0 t_us=23000"
+  },
+  {
+    "time_ns": 16122301700,
+    "text": "seq=23 time_ms=16116 event=nearby_motion mode=storage t_us=16118000"
+  },
+  {
+    "time_ns": 16691361350,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 16722470200,
+    "text": "seq=24 time_ms=16716 event=nearby_motion mode=storage t_us=16718000"
+  },
+  {
+    "time_ns": 17024211900,
+    "text": "tick [17018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 17333099225,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 17337988375,
+    "text": "seq=25 time_ms=17331 event=nearby_motion mode=storage t_us=17333000"
+  },
+  {
+    "time_ns": 18008192900,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 18022264625,
+    "text": "seq=26 time_ms=18016 event=nearby_motion mode=storage t_us=18018000"
+  },
+  {
+    "time_ns": 18033728775,
+    "text": "tick [18021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 18658180625,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 18722253525,
+    "text": "seq=27 time_ms=18716 event=nearby_motion mode=storage t_us=18718000"
+  },
+  {
+    "time_ns": 19024164750,
+    "text": "tick [19018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 19282837600,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 19322391025,
+    "text": "seq=28 time_ms=19316 event=nearby_motion mode=storage t_us=19318000"
+  },
+  {
+    "time_ns": 19949617700,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 20022407200,
+    "text": "seq=29 time_ms=20016 event=nearby_motion mode=storage t_us=20018000"
+  },
+  {
+    "time_ns": 20033871550,
+    "text": "tick [20021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 20608181750,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 20622362700,
+    "text": "seq=30 time_ms=20616 event=nearby_motion mode=storage t_us=20618000"
+  },
+  {
+    "time_ns": 21021655625,
+    "text": "tick [21016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 21041423000,
+    "text": "[21021 ms] mpu6050_read_error=2"
+  },
+  {
+    "time_ns": 21046905950,
+    "text": "seq=31 time_ms=21021 event=imu_fault mode=storage t_us=21034000"
+  },
+  {
+    "time_ns": 21232253250,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 21236074700,
+    "text": "seq=32 time_ms=21230 event=nearby_motion mode=storage t_us=21230000"
+  },
+  {
+    "time_ns": 21908150150,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 21920330900,
+    "text": "seq=33 time_ms=21916 event=nearby_motion mode=storage t_us=21916000"
+  },
+  {
+    "time_ns": 22021839025,
+    "text": "tick [22016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 22532532400,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 22536353850,
+    "text": "seq=34 time_ms=22530 event=nearby_motion mode=storage t_us=22531000"
+  },
+  {
+    "time_ns": 23021823450,
+    "text": "tick [23016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 23123331600,
+    "text": "[23116 ms] selftest addr=0x68 result=0 mpu6050_ready"
+  },
+  {
+    "time_ns": 23208053825,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 23222354025,
+    "text": "seq=35 time_ms=23216 event=nearby_motion mode=storage t_us=23218000"
+  },
+  {
+    "time_ns": 23849939450,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 23922328200,
+    "text": "seq=36 time_ms=23916 event=nearby_motion mode=storage t_us=23918000"
+  },
+  {
+    "time_ns": 24024053825,
+    "text": "tick [24018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 24483191525,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 24522310450,
+    "text": "seq=37 time_ms=24516 event=nearby_motion mode=storage t_us=24518000"
+  },
+  {
+    "time_ns": 25023879000,
+    "text": "tick [25018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 25124974150,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 25129874775,
+    "text": "seq=38 time_ms=25123 event=nearby_motion mode=storage t_us=25125000"
+  },
+  {
+    "time_ns": 25798943850,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 25822261875,
+    "text": "seq=39 time_ms=25816 event=nearby_motion mode=storage t_us=25818000"
+  },
+  {
+    "time_ns": 26023859400,
+    "text": "tick [26018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 26433111150,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 26438017275,
+    "text": "seq=40 time_ms=26431 event=nearby_motion mode=storage t_us=26434000"
+  },
+  {
+    "time_ns": 27023995075,
+    "text": "tick [27018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 27058540350,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 27122289525,
+    "text": "seq=41 time_ms=27116 event=nearby_motion mode=storage t_us=27118000"
+  },
+  {
+    "time_ns": 27732204325,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 27742934350,
+    "text": "[27730 ms] mpu6050_read_error=2"
+  },
+  {
+    "time_ns": 27748417300,
+    "text": "seq=42 time_ms=27730 event=imu_fault mode=storage t_us=27741000"
+  },
+  {
+    "time_ns": 27759217050,
+    "text": "seq=43 time_ms=27730 event=nearby_motion mode=storage t_us=27745000"
+  },
+  {
+    "time_ns": 28021738275,
+    "text": "tick [28016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 28383220025,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 28420168250,
+    "text": "seq=44 time_ms=28416 event=nearby_motion mode=storage t_us=28416000"
+  },
+  {
+    "time_ns": 29021689950,
+    "text": "tick [29016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 29048568900,
+    "text": "erase_ok=0 t_us=21000"
+  },
+  {
+    "time_ns": 29120004900,
+    "text": "seq=45 time_ms=29116 event=nearby_motion mode=storage t_us=29116000"
+  },
+  {
+    "time_ns": 29683097675,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 29720172150,
+    "text": "seq=46 time_ms=29716 event=nearby_motion mode=storage t_us=29716000"
+  },
+  {
+    "time_ns": 29823376750,
+    "text": "[29816 ms] selftest addr=0x68 result=0 mpu6050_ready"
+  },
+  {
+    "time_ns": 30023932825,
+    "text": "tick [30018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 30333097650,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 30338018025,
+    "text": "seq=47 time_ms=30331 event=nearby_motion mode=storage t_us=30334000"
+  },
+  {
+    "time_ns": 31008205575,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 31022340525,
+    "text": "seq=48 time_ms=31016 event=nearby_motion mode=storage t_us=31018000"
+  },
+  {
+    "time_ns": 31033804875,
+    "text": "tick [31021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 31658092775,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 31722003200,
+    "text": "seq=49 time_ms=31716 event=nearby_motion mode=storage t_us=31718000"
+  },
+  {
+    "time_ns": 32021437450,
+    "text": "tick [32016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 32274901425,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 32322185950,
+    "text": "seq=50 time_ms=32316 event=nearby_motion mode=storage t_us=32318000"
+  },
+  {
+    "time_ns": 32949915875,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 33022118125,
+    "text": "seq=51 time_ms=33016 event=nearby_motion mode=storage t_us=33018000"
+  },
+  {
+    "time_ns": 33033582425,
+    "text": "tick [33021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 33565753525,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 33622116125,
+    "text": "seq=52 time_ms=33616 event=nearby_motion mode=storage t_us=33618000"
+  },
+  {
+    "time_ns": 34023694500,
+    "text": "tick [34018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 34224923050,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 34229834200,
+    "text": "seq=53 time_ms=34223 event=nearby_motion mode=storage t_us=34225000"
+  },
+  {
+    "time_ns": 34899834750,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 34922087275,
+    "text": "seq=54 time_ms=34916 event=nearby_motion mode=storage t_us=34918000"
+  },
+  {
+    "time_ns": 35023835400,
+    "text": "tick [35018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 35549562700,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 35622110200,
+    "text": "seq=55 time_ms=35616 event=nearby_motion mode=storage t_us=35618000"
+  },
+  {
+    "time_ns": 36021356375,
+    "text": "tick [36016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 36165438125,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 36222078700,
+    "text": "seq=56 time_ms=36216 event=nearby_motion mode=storage t_us=36218000"
+  },
+  {
+    "time_ns": 36849611625,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 36922056875,
+    "text": "seq=57 time_ms=36916 event=nearby_motion mode=storage t_us=36918000"
+  },
+  {
+    "time_ns": 37023953000,
+    "text": "tick [37018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 37499819825,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 37522036375,
+    "text": "seq=58 time_ms=37516 event=nearby_motion mode=storage t_us=37518000"
+  },
+  {
+    "time_ns": 38023927900,
+    "text": "tick [38018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 38124725550,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 38129637700,
+    "text": "seq=59 time_ms=38123 event=nearby_motion mode=storage t_us=38125000"
+  },
+  {
+    "time_ns": 38791673150,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 38821851525,
+    "text": "seq=60 time_ms=38816 event=nearby_motion mode=storage t_us=38818000"
+  },
+  {
+    "time_ns": 39023771575,
+    "text": "tick [39018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 39441000900,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 39522005200,
+    "text": "seq=61 time_ms=39516 event=nearby_motion mode=storage t_us=39518000"
+  },
+  {
+    "time_ns": 40023729000,
+    "text": "tick [40018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 40058841525,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 40121992450,
+    "text": "seq=62 time_ms=40116 event=nearby_motion mode=storage t_us=40118000"
+  },
+  {
+    "time_ns": 40741482275,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 40821987875,
+    "text": "seq=63 time_ms=40816 event=nearby_motion mode=storage t_us=40818000"
+  },
+  {
+    "time_ns": 41023551400,
+    "text": "tick [41018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 41391465250,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 41421993375,
+    "text": "seq=64 time_ms=41416 event=nearby_motion mode=storage t_us=41418000"
+  },
+  {
+    "time_ns": 42023696825,
+    "text": "tick [42018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 42050749250,
+    "text": "erase_ok=0 t_us=23000"
+  },
+  {
+    "time_ns": 42121956275,
+    "text": "seq=65 time_ms=42116 event=nearby_motion mode=storage t_us=42118000"
+  },
+  {
+    "time_ns": 42690726925,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 42721944025,
+    "text": "seq=66 time_ms=42716 event=nearby_motion mode=storage t_us=42718000"
+  },
+  {
+    "time_ns": 43023506000,
+    "text": "tick [43018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 43333071275,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 43337997425,
+    "text": "seq=67 time_ms=43331 event=nearby_motion mode=storage t_us=43334000"
+  },
+  {
+    "time_ns": 44008003475,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 44021195950,
+    "text": "tick [44016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 44040963025,
+    "text": "seq=68 time_ms=44022 event=nearby_motion mode=storage t_us=44024000"
+  },
+  {
+    "time_ns": 44616664550,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 44622236675,
+    "text": "seq=69 time_ms=44616 event=nearby_motion mode=storage t_us=44618000"
+  },
+  {
+    "time_ns": 45021175875,
+    "text": "tick [45016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 45274812850,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 45321901125,
+    "text": "seq=70 time_ms=45316 event=nearby_motion mode=storage t_us=45318000"
+  },
+  {
+    "time_ns": 45957956600,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 46021716025,
+    "text": "seq=71 time_ms=46016 event=nearby_motion mode=storage t_us=46018000"
+  },
+  {
+    "time_ns": 46033180375,
+    "text": "tick [46021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 46608071050,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 46621848775,
+    "text": "seq=72 time_ms=46616 event=nearby_motion mode=storage t_us=46618000"
+  },
+  {
+    "time_ns": 47021137700,
+    "text": "tick [47016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 47215819400,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 47222211250,
+    "text": "seq=73 time_ms=47216 event=nearby_motion mode=storage t_us=47218000"
+  },
+  {
+    "time_ns": 47899812150,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 47921867175,
+    "text": "seq=74 time_ms=47916 event=nearby_motion mode=storage t_us=47918000"
+  },
+  {
+    "time_ns": 48023595075,
+    "text": "tick [48018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 48541631275,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 48621880600,
+    "text": "seq=75 time_ms=48616 event=nearby_motion mode=storage t_us=48618000"
+  },
+  {
+    "time_ns": 49021103025,
+    "text": "tick [49016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 49158256675,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 49221782375,
+    "text": "seq=76 time_ms=49216 event=nearby_motion mode=storage t_us=49218000"
+  },
+  {
+    "time_ns": 49840636475,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 49921639775,
+    "text": "seq=77 time_ms=49916 event=nearby_motion mode=storage t_us=49918000"
+  },
+  {
+    "time_ns": 50023542150,
+    "text": "tick [50018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 50499779500,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 50521774775,
+    "text": "seq=78 time_ms=50516 event=nearby_motion mode=storage t_us=50518000"
+  },
+  {
+    "time_ns": 51023509825,
+    "text": "tick [51018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 51116552625,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 51122284250,
+    "text": "seq=79 time_ms=51116 event=nearby_motion mode=storage t_us=51119000"
+  },
+  {
+    "time_ns": 51799196900,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 51821787425,
+    "text": "seq=80 time_ms=51816 event=nearby_motion mode=storage t_us=51818000"
+  },
+  {
+    "time_ns": 52021027025,
+    "text": "tick [52016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 52433289450,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 52438206350,
+    "text": "seq=81 time_ms=52432 event=nearby_motion mode=storage t_us=52434000"
+  },
+  {
+    "time_ns": 53023484900,
+    "text": "tick [53018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 53058682675,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 53121783600,
+    "text": "seq=82 time_ms=53116 event=nearby_motion mode=storage t_us=53118000"
+  },
+  {
+    "time_ns": 53741598450,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 53821741750,
+    "text": "seq=83 time_ms=53816 event=nearby_motion mode=storage t_us=53818000"
+  },
+  {
+    "time_ns": 54020980875,
+    "text": "tick [54016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 54383203075,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 54421722025,
+    "text": "seq=84 time_ms=54416 event=nearby_motion mode=storage t_us=54418000"
+  },
+  {
+    "time_ns": 55023278250,
+    "text": "tick [55018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 55050346425,
+    "text": "erase_ok=0 t_us=23000"
+  },
+  {
+    "time_ns": 55121735175,
+    "text": "seq=85 time_ms=55116 event=nearby_motion mode=storage t_us=55118000"
+  },
+  {
+    "time_ns": 55691557075,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 55721701675,
+    "text": "seq=86 time_ms=55716 event=nearby_motion mode=storage t_us=55718000"
+  },
+  {
+    "time_ns": 56023429400,
+    "text": "tick [56018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 56333253200,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 56338173100,
+    "text": "seq=87 time_ms=56332 event=nearby_motion mode=storage t_us=56334000"
+  },
+  {
+    "time_ns": 57008045875,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 57020931625,
+    "text": "tick [57016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 57040699200,
+    "text": "seq=88 time_ms=57022 event=nearby_motion mode=storage t_us=57024000"
+  },
+  {
+    "time_ns": 57640673200,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 57721665250,
+    "text": "seq=89 time_ms=57716 event=nearby_motion mode=storage t_us=57718000"
+  },
+  {
+    "time_ns": 58023198000,
+    "text": "tick [58018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 58274598000,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 58321650500,
+    "text": "seq=90 time_ms=58316 event=nearby_motion mode=storage t_us=58318000"
+  },
+  {
+    "time_ns": 58941059125,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 59021621450,
+    "text": "seq=91 time_ms=59016 event=nearby_motion mode=storage t_us=59018000"
+  },
+  {
+    "time_ns": 59033085800,
+    "text": "tick [59021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 59566339850,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 59621431700,
+    "text": "seq=92 time_ms=59616 event=nearby_motion mode=storage t_us=59618000"
+  },
+  {
+    "time_ns": 60020866875,
+    "text": "tick [60016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 60216043550,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 60221937675,
+    "text": "seq=93 time_ms=60216 event=nearby_motion mode=storage t_us=60218000"
+  },
+  {
+    "time_ns": 60900011750,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 60921411125,
+    "text": "seq=94 time_ms=60916 event=nearby_motion mode=storage t_us=60918000"
+  },
+  {
+    "time_ns": 61023319000,
+    "text": "tick [61018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 61541419200,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 61621551025,
+    "text": "seq=95 time_ms=61616 event=nearby_motion mode=storage t_us=61618000"
+  },
+  {
+    "time_ns": 62023288650,
+    "text": "tick [62018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 62174970500,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 62221561025,
+    "text": "seq=96 time_ms=62216 event=nearby_motion mode=storage t_us=62218000"
+  },
+  {
+    "time_ns": 62841406375,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 62921532700,
+    "text": "seq=97 time_ms=62916 event=nearby_motion mode=storage t_us=62918000"
+  },
+  {
+    "time_ns": 63023438075,
+    "text": "tick [63018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 63499930625,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 63521358200,
+    "text": "seq=98 time_ms=63516 event=nearby_motion mode=storage t_us=63518000"
+  },
+  {
+    "time_ns": 64023253750,
+    "text": "tick [64018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 64124354875,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 64129282525,
+    "text": "seq=99 time_ms=64123 event=nearby_motion mode=storage t_us=64126000"
+  },
+  {
+    "time_ns": 64791499000,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 64821534600,
+    "text": "seq=100 time_ms=64816 event=nearby_motion mode=storage t_us=64818000"
+  },
+  {
+    "time_ns": 65023228900,
+    "text": "tick [65018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 65449840500,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 65521502500,
+    "text": "seq=101 time_ms=65516 event=nearby_motion mode=storage t_us=65518000"
+  },
+  {
+    "time_ns": 66023198825,
+    "text": "tick [66018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 66058419850,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 66121477025,
+    "text": "seq=102 time_ms=66116 event=nearby_motion mode=storage t_us=66118000"
+  },
+  {
+    "time_ns": 66741419375,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 66821449200,
+    "text": "seq=103 time_ms=66816 event=nearby_motion mode=storage t_us=66818000"
+  },
+  {
+    "time_ns": 67023193000,
+    "text": "tick [67018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 67383271250,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 67421454700,
+    "text": "seq=104 time_ms=67416 event=nearby_motion mode=storage t_us=67418000"
+  },
+  {
+    "time_ns": 68022993650,
+    "text": "tick [68018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 68050064600,
+    "text": "erase_ok=0 t_us=23000"
+  },
+  {
+    "time_ns": 68121473600,
+    "text": "seq=105 time_ms=68116 event=nearby_motion mode=storage t_us=68118000"
+  },
+  {
+    "time_ns": 68691456725,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 68721437350,
+    "text": "seq=106 time_ms=68716 event=nearby_motion mode=storage t_us=68718000"
+  },
+  {
+    "time_ns": 69022982325,
+    "text": "tick [69018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 69341065700,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 69421422750,
+    "text": "seq=107 time_ms=69416 event=nearby_motion mode=storage t_us=69418000"
+  },
+  {
+    "time_ns": 69991455875,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 70021396275,
+    "text": "seq=108 time_ms=70016 event=nearby_motion mode=storage t_us=70018000"
+  },
+  {
+    "time_ns": 70033026775,
+    "text": "tick [70021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 70607288825,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 70621393500,
+    "text": "seq=109 time_ms=70616 event=nearby_motion mode=storage t_us=70618000"
+  },
+  {
+    "time_ns": 71020639450,
+    "text": "tick [71016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 71274446400,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 71321213700,
+    "text": "seq=110 time_ms=71316 event=nearby_motion mode=storage t_us=71318000"
+  },
+  {
+    "time_ns": 71941467750,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 72021343375,
+    "text": "seq=111 time_ms=72016 event=nearby_motion mode=storage t_us=72018000"
+  },
+  {
+    "time_ns": 72032973875,
+    "text": "tick [72021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 72608200125,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 72621346375,
+    "text": "seq=112 time_ms=72616 event=nearby_motion mode=storage t_us=72618000"
+  },
+  {
+    "time_ns": 73023070000,
+    "text": "tick [73018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 73224911025,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 73229853425,
+    "text": "seq=113 time_ms=73224 event=nearby_motion mode=storage t_us=73226000"
+  },
+  {
+    "time_ns": 73899354725,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 73921348250,
+    "text": "seq=114 time_ms=73916 event=nearby_motion mode=storage t_us=73918000"
+  },
+  {
+    "time_ns": 74020570200,
+    "text": "tick [74016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 74533340750,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 74538287425,
+    "text": "seq=115 time_ms=74532 event=nearby_motion mode=storage t_us=74535000"
+  },
+  {
+    "time_ns": 75023178325,
+    "text": "tick [75018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 75174981650,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 75221132700,
+    "text": "seq=116 time_ms=75216 event=nearby_motion mode=storage t_us=75218000"
+  },
+  {
+    "time_ns": 75841638000,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 75921304850,
+    "text": "seq=117 time_ms=75916 event=nearby_motion mode=storage t_us=75918000"
+  },
+  {
+    "time_ns": 76022990250,
+    "text": "tick [76018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0"
+  },
+  {
+    "time_ns": 76491654725,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 76521276850,
+    "text": "seq=118 time_ms=76516 event=nearby_motion mode=storage t_us=76518000"
+  },
+  {
+    "time_ns": 77022973150,
+    "text": "tick [77018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 77116563200,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 77121766350,
+    "text": "seq=119 time_ms=77116 event=nearby_motion mode=storage t_us=77119000"
+  },
+  {
+    "time_ns": 77791651375,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 77821253250,
+    "text": "seq=120 time_ms=77816 event=nearby_motion mode=storage t_us=77818000"
+  },
+  {
+    "time_ns": 78022968575,
+    "text": "tick [78018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 78435362725,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 78521253425,
+    "text": "seq=121 time_ms=78516 event=nearby_motion mode=storage t_us=78518000"
+  },
+  {
+    "time_ns": 79022953000,
+    "text": "tick [79018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 79058534750,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 79121204450,
+    "text": "seq=122 time_ms=79116 event=nearby_motion mode=storage t_us=79118000"
+  },
+  {
+    "time_ns": 79733166700,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 79738112100,
+    "text": "seq=123 time_ms=79732 event=nearby_motion mode=storage t_us=79735000"
+  },
+  {
+    "time_ns": 80022899650,
+    "text": "tick [80018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 80383194625,
+    "text": "erase_ok=0 t_us=14000"
+  },
+  {
+    "time_ns": 80421200600,
+    "text": "seq=124 time_ms=80416 event=nearby_motion mode=storage t_us=80418000"
+  },
+  {
+    "time_ns": 81023158075,
+    "text": "tick [81018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 81049425500,
+    "text": "erase_ok=0 t_us=22000"
+  },
+  {
+    "time_ns": 81121207000,
+    "text": "seq=125 time_ms=81116 event=nearby_motion mode=storage t_us=81118000"
+  },
+  {
+    "time_ns": 82022699000,
+    "text": "tick [82018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 83022686900,
+    "text": "tick [83018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 84022824325,
+    "text": "tick [84018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 85022809250,
+    "text": "tick [85018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 86022777150,
+    "text": "tick [86018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 86646125900,
+    "text": "METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=86640000 sleep_hi=0 sleep_lo=0 stack_watermark=836 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=125 intact=0 damaged=128 next=128"
+  },
+  {
+    "time_ns": 86686164475,
+    "text": "STAT task=command n=82867 min_us=0 avg_us=24 max_us=24000 jitter_min_us=0 jitter_max_us=34000 skipped=3757 deadline_miss=120"
+  },
+  {
+    "time_ns": 86707097400,
+    "text": "STAT task=sample n=867 min_us=0 avg_us=2408 max_us=19000 jitter_min_us=-16000 jitter_max_us=16000 skipped=0 deadline_miss=0"
+  },
+  {
+    "time_ns": 86727862625,
+    "text": "STAT task=status n=86 min_us=5000 avg_us=5406 max_us=9000 jitter_min_us=-5000 jitter_max_us=5000 skipped=0 deadline_miss=0"
+  },
+  {
+    "time_ns": 86748465075,
+    "text": "STAT task=led n=173 min_us=0 avg_us=196 max_us=1000 jitter_min_us=-14000 jitter_max_us=14000 skipped=0 deadline_miss=0"
+  },
+  {
+    "time_ns": 86768399675,
+    "text": "STAT task=save n=245 min_us=0 avg_us=7342 max_us=23000"
+  },
+  {
+    "time_ns": 86777703375,
+    "text": "STAT task=export n=0 min_us=0 avg_us=0 max_us=0"
+  },
+  {
+    "time_ns": 86785844725,
+    "text": "STAT task=loop n=1094628 min_us=0 avg_us=79 max_us=35000"
+  },
+  {
+    "time_ns": 86795481425,
+    "text": "STAT task=command_latency n=120 min_us=15000 avg_us=16266 max_us=32000"
+  },
+  {
+    "time_ns": 86807443100,
+    "text": "STAT task=pir_latency n=120 min_us=16000 avg_us=54083 max_us=99000"
+  },
+  {
+    "time_ns": 87022779575,
+    "text": "tick [87018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 88020286025,
+    "text": "tick [88016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 89022746400,
+    "text": "tick [89018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 90022723575,
+    "text": "tick [90018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 91022705750,
+    "text": "tick [91018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 92022844400,
+    "text": "tick [92018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 93022646825,
+    "text": "tick [93018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 94020163275,
+    "text": "tick [94016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 95022613650,
+    "text": "tick [95018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 96022584075,
+    "text": "tick [96018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 97022754500,
+    "text": "tick [97018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 98020074950,
+    "text": "tick [98016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 98039842275,
+    "text": "[98022 ms] mpu6050_read_error=2"
+  },
+  {
+    "time_ns": 98045324375,
+    "text": "seq=126 time_ms=98022 event=imu_fault mode=storage t_us=98034000"
+  },
+  {
+    "time_ns": 99020276375,
+    "text": "tick [99016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 100020249775,
+    "text": "tick [100016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 100121952400,
+    "text": "[100116 ms] selftest addr=0x68 result=0 mpu6050_ready"
+  },
+  {
+    "time_ns": 101022488650,
+    "text": "tick [101018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 102022306325,
+    "text": "tick [102018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 103022440750,
+    "text": "tick [103018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 104022429150,
+    "text": "tick [104018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 105019937375,
+    "text": "tick [105016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 105039871350,
+    "text": "[105022 ms] mpu6050_read_error=2"
+  },
+  {
+    "time_ns": 105045519600,
+    "text": "seq=127 time_ms=105022 event=imu_fault mode=storage t_us=105034000"
+  },
+  {
+    "time_ns": 106020303275,
+    "text": "tick [106016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 107020267450,
+    "text": "tick [107016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 107121777575,
+    "text": "[107116 ms] selftest addr=0x68 result=0 mpu6050_ready"
+  }
+]

@@ -1,0 +1,7 @@
+# S3 та відмова IMU — 30.10.2026
+
+Один запуск Wokwi без GDB, ELF SHA256 2b22b7cc8a8a7a47687667399a58bd45a28b6be3d93b43c37b479bc78aabe6b2, UART SHA256 362a67996fb3d74dce9d25c633341f92f3166fd628e945252b431b0e586cdbc6 (175.314 с wall), VCD SHA256 2278682ee3ded05b67da33ae30df0a756e4c58b0c73c48b5ccf4dbea773a531d (225.00820605 с модельного часу; відмінні межі collector і Stop). 2250 імпульсів SAMPLE, 747 FLASH, 211 фронтів PIR, 210 декодованих рядків nearby_motion. Завершення UART раніше Stop не доводить втрату події MCU.
+
+Шість фронтів PIR всередині FLASH, MODE=storage та по одному RESPONSE і nearby_motion до наступного фронту. Кандидатні затримки в моделі: 51.4198, 55.589775, 82.8908, 50.452875, 81.421875, 14.618025 мс; точні мітки у coincidence-review.json. Це шість випадків, а не 30. Генератор створює тестові фронти; маркер включає HAL erase attempt і rescan, erase_ok=0, фізичне стирання/stall не підтверджено.
+
+UART selftest [149476–155516 мс] адреса 0x69 result=1 unavailable, [157468 мс] адреса 0x68 result=0 ready; це перевірка в моделі на зміну адреси, не stuck SDA. Останній stats: sample n=1675 skipped=0 deadline_miss=0, jitter -30/+30 мс; command_latency n=528 max=38 мс (до обробки, не wire TX); pir_latency n=157 max=105 мс (від ISR, не зовнішнього фронту); stack watermark=836/2048 B, heap arena=1032 used=1032 free=0, rx_overflows=0, queue_dropped=0, save_failed=169, damaged=128. SysTick квантується 1 мс, максимум не є доведеним WCET. Фізичні brownout/power-cut і реальну плату не перевірено.

@@ -1,0 +1,162 @@
+{
+  "started_at": "2026-10-30T08:02:24.711742+02:00",
+  "duration_seconds": 3900.310545375,
+  "end_reason": "duration_elapsed",
+  "commands": [
+    {
+      "elapsed_wall_s": 15.000163582999999,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 60.05418575,
+      "text": "stats"
+    },
+    {
+      "elapsed_wall_s": 135.04518216699998,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 255.042994292,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 375.054329833,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 495.05144025000004,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 615.001720042,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 660.037107,
+      "text": "stats"
+    },
+    {
+      "elapsed_wall_s": 735.0470010829999,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 855.0485357919999,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 975.0291845419999,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 1095.0280125830002,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 1215.01866675,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 1260.012102958,
+      "text": "stats"
+    },
+    {
+      "elapsed_wall_s": 1335.008392417,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 1455.054684167,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 1575.005568708,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 1695.049352583,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 1815.0507722500001,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 1860.045281333,
+      "text": "stats"
+    },
+    {
+      "elapsed_wall_s": 1935.050290583,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 2055.001756625,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 2175.000669917,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 2295.052033833,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 2415.048406708,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 2460.043887917,
+      "text": "stats"
+    },
+    {
+      "elapsed_wall_s": 2535.035638917,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 2655.037231625,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 2775.0238252500003,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 2895.01910025,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 3015.0147298750003,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 3060.0285615420003,
+      "text": "stats"
+    },
+    {
+      "elapsed_wall_s": 3135.03504725,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 3255.0362935000003,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 3375.051672208,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 3495.032069375,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 3605.04647925,
+      "text": "stats"
+    },
+    {
+      "elapsed_wall_s": 3610.025041292,
+      "text": "log"
+    }
+  ],
+  "bytes": 399441,
+  "sha256": "9663bcd4361a2ca075cee80fdca00dada18c72be5970661b976643484a2e890f",
+  "source": "Actual RFC2217 bytes from ParcelLog Wokwi at localhost:4505; host schedule is not MCU time"
+}

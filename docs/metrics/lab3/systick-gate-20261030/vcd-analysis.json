@@ -1,0 +1,74 @@
+{
+  "source": "docs/captures/lab3/systick-gate-20261030.vcd",
+  "sha256": "b969c064919b1edb7daf3985b7c978cdc1833fce359ab80ae3dfed548107688a",
+  "duration_us": 150848372.35,
+  "kind": "actual recorded simulator edges; not physical hardware",
+  "channels": {
+    "SAMPLE": {
+      "width": {
+        "n": 1509,
+        "min_us": 104.975,
+        "avg_us": 2154.9610669317426,
+        "max_us": 14957.525,
+        "p99_us": 2459.675
+      },
+      "period": {
+        "n": 1508,
+        "min_us": 91075.775,
+        "avg_us": 99990.94182692307,
+        "max_us": 106175.875,
+        "p99_us": 105960.775
+      }
+    },
+    "FLASH": {
+      "width": {
+        "n": 6,
+        "min_us": 7.925,
+        "avg_us": 2512.5625,
+        "max_us": 15035.675,
+        "p99_us": 15035.675
+      },
+      "period": {
+        "n": 5,
+        "min_us": 367.125,
+        "avg_us": 412257.275,
+        "max_us": 1001273.025,
+        "p99_us": 1001273.025
+      }
+    },
+    "ADC_MARK": {
+      "width": {
+        "n": 1509,
+        "min_us": 66.225,
+        "avg_us": 68.21852220013253,
+        "max_us": 152.85,
+        "p99_us": 147.175
+      },
+      "period": {
+        "n": 1508,
+        "min_us": 84143.625,
+        "avg_us": 99986.26248342176,
+        "max_us": 112183.5,
+        "p99_us": 106080.0
+      }
+    },
+    "RESPONSE": {
+      "width": {
+        "n": 5,
+        "min_us": 2370.875,
+        "avg_us": 3012.51,
+        "max_us": 3558.475,
+        "p99_us": 3558.475
+      },
+      "period": {
+        "n": 4,
+        "min_us": 16258.6,
+        "avg_us": 519643.7375,
+        "max_us": 1270733.175,
+        "p99_us": 1270733.175
+      }
+    }
+  },
+  "pir_candidates": [],
+  "warning": "PIR\u2192next RESPONSE is only a candidate; accept after nearby_motion UART/mode review. ISR latency is excluded from firmware metric and included by LA."
+}

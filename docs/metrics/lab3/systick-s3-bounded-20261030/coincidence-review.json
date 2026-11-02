@@ -1,0 +1,92 @@
+{
+  "vcd_sha256": "2278682ee3ded05b67da33ae30df0a756e4c58b0c73c48b5ccf4dbea773a531d",
+  "model_duration_s": 225.00820605,
+  "pir_rises": 211,
+  "nearby_lines": 210,
+  "inside_flash_candidates": [
+    {
+      "edge_ns": 5869797250,
+      "mode": 1,
+      "responses": [
+        5921217050
+      ],
+      "nearby": [
+        {
+          "time_ns": 5922634700,
+          "text": "seq=9 time_ms=5916 event=nearby_motion mode=storage t_us=5918000"
+        }
+      ],
+      "latency_us": 51419.8
+    },
+    {
+      "edge_ns": 58164354325,
+      "mode": 1,
+      "responses": [
+        58219944100
+      ],
+      "nearby": [
+        {
+          "time_ns": 58221459375,
+          "text": "seq=61 time_ms=58216 event=nearby_motion mode=storage t_us=58218000"
+        }
+      ],
+      "latency_us": 55589.775
+    },
+    {
+      "edge_ns": 65635005350,
+      "mode": 1,
+      "responses": [
+        65717896150
+      ],
+      "nearby": [
+        {
+          "time_ns": 65719409900,
+          "text": "seq=69 time_ms=65716 event=nearby_motion mode=storage t_us=65716000"
+        }
+      ],
+      "latency_us": 82890.8
+    },
+    {
+      "edge_ns": 67769477075,
+      "mode": 1,
+      "responses": [
+        67819929950
+      ],
+      "nearby": [
+        {
+          "time_ns": 67821452850,
+          "text": "seq=71 time_ms=67816 event=nearby_motion mode=storage t_us=67818000"
+        }
+      ],
+      "latency_us": 50452.875
+    },
+    {
+      "edge_ns": 72038420500,
+      "mode": 1,
+      "responses": [
+        72119842375
+      ],
+      "nearby": [
+        {
+          "time_ns": 72121360250,
+          "text": "seq=75 time_ms=72116 event=nearby_motion mode=storage t_us=72118000"
+        }
+      ],
+      "latency_us": 81421.875
+    },
+    {
+      "edge_ns": 73105656375,
+      "mode": 1,
+      "responses": [
+        73120274400
+      ],
+      "nearby": [
+        {
+          "time_ns": 73121802925,
+          "text": "seq=76 time_ms=73116 event=nearby_motion mode=storage t_us=73119000"
+        }
+      ],
+      "latency_us": 14618.025
+    }
+  ]
+}

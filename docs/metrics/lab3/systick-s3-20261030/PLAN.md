@@ -1,0 +1,7 @@
+# S3 prepared schedule
+
+This is a plan, not a measurement. After S2 is finished and its VCD is archived, the existing `tests/wokwi-event-clock` fixture can drive PB1 at 0.937 Hz and hold storage mode on PB0. The PIR sensor output is disconnected in this fixture, so generated edges are test signals, not physical PIR detections. Use the same frozen candidate ELF; save the selected configuration and fixture diagram in the run manifest.
+
+The schedule sends 3750 `erase CONFIRM` commands 240 ms apart and 9000 `status` commands 100 ms apart for roughly 15 minutes, followed by `stats`. This runs only in Wokwi. The foreground operation contains a genuine HAL erase attempt followed by a complete journal rescan; the gate's combined FLASH marker lasted about 15 ms and `erase_ok=0`. It does not establish that the flash cells were erased. No artificial delay is inserted. Individual attempts may be rejected or queued, and host schedule times are not MCU times.
+
+Only actual VCD can establish which PIR rising edges occurred inside FLASH markers. Pair each candidate with mode, the corresponding nearby-motion event and a subsequent response; discard ambiguous associations. Count and describe missed edges. The expected number of coincident edges is uncertain, and 30 is a target rather than a claimed outcome. Confirm source ID and complete UART stream. If the fixture or scheduling cannot produce 30 valid associations, report the measured limit rather than treating schedule entries as observed events.

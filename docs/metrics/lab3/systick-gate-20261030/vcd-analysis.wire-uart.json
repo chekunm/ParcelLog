@@ -1,0 +1,1754 @@
+[
+  {
+    "time_ns": 20843150,
+    "text": "BUILD git=b5284ef82242+lab3-worktree source=3baa36f7992671ba clock_hz=48000000 timer=SysTick_1ms format=1"
+  },
+  {
+    "time_ns": 38616825,
+    "text": "seq=1 time_ms=16 event=boot mode=transit t_us=19000"
+  },
+  {
+    "time_ns": 47421800,
+    "text": "ParcelLog ready; GPIO PB0 selects transit/storage; commands: status selftest imuaddr 0x68/0x69 mark log stats erase CONFIRM"
+  },
+  {
+    "time_ns": 68187300,
+    "text": "[26 ms] selftest addr=0x68 result=0 mpu6050_ready"
+  },
+  {
+    "time_ns": 76660950,
+    "text": "seq=2 time_ms=26 event=light_ready mode=transit t_us=36000"
+  },
+  {
+    "time_ns": 119435350,
+    "text": "seq=3 time_ms=115 event=inspection mode=transit t_us=115000"
+  },
+  {
+    "time_ns": 618540200,
+    "text": "LOG slot=0 invalid"
+  },
+  {
+    "time_ns": 622226625,
+    "text": "LOG slot=1 invalid"
+  },
+  {
+    "time_ns": 625549150,
+    "text": "LOG slot=2 invalid"
+  },
+  {
+    "time_ns": 628871475,
+    "text": "LOG slot=3 invalid"
+  },
+  {
+    "time_ns": 632193950,
+    "text": "LOG slot=4 invalid"
+  },
+  {
+    "time_ns": 635516450,
+    "text": "LOG slot=5 invalid"
+  },
+  {
+    "time_ns": 638839250,
+    "text": "LOG slot=6 invalid"
+  },
+  {
+    "time_ns": 642162250,
+    "text": "LOG slot=7 invalid"
+  },
+  {
+    "time_ns": 645485250,
+    "text": "LOG slot=8 invalid"
+  },
+  {
+    "time_ns": 648808250,
+    "text": "LOG slot=9 invalid"
+  },
+  {
+    "time_ns": 652131250,
+    "text": "LOG slot=10 invalid"
+  },
+  {
+    "time_ns": 655620400,
+    "text": "LOG slot=11 invalid"
+  },
+  {
+    "time_ns": 659109550,
+    "text": "LOG slot=12 invalid"
+  },
+  {
+    "time_ns": 662598700,
+    "text": "LOG slot=13 invalid"
+  },
+  {
+    "time_ns": 666087600,
+    "text": "LOG slot=14 invalid"
+  },
+  {
+    "time_ns": 669576225,
+    "text": "LOG slot=15 invalid"
+  },
+  {
+    "time_ns": 673064700,
+    "text": "LOG slot=16 invalid"
+  },
+  {
+    "time_ns": 676553350,
+    "text": "LOG slot=17 invalid"
+  },
+  {
+    "time_ns": 680041800,
+    "text": "LOG slot=18 invalid"
+  },
+  {
+    "time_ns": 683530450,
+    "text": "LOG slot=19 invalid"
+  },
+  {
+    "time_ns": 687018900,
+    "text": "LOG slot=20 invalid"
+  },
+  {
+    "time_ns": 690507900,
+    "text": "LOG slot=21 invalid"
+  },
+  {
+    "time_ns": 693997050,
+    "text": "LOG slot=22 invalid"
+  },
+  {
+    "time_ns": 697486200,
+    "text": "LOG slot=23 invalid"
+  },
+  {
+    "time_ns": 700975350,
+    "text": "LOG slot=24 invalid"
+  },
+  {
+    "time_ns": 704464500,
+    "text": "LOG slot=25 invalid"
+  },
+  {
+    "time_ns": 707953650,
+    "text": "LOG slot=26 invalid"
+  },
+  {
+    "time_ns": 711442800,
+    "text": "LOG slot=27 invalid"
+  },
+  {
+    "time_ns": 714931950,
+    "text": "LOG slot=28 invalid"
+  },
+  {
+    "time_ns": 718420825,
+    "text": "LOG slot=29 invalid"
+  },
+  {
+    "time_ns": 721907775,
+    "text": "LOG slot=30 invalid"
+  },
+  {
+    "time_ns": 725396425,
+    "text": "LOG slot=31 invalid"
+  },
+  {
+    "time_ns": 728884875,
+    "text": "LOG slot=32 invalid"
+  },
+  {
+    "time_ns": 732373525,
+    "text": "LOG slot=33 invalid"
+  },
+  {
+    "time_ns": 735862000,
+    "text": "LOG slot=34 invalid"
+  },
+  {
+    "time_ns": 739350625,
+    "text": "LOG slot=35 invalid"
+  },
+  {
+    "time_ns": 742839600,
+    "text": "LOG slot=36 invalid"
+  },
+  {
+    "time_ns": 746328750,
+    "text": "LOG slot=37 invalid"
+  },
+  {
+    "time_ns": 749817900,
+    "text": "LOG slot=38 invalid"
+  },
+  {
+    "time_ns": 753307050,
+    "text": "LOG slot=39 invalid"
+  },
+  {
+    "time_ns": 756796200,
+    "text": "LOG slot=40 invalid"
+  },
+  {
+    "time_ns": 760285350,
+    "text": "LOG slot=41 invalid"
+  },
+  {
+    "time_ns": 763774500,
+    "text": "LOG slot=42 invalid"
+  },
+  {
+    "time_ns": 767263650,
+    "text": "LOG slot=43 invalid"
+  },
+  {
+    "time_ns": 770752775,
+    "text": "LOG slot=44 invalid"
+  },
+  {
+    "time_ns": 774241250,
+    "text": "LOG slot=45 invalid"
+  },
+  {
+    "time_ns": 777729875,
+    "text": "LOG slot=46 invalid"
+  },
+  {
+    "time_ns": 781218350,
+    "text": "LOG slot=47 invalid"
+  },
+  {
+    "time_ns": 784707000,
+    "text": "LOG slot=48 invalid"
+  },
+  {
+    "time_ns": 788195450,
+    "text": "LOG slot=49 invalid"
+  },
+  {
+    "time_ns": 791684100,
+    "text": "LOG slot=50 invalid"
+  },
+  {
+    "time_ns": 795172900,
+    "text": "LOG slot=51 invalid"
+  },
+  {
+    "time_ns": 798662050,
+    "text": "LOG slot=52 invalid"
+  },
+  {
+    "time_ns": 802151200,
+    "text": "LOG slot=53 invalid"
+  },
+  {
+    "time_ns": 805640350,
+    "text": "LOG slot=54 invalid"
+  },
+  {
+    "time_ns": 809129500,
+    "text": "LOG slot=55 invalid"
+  },
+  {
+    "time_ns": 812618650,
+    "text": "LOG slot=56 invalid"
+  },
+  {
+    "time_ns": 816107800,
+    "text": "LOG slot=57 invalid"
+  },
+  {
+    "time_ns": 819596875,
+    "text": "LOG slot=58 invalid"
+  },
+  {
+    "time_ns": 823084325,
+    "text": "LOG slot=59 invalid"
+  },
+  {
+    "time_ns": 826572975,
+    "text": "LOG slot=60 invalid"
+  },
+  {
+    "time_ns": 830061425,
+    "text": "LOG slot=61 invalid"
+  },
+  {
+    "time_ns": 833550075,
+    "text": "LOG slot=62 invalid"
+  },
+  {
+    "time_ns": 837038525,
+    "text": "LOG slot=63 invalid"
+  },
+  {
+    "time_ns": 840527175,
+    "text": "LOG slot=64 invalid"
+  },
+  {
+    "time_ns": 844015650,
+    "text": "LOG slot=65 invalid"
+  },
+  {
+    "time_ns": 847504625,
+    "text": "LOG slot=66 invalid"
+  },
+  {
+    "time_ns": 850993775,
+    "text": "LOG slot=67 invalid"
+  },
+  {
+    "time_ns": 854482925,
+    "text": "LOG slot=68 invalid"
+  },
+  {
+    "time_ns": 857972075,
+    "text": "LOG slot=69 invalid"
+  },
+  {
+    "time_ns": 861461225,
+    "text": "LOG slot=70 invalid"
+  },
+  {
+    "time_ns": 864950375,
+    "text": "LOG slot=71 invalid"
+  },
+  {
+    "time_ns": 868439525,
+    "text": "LOG slot=72 invalid"
+  },
+  {
+    "time_ns": 871928675,
+    "text": "LOG slot=73 invalid"
+  },
+  {
+    "time_ns": 875417550,
+    "text": "LOG slot=74 invalid"
+  },
+  {
+    "time_ns": 878906000,
+    "text": "LOG slot=75 invalid"
+  },
+  {
+    "time_ns": 882394650,
+    "text": "LOG slot=76 invalid"
+  },
+  {
+    "time_ns": 885883125,
+    "text": "LOG slot=77 invalid"
+  },
+  {
+    "time_ns": 889371750,
+    "text": "LOG slot=78 invalid"
+  },
+  {
+    "time_ns": 892860225,
+    "text": "LOG slot=79 invalid"
+  },
+  {
+    "time_ns": 896348850,
+    "text": "LOG slot=80 invalid"
+  },
+  {
+    "time_ns": 899837675,
+    "text": "LOG slot=81 invalid"
+  },
+  {
+    "time_ns": 903326750,
+    "text": "LOG slot=82 invalid"
+  },
+  {
+    "time_ns": 906815900,
+    "text": "LOG slot=83 invalid"
+  },
+  {
+    "time_ns": 910305050,
+    "text": "LOG slot=84 invalid"
+  },
+  {
+    "time_ns": 913794200,
+    "text": "LOG slot=85 invalid"
+  },
+  {
+    "time_ns": 917283350,
+    "text": "LOG slot=86 invalid"
+  },
+  {
+    "time_ns": 920772500,
+    "text": "LOG slot=87 invalid"
+  },
+  {
+    "time_ns": 924261650,
+    "text": "LOG slot=88 invalid"
+  },
+  {
+    "time_ns": 927750750,
+    "text": "LOG slot=89 invalid"
+  },
+  {
+    "time_ns": 931239225,
+    "text": "LOG slot=90 invalid"
+  },
+  {
+    "time_ns": 934727875,
+    "text": "LOG slot=91 invalid"
+  },
+  {
+    "time_ns": 938216325,
+    "text": "LOG slot=92 invalid"
+  },
+  {
+    "time_ns": 941704975,
+    "text": "LOG slot=93 invalid"
+  },
+  {
+    "time_ns": 945193425,
+    "text": "LOG slot=94 invalid"
+  },
+  {
+    "time_ns": 948682075,
+    "text": "LOG slot=95 invalid"
+  },
+  {
+    "time_ns": 952170875,
+    "text": "LOG slot=96 invalid"
+  },
+  {
+    "time_ns": 955660025,
+    "text": "LOG slot=97 invalid"
+  },
+  {
+    "time_ns": 959149175,
+    "text": "LOG slot=98 invalid"
+  },
+  {
+    "time_ns": 962638325,
+    "text": "LOG slot=99 invalid"
+  },
+  {
+    "time_ns": 966127475,
+    "text": "LOG slot=100 invalid"
+  },
+  {
+    "time_ns": 969782775,
+    "text": "LOG slot=101 invalid"
+  },
+  {
+    "time_ns": 973438075,
+    "text": "LOG slot=102 invalid"
+  },
+  {
+    "time_ns": 977093375,
+    "text": "LOG slot=103 invalid"
+  },
+  {
+    "time_ns": 980748650,
+    "text": "LOG slot=104 invalid"
+  },
+  {
+    "time_ns": 984403275,
+    "text": "LOG slot=105 invalid"
+  },
+  {
+    "time_ns": 988057900,
+    "text": "LOG slot=106 invalid"
+  },
+  {
+    "time_ns": 991712675,
+    "text": "LOG slot=107 invalid"
+  },
+  {
+    "time_ns": 995367300,
+    "text": "LOG slot=108 invalid"
+  },
+  {
+    "time_ns": 999021900,
+    "text": "LOG slot=109 invalid"
+  },
+  {
+    "time_ns": 1002676700,
+    "text": "LOG slot=110 invalid"
+  },
+  {
+    "time_ns": 1006331825,
+    "text": "LOG slot=111 invalid"
+  },
+  {
+    "time_ns": 1009987125,
+    "text": "LOG slot=112 invalid"
+  },
+  {
+    "time_ns": 1013642425,
+    "text": "LOG slot=113 invalid"
+  },
+  {
+    "time_ns": 1017297725,
+    "text": "LOG slot=114 invalid"
+  },
+  {
+    "time_ns": 1020953025,
+    "text": "LOG slot=115 invalid"
+  },
+  {
+    "time_ns": 1024608325,
+    "text": "LOG slot=116 invalid"
+  },
+  {
+    "time_ns": 1028263625,
+    "text": "LOG slot=117 invalid"
+  },
+  {
+    "time_ns": 1031918825,
+    "text": "LOG slot=118 invalid"
+  },
+  {
+    "time_ns": 1035573600,
+    "text": "LOG slot=119 invalid"
+  },
+  {
+    "time_ns": 1039228225,
+    "text": "LOG slot=120 invalid"
+  },
+  {
+    "time_ns": 1042882850,
+    "text": "LOG slot=121 invalid"
+  },
+  {
+    "time_ns": 1046537625,
+    "text": "LOG slot=122 invalid"
+  },
+  {
+    "time_ns": 1050192250,
+    "text": "LOG slot=123 invalid"
+  },
+  {
+    "time_ns": 1053846875,
+    "text": "LOG slot=124 invalid"
+  },
+  {
+    "time_ns": 1057501825,
+    "text": "LOG slot=125 invalid"
+  },
+  {
+    "time_ns": 1061157125,
+    "text": "LOG slot=126 invalid"
+  },
+  {
+    "time_ns": 1064812425,
+    "text": "LOG slot=127 invalid"
+  },
+  {
+    "time_ns": 1068467725,
+    "text": "LOG end"
+  },
+  {
+    "time_ns": 1069963075,
+    "text": "[816 ms] mpu6050_read_error=2"
+  },
+  {
+    "time_ns": 1075113725,
+    "text": "seq=4 time_ms=816 event=imu_fault mode=transit t_us=827000"
+  },
+  {
+    "time_ns": 1085082625,
+    "text": "tick [1017 ms] mode=transit imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 1118229775,
+    "text": "erase_ok=0 t_us=15000"
+  },
+  {
+    "time_ns": 2022206950,
+    "text": "tick [2016 ms] mode=transit imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 2102696525,
+    "text": "seq=5 time_ms=2098 event=inspection mode=transit t_us=2098000"
+  },
+  {
+    "time_ns": 2593495800,
+    "text": "LOG slot=0 invalid"
+  },
+  {
+    "time_ns": 2596818225,
+    "text": "LOG slot=1 invalid"
+  },
+  {
+    "time_ns": 2600140700,
+    "text": "LOG slot=2 invalid"
+  },
+  {
+    "time_ns": 2603463700,
+    "text": "LOG slot=3 invalid"
+  },
+  {
+    "time_ns": 2606786700,
+    "text": "LOG slot=4 invalid"
+  },
+  {
+    "time_ns": 2610109700,
+    "text": "LOG slot=5 invalid"
+  },
+  {
+    "time_ns": 2613432700,
+    "text": "LOG slot=6 invalid"
+  },
+  {
+    "time_ns": 2616755700,
+    "text": "LOG slot=7 invalid"
+  },
+  {
+    "time_ns": 2620078325,
+    "text": "LOG slot=8 invalid"
+  },
+  {
+    "time_ns": 2623401325,
+    "text": "LOG slot=9 invalid"
+  },
+  {
+    "time_ns": 2626724325,
+    "text": "LOG slot=10 invalid"
+  },
+  {
+    "time_ns": 2630213075,
+    "text": "LOG slot=11 invalid"
+  },
+  {
+    "time_ns": 2633701725,
+    "text": "LOG slot=12 invalid"
+  },
+  {
+    "time_ns": 2637190175,
+    "text": "LOG slot=13 invalid"
+  },
+  {
+    "time_ns": 2640678825,
+    "text": "LOG slot=14 invalid"
+  },
+  {
+    "time_ns": 2644167300,
+    "text": "LOG slot=15 invalid"
+  },
+  {
+    "time_ns": 2647655925,
+    "text": "LOG slot=16 invalid"
+  },
+  {
+    "time_ns": 2651144400,
+    "text": "LOG slot=17 invalid"
+  },
+  {
+    "time_ns": 2654633375,
+    "text": "LOG slot=18 invalid"
+  },
+  {
+    "time_ns": 2658122525,
+    "text": "LOG slot=19 invalid"
+  },
+  {
+    "time_ns": 2661611675,
+    "text": "LOG slot=20 invalid"
+  },
+  {
+    "time_ns": 2665100825,
+    "text": "LOG slot=21 invalid"
+  },
+  {
+    "time_ns": 2668589975,
+    "text": "LOG slot=22 invalid"
+  },
+  {
+    "time_ns": 2672079125,
+    "text": "LOG slot=23 invalid"
+  },
+  {
+    "time_ns": 2675568275,
+    "text": "LOG slot=24 invalid"
+  },
+  {
+    "time_ns": 2679057425,
+    "text": "LOG slot=25 invalid"
+  },
+  {
+    "time_ns": 2682546300,
+    "text": "LOG slot=26 invalid"
+  },
+  {
+    "time_ns": 2686034775,
+    "text": "LOG slot=27 invalid"
+  },
+  {
+    "time_ns": 2689523400,
+    "text": "LOG slot=28 invalid"
+  },
+  {
+    "time_ns": 2693011875,
+    "text": "LOG slot=29 invalid"
+  },
+  {
+    "time_ns": 2696500500,
+    "text": "LOG slot=30 invalid"
+  },
+  {
+    "time_ns": 2699988975,
+    "text": "LOG slot=31 invalid"
+  },
+  {
+    "time_ns": 2703477600,
+    "text": "LOG slot=32 invalid"
+  },
+  {
+    "time_ns": 2706966425,
+    "text": "LOG slot=33 invalid"
+  },
+  {
+    "time_ns": 2710455575,
+    "text": "LOG slot=34 invalid"
+  },
+  {
+    "time_ns": 2713944725,
+    "text": "LOG slot=35 invalid"
+  },
+  {
+    "time_ns": 2717433875,
+    "text": "LOG slot=36 invalid"
+  },
+  {
+    "time_ns": 2720923025,
+    "text": "LOG slot=37 invalid"
+  },
+  {
+    "time_ns": 2724412175,
+    "text": "LOG slot=38 invalid"
+  },
+  {
+    "time_ns": 2727901325,
+    "text": "LOG slot=39 invalid"
+  },
+  {
+    "time_ns": 2731390475,
+    "text": "LOG slot=40 invalid"
+  },
+  {
+    "time_ns": 2734879350,
+    "text": "LOG slot=41 invalid"
+  },
+  {
+    "time_ns": 2738367975,
+    "text": "LOG slot=42 invalid"
+  },
+  {
+    "time_ns": 2741856450,
+    "text": "LOG slot=43 invalid"
+  },
+  {
+    "time_ns": 2745345075,
+    "text": "LOG slot=44 invalid"
+  },
+  {
+    "time_ns": 2748833550,
+    "text": "LOG slot=45 invalid"
+  },
+  {
+    "time_ns": 2752322200,
+    "text": "LOG slot=46 invalid"
+  },
+  {
+    "time_ns": 2755810650,
+    "text": "LOG slot=47 invalid"
+  },
+  {
+    "time_ns": 2759299625,
+    "text": "LOG slot=48 invalid"
+  },
+  {
+    "time_ns": 2762788775,
+    "text": "LOG slot=49 invalid"
+  },
+  {
+    "time_ns": 2766277925,
+    "text": "LOG slot=50 invalid"
+  },
+  {
+    "time_ns": 2769767075,
+    "text": "LOG slot=51 invalid"
+  },
+  {
+    "time_ns": 2773256225,
+    "text": "LOG slot=52 invalid"
+  },
+  {
+    "time_ns": 2776745375,
+    "text": "LOG slot=53 invalid"
+  },
+  {
+    "time_ns": 2780234525,
+    "text": "LOG slot=54 invalid"
+  },
+  {
+    "time_ns": 2783723675,
+    "text": "LOG slot=55 invalid"
+  },
+  {
+    "time_ns": 2787212800,
+    "text": "LOG slot=56 invalid"
+  },
+  {
+    "time_ns": 2790701450,
+    "text": "LOG slot=57 invalid"
+  },
+  {
+    "time_ns": 2794189925,
+    "text": "LOG slot=58 invalid"
+  },
+  {
+    "time_ns": 2797678550,
+    "text": "LOG slot=59 invalid"
+  },
+  {
+    "time_ns": 2801167025,
+    "text": "LOG slot=60 invalid"
+  },
+  {
+    "time_ns": 2804655650,
+    "text": "LOG slot=61 invalid"
+  },
+  {
+    "time_ns": 2808144125,
+    "text": "LOG slot=62 invalid"
+  },
+  {
+    "time_ns": 2811632925,
+    "text": "LOG slot=63 invalid"
+  },
+  {
+    "time_ns": 2815122075,
+    "text": "LOG slot=64 invalid"
+  },
+  {
+    "time_ns": 2818611225,
+    "text": "LOG slot=65 invalid"
+  },
+  {
+    "time_ns": 2822098800,
+    "text": "LOG slot=66 invalid"
+  },
+  {
+    "time_ns": 2825587050,
+    "text": "LOG slot=67 invalid"
+  },
+  {
+    "time_ns": 2829074725,
+    "text": "LOG slot=68 invalid"
+  },
+  {
+    "time_ns": 2832563875,
+    "text": "LOG slot=69 invalid"
+  },
+  {
+    "time_ns": 2836053025,
+    "text": "LOG slot=70 invalid"
+  },
+  {
+    "time_ns": 2839541775,
+    "text": "LOG slot=71 invalid"
+  },
+  {
+    "time_ns": 2843030250,
+    "text": "LOG slot=72 invalid"
+  },
+  {
+    "time_ns": 2846518875,
+    "text": "LOG slot=73 invalid"
+  },
+  {
+    "time_ns": 2850007350,
+    "text": "LOG slot=74 invalid"
+  },
+  {
+    "time_ns": 2853495975,
+    "text": "LOG slot=75 invalid"
+  },
+  {
+    "time_ns": 2856984450,
+    "text": "LOG slot=76 invalid"
+  },
+  {
+    "time_ns": 2860473100,
+    "text": "LOG slot=77 invalid"
+  },
+  {
+    "time_ns": 2863962075,
+    "text": "LOG slot=78 invalid"
+  },
+  {
+    "time_ns": 2867451225,
+    "text": "LOG slot=79 invalid"
+  },
+  {
+    "time_ns": 2870940375,
+    "text": "LOG slot=80 invalid"
+  },
+  {
+    "time_ns": 2874429525,
+    "text": "LOG slot=81 invalid"
+  },
+  {
+    "time_ns": 2877918675,
+    "text": "LOG slot=82 invalid"
+  },
+  {
+    "time_ns": 2881407825,
+    "text": "LOG slot=83 invalid"
+  },
+  {
+    "time_ns": 2884896975,
+    "text": "LOG slot=84 invalid"
+  },
+  {
+    "time_ns": 2888386125,
+    "text": "LOG slot=85 invalid"
+  },
+  {
+    "time_ns": 2891875075,
+    "text": "LOG slot=86 invalid"
+  },
+  {
+    "time_ns": 2895363700,
+    "text": "LOG slot=87 invalid"
+  },
+  {
+    "time_ns": 2898852175,
+    "text": "LOG slot=88 invalid"
+  },
+  {
+    "time_ns": 2902340825,
+    "text": "LOG slot=89 invalid"
+  },
+  {
+    "time_ns": 2905829275,
+    "text": "LOG slot=90 invalid"
+  },
+  {
+    "time_ns": 2909317925,
+    "text": "LOG slot=91 invalid"
+  },
+  {
+    "time_ns": 2912806375,
+    "text": "LOG slot=92 invalid"
+  },
+  {
+    "time_ns": 2916295375,
+    "text": "LOG slot=93 invalid"
+  },
+  {
+    "time_ns": 2919784175,
+    "text": "LOG slot=94 invalid"
+  },
+  {
+    "time_ns": 2923272100,
+    "text": "LOG slot=95 invalid"
+  },
+  {
+    "time_ns": 2926761250,
+    "text": "LOG slot=96 invalid"
+  },
+  {
+    "time_ns": 2930250400,
+    "text": "LOG slot=97 invalid"
+  },
+  {
+    "time_ns": 2933739550,
+    "text": "LOG slot=98 invalid"
+  },
+  {
+    "time_ns": 2937228700,
+    "text": "LOG slot=99 invalid"
+  },
+  {
+    "time_ns": 2940717850,
+    "text": "LOG slot=100 invalid"
+  },
+  {
+    "time_ns": 2944372950,
+    "text": "LOG slot=101 invalid"
+  },
+  {
+    "time_ns": 2948027550,
+    "text": "LOG slot=102 invalid"
+  },
+  {
+    "time_ns": 2951682350,
+    "text": "LOG slot=103 invalid"
+  },
+  {
+    "time_ns": 2955336950,
+    "text": "LOG slot=104 invalid"
+  },
+  {
+    "time_ns": 2958991575,
+    "text": "LOG slot=105 invalid"
+  },
+  {
+    "time_ns": 2962646375,
+    "text": "LOG slot=106 invalid"
+  },
+  {
+    "time_ns": 2966300975,
+    "text": "LOG slot=107 invalid"
+  },
+  {
+    "time_ns": 2969956275,
+    "text": "LOG slot=108 invalid"
+  },
+  {
+    "time_ns": 2973611575,
+    "text": "LOG slot=109 invalid"
+  },
+  {
+    "time_ns": 2977266875,
+    "text": "LOG slot=110 invalid"
+  },
+  {
+    "time_ns": 2980922175,
+    "text": "LOG slot=111 invalid"
+  },
+  {
+    "time_ns": 2984577475,
+    "text": "LOG slot=112 invalid"
+  },
+  {
+    "time_ns": 2988232775,
+    "text": "LOG slot=113 invalid"
+  },
+  {
+    "time_ns": 2991888075,
+    "text": "LOG slot=114 invalid"
+  },
+  {
+    "time_ns": 2995543375,
+    "text": "LOG slot=115 invalid"
+  },
+  {
+    "time_ns": 2999198150,
+    "text": "LOG slot=116 invalid"
+  },
+  {
+    "time_ns": 3002852500,
+    "text": "LOG slot=117 invalid"
+  },
+  {
+    "time_ns": 3006507300,
+    "text": "LOG slot=118 invalid"
+  },
+  {
+    "time_ns": 3010161925,
+    "text": "LOG slot=119 invalid"
+  },
+  {
+    "time_ns": 3013816525,
+    "text": "LOG slot=120 invalid"
+  },
+  {
+    "time_ns": 3017471325,
+    "text": "LOG slot=121 invalid"
+  },
+  {
+    "time_ns": 3021124975,
+    "text": "LOG slot=122 invalid"
+  },
+  {
+    "time_ns": 3024780275,
+    "text": "LOG slot=123 invalid"
+  },
+  {
+    "time_ns": 3028435575,
+    "text": "LOG slot=124 invalid"
+  },
+  {
+    "time_ns": 3032090875,
+    "text": "LOG slot=125 invalid"
+  },
+  {
+    "time_ns": 3035746175,
+    "text": "LOG slot=126 invalid"
+  },
+  {
+    "time_ns": 3039401475,
+    "text": "LOG slot=127 invalid"
+  },
+  {
+    "time_ns": 3043056775,
+    "text": "LOG end"
+  },
+  {
+    "time_ns": 3044552125,
+    "text": "[2816 ms] selftest addr=0x68 result=0 mpu6050_ready"
+  },
+  {
+    "time_ns": 3053357175,
+    "text": "tick [3018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 3142902600,
+    "text": "METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=3135000 sleep_hi=0 sleep_lo=0 stack_watermark=784 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=5 intact=0 damaged=128 next=128"
+  },
+  {
+    "time_ns": 3182442150,
+    "text": "STAT task=command n=2891 min_us=0 avg_us=25 max_us=17000 jitter_min_us=0 jitter_max_us=16000 skipped=228 deadline_miss=1"
+  },
+  {
+    "time_ns": 3202712400,
+    "text": "STAT task=sample n=32 min_us=0 avg_us=1875 max_us=15000 jitter_min_us=-9000 jitter_max_us=0 skipped=0 deadline_miss=0"
+  },
+  {
+    "time_ns": 3222479800,
+    "text": "STAT task=status n=3 min_us=5000 avg_us=7000 max_us=9000 jitter_min_us=-1000 jitter_max_us=2000 skipped=0 deadline_miss=0"
+  },
+  {
+    "time_ns": 3242915225,
+    "text": "STAT task=led n=6 min_us=0 avg_us=0 max_us=0 jitter_min_us=-5000 jitter_max_us=11000 skipped=0 deadline_miss=0"
+  },
+  {
+    "time_ns": 3261523225,
+    "text": "STAT task=save n=6 min_us=0 avg_us=2500 max_us=15000"
+  },
+  {
+    "time_ns": 3270493800,
+    "text": "STAT task=export n=258 min_us=0 avg_us=1186 max_us=2000"
+  },
+  {
+    "time_ns": 3279962650,
+    "text": "STAT task=loop n=31964 min_us=0 avg_us=97 max_us=17000"
+  },
+  {
+    "time_ns": 3289267050,
+    "text": "STAT task=command_latency n=5 min_us=1000 avg_us=4800 max_us=17000"
+  },
+  {
+    "time_ns": 3300565200,
+    "text": "STAT task=pir_latency n=0 min_us=0 avg_us=0 max_us=0"
+  },
+  {
+    "time_ns": 4024431500,
+    "text": "tick [4018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 5024397150,
+    "text": "tick [5018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 6021942375,
+    "text": "tick [6016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 6121572050,
+    "text": "METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=6114000 sleep_hi=0 sleep_lo=0 stack_watermark=784 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=5 intact=0 damaged=128 next=128"
+  },
+  {
+    "time_ns": 6161112025,
+    "text": "STAT task=command n=5774 min_us=0 avg_us=14 max_us=17000 jitter_min_us=0 jitter_max_us=16000 skipped=324 deadline_miss=2"
+  },
+  {
+    "time_ns": 6181379925,
+    "text": "STAT task=sample n=61 min_us=0 avg_us=1967 max_us=15000 jitter_min_us=-9000 jitter_max_us=5000 skipped=0 deadline_miss=0"
+  },
+  {
+    "time_ns": 6201650225,
+    "text": "STAT task=status n=6 min_us=5000 avg_us=6000 max_us=9000 jitter_min_us=-2000 jitter_max_us=2000 skipped=0 deadline_miss=0"
+  },
+  {
+    "time_ns": 6222082250,
+    "text": "STAT task=led n=12 min_us=0 avg_us=83 max_us=1000 jitter_min_us=-9000 jitter_max_us=11000 skipped=0 deadline_miss=0"
+  },
+  {
+    "time_ns": 6241520950,
+    "text": "STAT task=save n=6 min_us=0 avg_us=2500 max_us=15000"
+  },
+  {
+    "time_ns": 6250493050,
+    "text": "STAT task=export n=267 min_us=0 avg_us=1299 max_us=7000"
+  },
+  {
+    "time_ns": 6259962800,
+    "text": "STAT task=loop n=69968 min_us=0 avg_us=87 max_us=17000"
+  },
+  {
+    "time_ns": 6269265675,
+    "text": "STAT task=command_latency n=6 min_us=1000 avg_us=5500 max_us=17000"
+  },
+  {
+    "time_ns": 6280562000,
+    "text": "STAT task=pir_latency n=0 min_us=0 avg_us=0 max_us=0"
+  },
+  {
+    "time_ns": 7024213500,
+    "text": "tick [7018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 8024192150,
+    "text": "tick [8018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 9024322575,
+    "text": "tick [9018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 10024330500,
+    "text": "tick [10018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 11024291400,
+    "text": "tick [11018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 12024307575,
+    "text": "tick [12018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 13024260000,
+    "text": "tick [13018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 14024396650,
+    "text": "tick [14018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 15024223325,
+    "text": "tick [15018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 16021757525,
+    "text": "tick [16016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 17024198900,
+    "text": "tick [17018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 18024007075,
+    "text": "tick [18018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 19023995250,
+    "text": "tick [19018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 20023979400,
+    "text": "tick [20018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 21024127575,
+    "text": "tick [21018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 22021639025,
+    "text": "tick [22016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 23021626700,
+    "text": "tick [23016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 24024069075,
+    "text": "tick [24018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 25023872500,
+    "text": "tick [25018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 26024032650,
+    "text": "tick [26018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 27023979575,
+    "text": "tick [27018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 28023968750,
+    "text": "tick [28018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 29021503200,
+    "text": "tick [29016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 30023918825,
+    "text": "tick [30018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 31024076500,
+    "text": "tick [31018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 32021439450,
+    "text": "tick [32016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 33024041825,
+    "text": "tick [33018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 34023859000,
+    "text": "tick [34018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 35021380450,
+    "text": "tick [35016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 36023814575,
+    "text": "tick [36018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 37023788750,
+    "text": "tick [37018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 38023781150,
+    "text": "tick [38018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 39023739825,
+    "text": "tick [39018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 40023566750,
+    "text": "tick [40018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 41023711400,
+    "text": "tick [41018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 42023677325,
+    "text": "tick [42018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 43021214275,
+    "text": "tick [43016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 44023497150,
+    "text": "tick [44018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 45023645825,
+    "text": "tick [45018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 46023450750,
+    "text": "tick [46018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 47023621150,
+    "text": "tick [47018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 48023411325,
+    "text": "tick [48018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 49023591000,
+    "text": "tick [49018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 50023539150,
+    "text": "tick [50018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 51023533825,
+    "text": "tick [51018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 52023654250,
+    "text": "tick [52018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 53023481400,
+    "text": "tick [53018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 54023599325,
+    "text": "tick [54018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 55023600250,
+    "text": "tick [55018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 56020950450,
+    "text": "tick [56016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 57023412575,
+    "text": "tick [57018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 58023359000,
+    "text": "tick [58018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 59023179650,
+    "text": "tick [59018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 60020861625,
+    "text": "tick [60016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 61023148750,
+    "text": "tick [61018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 62023435900,
+    "text": "tick [62018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 63023285325,
+    "text": "tick [63018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 64023246750,
+    "text": "tick [64018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 65023244900,
+    "text": "tick [65018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 66023192325,
+    "text": "tick [66018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 67023190000,
+    "text": "tick [67018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 68022996650,
+    "text": "tick [68018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 69023161075,
+    "text": "tick [69018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 70022947250,
+    "text": "tick [70018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 71023102900,
+    "text": "tick [71018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 72023095325,
+    "text": "tick [72018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 73023084250,
+    "text": "tick [73018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 74023027400,
+    "text": "tick [74018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 75023172075,
+    "text": "tick [75018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 76022988500,
+    "text": "tick [76018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 77022987400,
+    "text": "tick [77018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 78022791825,
+    "text": "tick [78018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 79022936250,
+    "text": "tick [79018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 80022924650,
+    "text": "tick [80018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 81022890825,
+    "text": "tick [81018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 82022850500,
+    "text": "tick [82018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 83022835400,
+    "text": "tick [83018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 84022810075,
+    "text": "tick [84018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 85022792750,
+    "text": "tick [85018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 86022615400,
+    "text": "tick [86018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 87022945825,
+    "text": "tick [87018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 88020281275,
+    "text": "tick [88016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 89022732900,
+    "text": "tick [89018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 90020241875,
+    "text": "tick [90016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 91022849250,
+    "text": "tick [91018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 92022695900,
+    "text": "tick [92018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 93022640075,
+    "text": "tick [93018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 94022466000,
+    "text": "tick [94018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 95022607650,
+    "text": "tick [95018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 96022591825,
+    "text": "tick [96018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 97022593500,
+    "text": "tick [97018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 98022570400,
+    "text": "tick [98018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 99022533825,
+    "text": "tick [99018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 100022348750,
+    "text": "tick [100018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 101022485400,
+    "text": "tick [101018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 102020008375,
+    "text": "tick [102016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 103022449000,
+    "text": "tick [103018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 104022416150,
+    "text": "tick [104018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 105022404325,
+    "text": "tick [105018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 106022402000,
+    "text": "tick [106018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 107022361900,
+    "text": "tick [107018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 108022340825,
+    "text": "tick [108018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 109019858525,
+    "text": "tick [109016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 110022142150,
+    "text": "tick [110018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 111022281575,
+    "text": "tick [111018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 112022251500,
+    "text": "tick [112018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 113022086400,
+    "text": "tick [113018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 114022233075,
+    "text": "tick [114018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 115022358750,
+    "text": "tick [115018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 116019711700,
+    "text": "tick [116016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 117022168075,
+    "text": "tick [117018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 118022128750,
+    "text": "tick [118018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 119022288150,
+    "text": "tick [119018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 120019633625,
+    "text": "tick [120016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 121022082250,
+    "text": "tick [121018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 122022069150,
+    "text": "tick [122018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 123022041075,
+    "text": "tick [123018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 124022005250,
+    "text": "tick [124018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 125022004900,
+    "text": "tick [125018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 126021803075,
+    "text": "tick [126018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 127021790000,
+    "text": "tick [127018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 128021756400,
+    "text": "tick [128018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 129021930075,
+    "text": "tick [129018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 130019424025,
+    "text": "tick [130016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 131021718650,
+    "text": "tick [131018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 132021842575,
+    "text": "tick [132018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 133019358525,
+    "text": "tick [133016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 134021795900,
+    "text": "tick [134018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 135019324375,
+    "text": "tick [135016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 136021600750,
+    "text": "tick [136018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 137021922900,
+    "text": "tick [137018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 138021739575,
+    "text": "tick [138018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 139021721750,
+    "text": "tick [139018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 140021859400,
+    "text": "tick [140018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 141021670075,
+    "text": "tick [141018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 142019177275,
+    "text": "tick [142016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 143021644150,
+    "text": "tick [143018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 144021427825,
+    "text": "tick [144018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 145021425000,
+    "text": "tick [145018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 146021579400,
+    "text": "tick [146018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 147021565575,
+    "text": "tick [147018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 148021508750,
+    "text": "tick [148018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 149019025700,
+    "text": "tick [149016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  }
+]

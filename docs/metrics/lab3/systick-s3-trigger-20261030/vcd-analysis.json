@@ -1,0 +1,795 @@
+{
+  "source": "docs/metrics/lab3/systick-s3-trigger-20261030/capture.vcd",
+  "sha256": "d5fadda7962b5f24272ae0a56383da2927f13fdae59804b70b16d9b42c955c89",
+  "duration_us": 108558241.9,
+  "kind": "actual recorded simulator edges; not physical hardware",
+  "channels": {
+    "SAMPLE": {
+      "width": {
+        "n": 1086,
+        "min_us": 105.475,
+        "avg_us": 2409.005732044199,
+        "max_us": 18901.775,
+        "p99_us": 6466.9
+      },
+      "period": {
+        "n": 1085,
+        "min_us": 83412.975,
+        "avg_us": 99988.37951612903,
+        "max_us": 116437.6,
+        "p99_us": 114284.775
+      }
+    },
+    "FLASH": {
+      "width": {
+        "n": 247,
+        "min_us": 7.925,
+        "avg_us": 7216.634412955465,
+        "max_us": 22481.175,
+        "p99_us": 22246.2
+      },
+      "period": {
+        "n": 246,
+        "min_us": 167.825,
+        "avg_us": 426800.1370934959,
+        "max_us": 16916484.1,
+        "p99_us": 3646580.7
+      }
+    },
+    "ADC_MARK": {
+      "width": {
+        "n": 1086,
+        "min_us": 66.225,
+        "avg_us": 69.44891804788213,
+        "max_us": 153.125,
+        "p99_us": 147.275
+      },
+      "period": {
+        "n": 1085,
+        "min_us": 71122.825,
+        "avg_us": 99978.6582718894,
+        "max_us": 126823.475,
+        "p99_us": 115275.725
+      }
+    },
+    "RESPONSE": {
+      "width": {
+        "n": 127,
+        "min_us": 2594.35,
+        "avg_us": 2873.9271653543306,
+        "max_us": 4167.525,
+        "p99_us": 4140.875
+      },
+      "period": {
+        "n": 126,
+        "min_us": 4258.825,
+        "avg_us": 833427.4049603175,
+        "max_us": 16914947.425,
+        "p99_us": 6999965.675
+      }
+    }
+  },
+  "pir_candidates": [
+    {
+      "edge_ns": 3693335250,
+      "response_ns": 3721224375,
+      "candidate_latency_us": 27889.125,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 4318060975,
+      "response_ns": 4335987825,
+      "candidate_latency_us": 17926.85,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 4943263450,
+      "response_ns": 5021211775,
+      "candidate_latency_us": 77948.325,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 5593343675,
+      "response_ns": 5621219800,
+      "candidate_latency_us": 27876.125,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 6258890675,
+      "response_ns": 6321199700,
+      "candidate_latency_us": 62309.025,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 6934860100,
+      "response_ns": 7021005525,
+      "candidate_latency_us": 86145.425,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 7592696000,
+      "response_ns": 7621162375,
+      "candidate_latency_us": 28466.375,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 8209866525,
+      "response_ns": 8227789550,
+      "candidate_latency_us": 17923.025,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 8884609350,
+      "response_ns": 8921151300,
+      "candidate_latency_us": 36541.95,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 9534696075,
+      "response_ns": 9621112200,
+      "candidate_latency_us": 86416.125,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 10159775900,
+      "response_ns": 10221096700,
+      "candidate_latency_us": 61320.8,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 10826563500,
+      "response_ns": 10921090875,
+      "candidate_latency_us": 94527.375,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 11476640325,
+      "response_ns": 11521066375,
+      "candidate_latency_us": 44426.05,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 12109067350,
+      "response_ns": 12126990725,
+      "candidate_latency_us": 17923.375,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 12776549000,
+      "response_ns": 12821021775,
+      "candidate_latency_us": 44472.775,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 13426655200,
+      "response_ns": 13521188700,
+      "candidate_latency_us": 94533.5,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 14043535400,
+      "response_ns": 14120863850,
+      "candidate_latency_us": 77328.45,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 14735007700,
+      "response_ns": 14821023125,
+      "candidate_latency_us": 86015.425,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 15368370250,
+      "response_ns": 15420978875,
+      "candidate_latency_us": 52608.625,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 16028418050,
+      "response_ns": 16120822700,
+      "candidate_latency_us": 92404.65,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 16676478500,
+      "response_ns": 16720992300,
+      "candidate_latency_us": 44513.8,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 17318216375,
+      "response_ns": 17336138075,
+      "candidate_latency_us": 17921.7,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 17993310325,
+      "response_ns": 18020782350,
+      "candidate_latency_us": 27472.025,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 18643297775,
+      "response_ns": 18720768025,
+      "candidate_latency_us": 77470.25,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 19267955525,
+      "response_ns": 19320909625,
+      "candidate_latency_us": 52954.1,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 19934735625,
+      "response_ns": 20020916275,
+      "candidate_latency_us": 86180.65,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 20593299150,
+      "response_ns": 20620873050,
+      "candidate_latency_us": 27573.9,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 21217370400,
+      "response_ns": 21233146825,
+      "candidate_latency_us": 15776.425,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 21893267575,
+      "response_ns": 21918841650,
+      "candidate_latency_us": 25574.075,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 22517650325,
+      "response_ns": 22533419050,
+      "candidate_latency_us": 15768.725,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 23193170975,
+      "response_ns": 23220864375,
+      "candidate_latency_us": 27693.4,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 23835056600,
+      "response_ns": 23920832050,
+      "candidate_latency_us": 85775.45,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 24468308675,
+      "response_ns": 24520816300,
+      "candidate_latency_us": 52507.625,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 25110091300,
+      "response_ns": 25128011400,
+      "candidate_latency_us": 17920.1,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 25784061000,
+      "response_ns": 25820765200,
+      "candidate_latency_us": 36704.2,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 26418228300,
+      "response_ns": 26436148575,
+      "candidate_latency_us": 17920.275,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 27042965300,
+      "response_ns": 27120787625,
+      "candidate_latency_us": 77822.325,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 27717321725,
+      "response_ns": 27743498725,
+      "candidate_latency_us": 26177.0,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 28368337425,
+      "response_ns": 28418670250,
+      "candidate_latency_us": 50332.825,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 29026919425,
+      "response_ns": 29118501400,
+      "candidate_latency_us": 91581.975,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 29668214850,
+      "response_ns": 29718671650,
+      "candidate_latency_us": 50456.8,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 30318214800,
+      "response_ns": 30336140525,
+      "candidate_latency_us": 17925.725,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 30993329375,
+      "response_ns": 31020830625,
+      "candidate_latency_us": 27501.25,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 31643210200,
+      "response_ns": 31720497700,
+      "candidate_latency_us": 77287.5,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 32260018600,
+      "response_ns": 32320684800,
+      "candidate_latency_us": 60666.2,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 32935033025,
+      "response_ns": 33020620450,
+      "candidate_latency_us": 85587.425,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 33550870950,
+      "response_ns": 33620622450,
+      "candidate_latency_us": 69751.5,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 34210040225,
+      "response_ns": 34227959475,
+      "candidate_latency_us": 17919.25,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 34884951900,
+      "response_ns": 34920584125,
+      "candidate_latency_us": 35632.225,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 35534680575,
+      "response_ns": 35620608550,
+      "candidate_latency_us": 85927.975,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 36150555975,
+      "response_ns": 36220577050,
+      "candidate_latency_us": 70021.075,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 36834729525,
+      "response_ns": 36920557200,
+      "candidate_latency_us": 85827.675,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 37484936975,
+      "response_ns": 37520531200,
+      "candidate_latency_us": 35594.225,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 38109842725,
+      "response_ns": 38127761725,
+      "candidate_latency_us": 17919.0,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 38776790325,
+      "response_ns": 38820348025,
+      "candidate_latency_us": 43557.7,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 39426118300,
+      "response_ns": 39520499300,
+      "candidate_latency_us": 94381.0,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 40043835150,
+      "response_ns": 40120487550,
+      "candidate_latency_us": 76652.4,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 40726600225,
+      "response_ns": 40820482450,
+      "candidate_latency_us": 93882.225,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 41376583175,
+      "response_ns": 41420480950,
+      "candidate_latency_us": 43897.775,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 42028048525,
+      "response_ns": 42120446875,
+      "candidate_latency_us": 92398.35,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 42675844075,
+      "response_ns": 42720430125,
+      "candidate_latency_us": 44586.05,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 43318189100,
+      "response_ns": 43336113275,
+      "candidate_latency_us": 17924.175,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 43993121525,
+      "response_ns": 44026555900,
+      "candidate_latency_us": 33434.375,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 44601781825,
+      "response_ns": 44620714700,
+      "candidate_latency_us": 18932.875,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 45259930250,
+      "response_ns": 45320389950,
+      "candidate_latency_us": 60459.7,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 45943074400,
+      "response_ns": 46020200275,
+      "candidate_latency_us": 77125.875,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 46593189225,
+      "response_ns": 46620336625,
+      "candidate_latency_us": 27147.4,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 47200936825,
+      "response_ns": 47220693675,
+      "candidate_latency_us": 19756.85,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 47884929575,
+      "response_ns": 47920347025,
+      "candidate_latency_us": 35417.45,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 48526748450,
+      "response_ns": 48620356450,
+      "candidate_latency_us": 93608.0,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 49143374600,
+      "response_ns": 49220271700,
+      "candidate_latency_us": 76897.1,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 49825753625,
+      "response_ns": 49920121025,
+      "candidate_latency_us": 94367.4,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 50484896900,
+      "response_ns": 50520257625,
+      "candidate_latency_us": 35360.725,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 51101669825,
+      "response_ns": 51120758950,
+      "candidate_latency_us": 19089.125,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 51784314825,
+      "response_ns": 51820277025,
+      "candidate_latency_us": 35962.2,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 52418407350,
+      "response_ns": 52436328400,
+      "candidate_latency_us": 17921.05,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 53043757150,
+      "response_ns": 53120264200,
+      "candidate_latency_us": 76507.05,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 53726715600,
+      "response_ns": 53820233375,
+      "candidate_latency_us": 93517.775,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 54368321000,
+      "response_ns": 54420215125,
+      "candidate_latency_us": 51894.125,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 55027643725,
+      "response_ns": 55120217275,
+      "candidate_latency_us": 92573.55,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 55676674225,
+      "response_ns": 55720190775,
+      "candidate_latency_us": 43516.55,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 56318370350,
+      "response_ns": 56336292150,
+      "candidate_latency_us": 17921.8,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 56993164075,
+      "response_ns": 57026462425,
+      "candidate_latency_us": 33298.35,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 57625797000,
+      "response_ns": 57720156875,
+      "candidate_latency_us": 94359.875,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 58259715425,
+      "response_ns": 58320135375,
+      "candidate_latency_us": 60419.95,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 58926177050,
+      "response_ns": 59020109275,
+      "candidate_latency_us": 93932.225,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 59551457000,
+      "response_ns": 59619919450,
+      "candidate_latency_us": 68462.45,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 60201161475,
+      "response_ns": 60220416100,
+      "candidate_latency_us": 19254.625,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 60885129725,
+      "response_ns": 60919893600,
+      "candidate_latency_us": 34763.875,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 61526536350,
+      "response_ns": 61620039875,
+      "candidate_latency_us": 93503.525,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 62160088425,
+      "response_ns": 62220040875,
+      "candidate_latency_us": 59952.45,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 62826523525,
+      "response_ns": 62920018025,
+      "candidate_latency_us": 93494.5,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 63485048575,
+      "response_ns": 63519839450,
+      "candidate_latency_us": 34790.875,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 64109472150,
+      "response_ns": 64127399550,
+      "candidate_latency_us": 17927.4,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 64776622775,
+      "response_ns": 64820003450,
+      "candidate_latency_us": 43380.675,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 65434958725,
+      "response_ns": 65519970375,
+      "candidate_latency_us": 85011.65,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 66043493700,
+      "response_ns": 66119945125,
+      "candidate_latency_us": 76451.425,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 66726536775,
+      "response_ns": 66819919275,
+      "candidate_latency_us": 93382.5,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 67368388400,
+      "response_ns": 67419922775,
+      "candidate_latency_us": 51534.375,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 68027362450,
+      "response_ns": 68119934700,
+      "candidate_latency_us": 92572.25,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 68676574525,
+      "response_ns": 68719899950,
+      "candidate_latency_us": 43325.425,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 69326182825,
+      "response_ns": 69419886875,
+      "candidate_latency_us": 93704.05,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 69976573700,
+      "response_ns": 70019860875,
+      "candidate_latency_us": 43287.175,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 70592406475,
+      "response_ns": 70619860125,
+      "candidate_latency_us": 27453.65,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 71259564225,
+      "response_ns": 71319677950,
+      "candidate_latency_us": 60113.725,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 71926585575,
+      "response_ns": 72019813200,
+      "candidate_latency_us": 93227.625,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 72593317550,
+      "response_ns": 72619810700,
+      "candidate_latency_us": 26493.15,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 73210028200,
+      "response_ns": 73227945375,
+      "candidate_latency_us": 17917.175,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 73884472525,
+      "response_ns": 73919807125,
+      "candidate_latency_us": 35334.6,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 74518458575,
+      "response_ns": 74536385100,
+      "candidate_latency_us": 17926.525,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 75160098825,
+      "response_ns": 75219599450,
+      "candidate_latency_us": 59500.625,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 75826755950,
+      "response_ns": 75919760200,
+      "candidate_latency_us": 93004.25,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 76476772650,
+      "response_ns": 76519737200,
+      "candidate_latency_us": 42964.55,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 77101681000,
+      "response_ns": 77120100425,
+      "candidate_latency_us": 18419.425,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 77776769325,
+      "response_ns": 77819714375,
+      "candidate_latency_us": 42945.05,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 78420480525,
+      "response_ns": 78519708775,
+      "candidate_latency_us": 99228.25,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 79043652550,
+      "response_ns": 79119667525,
+      "candidate_latency_us": 76014.975,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 79718284100,
+      "response_ns": 79736208525,
+      "candidate_latency_us": 17924.425,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 80368318450,
+      "response_ns": 80419667700,
+      "candidate_latency_us": 51349.25,
+      "inside_flash": true
+    },
+    {
+      "edge_ns": 81026483100,
+      "response_ns": 81119663125,
+      "candidate_latency_us": 93180.025,
+      "inside_flash": true
+    }
+  ],
+  "warning": "PIR\u2192next RESPONSE is only a candidate; accept after nearby_motion UART/mode review. ISR latency is excluded from firmware metric and included by LA."
+}

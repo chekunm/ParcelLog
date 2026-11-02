@@ -1,0 +1,3510 @@
+[
+  {
+    "time_ns": 20843150,
+    "text": "BUILD git=b5284ef82242+lab3-worktree source=3baa36f7992671ba clock_hz=48000000 timer=SysTick_1ms format=1"
+  },
+  {
+    "time_ns": 38616825,
+    "text": "seq=1 time_ms=16 event=boot mode=transit t_us=19000"
+  },
+  {
+    "time_ns": 47421800,
+    "text": "ParcelLog ready; GPIO PB0 selects transit/storage; commands: status selftest imuaddr 0x68/0x69 mark log stats erase CONFIRM"
+  },
+  {
+    "time_ns": 68187300,
+    "text": "[26 ms] selftest addr=0x68 result=0 mpu6050_ready"
+  },
+  {
+    "time_ns": 76660950,
+    "text": "seq=2 time_ms=26 event=light_ready mode=transit t_us=36000"
+  },
+  {
+    "time_ns": 1024467250,
+    "text": "tick [1018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 2024595150,
+    "text": "tick [2018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 3024286825,
+    "text": "tick [3018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 4024269500,
+    "text": "tick [4018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 5024557900,
+    "text": "tick [5018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 6024382825,
+    "text": "tick [6018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 7024379500,
+    "text": "tick [7018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 8024497650,
+    "text": "tick [8018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 9021884625,
+    "text": "tick [9016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 10024330250,
+    "text": "tick [10018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 11024291150,
+    "text": "tick [11018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 12024307825,
+    "text": "tick [12018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 13024260250,
+    "text": "tick [13018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 14024397150,
+    "text": "tick [14018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 15024223575,
+    "text": "tick [15018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 16021757775,
+    "text": "tick [16016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 17024178150,
+    "text": "tick [17018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 18024155075,
+    "text": "tick [18018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 19024142750,
+    "text": "tick [19018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 20021684700,
+    "text": "tick [20016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 21024127825,
+    "text": "tick [21018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 22021639275,
+    "text": "tick [22016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 23023918400,
+    "text": "tick [23018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 24024067075,
+    "text": "tick [24018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 25023871000,
+    "text": "tick [25018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 26021556200,
+    "text": "tick [26016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 27024150825,
+    "text": "tick [27018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 28023989500,
+    "text": "tick [28018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 29023957900,
+    "text": "tick [29018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 30023936075,
+    "text": "tick [30018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 31023754250,
+    "text": "tick [31018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 32023893650,
+    "text": "tick [32018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 33021414125,
+    "text": "tick [33016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 34023855500,
+    "text": "tick [34018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 35021378200,
+    "text": "tick [35016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 36023812325,
+    "text": "tick [36018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 37023789250,
+    "text": "tick [37018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 38023781650,
+    "text": "tick [38018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 39023740575,
+    "text": "tick [39018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 40023566250,
+    "text": "tick [40018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 41023712400,
+    "text": "tick [41018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 42023678325,
+    "text": "tick [42018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 43021215525,
+    "text": "tick [43016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 44023498400,
+    "text": "tick [44018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 45023646575,
+    "text": "tick [45018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 46023451500,
+    "text": "tick [46018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 47021136450,
+    "text": "tick [47016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 48023581075,
+    "text": "tick [48018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 49023406750,
+    "text": "tick [49018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 50023538150,
+    "text": "tick [50018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 51023518075,
+    "text": "tick [51018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 52021028275,
+    "text": "tick [52016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 53023309650,
+    "text": "tick [53018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 54023603075,
+    "text": "tick [54018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 55023427750,
+    "text": "tick [55018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 56023424400,
+    "text": "tick [56018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 57023567075,
+    "text": "tick [57018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 58023200750,
+    "text": "tick [58018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 59023364150,
+    "text": "tick [59018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 60023496325,
+    "text": "tick [60018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 61020850025,
+    "text": "tick [61016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 62023296400,
+    "text": "tick [62018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 63023284575,
+    "text": "tick [63018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 64023230000,
+    "text": "tick [64018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 65020762950,
+    "text": "tick [65016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 66023192325,
+    "text": "tick [66018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 67023190000,
+    "text": "tick [67018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 68022996650,
+    "text": "tick [68018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 69023161075,
+    "text": "tick [69018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 70022947250,
+    "text": "tick [70018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 71023102900,
+    "text": "tick [71018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 72023095325,
+    "text": "tick [72018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 73023084250,
+    "text": "tick [73018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 74023027400,
+    "text": "tick [74018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 75023172075,
+    "text": "tick [75018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 76022988500,
+    "text": "tick [76018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 77022987400,
+    "text": "tick [77018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 78022791825,
+    "text": "tick [78018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 79022936250,
+    "text": "tick [79018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 80022924650,
+    "text": "tick [80018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 81022890825,
+    "text": "tick [81018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 82022850500,
+    "text": "tick [82018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 83022835400,
+    "text": "tick [83018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 84022810075,
+    "text": "tick [84018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 85022792750,
+    "text": "tick [85018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 86022615400,
+    "text": "tick [86018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 87022945825,
+    "text": "tick [87018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 88020281275,
+    "text": "tick [88016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 89022732900,
+    "text": "tick [89018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 90020241875,
+    "text": "tick [90016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 91022849250,
+    "text": "tick [91018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 92022695900,
+    "text": "tick [92018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 93022640075,
+    "text": "tick [93018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 94022466000,
+    "text": "tick [94018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 95022607650,
+    "text": "tick [95018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 96022591825,
+    "text": "tick [96018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 97022593500,
+    "text": "tick [97018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 98022570400,
+    "text": "tick [98018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 99022533825,
+    "text": "tick [99018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 100022348750,
+    "text": "tick [100018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 101022485400,
+    "text": "tick [101018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 102020008375,
+    "text": "tick [102016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 103022444500,
+    "text": "tick [103018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 104022263900,
+    "text": "tick [104018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 105022406825,
+    "text": "tick [105018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 106022381250,
+    "text": "tick [106018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 107022362900,
+    "text": "tick [107018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 108022341825,
+    "text": "tick [108018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 109022341500,
+    "text": "tick [109018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 110022299650,
+    "text": "tick [110018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 111022279075,
+    "text": "tick [111018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 112022101250,
+    "text": "tick [112018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 113022270400,
+    "text": "tick [113018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 114022231825,
+    "text": "tick [114018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 115022359000,
+    "text": "tick [115018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 116019711950,
+    "text": "tick [116016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 117022168325,
+    "text": "tick [117018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 118022129000,
+    "text": "tick [118018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 119022288400,
+    "text": "tick [119018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 120019633875,
+    "text": "tick [120016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 121022082500,
+    "text": "tick [121018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 122022069400,
+    "text": "tick [122018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 123022041325,
+    "text": "tick [123018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 124022005500,
+    "text": "tick [124018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 125022005150,
+    "text": "tick [125018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 126021803325,
+    "text": "tick [126018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 127021790250,
+    "text": "tick [127018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 128021756650,
+    "text": "tick [128018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 129021935825,
+    "text": "tick [129018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 130021896750,
+    "text": "tick [130018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 131021879400,
+    "text": "tick [131018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 132019379375,
+    "text": "tick [132016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 133019358525,
+    "text": "tick [133016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 134021795900,
+    "text": "tick [134018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 135019324375,
+    "text": "tick [135016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 136021600750,
+    "text": "tick [136018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 137021922900,
+    "text": "tick [137018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 138021739575,
+    "text": "tick [138018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 139021721750,
+    "text": "tick [139018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 140021859400,
+    "text": "tick [140018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 141021670075,
+    "text": "tick [141018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 142019177275,
+    "text": "tick [142016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 143021644150,
+    "text": "tick [143018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 144021427825,
+    "text": "tick [144018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 145021425000,
+    "text": "tick [145018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 146021579400,
+    "text": "tick [146018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 147021565575,
+    "text": "tick [147018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 148021508750,
+    "text": "tick [148018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 149019025700,
+    "text": "tick [149016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 150021485325,
+    "text": "tick [150018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 151021481750,
+    "text": "tick [151018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 152021458400,
+    "text": "tick [152018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 153021415075,
+    "text": "tick [153018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 154021382750,
+    "text": "tick [154018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 155021377650,
+    "text": "tick [155018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 156021526325,
+    "text": "tick [156018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 157021173250,
+    "text": "tick [157018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 158021330150,
+    "text": "tick [158018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 159018827125,
+    "text": "tick [159016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 160021288750,
+    "text": "tick [160018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 161021256650,
+    "text": "tick [161018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 162021232075,
+    "text": "tick [162018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 163021235500,
+    "text": "tick [163018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 164021198900,
+    "text": "tick [164018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 165020998325,
+    "text": "tick [165018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 166021153000,
+    "text": "tick [166018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 167021296650,
+    "text": "tick [167018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 168021102075,
+    "text": "tick [168018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 169021080000,
+    "text": "tick [169018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 170018588700,
+    "text": "tick [170016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 171021062325,
+    "text": "tick [171018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 172021220750,
+    "text": "tick [172018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 173020845900,
+    "text": "tick [173018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 174020976825,
+    "text": "tick [174018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 175020987500,
+    "text": "tick [175018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 176018472700,
+    "text": "tick [176016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 177018449625,
+    "text": "tick [177016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 178021078250,
+    "text": "tick [178018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 179020723650,
+    "text": "tick [179018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 180020872825,
+    "text": "tick [180018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 181021004000,
+    "text": "tick [181018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 182020821900,
+    "text": "tick [182018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 183020819825,
+    "text": "tick [183018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 184020801000,
+    "text": "tick [184018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 185020933400,
+    "text": "tick [185018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 186020727325,
+    "text": "tick [186018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 187020705750,
+    "text": "tick [187018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 188020708900,
+    "text": "tick [188018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 189020677575,
+    "text": "tick [189018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 190020669750,
+    "text": "tick [190018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 191020640150,
+    "text": "tick [191018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 192020781575,
+    "text": "tick [192018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 193020778250,
+    "text": "tick [193018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 194018103700,
+    "text": "tick [194016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 195018083875,
+    "text": "tick [195016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 196020718000,
+    "text": "tick [196018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 197020332650,
+    "text": "tick [197018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 198020468575,
+    "text": "tick [198018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 199020456500,
+    "text": "tick [199018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 200020444150,
+    "text": "tick [200018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 201020260825,
+    "text": "tick [201018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 202020391250,
+    "text": "tick [202018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 203020216150,
+    "text": "tick [203018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 204020362325,
+    "text": "tick [204018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 205020359000,
+    "text": "tick [205018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 206020317650,
+    "text": "tick [206018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 207020318325,
+    "text": "tick [207018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 208017800775,
+    "text": "tick [208016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 209020267650,
+    "text": "tick [209018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 210020229325,
+    "text": "tick [210018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 211020382750,
+    "text": "tick [211018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 212020203150,
+    "text": "tick [212018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 213017698125,
+    "text": "tick [213016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 213037632600,
+    "text": "[213022 ms] mpu6050_read_error=2"
+  },
+  {
+    "time_ns": 213043280850,
+    "text": "seq=3 time_ms=213022 event=imu_fault mode=transit t_us=213034000"
+  },
+  {
+    "time_ns": 214017907275,
+    "text": "tick [214016 ms] mode=transit imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 215017884700,
+    "text": "tick [215016 ms] mode=transit imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 215119526825,
+    "text": "[215116 ms] selftest addr=0x68 result=0 mpu6050_ready"
+  },
+  {
+    "time_ns": 216020128075,
+    "text": "tick [216018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 217020283000,
+    "text": "tick [217018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 218020078400,
+    "text": "tick [218018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 219020047325,
+    "text": "tick [219018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 220020040000,
+    "text": "tick [220018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 221019858900,
+    "text": "tick [221018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 222019992075,
+    "text": "tick [222018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 223019810500,
+    "text": "tick [223018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 224020121650,
+    "text": "tick [224018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 225019937075,
+    "text": "tick [225018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 225441030300,
+    "text": "METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=225438000 sleep_hi=0 sleep_lo=0 stack_watermark=828 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=3 intact=0 damaged=128 next=128"
+  },
+  {
+    "time_ns": 225480904325,
+    "text": "STAT task=command n=221481 min_us=0 avg_us=0 max_us=1000 jitter_min_us=0 jitter_max_us=16000 skipped=3941 deadline_miss=0"
+  },
+  {
+    "time_ns": 225501337175,
+    "text": "STAT task=sample n=2255 min_us=0 avg_us=2001 max_us=16000 jitter_min_us=-10000 jitter_max_us=6000 skipped=0 deadline_miss=0"
+  },
+  {
+    "time_ns": 225522104200,
+    "text": "STAT task=status n=225 min_us=5000 avg_us=5017 max_us=6000 jitter_min_us=-2000 jitter_max_us=2000 skipped=0 deadline_miss=0"
+  },
+  {
+    "time_ns": 225542871025,
+    "text": "STAT task=led n=450 min_us=0 avg_us=291 max_us=1000 jitter_min_us=-7000 jitter_max_us=7000 skipped=0 deadline_miss=0"
+  },
+  {
+    "time_ns": 225562474500,
+    "text": "STAT task=save n=3 min_us=0 avg_us=0 max_us=0"
+  },
+  {
+    "time_ns": 225570283550,
+    "text": "STAT task=export n=0 min_us=0 avg_us=0 max_us=0"
+  },
+  {
+    "time_ns": 225578424900,
+    "text": "STAT task=loop n=2945493 min_us=0 avg_us=76 max_us=17000"
+  },
+  {
+    "time_ns": 225588061000,
+    "text": "STAT task=command_latency n=0 min_us=0 avg_us=0 max_us=0"
+  },
+  {
+    "time_ns": 225597695975,
+    "text": "STAT task=pir_latency n=0 min_us=0 avg_us=0 max_us=0"
+  },
+  {
+    "time_ns": 226019928750,
+    "text": "tick [226018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 227017420950,
+    "text": "tick [227016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 228020046075,
+    "text": "tick [228018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 229019861250,
+    "text": "tick [229018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 230019819150,
+    "text": "tick [230018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 231019819575,
+    "text": "tick [231018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 232017312025,
+    "text": "tick [232016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 233017293200,
+    "text": "tick [233016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 234019725575,
+    "text": "tick [234018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 235017246775,
+    "text": "tick [235016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 236019707400,
+    "text": "tick [236018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 237017209375,
+    "text": "tick [237016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 238019650500,
+    "text": "tick [238018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 239019813900,
+    "text": "tick [239018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 240019785325,
+    "text": "tick [240018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 241019602500,
+    "text": "tick [241018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 242019586150,
+    "text": "tick [242018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 243019554075,
+    "text": "tick [243018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 244019542000,
+    "text": "tick [244018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 245017040200,
+    "text": "tick [245016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 246019488825,
+    "text": "tick [246018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 247019467750,
+    "text": "tick [247018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 248019448150,
+    "text": "tick [248018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 249019264575,
+    "text": "tick [249018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 250019241500,
+    "text": "tick [250018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 251019392150,
+    "text": "tick [251018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 252019393575,
+    "text": "tick [252018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 253019527250,
+    "text": "tick [253018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 254019483150,
+    "text": "tick [254018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 255016833875,
+    "text": "tick [255016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 256019286250,
+    "text": "tick [256018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 257019287900,
+    "text": "tick [257018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 258019438575,
+    "text": "tick [258018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 259019233750,
+    "text": "tick [259018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 260019218400,
+    "text": "tick [260018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 261016718875,
+    "text": "tick [261016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 262019177000,
+    "text": "tick [262018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 263019150400,
+    "text": "tick [263018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 264019122575,
+    "text": "tick [264018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 265018937750,
+    "text": "tick [265018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 266019252400,
+    "text": "tick [266018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 267019044075,
+    "text": "tick [267018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 268016565025,
+    "text": "tick [268016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 269019045650,
+    "text": "tick [269018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 270018831325,
+    "text": "tick [270018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 271018985750,
+    "text": "tick [271018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 272018957650,
+    "text": "tick [272018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 273018947075,
+    "text": "tick [273018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 274016440525,
+    "text": "tick [274016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 275016418700,
+    "text": "tick [275016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 276018892325,
+    "text": "tick [276018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 277019026500,
+    "text": "tick [277018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 278018845900,
+    "text": "tick [278018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 278658881825,
+    "text": "METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=278657000 sleep_hi=0 sleep_lo=0 stack_watermark=828 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=3 intact=0 damaged=128 next=128"
+  },
+  {
+    "time_ns": 278698755600,
+    "text": "STAT task=command n=273724 min_us=0 avg_us=0 max_us=9000 jitter_min_us=0 jitter_max_us=16000 skipped=4917 deadline_miss=1"
+  },
+  {
+    "time_ns": 278719188950,
+    "text": "STAT task=sample n=2787 min_us=0 avg_us=2001 max_us=16000 jitter_min_us=-10000 jitter_max_us=6000 skipped=0 deadline_miss=0"
+  },
+  {
+    "time_ns": 278739957125,
+    "text": "STAT task=status n=278 min_us=5000 avg_us=5035 max_us=6000 jitter_min_us=-2000 jitter_max_us=2000 skipped=0 deadline_miss=0"
+  },
+  {
+    "time_ns": 278760722300,
+    "text": "STAT task=led n=557 min_us=0 avg_us=289 max_us=1000 jitter_min_us=-7000 jitter_max_us=7000 skipped=0 deadline_miss=0"
+  },
+  {
+    "time_ns": 278780327825,
+    "text": "STAT task=save n=3 min_us=0 avg_us=0 max_us=0"
+  },
+  {
+    "time_ns": 278788136875,
+    "text": "STAT task=export n=9 min_us=3000 avg_us=4666 max_us=7000"
+  },
+  {
+    "time_ns": 278797772275,
+    "text": "STAT task=loop n=3634530 min_us=0 avg_us=76 max_us=17000"
+  },
+  {
+    "time_ns": 278807407275,
+    "text": "STAT task=command_latency n=1 min_us=10000 avg_us=10000 max_us=10000"
+  },
+  {
+    "time_ns": 278819035075,
+    "text": "STAT task=pir_latency n=0 min_us=0 avg_us=0 max_us=0"
+  },
+  {
+    "time_ns": 279018823325,
+    "text": "tick [279018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 280018629000,
+    "text": "tick [280018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 281018955650,
+    "text": "tick [281018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 282018771575,
+    "text": "tick [282018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 283018745500,
+    "text": "tick [283018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 284018542150,
+    "text": "tick [284018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 285016216875,
+    "text": "tick [285016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 286018501250,
+    "text": "tick [286018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 287018642400,
+    "text": "tick [287018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 288018787325,
+    "text": "tick [288018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 289018611500,
+    "text": "tick [289018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 290018423150,
+    "text": "tick [290018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 291018585075,
+    "text": "tick [291018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 292016071275,
+    "text": "tick [292016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 293018520650,
+    "text": "tick [293018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 294016029625,
+    "text": "tick [294016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 295018461750,
+    "text": "tick [295018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 296018468150,
+    "text": "tick [296018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 297015964375,
+    "text": "tick [297016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 298018578750,
+    "text": "tick [298018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 299018220900,
+    "text": "tick [299018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 300018405575,
+    "text": "tick [300018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 301018193750,
+    "text": "tick [301018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 302015859950,
+    "text": "tick [302016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 303018340575,
+    "text": "tick [303018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 304018468250,
+    "text": "tick [304018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 305018114900,
+    "text": "tick [305018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 306015776625,
+    "text": "tick [306016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 307018416500,
+    "text": "tick [307018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 308018220650,
+    "text": "tick [308018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 309018203825,
+    "text": "tick [309018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 310018169500,
+    "text": "tick [310018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 311015681450,
+    "text": "tick [311016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 312017958825,
+    "text": "tick [312018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 313017947000,
+    "text": "tick [313018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 314018094150,
+    "text": "tick [314018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 315018243575,
+    "text": "tick [315018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 316018051750,
+    "text": "tick [316018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 317018209900,
+    "text": "tick [317018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 318017995825,
+    "text": "tick [318018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 319015509525,
+    "text": "tick [319016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 320017948900,
+    "text": "tick [320018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 321017961075,
+    "text": "tick [321018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 322017946750,
+    "text": "tick [322018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 323017906400,
+    "text": "tick [323018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 324017878325,
+    "text": "tick [324018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 325017878000,
+    "text": "tick [325018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 326017851900,
+    "text": "tick [326018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 327015348875,
+    "text": "tick [327016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 328017949750,
+    "text": "tick [328018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 329017764650,
+    "text": "tick [329018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 330017909075,
+    "text": "tick [330018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 330772109850,
+    "text": "METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=330771000 sleep_hi=0 sleep_lo=0 stack_watermark=828 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=3 intact=0 damaged=128 next=128"
+  },
+  {
+    "time_ns": 330811982275,
+    "text": "STAT task=command n=324883 min_us=0 avg_us=0 max_us=9000 jitter_min_us=0 jitter_max_us=16000 skipped=5872 deadline_miss=2"
+  },
+  {
+    "time_ns": 330832416700,
+    "text": "STAT task=sample n=3308 min_us=0 avg_us=2001 max_us=16000 jitter_min_us=-10000 jitter_max_us=6000 skipped=0 deadline_miss=0"
+  },
+  {
+    "time_ns": 330853183800,
+    "text": "STAT task=status n=330 min_us=5000 avg_us=5045 max_us=6000 jitter_min_us=-2000 jitter_max_us=2000 skipped=0 deadline_miss=0"
+  },
+  {
+    "time_ns": 330873949975,
+    "text": "STAT task=led n=661 min_us=0 avg_us=284 max_us=1000 jitter_min_us=-7000 jitter_max_us=7000 skipped=0 deadline_miss=0"
+  },
+  {
+    "time_ns": 330893555675,
+    "text": "STAT task=save n=3 min_us=0 avg_us=0 max_us=0"
+  },
+  {
+    "time_ns": 330901363950,
+    "text": "STAT task=export n=18 min_us=3000 avg_us=4833 max_us=7000"
+  },
+  {
+    "time_ns": 330911165100,
+    "text": "STAT task=loop n=4307930 min_us=0 avg_us=76 max_us=17000"
+  },
+  {
+    "time_ns": 330920798775,
+    "text": "STAT task=command_latency n=2 min_us=10000 avg_us=10000 max_us=10000"
+  },
+  {
+    "time_ns": 330932429275,
+    "text": "STAT task=pir_latency n=0 min_us=0 avg_us=0 max_us=0"
+  },
+  {
+    "time_ns": 331017901500,
+    "text": "tick [331018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 332017882650,
+    "text": "tick [332018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 333017868825,
+    "text": "tick [333018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 334017659750,
+    "text": "tick [334018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 335017672400,
+    "text": "tick [335018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 336017444325,
+    "text": "tick [336018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 337017625250,
+    "text": "tick [337018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 338017414150,
+    "text": "tick [338018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 339015086125,
+    "text": "tick [339016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 340017540500,
+    "text": "tick [340018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 341017529400,
+    "text": "tick [341018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 342017659075,
+    "text": "tick [342018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 343017326250,
+    "text": "tick [343018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 344017479150,
+    "text": "tick [344018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 345014970625,
+    "text": "tick [345016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 346017249250,
+    "text": "tick [346018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 347017414400,
+    "text": "tick [347018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 348017382075,
+    "text": "tick [348018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 349017543750,
+    "text": "tick [349018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 350017362650,
+    "text": "tick [350018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 351017501325,
+    "text": "tick [351018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 352017300000,
+    "text": "tick [352018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 353017282150,
+    "text": "tick [353018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 354017255575,
+    "text": "tick [354018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 355017245000,
+    "text": "tick [355018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 356014739450,
+    "text": "tick [356016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 357017211325,
+    "text": "tick [357018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 358014699775,
+    "text": "tick [358016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 359017341150,
+    "text": "tick [359018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 360016968825,
+    "text": "tick [360018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 361017274000,
+    "text": "tick [361018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 362017100150,
+    "text": "tick [362018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 363017071075,
+    "text": "tick [363018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 364017067000,
+    "text": "tick [364018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 365017036900,
+    "text": "tick [365018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 366017019825,
+    "text": "tick [366018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 367016987250,
+    "text": "tick [367018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 368016982150,
+    "text": "tick [368018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 369016940075,
+    "text": "tick [369018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 370016936250,
+    "text": "tick [370018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 371017080150,
+    "text": "tick [371018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 372016898575,
+    "text": "tick [372018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 373016867500,
+    "text": "tick [373018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 374016841400,
+    "text": "tick [374018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 375017007825,
+    "text": "tick [375018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 376016811750,
+    "text": "tick [376018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 377016787400,
+    "text": "tick [377018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 378016765325,
+    "text": "tick [378018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 379016741750,
+    "text": "tick [379018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 380016726650,
+    "text": "tick [380018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 381016700325,
+    "text": "tick [381018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 382016690000,
+    "text": "tick [382018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 383016644150,
+    "text": "tick [383018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 384016461075,
+    "text": "tick [384018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 385016642000,
+    "text": "tick [385018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 386016615400,
+    "text": "tick [386018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 387016593325,
+    "text": "tick [387018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 388016555250,
+    "text": "tick [388018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 389014052200,
+    "text": "tick [389016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 390016518075,
+    "text": "tick [390018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 391016330750,
+    "text": "tick [391018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 392016299650,
+    "text": "tick [392018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 393016290325,
+    "text": "tick [393018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 394016402750,
+    "text": "tick [394018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 395016395650,
+    "text": "tick [395018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 396016554325,
+    "text": "tick [396018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 397016194250,
+    "text": "tick [397018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 398013856450,
+    "text": "tick [398016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 399016315075,
+    "text": "tick [399018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 400016469250,
+    "text": "tick [400018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 401016467400,
+    "text": "tick [401018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 402016416075,
+    "text": "tick [402018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 403016222250,
+    "text": "tick [403018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 404016227650,
+    "text": "tick [404018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 405016026825,
+    "text": "tick [405018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 406015994250,
+    "text": "tick [406018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 407016165400,
+    "text": "tick [407018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 408013657625,
+    "text": "tick [408016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 409016141500,
+    "text": "tick [409018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 410013607950,
+    "text": "tick [410016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 411016069075,
+    "text": "tick [411018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 412016222250,
+    "text": "tick [412018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 413013555200,
+    "text": "tick [413016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 414013528625,
+    "text": "tick [414016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 415015979000,
+    "text": "tick [415018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 416015970400,
+    "text": "tick [416018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 417015789325,
+    "text": "tick [417018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 418015914250,
+    "text": "tick [418018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 419015909900,
+    "text": "tick [419018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 420015893825,
+    "text": "tick [420018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 421013383775,
+    "text": "tick [421016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 422015850650,
+    "text": "tick [422018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 423015820325,
+    "text": "tick [423018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 424015816750,
+    "text": "tick [424018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 425015805150,
+    "text": "tick [425018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 426015913825,
+    "text": "tick [426018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 427013259525,
+    "text": "tick [427016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 428015750650,
+    "text": "tick [428018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 429015533075,
+    "text": "tick [429018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 430013203275,
+    "text": "tick [430016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 431013182450,
+    "text": "tick [431016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 432015639325,
+    "text": "tick [432018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 433013141275,
+    "text": "tick [433016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 434015603650,
+    "text": "tick [434018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 435015566825,
+    "text": "tick [435018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 436015732250,
+    "text": "tick [436018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 437015368650,
+    "text": "tick [437018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 438015534075,
+    "text": "tick [438018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 439015330000,
+    "text": "tick [439018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 440015657650,
+    "text": "tick [440018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 441015289075,
+    "text": "tick [441018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 442015613000,
+    "text": "tick [442018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 443015575150,
+    "text": "tick [443018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 444012906375,
+    "text": "tick [444016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 445012889775,
+    "text": "tick [445016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 446015352150,
+    "text": "tick [446018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 447015340075,
+    "text": "tick [447018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 448012817275,
+    "text": "tick [448016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 449012809700,
+    "text": "tick [449016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 450015293825,
+    "text": "tick [450018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 451015253250,
+    "text": "tick [451018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 452015235650,
+    "text": "tick [452018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 453015222325,
+    "text": "tick [453018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 454015192250,
+    "text": "tick [454018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 455015158150,
+    "text": "tick [455018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 456015165075,
+    "text": "tick [456018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 457015119750,
+    "text": "tick [457018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 458015125400,
+    "text": "tick [458018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 459012591625,
+    "text": "tick [459016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 460015053000,
+    "text": "tick [460018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 461012554450,
+    "text": "tick [461016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 462015006325,
+    "text": "tick [462018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 463014823500,
+    "text": "tick [463018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 464014953650,
+    "text": "tick [464018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 465014949825,
+    "text": "tick [465018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 466014929000,
+    "text": "tick [466018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 467014907650,
+    "text": "tick [467018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 468012405125,
+    "text": "tick [468016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 469014866750,
+    "text": "tick [469018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 470014841150,
+    "text": "tick [470018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 471015027075,
+    "text": "tick [471018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 472014992750,
+    "text": "tick [472018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 473014807400,
+    "text": "tick [473018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 474014775075,
+    "text": "tick [474018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 475014753500,
+    "text": "tick [475018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 476014898650,
+    "text": "tick [476018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 477014731575,
+    "text": "tick [477018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 478014703250,
+    "text": "tick [478018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 479014687400,
+    "text": "tick [479018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 480014655325,
+    "text": "tick [480018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 481014642750,
+    "text": "tick [481018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 482014598150,
+    "text": "tick [482018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 483014604825,
+    "text": "tick [483018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 484014560000,
+    "text": "tick [484018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 485012058950,
+    "text": "tick [485016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 486014522575,
+    "text": "tick [486018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 487014508500,
+    "text": "tick [487018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 488014479150,
+    "text": "tick [488018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 489014284825,
+    "text": "tick [489018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 490014263000,
+    "text": "tick [490018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 491014246400,
+    "text": "tick [491018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 492014214825,
+    "text": "tick [492018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 493014555250,
+    "text": "tick [493018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 494014516150,
+    "text": "tick [494018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 495014162825,
+    "text": "tick [495018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 496014299500,
+    "text": "tick [496018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 497014120650,
+    "text": "tick [497018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 498014090575,
+    "text": "tick [498018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 499014254250,
+    "text": "tick [499018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 500014227400,
+    "text": "tick [500018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 501014212825,
+    "text": "tick [501018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 502014170000,
+    "text": "tick [502018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 503011689200,
+    "text": "tick [503016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 504014160825,
+    "text": "tick [504018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 505013959500,
+    "text": "tick [505018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 506014096650,
+    "text": "tick [506018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 507014105325,
+    "text": "tick [507018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 508011579275,
+    "text": "tick [508016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 509014044400,
+    "text": "tick [509018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 510014002325,
+    "text": "tick [510018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 511013997250,
+    "text": "tick [511018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 512013973400,
+    "text": "tick [512018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 513013968825,
+    "text": "tick [513018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 514013943750,
+    "text": "tick [514018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 515011431700,
+    "text": "tick [515016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 516013728575,
+    "text": "tick [516018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 517011388025,
+    "text": "tick [517016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 518014033400,
+    "text": "tick [518018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 519013848075,
+    "text": "tick [519018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 520013820750,
+    "text": "tick [520018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 521013795650,
+    "text": "tick [521018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 522013597575,
+    "text": "tick [522018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 523013749750,
+    "text": "tick [523018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 524013571650,
+    "text": "tick [524018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 525013688325,
+    "text": "tick [525018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 526013506750,
+    "text": "tick [526018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 527013831900,
+    "text": "tick [527018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 528013629325,
+    "text": "tick [528018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 529013638000,
+    "text": "tick [529018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 530013590400,
+    "text": "tick [530018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 531013405825,
+    "text": "tick [531018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 532013385250,
+    "text": "tick [532018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 533013354150,
+    "text": "tick [533018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 534013523575,
+    "text": "tick [534018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 535013330750,
+    "text": "tick [535018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 536013483175,
+    "text": "tick [536018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 537010973125,
+    "text": "tick [537016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 538013603250,
+    "text": "tick [538018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 539013237675,
+    "text": "tick [539018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 540013228575,
+    "text": "tick [540018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 541013536500,
+    "text": "tick [541018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 542010861450,
+    "text": "tick [542016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 543013339075,
+    "text": "tick [543018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 544013314500,
+    "text": "tick [544018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 545013118675,
+    "text": "tick [545018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 546013272575,
+    "text": "tick [546018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 547013248000,
+    "text": "tick [547018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 548013247675,
+    "text": "tick [548018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 549013189075,
+    "text": "tick [549018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 550013009000,
+    "text": "tick [550018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 551013341425,
+    "text": "tick [551018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 552012968825,
+    "text": "tick [552018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 553010634050,
+    "text": "tick [553016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 554013100175,
+    "text": "tick [554018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 555012907325,
+    "text": "tick [555018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 556013097500,
+    "text": "tick [556018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 557013074925,
+    "text": "tick [557018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 558013024075,
+    "text": "tick [558018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 559013019250,
+    "text": "tick [559018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 560012967400,
+    "text": "tick [560018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 561012989075,
+    "text": "tick [561018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 562012946500,
+    "text": "tick [562018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 563012928900,
+    "text": "tick [563018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 564013067075,
+    "text": "tick [564018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 565012871500,
+    "text": "tick [565018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 566010362200,
+    "text": "tick [566016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 567012831325,
+    "text": "tick [567018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 568012639500,
+    "text": "tick [568018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 569012625400,
+    "text": "tick [569018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 570010282125,
+    "text": "tick [570016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 571012753250,
+    "text": "tick [571018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 572012745650,
+    "text": "tick [572018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 573012737325,
+    "text": "tick [573018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 574012670750,
+    "text": "tick [574018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 575012670150,
+    "text": "tick [575018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 576012808075,
+    "text": "tick [576018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 577012455250,
+    "text": "tick [577018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 578012621150,
+    "text": "tick [578018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 579012585325,
+    "text": "tick [579018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 580012741500,
+    "text": "tick [580018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 581012566900,
+    "text": "tick [581018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 582012508325,
+    "text": "tick [582018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 583012327500,
+    "text": "tick [583018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 584012471650,
+    "text": "tick [584018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 585012644325,
+    "text": "tick [585018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 586009949775,
+    "text": "tick [586016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 587012595150,
+    "text": "tick [587018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 588012584825,
+    "text": "tick [588018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 589012400250,
+    "text": "tick [589018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 590012349650,
+    "text": "tick [590018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 591012333575,
+    "text": "tick [591018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 592009825775,
+    "text": "tick [592016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 593012114900,
+    "text": "tick [593018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 594012253325,
+    "text": "tick [594018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 595009767775,
+    "text": "tick [595016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 596012393400,
+    "text": "tick [596018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 597012034075,
+    "text": "tick [597018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 598011999750,
+    "text": "tick [598018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 599012174900,
+    "text": "tick [599018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 600009662125,
+    "text": "tick [600016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 600029597600,
+    "text": "[600022 ms] mpu6050_read_error=2"
+  },
+  {
+    "time_ns": 600035245850,
+    "text": "seq=4 time_ms=600022 event=imu_fault mode=transit t_us=600034000"
+  },
+  {
+    "time_ns": 601009709775,
+    "text": "tick [601016 ms] mode=transit imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 602009419450,
+    "text": "tick [602016 ms] mode=transit imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 602111493075,
+    "text": "[602116 ms] selftest addr=0x68 result=0 mpu6050_ready"
+  },
+  {
+    "time_ns": 603012089825,
+    "text": "tick [603018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 604012095250,
+    "text": "tick [604018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 605012064900,
+    "text": "tick [605018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 606012018825,
+    "text": "tick [606018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 607009521775,
+    "text": "tick [607016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 608011964400,
+    "text": "tick [608018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 609011991325,
+    "text": "tick [609018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 610011964750,
+    "text": "tick [610018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 611012095650,
+    "text": "tick [611018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 612011923575,
+    "text": "tick [612018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 613011876500,
+    "text": "tick [613018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 614011856150,
+    "text": "tick [614018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 615011850825,
+    "text": "tick [615018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 616011638500,
+    "text": "tick [616018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 617009308950,
+    "text": "tick [617016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 618011784575,
+    "text": "tick [618018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 619009269025,
+    "text": "tick [619016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 620009253700,
+    "text": "tick [620016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 621011741825,
+    "text": "tick [621018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 622011702000,
+    "text": "tick [622018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 623009180200,
+    "text": "tick [623016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 624009163625,
+    "text": "tick [624016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 625011622500,
+    "text": "tick [625018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 626009118700,
+    "text": "tick [626016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 627011760075,
+    "text": "tick [627018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 628011583250,
+    "text": "tick [628018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 629011551150,
+    "text": "tick [629018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 630011524575,
+    "text": "tick [630018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 631011506750,
+    "text": "tick [631018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 632011654150,
+    "text": "tick [632018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 633011639325,
+    "text": "tick [633018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 634011459750,
+    "text": "tick [634018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 635008931200,
+    "text": "tick [635016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 636011409325,
+    "text": "tick [636018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 637011380750,
+    "text": "tick [637018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 638011377150,
+    "text": "tick [638018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 639008849375,
+    "text": "tick [639016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 640011307250,
+    "text": "tick [640018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 641011486900,
+    "text": "tick [641018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 642008785125,
+    "text": "tick [642016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 643008770275,
+    "text": "tick [643016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 644011230150,
+    "text": "tick [644018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 645008726625,
+    "text": "tick [645016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 646008709025,
+    "text": "tick [646016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 647011007650,
+    "text": "tick [647018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 648011171075,
+    "text": "tick [648018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 649011140500,
+    "text": "tick [649018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 650011109150,
+    "text": "tick [650018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 651008597875,
+    "text": "tick [651016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 652011076250,
+    "text": "tick [652018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 653011243150,
+    "text": "tick [653018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 654011022325,
+    "text": "tick [654018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 655011023000,
+    "text": "tick [655018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 656010802400,
+    "text": "tick [656018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 657010980075,
+    "text": "tick [657018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 658010762750,
+    "text": "tick [658018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 659010935150,
+    "text": "tick [659018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 660011064075,
+    "text": "tick [660018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 661008395775,
+    "text": "tick [661016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 662010674150,
+    "text": "tick [662018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 663010847325,
+    "text": "tick [663018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 664010802250,
+    "text": "tick [664018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 665010791400,
+    "text": "tick [665018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 666010765825,
+    "text": "tick [666018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 667010771500,
+    "text": "tick [667018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 668010562400,
+    "text": "tick [668018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 669010543075,
+    "text": "tick [669018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 670010684250,
+    "text": "tick [670018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 671008190700,
+    "text": "tick [671016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 672010626575,
+    "text": "tick [672018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 673010456000,
+    "text": "tick [673018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 674010618150,
+    "text": "tick [674018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 675010597325,
+    "text": "tick [675018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 676008081775,
+    "text": "tick [676016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 677008064450,
+    "text": "tick [677016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 678010692825,
+    "text": "tick [678018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 679010512500,
+    "text": "tick [679018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 680010489650,
+    "text": "tick [680018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 681010482825,
+    "text": "tick [681018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 682010262000,
+    "text": "tick [682018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 683010436900,
+    "text": "tick [683018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 684010606075,
+    "text": "tick [684018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 685007899025,
+    "text": "tick [685016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 686010198150,
+    "text": "tick [686018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 687010540325,
+    "text": "tick [687018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 688010338500,
+    "text": "tick [688018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 689010293400,
+    "text": "tick [689018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 690007794125,
+    "text": "tick [690016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 691010090250,
+    "text": "tick [691018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 692010419150,
+    "text": "tick [692018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 693010219825,
+    "text": "tick [693018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 694010188750,
+    "text": "tick [694018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 695010180150,
+    "text": "tick [695018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 696007666375,
+    "text": "tick [696016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 697010147500,
+    "text": "tick [697018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 698010107650,
+    "text": "tick [698018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 699010085825,
+    "text": "tick [699018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 700010092750,
+    "text": "tick [700018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 701010230150,
+    "text": "tick [701018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 702010207825,
+    "text": "tick [702018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 703010010500,
+    "text": "tick [703018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 704009814150,
+    "text": "tick [704018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 705007478875,
+    "text": "tick [705016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 706009964750,
+    "text": "tick [706018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 707007443450,
+    "text": "tick [707016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 707027379775,
+    "text": "[707022 ms] mpu6050_read_error=2"
+  },
+  {
+    "time_ns": 707033028175,
+    "text": "seq=5 time_ms=707022 event=imu_fault mode=transit t_us=707034000"
+  },
+  {
+    "time_ns": 708007479125,
+    "text": "tick [708016 ms] mode=transit imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 709007649525,
+    "text": "tick [709016 ms] mode=transit imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 709109320150,
+    "text": "[709116 ms] selftest addr=0x68 result=0 mpu6050_ready"
+  },
+  {
+    "time_ns": 710009882150,
+    "text": "tick [710018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 711009848575,
+    "text": "tick [711018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 712007331775,
+    "text": "tick [712016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 713009978150,
+    "text": "tick [713018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 714009782075,
+    "text": "tick [714018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 715009583000,
+    "text": "tick [715018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 716009758900,
+    "text": "tick [716018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 717009541575,
+    "text": "tick [717018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 718009873000,
+    "text": "tick [718018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 719009671900,
+    "text": "tick [719018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 720009648075,
+    "text": "tick [720018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 721009645000,
+    "text": "tick [721018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 722009622900,
+    "text": "tick [722018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 723007099125,
+    "text": "tick [723016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 724007079525,
+    "text": "tick [724016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 725009529150,
+    "text": "tick [725018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 726009688575,
+    "text": "tick [726018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 727009705750,
+    "text": "tick [727018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 728009492150,
+    "text": "tick [728018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 729009300575,
+    "text": "tick [729018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 730009275000,
+    "text": "tick [730018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 731009603650,
+    "text": "tick [731018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 732009593075,
+    "text": "tick [732018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 733006899025,
+    "text": "tick [733016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 734009190400,
+    "text": "tick [734018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 735006861875,
+    "text": "tick [735016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 736009151000,
+    "text": "tick [736018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 737009339650,
+    "text": "tick [737018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 738009106075,
+    "text": "tick [738018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 739009085250,
+    "text": "tick [739018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 740009061400,
+    "text": "tick [740018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 741009402575,
+    "text": "tick [741018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 742009203750,
+    "text": "tick [742018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 743009189650,
+    "text": "tick [743018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 744009333575,
+    "text": "tick [744018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 745009153500,
+    "text": "tick [745018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 746008931650,
+    "text": "tick [746018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 747009114325,
+    "text": "tick [747018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 748006588775,
+    "text": "tick [748016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 749006572700,
+    "text": "tick [749016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 750009037575,
+    "text": "tick [750018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 751009034750,
+    "text": "tick [751018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 752008999400,
+    "text": "tick [752018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 753008991075,
+    "text": "tick [753018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 754008945750,
+    "text": "tick [754018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 755008928150,
+    "text": "tick [755018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 756008917825,
+    "text": "tick [756018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 757008876500,
+    "text": "tick [757018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 758008854900,
+    "text": "tick [758018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 759008676325,
+    "text": "tick [759018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 760008833000,
+    "text": "tick [760018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 761008634400,
+    "text": "tick [761018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 762008602575,
+    "text": "tick [762018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 763008581725,
+    "text": "tick [763018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 764008756650,
+    "text": "tick [764018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 765006239350,
+    "text": "tick [765016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 766008523475,
+    "text": "tick [766018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 767008862400,
+    "text": "tick [767018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 768008653075,
+    "text": "tick [768018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 769008655475,
+    "text": "tick [769018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 770006133450,
+    "text": "tick [770016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 771008425575,
+    "text": "tick [771018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 772008574975,
+    "text": "tick [772018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 773008741900,
+    "text": "tick [773018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 774008719825,
+    "text": "tick [774018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 775008343475,
+    "text": "tick [775018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 776008324400,
+    "text": "tick [776018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 777005990600,
+    "text": "tick [777016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 778005964775,
+    "text": "tick [778016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 779008444900,
+    "text": "tick [779018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 780008438325,
+    "text": "tick [780018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 781005904275,
+    "text": "tick [781016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 782008196150,
+    "text": "tick [782018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 783008363075,
+    "text": "tick [783018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 784008349975,
+    "text": "tick [784018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 785008323650,
+    "text": "tick [785018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 786008301825,
+    "text": "tick [786018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 787008234725,
+    "text": "tick [787018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 788005746700,
+    "text": "tick [788016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 789008381075,
+    "text": "tick [789018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 790005704275,
+    "text": "tick [790016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 791008180150,
+    "text": "tick [791018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 792005672100,
+    "text": "tick [792016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 793008319725,
+    "text": "tick [793018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 794008113400,
+    "text": "tick [794018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 795008088825,
+    "text": "tick [795018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 796007898725,
+    "text": "tick [796018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 797008042650,
+    "text": "tick [797018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 798008199825,
+    "text": "tick [798018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 799008021475,
+    "text": "tick [799018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 800008156400,
+    "text": "tick [800018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 801007991825,
+    "text": "tick [801018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 802007955225,
+    "text": "tick [802018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 803007924400,
+    "text": "tick [803018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 804005416850,
+    "text": "tick [804016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 805007876975,
+    "text": "tick [805018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 806005373700,
+    "text": "tick [806016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 807007668325,
+    "text": "tick [807018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 808007991225,
+    "text": "tick [808018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 809007813150,
+    "text": "tick [809018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 810007949575,
+    "text": "tick [810018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 811007761975,
+    "text": "tick [811018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 812005254200,
+    "text": "tick [812016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 813007910825,
+    "text": "tick [813018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 814007699725,
+    "text": "tick [814018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 815007679150,
+    "text": "tick [815018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 816007479825,
+    "text": "tick [816018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 817007669725,
+    "text": "tick [817018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 818005133950,
+    "text": "tick [818016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 819007788075,
+    "text": "tick [819018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 820007549225,
+    "text": "tick [820018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 821007722400,
+    "text": "tick [821018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 822007519325,
+    "text": "tick [822018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 823007532725,
+    "text": "tick [823018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 824007307650,
+    "text": "tick [824018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 825007296825,
+    "text": "tick [825018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 826007457475,
+    "text": "tick [826018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 827007445150,
+    "text": "tick [827018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 828007396575,
+    "text": "tick [828018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 829007391475,
+    "text": "tick [829018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 830007187650,
+    "text": "tick [830018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 831004858350,
+    "text": "tick [831016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 832007134225,
+    "text": "tick [832018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  },
+  {
+    "time_ns": 833007493400,
+    "text": "tick [833018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0"
+  }
+]

@@ -1,0 +1,20 @@
+python3 tools/check_project.py
+Portable dependency rules passed
+Vendored HAL/CMSIS SHA256 passed
+/Library/Developer/CommandLineTools/usr/bin/make -C tests test
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O0 -g -Wall -Wextra -Werror test_mpu.c ../firmware/Devices/mpu6050.c -o "build/Darwin-arm64/test_mpu"
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O0 -g -Wall -Wextra -Werror test_parcel_rules.c ../firmware/App/parcel_rules.c -o "build/Darwin-arm64/test_parcel_rules"
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O0 -g -Wall -Wextra -Werror -DRUNTIME_TEST_PRINTF test_runtime.c ../firmware/Platform/runtime.c ../firmware/App/parcel_rules.c ../firmware/App/shipment_log.c ../firmware/App/run_meter.c ../firmware/Devices/mpu6050.c -o "build/Darwin-arm64/test_runtime"
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O0 -g -Wall -Wextra -Werror test_shipment_log.c ../firmware/App/shipment_log.c -o "build/Darwin-arm64/test_shipment_log"
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O0 -g -Wall -Wextra -Werror test_run_meter.c ../firmware/App/run_meter.c -o "build/Darwin-arm64/test_run_meter"
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O0 -g -Wall -Wextra -Werror -DRUNTIME_TEST_PRINTF test_runtime_scenarios.c ../firmware/Platform/runtime.c ../firmware/App/parcel_rules.c ../firmware/App/shipment_log.c ../firmware/App/run_meter.c ../firmware/Devices/mpu6050.c -o "build/Darwin-arm64/test_runtime_scenarios"
+MPU6050: identity, initialization order, units, signed limits and bus failures passed
+parcel_rules: ok
+runtime: simultaneous events, GPIO mode entry, NACK recovery, ADC retry, parser and tick wrap passed
+shipment_log: 33 byte-cut boundaries, 256 corruptions, restart and capacity preservation passed (host NOR model)
+run_meter: wrap, anchored releases, exact skipped slots and completion deadlines passed
+HOST S1 fake_time_ms=200000 samples=2000 events=2
+HOST S2 fake_time_ms=3600000 samples=36000 inspection=30 nearby=60, NOT wall-clock endurance
+HOST S3 command_burst=40 tx_backpressure=recovered rx_overflow=1 sensor_faults=3 journal_intact=128 program8_calls=512
+HOST TIM3 uint32 wrap: 10 samples across overflow passed
+HOST all scenarios passed; no MCU timing/CPU/stack measurements were made

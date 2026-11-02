@@ -1,0 +1,709 @@
+tick [3190018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=3190785000 sleep_hi=0 sleep_lo=0 stack_watermark=828 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=49 intact=0 damaged=128 next=128
+STAT task=command n=3134496 min_us=0 avg_us=0 max_us=9000 jitter_min_us=0 jitter_max_us=18000 skipped=56273 deadline_miss=35
+STAT task=sample n=31908 min_us=0 avg_us=1990 max_us=16000 jitter_min_us=-10000 jitter_max_us=7000 skipped=0 deadline_miss=0
+STAT task=status n=3190 min_us=5000 avg_us=5139 max_us=9000 jitter_min_us=-2000 jitter_max_us=2000 skipped=0 deadline_miss=0
+STAT task=led n=6381 min_us=0 avg_us=186 max_us=1000 jitter_min_us=-8000 jitter_max_us=11000 skipped=0 deadline_miss=0
+STAT task=save n=49 min_us=0 avg_us=20 max_us=1000
+STAT task=export n=192 min_us=0 avg_us=2354 max_us=7000
+STAT task=loop n=40965381 min_us=0 avg_us=77 max_us=19000
+STAT task=command_latency n=38 min_us=3000 avg_us=4815 max_us=17000
+STAT task=pir_latency n=0 min_us=0 avg_us=0 max_us=0
+tick [3191018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3192018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3193018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3194018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3195018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3196018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3197018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3198018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3199018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3200018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3201018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3202018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3203018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3204018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3205018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3206018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3207018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3208016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3209018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3210018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3211018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3212018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3213016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3214016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3215018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3216018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3217018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3218018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3219018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3220018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3221018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3222018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3223018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3224018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3225018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3226018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3227018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3228018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3229018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3230018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3231016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3232018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3233018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3234018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3235018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3236018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3237018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3238018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3239016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3240018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3241018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3242018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3243018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3244018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3245018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3246018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3247018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=3247729000 sleep_hi=0 sleep_lo=0 stack_watermark=828 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=49 intact=0 damaged=128 next=128
+STAT task=command n=3190390 min_us=0 avg_us=0 max_us=9000 jitter_min_us=0 jitter_max_us=18000 skipped=57324 deadline_miss=36
+STAT task=sample n=32478 min_us=0 avg_us=1991 max_us=16000 jitter_min_us=-10000 jitter_max_us=7000 skipped=0 deadline_miss=0
+STAT task=status n=3247 min_us=5000 avg_us=5141 max_us=9000 jitter_min_us=-2000 jitter_max_us=2000 skipped=0 deadline_miss=0
+STAT task=led n=6495 min_us=0 avg_us=184 max_us=1000 jitter_min_us=-8000 jitter_max_us=11000 skipped=0 deadline_miss=0
+STAT task=save n=49 min_us=0 avg_us=20 max_us=1000
+STAT task=export n=201 min_us=0 avg_us=2472 max_us=7000
+STAT task=loop n=41691701 min_us=0 avg_us=77 max_us=19000
+STAT task=command_latency n=39 min_us=3000 avg_us=4948 max_us=17000
+STAT task=pir_latency n=0 min_us=0 avg_us=0 max_us=0
+tick [3248018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3249018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3250018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3251016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3252016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3253018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3254018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3255018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3256016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3257016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3258016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3259018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3260018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3261018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3262018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3263018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3264018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3265018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3266018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3267018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3268018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3269016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3270016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3271018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3272018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3273018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3274018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3275018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3276018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3277018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3278018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3279018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3280018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3281016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3282018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3283018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3284016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3285018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3286016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3287018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3288018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3289018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3290018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3291018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3292016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3293018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3294018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3295018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3296018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3297018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3298018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3299018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3300018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3301018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3302016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3303018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3304016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3305018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3306018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=3306525000 sleep_hi=0 sleep_lo=0 stack_watermark=828 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=49 intact=0 damaged=128 next=128
+STAT task=command n=3248097 min_us=0 avg_us=0 max_us=9000 jitter_min_us=0 jitter_max_us=18000 skipped=58412 deadline_miss=37
+STAT task=sample n=33066 min_us=0 avg_us=1991 max_us=16000 jitter_min_us=-10000 jitter_max_us=7000 skipped=0 deadline_miss=0
+STAT task=status n=3306 min_us=5000 avg_us=5141 max_us=9000 jitter_min_us=-2000 jitter_max_us=2000 skipped=0 deadline_miss=0
+STAT task=led n=6613 min_us=0 avg_us=183 max_us=1000 jitter_min_us=-8000 jitter_max_us=11000 skipped=0 deadline_miss=0
+STAT task=save n=49 min_us=0 avg_us=20 max_us=1000
+STAT task=export n=210 min_us=0 avg_us=2571 max_us=7000
+STAT task=loop n=42441255 min_us=0 avg_us=77 max_us=19000
+STAT task=command_latency n=40 min_us=3000 avg_us=5050 max_us=17000
+STAT task=pir_latency n=0 min_us=0 avg_us=0 max_us=0
+tick [3307018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3308018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3309018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3310018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3311018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3312018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3313018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3314018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3315016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3316018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3317018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3318016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3319018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3320018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3321018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3322018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3323018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3324018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3325018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3326016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3327018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3328018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3329018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3330018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3331018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3332018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3333018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3334018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3335018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3336018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3337018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3338018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3339018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3340018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3341018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3342018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3343018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3344018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3345018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3346018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3347016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3348018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3349018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3350018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3351018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3352018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3353018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3354018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3355018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3356018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3357018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3358018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3359018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3360018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3361018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3362018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3363016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3364018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3365018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3366018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=3366522000 sleep_hi=0 sleep_lo=0 stack_watermark=828 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=49 intact=0 damaged=128 next=128
+STAT task=command n=3307006 min_us=0 avg_us=0 max_us=9000 jitter_min_us=0 jitter_max_us=18000 skipped=59500 deadline_miss=38
+STAT task=sample n=33666 min_us=0 avg_us=1991 max_us=16000 jitter_min_us=-10000 jitter_max_us=7000 skipped=0 deadline_miss=0
+STAT task=status n=3366 min_us=5000 avg_us=5144 max_us=9000 jitter_min_us=-2000 jitter_max_us=2000 skipped=0 deadline_miss=0
+STAT task=led n=6733 min_us=0 avg_us=181 max_us=1000 jitter_min_us=-8000 jitter_max_us=11000 skipped=0 deadline_miss=0
+STAT task=save n=49 min_us=0 avg_us=20 max_us=1000
+STAT task=export n=219 min_us=0 avg_us=2666 max_us=7000
+STAT task=loop n=43205472 min_us=0 avg_us=77 max_us=19000
+STAT task=command_latency n=41 min_us=3000 avg_us=5146 max_us=17000
+STAT task=pir_latency n=0 min_us=0 avg_us=0 max_us=0
+tick [3367016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3368018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3369016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3370018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3371016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3372018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3373016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3374018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3375018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3376018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3377018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3378018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3379018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3380018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3381018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3382018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3383018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3384018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3385018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3386018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3387018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3388018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3389018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3390018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3391018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3392018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3393016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=3394012000 sleep_hi=0 sleep_lo=0 stack_watermark=828 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=49 intact=0 damaged=128 next=128
+tick [3394024 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+STAT task=command n=3333957 min_us=0 avg_us=0 max_us=9000 jitter_min_us=0 jitter_max_us=18000 skipped=60039 deadline_miss=39
+STAT task=sample n=33940 min_us=0 avg_us=1991 max_us=16000 jitter_min_us=-10000 jitter_max_us=7000 skipped=0 deadline_miss=0
+STAT task=status n=3393 min_us=5000 avg_us=5143 max_us=9000 jitter_min_us=-2000 jitter_max_us=2000 skipped=0 deadline_miss=0
+STAT task=led n=6787 min_us=0 avg_us=180 max_us=1000 jitter_min_us=-8000 jitter_max_us=11000 skipped=0 deadline_miss=0
+STAT task=save n=49 min_us=0 avg_us=20 max_us=1000
+STAT task=export n=228 min_us=0 avg_us=2754 max_us=7000
+STAT task=loop n=43554468 min_us=0 avg_us=77 max_us=19000
+STAT task=command_latency n=42 min_us=3000 avg_us=5238 max_us=17000
+STAT task=pir_latency n=0 min_us=0 avg_us=0 max_us=0
+tick [3395018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3396018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3397018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3398018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3399018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3400018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3401018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3402018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3403018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3404018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3405018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3406018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3407018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3408018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3409016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3410018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3411018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3412016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3413018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3414016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3415018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3416018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3417018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3418018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3419018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3420018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3421018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3422018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3423018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3424018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3425018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3426018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3427018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3428018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=3428262000 sleep_hi=0 sleep_lo=0 stack_watermark=828 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=49 intact=0 damaged=128 next=128
+STAT task=command n=3367541 min_us=0 avg_us=0 max_us=9000 jitter_min_us=0 jitter_max_us=27000 skipped=60705 deadline_miss=40
+STAT task=sample n=34283 min_us=0 avg_us=1991 max_us=16000 jitter_min_us=-10000 jitter_max_us=7000 skipped=0 deadline_miss=0
+STAT task=status n=3428 min_us=5000 avg_us=5144 max_us=9000 jitter_min_us=-6000 jitter_max_us=8000 skipped=0 deadline_miss=0
+STAT task=led n=6856 min_us=0 avg_us=179 max_us=1000 jitter_min_us=-14000 jitter_max_us=14000 skipped=0 deadline_miss=0
+STAT task=save n=49 min_us=0 avg_us=20 max_us=1000
+STAT task=export n=237 min_us=0 avg_us=2839 max_us=7000
+STAT task=loop n=43989965 min_us=0 avg_us=77 max_us=28000
+STAT task=command_latency n=43 min_us=3000 avg_us=5325 max_us=17000
+STAT task=pir_latency n=0 min_us=0 avg_us=0 max_us=0
+tick [3429018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3430016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3431016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3432018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3433018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3434018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3435018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3436018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3437018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3438018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3439018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3440018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3441018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3442016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3443018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3444018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3445016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3446018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3447018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3448018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3449016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3450016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3451016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3452018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3453018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3454018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3455018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3456018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3457018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3458018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3459018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3460018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3461018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3462018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3463018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3464018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3465018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3466016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3467018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3468018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3469018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3470018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3471018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3472018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3473018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3474018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3475016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3476018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3477018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3478018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3479018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3480018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3481018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3482016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3483018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3484016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3485018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=3485794000 sleep_hi=0 sleep_lo=0 stack_watermark=828 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=49 intact=0 damaged=128 next=128
+STAT task=command n=3424020 min_us=0 avg_us=0 max_us=9000 jitter_min_us=0 jitter_max_us=27000 skipped=61758 deadline_miss=41
+STAT task=sample n=34858 min_us=0 avg_us=1991 max_us=16000 jitter_min_us=-10000 jitter_max_us=7000 skipped=0 deadline_miss=0
+STAT task=status n=3485 min_us=5000 avg_us=5143 max_us=9000 jitter_min_us=-6000 jitter_max_us=8000 skipped=0 deadline_miss=0
+STAT task=led n=6971 min_us=0 avg_us=177 max_us=1000 jitter_min_us=-14000 jitter_max_us=14000 skipped=0 deadline_miss=0
+STAT task=save n=49 min_us=0 avg_us=20 max_us=1000
+STAT task=export n=246 min_us=0 avg_us=2918 max_us=7000
+STAT task=loop n=44723124 min_us=0 avg_us=77 max_us=28000
+STAT task=command_latency n=44 min_us=3000 avg_us=5409 max_us=17000
+STAT task=pir_latency n=0 min_us=0 avg_us=0 max_us=0
+tick [3486016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3487016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3488018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3489018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3490016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3491018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3492018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3493018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3494018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3495016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3496016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3497018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3498018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3499016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3500016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3501016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3502018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3503018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3504016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=3504640000 sleep_hi=0 sleep_lo=0 stack_watermark=828 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=49 intact=0 damaged=128 next=128
+STAT task=command n=3442470 min_us=0 avg_us=0 max_us=9000 jitter_min_us=0 jitter_max_us=27000 skipped=62154 deadline_miss=42
+STAT task=sample n=35047 min_us=0 avg_us=1992 max_us=16000 jitter_min_us=-10000 jitter_max_us=7000 skipped=0 deadline_miss=0
+STAT task=status n=3504 min_us=5000 avg_us=5142 max_us=9000 jitter_min_us=-6000 jitter_max_us=8000 skipped=0 deadline_miss=0
+STAT task=led n=7009 min_us=0 avg_us=177 max_us=1000 jitter_min_us=-14000 jitter_max_us=14000 skipped=0 deadline_miss=0
+STAT task=save n=49 min_us=0 avg_us=20 max_us=1000
+STAT task=export n=255 min_us=0 avg_us=2992 max_us=7000
+STAT task=loop n=44961938 min_us=0 avg_us=77 max_us=28000
+STAT task=command_latency n=45 min_us=3000 avg_us=5511 max_us=17000
+STAT task=pir_latency n=0 min_us=0 avg_us=0 max_us=0
+tick [3505018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3506016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3507016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3508018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3509018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3510018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3511018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3512018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3513018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3514018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3515018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3516018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3517018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3518018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3519018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3520018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3521018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3522018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3523018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3524018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3525018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3526018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3527018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3528018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3529018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3530016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3531018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3532018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3533018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3534018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3535018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3536018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3537018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3538018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3539018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3540018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3541018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3542018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3543018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3544018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3545018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3546018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3547018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3548018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3549018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3550018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3551018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3552018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3553018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3554016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3555018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3556018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3557018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3558016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3559018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3560018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3561018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3562018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=3562024000 sleep_hi=0 sleep_lo=0 stack_watermark=828 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=49 intact=0 damaged=128 next=128
+STAT task=command n=3498790 min_us=0 avg_us=0 max_us=9000 jitter_min_us=0 jitter_max_us=27000 skipped=63218 deadline_miss=43
+STAT task=sample n=35621 min_us=0 avg_us=1992 max_us=16000 jitter_min_us=-10000 jitter_max_us=7000 skipped=0 deadline_miss=0
+STAT task=status n=3562 min_us=5000 avg_us=5142 max_us=9000 jitter_min_us=-6000 jitter_max_us=8000 skipped=0 deadline_miss=0
+STAT task=led n=7124 min_us=0 avg_us=175 max_us=1000 jitter_min_us=-14000 jitter_max_us=14000 skipped=0 deadline_miss=0
+STAT task=save n=49 min_us=0 avg_us=20 max_us=1000
+STAT task=export n=264 min_us=0 avg_us=3060 max_us=7000
+STAT task=loop n=45692083 min_us=0 avg_us=77 max_us=28000
+STAT task=command_latency n=46 min_us=3000 avg_us=5586 max_us=17000
+STAT task=pir_latency n=0 min_us=0 avg_us=0 max_us=0
+tick [3563018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3564016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3565018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3566016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3567018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3568018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3569016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3570016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3571018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3572018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3573018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3574018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3575018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3576018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3577018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3578018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3579018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3580018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=3580971000 sleep_hi=0 sleep_lo=0 stack_watermark=828 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=49 intact=0 damaged=128 next=128
+STAT task=command n=3517361 min_us=0 avg_us=0 max_us=14000 jitter_min_us=0 jitter_max_us=27000 skipped=63594 deadline_miss=44
+STAT task=sample n=35810 min_us=0 avg_us=1992 max_us=16000 jitter_min_us=-10000 jitter_max_us=7000 skipped=0 deadline_miss=0
+STAT task=status n=3580 min_us=5000 avg_us=5142 max_us=9000 jitter_min_us=-6000 jitter_max_us=8000 skipped=0 deadline_miss=0
+STAT task=led n=7161 min_us=0 avg_us=174 max_us=1000 jitter_min_us=-14000 jitter_max_us=14000 skipped=0 deadline_miss=0
+STAT task=save n=49 min_us=0 avg_us=20 max_us=1000
+STAT task=export n=273 min_us=0 avg_us=3124 max_us=7000
+tick [3581019 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+STAT task=loop n=45932117 min_us=0 avg_us=77 max_us=28000
+STAT task=command_latency n=47 min_us=3000 avg_us=5851 max_us=18000
+STAT task=pir_latency n=0 min_us=0 avg_us=0 max_us=0
+tick [3582018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3583018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3584018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3585016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3586018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3587018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3588018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3589018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3590018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3591016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3592016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3593018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3594018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3595018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3596018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3597018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3598016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3599018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3600018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3601018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3602018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3603018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3604018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3605018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3606018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3607018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3608018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3609018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3610018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3611018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3612018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3613018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3614018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3615018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3616018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3617018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3618018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3619018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3620018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=3620218000 sleep_hi=0 sleep_lo=0 stack_watermark=828 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=49 intact=0 damaged=128 next=128
+STAT task=command n=3555850 min_us=0 avg_us=0 max_us=14000 jitter_min_us=0 jitter_max_us=27000 skipped=64352 deadline_miss=45
+STAT task=sample n=36203 min_us=0 avg_us=1992 max_us=16000 jitter_min_us=-10000 jitter_max_us=7000 skipped=0 deadline_miss=0
+STAT task=status n=3620 min_us=5000 avg_us=5143 max_us=9000 jitter_min_us=-6000 jitter_max_us=8000 skipped=0 deadline_miss=0
+STAT task=led n=7240 min_us=0 avg_us=173 max_us=1000 jitter_min_us=-14000 jitter_max_us=14000 skipped=0 deadline_miss=0
+STAT task=save n=49 min_us=0 avg_us=20 max_us=1000
+STAT task=export n=282 min_us=0 avg_us=3184 max_us=7000
+STAT task=loop n=46430322 min_us=0 avg_us=77 max_us=28000
+STAT task=command_latency n=48 min_us=3000 avg_us=5937 max_us=18000
+STAT task=pir_latency n=0 min_us=0 avg_us=0 max_us=0
+tick [3621018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3622018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3623018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3624018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3625018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3626018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3627018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3628018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3629018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3630018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3631018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3632018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3633018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3634018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3635018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3636018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3637018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3638018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3639016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3640018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3641018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3642018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3643018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3644018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3645018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3646018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3647018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3648016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3649018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3650018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3651016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3652018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3653018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3654018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3655016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3656018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3657018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3658018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3659018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=3659629000 sleep_hi=0 sleep_lo=0 stack_watermark=828 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=49 intact=0 damaged=128 next=128
+STAT task=command n=3594518 min_us=0 avg_us=0 max_us=14000 jitter_min_us=0 jitter_max_us=27000 skipped=65096 deadline_miss=46
+STAT task=sample n=36597 min_us=0 avg_us=1992 max_us=16000 jitter_min_us=-10000 jitter_max_us=7000 skipped=0 deadline_miss=0
+STAT task=status n=3659 min_us=5000 avg_us=5144 max_us=9000 jitter_min_us=-6000 jitter_max_us=8000 skipped=0 deadline_miss=0
+STAT task=led n=7319 min_us=0 avg_us=172 max_us=1000 jitter_min_us=-14000 jitter_max_us=14000 skipped=0 deadline_miss=0
+STAT task=save n=49 min_us=0 avg_us=20 max_us=1000
+STAT task=export n=291 min_us=0 avg_us=3237 max_us=7000
+STAT task=loop n=46930330 min_us=0 avg_us=77 max_us=28000
+STAT task=command_latency n=49 min_us=3000 avg_us=6061 max_us=18000
+STAT task=pir_latency n=0 min_us=0 avg_us=0 max_us=0
+[3659716 ms] mpu6050_read_error=2
+seq=50 time_ms=3659716 event=imu_fault mode=transit t_us=3659728000
+tick [3660016 ms] mode=transit imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0
+tick [3661016 ms] mode=transit imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0
+[3661716 ms] selftest addr=0x68 result=0 mpu6050_ready
+tick [3662016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3663018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3664018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3665018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3666018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3667018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3668018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3669018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3670018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3671018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3672018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3673016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3674018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3675018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3676018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3677018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3678018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3679018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3680016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3681018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3682018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3683018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3684018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3685018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3686018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3687018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3688018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3689018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3690018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3691018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3692018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3693018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3694018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3695016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3696018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3697018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3698018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3699018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3700018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3701018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3702018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3703018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3704018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3705018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3706018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=3706950000 sleep_hi=0 sleep_lo=0 stack_watermark=828 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=50 intact=0 damaged=128 next=128
+STAT task=command n=3640972 min_us=0 avg_us=0 max_us=14000 jitter_min_us=0 jitter_max_us=27000 skipped=65962 deadline_miss=47
+STAT task=sample n=37070 min_us=0 avg_us=1992 max_us=16000 jitter_min_us=-10000 jitter_max_us=7000 skipped=0 deadline_miss=0
+STAT task=status n=3706 min_us=5000 avg_us=5144 max_us=9000 jitter_min_us=-6000 jitter_max_us=8000 skipped=0 deadline_miss=0
+STAT task=led n=7413 min_us=0 avg_us=171 max_us=1000 jitter_min_us=-14000 jitter_max_us=14000 skipped=0 deadline_miss=0
+STAT task=save n=50 min_us=0 avg_us=20 max_us=1000
+STAT task=export n=300 min_us=0 avg_us=3286 max_us=7000
+STAT task=loop n=47533127 min_us=0 avg_us=77 max_us=28000
+STAT task=command_latency n=50 min_us=3000 avg_us=6140 max_us=18000
+STAT task=pir_latency n=0 min_us=0 avg_us=0 max_us=0
+tick [3707019 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3708016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3709018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3710018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3711016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3712018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3713016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3714018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3715018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3716018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3717018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3718018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3719018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3720018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3721018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3722018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3723018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3724018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3725016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3726018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3727018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3728016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3729018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3730018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3731018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3732018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3733016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3734018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3735018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3736018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3737016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3738018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3739018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3740018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3741018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3742018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3743016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3744018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3745018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3746018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3747018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3748018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3749018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=3749705000 sleep_hi=0 sleep_lo=0 stack_watermark=828 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=50 intact=0 damaged=128 next=128
+STAT task=command n=3682919 min_us=0 avg_us=0 max_us=14000 jitter_min_us=0 jitter_max_us=27000 skipped=66770 deadline_miss=48
+STAT task=sample n=37497 min_us=0 avg_us=1992 max_us=16000 jitter_min_us=-10000 jitter_max_us=7000 skipped=0 deadline_miss=0
+STAT task=status n=3749 min_us=5000 avg_us=5144 max_us=9000 jitter_min_us=-6000 jitter_max_us=8000 skipped=0 deadline_miss=0
+STAT task=led n=7499 min_us=0 avg_us=170 max_us=1000 jitter_min_us=-14000 jitter_max_us=14000 skipped=0 deadline_miss=0
+STAT task=save n=50 min_us=0 avg_us=20 max_us=1000
+STAT task=export n=309 min_us=0 avg_us=3336 max_us=7000
+STAT task=loop n=48077324 min_us=0 avg_us=77 max_us=28000
+STAT task=command_latency n=51 min_us=3000 avg_us=6215 max_us=18000
+STAT task=pir_latency n=0 min_us=0 avg_us=0 max_us=0
+tick [3750018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3751018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3752016 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3753018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3754018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3755018 ms] mode=transit imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0

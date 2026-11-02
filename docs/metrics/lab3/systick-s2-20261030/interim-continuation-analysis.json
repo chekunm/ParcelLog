@@ -1,0 +1,433 @@
+{
+  "kind": "MCU/Wokwi UART measurement; environment must be set in origin manifest",
+  "source_log": "docs/metrics/lab3/systick-s2-20261030/uart-continuation.log",
+  "sha256": "55df304d18ad963315f944aadf0661945fc5cea194fafece82c6f5633981fd81",
+  "builds": [
+    [
+      "b5284ef82242+lab3-worktree",
+      "3baa36f7992671ba"
+    ]
+  ],
+  "stats": [
+    {
+      "task": "command",
+      "n": 3134496,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 9000,
+      "jitter_min_us": 0,
+      "jitter_max_us": 18000,
+      "skipped": 56273,
+      "deadline_miss": 35
+    },
+    {
+      "task": "sample",
+      "n": 31908,
+      "min_us": 0,
+      "avg_us": 1990,
+      "max_us": 16000,
+      "jitter_min_us": -10000,
+      "jitter_max_us": 7000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "status",
+      "n": 3190,
+      "min_us": 5000,
+      "avg_us": 5139,
+      "max_us": 9000,
+      "jitter_min_us": -2000,
+      "jitter_max_us": 2000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "led",
+      "n": 6381,
+      "min_us": 0,
+      "avg_us": 186,
+      "max_us": 1000,
+      "jitter_min_us": -8000,
+      "jitter_max_us": 11000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "save",
+      "n": 49,
+      "min_us": 0,
+      "avg_us": 20,
+      "max_us": 1000
+    },
+    {
+      "task": "export",
+      "n": 192,
+      "min_us": 0,
+      "avg_us": 2354,
+      "max_us": 7000
+    },
+    {
+      "task": "loop",
+      "n": 40965381,
+      "min_us": 0,
+      "avg_us": 77,
+      "max_us": 19000
+    },
+    {
+      "task": "command_latency",
+      "n": 38,
+      "min_us": 3000,
+      "avg_us": 4815,
+      "max_us": 17000
+    },
+    {
+      "task": "pir_latency",
+      "n": 0,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 0
+    },
+    {
+      "task": "command",
+      "n": 3190390,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 9000,
+      "jitter_min_us": 0,
+      "jitter_max_us": 18000,
+      "skipped": 57324,
+      "deadline_miss": 36
+    },
+    {
+      "task": "sample",
+      "n": 32478,
+      "min_us": 0,
+      "avg_us": 1991,
+      "max_us": 16000,
+      "jitter_min_us": -10000,
+      "jitter_max_us": 7000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "status",
+      "n": 3247,
+      "min_us": 5000,
+      "avg_us": 5141,
+      "max_us": 9000,
+      "jitter_min_us": -2000,
+      "jitter_max_us": 2000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "led",
+      "n": 6495,
+      "min_us": 0,
+      "avg_us": 184,
+      "max_us": 1000,
+      "jitter_min_us": -8000,
+      "jitter_max_us": 11000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "save",
+      "n": 49,
+      "min_us": 0,
+      "avg_us": 20,
+      "max_us": 1000
+    },
+    {
+      "task": "export",
+      "n": 201,
+      "min_us": 0,
+      "avg_us": 2472,
+      "max_us": 7000
+    },
+    {
+      "task": "loop",
+      "n": 41691701,
+      "min_us": 0,
+      "avg_us": 77,
+      "max_us": 19000
+    },
+    {
+      "task": "command_latency",
+      "n": 39,
+      "min_us": 3000,
+      "avg_us": 4948,
+      "max_us": 17000
+    },
+    {
+      "task": "pir_latency",
+      "n": 0,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 0
+    },
+    {
+      "task": "command",
+      "n": 3248097,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 9000,
+      "jitter_min_us": 0,
+      "jitter_max_us": 18000,
+      "skipped": 58412,
+      "deadline_miss": 37
+    },
+    {
+      "task": "sample",
+      "n": 33066,
+      "min_us": 0,
+      "avg_us": 1991,
+      "max_us": 16000,
+      "jitter_min_us": -10000,
+      "jitter_max_us": 7000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "status",
+      "n": 3306,
+      "min_us": 5000,
+      "avg_us": 5141,
+      "max_us": 9000,
+      "jitter_min_us": -2000,
+      "jitter_max_us": 2000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "led",
+      "n": 6613,
+      "min_us": 0,
+      "avg_us": 183,
+      "max_us": 1000,
+      "jitter_min_us": -8000,
+      "jitter_max_us": 11000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "save",
+      "n": 49,
+      "min_us": 0,
+      "avg_us": 20,
+      "max_us": 1000
+    },
+    {
+      "task": "export",
+      "n": 210,
+      "min_us": 0,
+      "avg_us": 2571,
+      "max_us": 7000
+    },
+    {
+      "task": "loop",
+      "n": 42441255,
+      "min_us": 0,
+      "avg_us": 77,
+      "max_us": 19000
+    },
+    {
+      "task": "command_latency",
+      "n": 40,
+      "min_us": 3000,
+      "avg_us": 5050,
+      "max_us": 17000
+    },
+    {
+      "task": "pir_latency",
+      "n": 0,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 0
+    },
+    {
+      "task": "command",
+      "n": 3307006,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 9000,
+      "jitter_min_us": 0,
+      "jitter_max_us": 18000,
+      "skipped": 59500,
+      "deadline_miss": 38
+    },
+    {
+      "task": "sample",
+      "n": 33666,
+      "min_us": 0,
+      "avg_us": 1991,
+      "max_us": 16000,
+      "jitter_min_us": -10000,
+      "jitter_max_us": 7000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "status",
+      "n": 3366,
+      "min_us": 5000,
+      "avg_us": 5144,
+      "max_us": 9000,
+      "jitter_min_us": -2000,
+      "jitter_max_us": 2000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "led",
+      "n": 6733,
+      "min_us": 0,
+      "avg_us": 181,
+      "max_us": 1000,
+      "jitter_min_us": -8000,
+      "jitter_max_us": 11000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "save",
+      "n": 49,
+      "min_us": 0,
+      "avg_us": 20,
+      "max_us": 1000
+    },
+    {
+      "task": "export",
+      "n": 219,
+      "min_us": 0,
+      "avg_us": 2666,
+      "max_us": 7000
+    },
+    {
+      "task": "loop",
+      "n": 43205472,
+      "min_us": 0,
+      "avg_us": 77,
+      "max_us": 19000
+    },
+    {
+      "task": "command_latency",
+      "n": 41,
+      "min_us": 3000,
+      "avg_us": 5146,
+      "max_us": 17000
+    },
+    {
+      "task": "pir_latency",
+      "n": 0,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 0
+    }
+  ],
+  "resources": [
+    {
+      "clock": "SysTick_1ms",
+      "elapsed_hi": 0,
+      "elapsed_lo": 3190785000,
+      "sleep_hi": 0,
+      "sleep_lo": 0,
+      "stack_watermark": 828,
+      "stack_reserve": 2048,
+      "heap_arena": 1032,
+      "heap_used": 1032,
+      "heap_free": 0,
+      "rx_overflows": 0,
+      "queue_dropped": 0,
+      "save_failed": 49,
+      "intact": 0,
+      "damaged": 128,
+      "next": 128,
+      "elapsed_us": 3190785000,
+      "sleep_us": 0,
+      "active_cpu_estimate_pct": null,
+      "cpu_limit": "SysTick quantization and WFI state do not support a CPU estimate from this record"
+    },
+    {
+      "clock": "SysTick_1ms",
+      "elapsed_hi": 0,
+      "elapsed_lo": 3247729000,
+      "sleep_hi": 0,
+      "sleep_lo": 0,
+      "stack_watermark": 828,
+      "stack_reserve": 2048,
+      "heap_arena": 1032,
+      "heap_used": 1032,
+      "heap_free": 0,
+      "rx_overflows": 0,
+      "queue_dropped": 0,
+      "save_failed": 49,
+      "intact": 0,
+      "damaged": 128,
+      "next": 128,
+      "elapsed_us": 3247729000,
+      "sleep_us": 0,
+      "active_cpu_estimate_pct": null,
+      "cpu_limit": "SysTick quantization and WFI state do not support a CPU estimate from this record"
+    },
+    {
+      "clock": "SysTick_1ms",
+      "elapsed_hi": 0,
+      "elapsed_lo": 3306525000,
+      "sleep_hi": 0,
+      "sleep_lo": 0,
+      "stack_watermark": 828,
+      "stack_reserve": 2048,
+      "heap_arena": 1032,
+      "heap_used": 1032,
+      "heap_free": 0,
+      "rx_overflows": 0,
+      "queue_dropped": 0,
+      "save_failed": 49,
+      "intact": 0,
+      "damaged": 128,
+      "next": 128,
+      "elapsed_us": 3306525000,
+      "sleep_us": 0,
+      "active_cpu_estimate_pct": null,
+      "cpu_limit": "SysTick quantization and WFI state do not support a CPU estimate from this record"
+    },
+    {
+      "clock": "SysTick_1ms",
+      "elapsed_hi": 0,
+      "elapsed_lo": 3366522000,
+      "sleep_hi": 0,
+      "sleep_lo": 0,
+      "stack_watermark": 828,
+      "stack_reserve": 2048,
+      "heap_arena": 1032,
+      "heap_used": 1032,
+      "heap_free": 0,
+      "rx_overflows": 0,
+      "queue_dropped": 0,
+      "save_failed": 49,
+      "intact": 0,
+      "damaged": 128,
+      "next": 128,
+      "elapsed_us": 3366522000,
+      "sleep_us": 0,
+      "active_cpu_estimate_pct": null,
+      "cpu_limit": "SysTick quantization and WFI state do not support a CPU estimate from this record"
+    }
+  ],
+  "limits": "Check clock per METRICS: SysTick_1ms has 1 ms resolution; a zero interval is not WCET. TIM3_1MHz is nominal 1 us and must be validated. Aggregate maxima are not a hard WCET proof; CPU estimates exclude part of exception overhead; command latency ends before wire TX; PIR starts at ISR, not physical edge",
+  "identity_log": {
+    "path": "docs/metrics/lab3/systick-s2-20261030/uart.log",
+    "sha256": "9663bcd4361a2ca075cee80fdca00dada18c72be5970661b976643484a2e890f"
+  },
+  "identity_limit": "Banner comes from a separate capture segment; same uninterrupted run must be verified independently.",
+  "wall_session": "docs/metrics/lab3/systick-s2-20261030/uart.session.json",
+  "scenario": "S2",
+  "acceptance_checks": {
+    "periodic_count": false,
+    "mcu_elapsed_1h": false,
+    "wall_elapsed_1h": true
+  },
+  "acceptance_limit": "UART checks alone do not validate the physical GPIO latency, during-flash coincidence, power cut or two-method comparison."
+}

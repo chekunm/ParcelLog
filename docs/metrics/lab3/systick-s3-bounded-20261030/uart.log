@@ -1,0 +1,911 @@
+BUILD git=b5284ef82242+lab3-worktree source=3baa36f7992671ba clock_hz=48000000 timer=SysTick_1ms format=1
+seq=1 time_ms=16 event=boot mode=transit t_us=19000
+ParcelLog ready; GPIO PB0 selects transit/storage; commands: status selftest imuaddr 0x68/0x69 mark log stats erase CONFIRM
+seq=2 time_ms=26 event=mode_changed mode=storage t_us=27000
+[26 ms] selftest addr=0x68 result=0 mpu6050_ready
+seq=3 time_ms=26 event=light_ready mode=storage t_us=39000
+seq=4 time_ms=616 event=nearby_motion mode=storage t_us=618000
+tick [1018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+seq=5 time_ms=1616 event=nearby_motion mode=storage t_us=1618000
+tick [2018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+seq=6 time_ms=2716 event=nearby_motion mode=storage t_us=2718000
+tick [3018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+seq=7 time_ms=3816 event=nearby_motion mode=storage t_us=3818000
+tick [4018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+seq=8 time_ms=4816 event=nearby_motion mode=storage t_us=4818000
+erase_ok=0 t_us=15000
+tick [5018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=9 time_ms=5916 event=nearby_motion mode=storage t_us=5918000
+erase_ok=0 t_us=14000
+tick [6016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=10 time_ms=7016 event=nearby_motion mode=storage t_us=7018000
+tick [7021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+seq=11 time_ms=8016 event=nearby_motion mode=storage t_us=8018000
+tick [8021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+tick [9018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=12 time_ms=9116 event=nearby_motion mode=storage t_us=9118000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+tick [10018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=23000
+seq=13 time_ms=10216 event=nearby_motion mode=storage t_us=10218000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+tick [11018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=14 time_ms=11229 event=nearby_motion mode=storage t_us=11232000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+tick [12018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=15 time_ms=12316 event=nearby_motion mode=storage t_us=12318000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+tick [13018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=16 time_ms=13416 event=nearby_motion mode=storage t_us=13418000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+tick [14018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=23000
+erase_ok=0 t_us=15000
+seq=17 time_ms=14416 event=nearby_motion mode=storage t_us=14418000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+tick [15018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=18 time_ms=15516 event=nearby_motion mode=storage t_us=15518000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+tick [16016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+seq=19 time_ms=16616 event=nearby_motion mode=storage t_us=16618000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [17018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+seq=20 time_ms=17616 event=nearby_motion mode=storage t_us=17618000
+erase_ok=0 t_us=14000
+tick [18018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=19000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+seq=21 time_ms=18716 event=nearby_motion mode=storage t_us=18718000
+erase_ok=0 t_us=14000
+tick [19018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+seq=22 time_ms=19816 event=nearby_motion mode=storage t_us=19818000
+erase_ok=0 t_us=15000
+tick [20018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+seq=23 time_ms=20816 event=nearby_motion mode=storage t_us=20818000
+erase_ok=0 t_us=15000
+tick [21016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+[21021 ms] mpu6050_read_error=2
+seq=24 time_ms=21021 event=imu_fault mode=storage t_us=21034000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=25 time_ms=21916 event=nearby_motion mode=storage t_us=21916000
+tick [22016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=26 time_ms=23016 event=nearby_motion mode=storage t_us=23016000
+tick [23019 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=1 tx_overflow=0
+[23116 ms] selftest addr=0x68 result=0 mpu6050_ready
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+tick [24016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=27 time_ms=24021 event=nearby_motion mode=storage t_us=24024000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+tick [25018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=28 time_ms=25116 event=nearby_motion mode=storage t_us=25118000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+tick [26018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=29 time_ms=26216 event=nearby_motion mode=storage t_us=26218000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [27018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=30 time_ms=27231 event=nearby_motion mode=storage t_us=27234000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [28018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=31 time_ms=28316 event=nearby_motion mode=storage t_us=28318000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+tick [29018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=32 time_ms=29416 event=nearby_motion mode=storage t_us=29418000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+tick [30018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=33 time_ms=30416 event=nearby_motion mode=storage t_us=30418000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+tick [31018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+seq=34 time_ms=31516 event=nearby_motion mode=storage t_us=31518000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+tick [32018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+seq=35 time_ms=32616 event=nearby_motion mode=storage t_us=32618000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+tick [33016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+seq=36 time_ms=33616 event=nearby_motion mode=storage t_us=33618000
+erase_ok=0 t_us=15000
+tick [34016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+seq=37 time_ms=34716 event=nearby_motion mode=storage t_us=34718000
+erase_ok=0 t_us=15000
+tick [35018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+seq=38 time_ms=35816 event=nearby_motion mode=storage t_us=35818000
+erase_ok=0 t_us=14000
+tick [36018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=39 time_ms=36916 event=nearby_motion mode=storage t_us=36918000
+erase_ok=0 t_us=14000
+tick [37018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+seq=40 time_ms=37923 event=nearby_motion mode=storage t_us=37925000
+tick [38018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+tick [39016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=41 time_ms=39021 event=nearby_motion mode=storage t_us=39024000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [40018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=42 time_ms=40116 event=nearby_motion mode=storage t_us=40118000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+tick [41016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=21000
+seq=43 time_ms=41116 event=nearby_motion mode=storage t_us=41118000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [42018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=44 time_ms=42216 event=nearby_motion mode=storage t_us=42218000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+tick [43018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=45 time_ms=43316 event=nearby_motion mode=storage t_us=43318000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+tick [44018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=46 time_ms=44316 event=nearby_motion mode=storage t_us=44318000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+tick [45018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=23000
+erase_ok=0 t_us=14000
+seq=47 time_ms=45416 event=nearby_motion mode=storage t_us=45418000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+tick [46018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=48 time_ms=46516 event=nearby_motion mode=storage t_us=46518000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+tick [47018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=49 time_ms=47516 event=nearby_motion mode=storage t_us=47518000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+tick [48018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+seq=50 time_ms=48631 event=nearby_motion mode=storage t_us=48634000
+erase_ok=0 t_us=14000
+tick [49018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=23000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+[49623 ms] mpu6050_read_error=2
+seq=51 time_ms=49623 event=imu_fault mode=storage t_us=49634000
+seq=52 time_ms=49716 event=nearby_motion mode=storage t_us=49716000
+erase_ok=0 t_us=15000
+tick [50016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=53 time_ms=50716 event=nearby_motion mode=storage t_us=50716000
+erase_ok=0 t_us=15000
+tick [51016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+[51716 ms] selftest addr=0x68 result=0 mpu6050_ready
+seq=54 time_ms=51816 event=nearby_motion mode=storage t_us=51818000
+erase_ok=0 t_us=14000
+tick [52018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+seq=55 time_ms=52916 event=nearby_motion mode=storage t_us=52918000
+tick [53016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+[53022 ms] mpu6050_read_error=2
+seq=56 time_ms=53022 event=imu_fault mode=storage t_us=53034000
+erase_ok=0 t_us=23000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+seq=57 time_ms=53916 event=nearby_motion mode=storage t_us=53916000
+erase_ok=0 t_us=14000
+tick [54016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+seq=58 time_ms=55016 event=nearby_motion mode=storage t_us=55016000
+tick [55019 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=1 tx_overflow=0
+[55116 ms] selftest addr=0x68 result=0 mpu6050_ready
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+tick [56016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=59 time_ms=56116 event=nearby_motion mode=storage t_us=56118000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+tick [57018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=19000
+seq=60 time_ms=57116 event=nearby_motion mode=storage t_us=57118000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+tick [58019 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=61 time_ms=58216 event=nearby_motion mode=storage t_us=58218000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+tick [59018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=62 time_ms=59332 event=nearby_motion mode=storage t_us=59334000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [60018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=63 time_ms=60316 event=nearby_motion mode=storage t_us=60318000
+erase_ok=0 t_us=18000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [61016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=64 time_ms=61416 event=nearby_motion mode=storage t_us=61418000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [62018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+seq=65 time_ms=62516 event=nearby_motion mode=storage t_us=62518000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [63018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+seq=66 time_ms=63523 event=nearby_motion mode=storage t_us=63526000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+tick [64018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=67 time_ms=64616 event=nearby_motion mode=storage t_us=64618000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [65016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+[65022 ms] mpu6050_read_error=2
+seq=68 time_ms=65022 event=imu_fault mode=storage t_us=65034000
+erase_ok=0 t_us=18000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+seq=69 time_ms=65716 event=nearby_motion mode=storage t_us=65716000
+erase_ok=0 t_us=14000
+tick [66016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=70 time_ms=66716 event=nearby_motion mode=storage t_us=66716000
+erase_ok=0 t_us=14000
+tick [67016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=1 tx_overflow=0
+[67116 ms] selftest addr=0x68 result=0 mpu6050_ready
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+seq=71 time_ms=67816 event=nearby_motion mode=storage t_us=67818000
+erase_ok=0 t_us=15000
+tick [68016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+seq=72 time_ms=68916 event=nearby_motion mode=storage t_us=68918000
+tick [69018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+seq=73 time_ms=69916 event=nearby_motion mode=storage t_us=69918000
+erase_ok=0 t_us=15000
+tick [70016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=74 time_ms=71016 event=nearby_motion mode=storage t_us=71018000
+tick [71021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+tick [72018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=22000
+seq=75 time_ms=72116 event=nearby_motion mode=storage t_us=72118000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+tick [73018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=76 time_ms=73116 event=nearby_motion mode=storage t_us=73119000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+tick [74018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=23000
+seq=77 time_ms=74216 event=nearby_motion mode=storage t_us=74218000
+erase_ok=0 t_us=18000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+tick [75018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=78 time_ms=75316 event=nearby_motion mode=storage t_us=75318000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [76018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=22000
+seq=79 time_ms=76316 event=nearby_motion mode=storage t_us=76318000
+erase_ok=0 t_us=18000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+tick [77018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+seq=80 time_ms=77416 event=nearby_motion mode=storage t_us=77418000
+erase_ok=0 t_us=14000
+tick [78016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+[78022 ms] mpu6050_read_error=2
+seq=81 time_ms=78022 event=imu_fault mode=storage t_us=78034000
+erase_ok=0 t_us=22000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+seq=82 time_ms=78516 event=nearby_motion mode=storage t_us=78516000
+erase_ok=0 t_us=14000
+tick [79016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=21000
+erase_ok=0 t_us=14000
+seq=83 time_ms=79516 event=nearby_motion mode=storage t_us=79516000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [80016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=21000
+[80116 ms] selftest addr=0x68 result=0 mpu6050_ready
+erase_ok=0 t_us=14000
+seq=84 time_ms=80616 event=nearby_motion mode=storage t_us=80618000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [81018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=85 time_ms=81716 event=nearby_motion mode=storage t_us=81718000
+tick [82016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+[82021 ms] mpu6050_read_error=2
+seq=86 time_ms=82021 event=imu_fault mode=storage t_us=82034000
+erase_ok=0 t_us=23000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+seq=87 time_ms=82732 event=nearby_motion mode=storage t_us=82733000
+tick [83016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=21000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=88 time_ms=83832 event=nearby_motion mode=storage t_us=83833000
+tick [84016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+[84116 ms] selftest addr=0x68 result=0 mpu6050_ready
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+seq=89 time_ms=84916 event=nearby_motion mode=storage t_us=84918000
+tick [85018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=90 time_ms=85916 event=nearby_motion mode=storage t_us=85918000
+tick [86018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=18000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+seq=91 time_ms=87016 event=nearby_motion mode=storage t_us=87018000
+tick [87021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=24000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [88016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=92 time_ms=88116 event=nearby_motion mode=storage t_us=88118000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+tick [89018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=93 time_ms=89116 event=nearby_motion mode=storage t_us=89118000
+erase_ok=0 t_us=18000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+tick [90018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=94 time_ms=90216 event=nearby_motion mode=storage t_us=90218000
+erase_ok=0 t_us=18000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+tick [91018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=18000
+seq=95 time_ms=91316 event=nearby_motion mode=storage t_us=91318000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+tick [92018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=96 time_ms=92316 event=nearby_motion mode=storage t_us=92318000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+tick [93018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=97 time_ms=93416 event=nearby_motion mode=storage t_us=93419000
+erase_ok=0 t_us=15000
+tick [94018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+seq=98 time_ms=94516 event=nearby_motion mode=storage t_us=94518000
+erase_ok=0 t_us=14000
+tick [95018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=19000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=99 time_ms=95616 event=nearby_motion mode=storage t_us=95618000
+erase_ok=0 t_us=15000
+tick [96018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+seq=100 time_ms=96616 event=nearby_motion mode=storage t_us=96618000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [97018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+seq=101 time_ms=97716 event=nearby_motion mode=storage t_us=97718000
+erase_ok=0 t_us=18000
+tick [98018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=102 time_ms=98816 event=nearby_motion mode=storage t_us=98818000
+tick [99018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=103 time_ms=99816 event=nearby_motion mode=storage t_us=99819000
+tick [100018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+seq=104 time_ms=100932 event=nearby_motion mode=storage t_us=100935000
+tick [101018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=105 time_ms=102016 event=nearby_motion mode=storage t_us=102018000
+tick [102021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+seq=106 time_ms=103016 event=nearby_motion mode=storage t_us=103018000
+tick [103021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=16000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [104018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=107 time_ms=104116 event=nearby_motion mode=storage t_us=104119000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [105018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=108 time_ms=105216 event=nearby_motion mode=storage t_us=105218000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [106018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+[106116 ms] mpu6050_read_error=2
+seq=109 time_ms=106116 event=imu_fault mode=storage t_us=106127000
+seq=110 time_ms=106216 event=nearby_motion mode=storage t_us=106216000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+tick [107016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=111 time_ms=107316 event=nearby_motion mode=storage t_us=107316000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [108016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+[108116 ms] selftest addr=0x68 result=0 mpu6050_ready
+erase_ok=0 t_us=15000
+seq=112 time_ms=108416 event=nearby_motion mode=storage t_us=108418000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [109018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=113 time_ms=109416 event=nearby_motion mode=storage t_us=109418000
+erase_ok=0 t_us=18000
+erase_ok=0 t_us=15000
+tick [110018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+seq=114 time_ms=110516 event=nearby_motion mode=storage t_us=110518000
+erase_ok=0 t_us=17000
+erase_ok=0 t_us=14000
+tick [111016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=115 time_ms=111616 event=nearby_motion mode=storage t_us=111618000
+erase_ok=0 t_us=19000
+erase_ok=0 t_us=14000
+tick [112018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+seq=116 time_ms=112616 event=nearby_motion mode=storage t_us=112618000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [113018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=117 time_ms=113716 event=nearby_motion mode=storage t_us=113718000
+erase_ok=0 t_us=14000
+tick [114018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+seq=118 time_ms=114816 event=nearby_motion mode=storage t_us=114819000
+erase_ok=0 t_us=20000
+tick [115018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+seq=119 time_ms=115816 event=nearby_motion mode=storage t_us=115818000
+erase_ok=0 t_us=14000
+tick [116016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+seq=120 time_ms=116916 event=nearby_motion mode=storage t_us=116918000
+erase_ok=0 t_us=14000
+tick [117018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+seq=121 time_ms=118016 event=nearby_motion mode=storage t_us=118018000
+tick [118021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=122 time_ms=119016 event=nearby_motion mode=storage t_us=119018000
+tick [119021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+[119131 ms] mpu6050_read_error=2
+seq=123 time_ms=119131 event=imu_fault mode=storage t_us=119142000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [120016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0
+seq=124 time_ms=120116 event=nearby_motion mode=storage t_us=120116000
+erase_ok=0 t_us=16000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+tick [121016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+[121216 ms] selftest addr=0x68 result=0 mpu6050_ready
+seq=125 time_ms=121216 event=nearby_motion mode=storage t_us=121225000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [122016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=126 time_ms=122216 event=nearby_motion mode=storage t_us=122218000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+tick [123018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=127 time_ms=123316 event=nearby_motion mode=storage t_us=123318000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+tick [124018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=128 time_ms=124416 event=nearby_motion mode=storage t_us=124418000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+tick [125018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=22000
+erase_ok=0 t_us=14000
+seq=129 time_ms=125416 event=nearby_motion mode=storage t_us=125418000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [126018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+seq=130 time_ms=126516 event=nearby_motion mode=storage t_us=126518000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+tick [127016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+seq=131 time_ms=127616 event=nearby_motion mode=storage t_us=127618000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+tick [128018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+seq=132 time_ms=128616 event=nearby_motion mode=storage t_us=128618000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+tick [129018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+seq=133 time_ms=129716 event=nearby_motion mode=storage t_us=129718000
+erase_ok=0 t_us=15000
+tick [130018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+seq=134 time_ms=130816 event=nearby_motion mode=storage t_us=130818000
+erase_ok=0 t_us=18000
+tick [131018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+seq=135 time_ms=131816 event=nearby_motion mode=storage t_us=131818000
+erase_ok=0 t_us=14000
+tick [132018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+seq=136 time_ms=132916 event=nearby_motion mode=storage t_us=132918000
+tick [133018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=22000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+seq=137 time_ms=134016 event=nearby_motion mode=storage t_us=134018000
+tick [134021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+seq=138 time_ms=135016 event=nearby_motion mode=storage t_us=135018000
+tick [135021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+tick [136018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=139 time_ms=136116 event=nearby_motion mode=storage t_us=136118000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [137016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=22000
+seq=140 time_ms=137216 event=nearby_motion mode=storage t_us=137218000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+tick [138018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=141 time_ms=138216 event=nearby_motion mode=storage t_us=138218000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [139018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=142 time_ms=139316 event=nearby_motion mode=storage t_us=139318000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=15000
+tick [140018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=143 time_ms=140416 event=nearby_motion mode=storage t_us=140418000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [141035 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=144 time_ms=141416 event=nearby_motion mode=storage t_us=141418000
+erase_ok=0 t_us=14000
+erase_ok=0 t_us=14000
+tick [142018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+[142225 ms] mpu6050_read_error=2
+seq=145 time_ms=142225 event=imu_fault mode=storage t_us=142236000
+erase_ok=0 t_us=14000
+seq=146 time_ms=142516 event=nearby_motion mode=storage t_us=142516000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [143016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=15000
+seq=147 time_ms=143616 event=nearby_motion mode=storage t_us=143616000
+erase_ok=0 t_us=15000
+erase_ok=0 t_us=14000
+tick [144016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+[144316 ms] selftest addr=0x68 result=0 mpu6050_ready
+seq=148 time_ms=144616 event=nearby_motion mode=storage t_us=144618000
+tick [145018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+seq=149 time_ms=145716 event=nearby_motion mode=storage t_us=145718000
+tick [146016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+seq=150 time_ms=146816 event=nearby_motion mode=storage t_us=146818000
+tick [147018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+seq=151 time_ms=147816 event=nearby_motion mode=storage t_us=147818000
+tick [148018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+seq=152 time_ms=148916 event=nearby_motion mode=storage t_us=148918000
+tick [149018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+[149476 ms] selftest addr=0x69 result=1 mpu6050_unavailable
+seq=153 time_ms=150016 event=nearby_motion mode=storage t_us=150016000
+tick [150019 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=1 tx_overflow=0
+seq=154 time_ms=151016 event=nearby_motion mode=storage t_us=151016000
+tick [151019 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=1 tx_overflow=0
+[151516 ms] selftest addr=0x69 result=1 mpu6050_unavailable
+tick [152016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0
+seq=155 time_ms=152116 event=nearby_motion mode=storage t_us=152116000
+tick [153016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0
+seq=156 time_ms=153216 event=nearby_motion mode=storage t_us=153216000
+[153516 ms] selftest addr=0x69 result=1 mpu6050_unavailable
+tick [154016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0
+seq=157 time_ms=154216 event=nearby_motion mode=storage t_us=154216000
+tick [154501 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=1 tx_overflow=0
+tick [155016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0
+seq=158 time_ms=155316 event=nearby_motion mode=storage t_us=155316000
+[155516 ms] selftest addr=0x69 result=1 mpu6050_unavailable
+tick [156016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0
+seq=159 time_ms=156416 event=nearby_motion mode=storage t_us=156416000
+tick [157016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0
+[157468 ms] selftest addr=0x68 result=0 mpu6050_ready
+seq=160 time_ms=157516 event=nearby_motion mode=storage t_us=157518000
+tick [158018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=161 time_ms=158516 event=nearby_motion mode=storage t_us=158518000
+tick [159018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+seq=162 time_ms=159616 event=nearby_motion mode=storage t_us=159618000
+tick [160018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+seq=163 time_ms=160716 event=nearby_motion mode=storage t_us=160718000
+tick [161018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+seq=164 time_ms=161716 event=nearby_motion mode=storage t_us=161718000
+tick [162018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+seq=165 time_ms=162816 event=nearby_motion mode=storage t_us=162818000
+tick [163018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+seq=166 time_ms=163916 event=nearby_motion mode=storage t_us=163918000
+tick [164016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+tick [164459 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=167 time_ms=164916 event=nearby_motion mode=storage t_us=164918000
+tick [165016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+tick [166016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=168 time_ms=166022 event=nearby_motion mode=storage t_us=166024000
+tick [167018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=169 time_ms=167116 event=nearby_motion mode=storage t_us=167118000
+METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=167459000 sleep_hi=0 sleep_lo=0 stack_watermark=836 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=169 intact=0 damaged=128 next=128
+STAT task=command n=156036 min_us=0 avg_us=55 max_us=26000 jitter_min_us=0 jitter_max_us=30000 skipped=11407 deadline_miss=527
+STAT task=sample n=1675 min_us=0 avg_us=2130 max_us=17000 jitter_min_us=-30000 jitter_max_us=30000 skipped=0 deadline_miss=0
+STAT task=status n=167 min_us=5000 avg_us=5293 max_us=9000 jitter_min_us=-17000 jitter_max_us=17000 skipped=0 deadline_miss=0
+STAT task=led n=334 min_us=0 avg_us=215 max_us=2000 jitter_min_us=-22000 jitter_max_us=22000 skipped=0 deadline_miss=0
+STAT task=save n=693 min_us=0 avg_us=11271 max_us=24000
+STAT task=export n=0 min_us=0 avg_us=0 max_us=0
+STAT task=loop n=2045860 min_us=0 avg_us=81 max_us=32000
+STAT task=command_latency n=528 min_us=2000 avg_us=16200 max_us=38000
+STAT task=pir_latency n=157 min_us=1000 avg_us=52458 max_us=105000
+tick [168016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=170 time_ms=168116 event=nearby_motion mode=storage t_us=168118000
+tick [169018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=171 time_ms=169216 event=nearby_motion mode=storage t_us=169218000
+tick [170016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=172 time_ms=170316 event=nearby_motion mode=storage t_us=170318000
+tick [171018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=173 time_ms=171316 event=nearby_motion mode=storage t_us=171318000
+tick [172018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=174 time_ms=172416 event=nearby_motion mode=storage t_us=172418000
+tick [173018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=175 time_ms=173516 event=nearby_motion mode=storage t_us=173518000
+tick [174016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0

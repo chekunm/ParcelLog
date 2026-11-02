@@ -1,0 +1,78 @@
+docker build -t parcellog-build:lab3 docker
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 443B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:24.04@sha256:24737cef17f4e22b1977df7d9a05e77c4e28b7da5b8911f8d8ccda136bf3573c
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/ubuntu:24.04@sha256:24737cef17f4e22b1977df7d9a05e77c4e28b7da5b8911f8d8ccda136bf3573c
+#4 resolve docker.io/library/ubuntu:24.04@sha256:24737cef17f4e22b1977df7d9a05e77c4e28b7da5b8911f8d8ccda136bf3573c done
+#4 DONE 0.0s
+
+#5 [2/3] RUN apt-get update && apt-get install -y --no-install-recommends     gcc     libc6-dev     python3     make     gcc-arm-none-eabi     binutils-arm-none-eabi     libnewlib-arm-none-eabi     ca-certificates     && rm -rf /var/lib/apt/lists/*
+#5 CACHED
+
+#6 [3/3] WORKDIR /workspace
+#6 CACHED
+
+#7 exporting to image
+#7 exporting layers done
+#7 exporting manifest sha256:a8b66cb139dac4c9a534872792f1137cd547ef5dfdf4c3f72608f000aa3f1dd8 done
+#7 exporting config sha256:cc5e0fa0492af58b80c2af85ee2b3f53d89159d977cc6783b1d19433f962c3bd done
+#7 exporting attestation manifest sha256:357d1254fbf3ac3314142dd01c423f8ae265582517001660beddc025845cfbbb done
+#7 exporting manifest list sha256:5f567fa54a755a27bf598f1c1546d40884d734e0777dc1b24d758bf4084331da done
+#7 naming to docker.io/library/parcellog-build:lab3 done
+#7 unpacking to docker.io/library/parcellog-build:lab3 done
+#7 DONE 0.0s
+docker run --rm -v "/Users/pliffdax/Projects/university/Study/People/Чекун Микола Олексійович/2026-Fall/SP/Lab01/Work/ParcelLog:/workspace" -w /workspace --user "501:20" parcellog-build:lab3 make test sanitize
+python3 tools/check_project.py
+Portable dependency rules passed
+Vendored HAL/CMSIS SHA256 passed
+make -C tests test
+make[1]: Entering directory '/workspace/tests'
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O0 -g -Wall -Wextra -Werror test_mpu.c ../firmware/Devices/mpu6050.c -o "build/Linux-aarch64/test_mpu"
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O0 -g -Wall -Wextra -Werror test_parcel_rules.c ../firmware/App/parcel_rules.c -o "build/Linux-aarch64/test_parcel_rules"
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O0 -g -Wall -Wextra -Werror -DRUNTIME_TEST_PRINTF test_runtime.c ../firmware/Platform/runtime.c ../firmware/App/parcel_rules.c ../firmware/App/shipment_log.c ../firmware/App/run_meter.c ../firmware/Devices/mpu6050.c -o "build/Linux-aarch64/test_runtime"
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O0 -g -Wall -Wextra -Werror test_shipment_log.c ../firmware/App/shipment_log.c -o "build/Linux-aarch64/test_shipment_log"
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O0 -g -Wall -Wextra -Werror test_run_meter.c ../firmware/App/run_meter.c -o "build/Linux-aarch64/test_run_meter"
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O0 -g -Wall -Wextra -Werror -DRUNTIME_TEST_PRINTF test_runtime_scenarios.c ../firmware/Platform/runtime.c ../firmware/App/parcel_rules.c ../firmware/App/shipment_log.c ../firmware/App/run_meter.c ../firmware/Devices/mpu6050.c -o "build/Linux-aarch64/test_runtime_scenarios"
+MPU6050: identity, initialization order, units, signed limits and bus failures passed
+parcel_rules: ok
+runtime: simultaneous events, GPIO mode entry, NACK recovery, ADC retry, parser and tick wrap passed
+shipment_log: 33 byte-cut boundaries, 256 corruptions, restart and capacity preservation passed (host NOR model)
+run_meter: wrap, anchored releases, exact skipped slots and completion deadlines passed
+HOST S1 fake_time_ms=200000 samples=2000 events=2
+HOST S2 fake_time_ms=3600000 samples=36000 inspection=30 nearby=60, NOT wall-clock endurance
+HOST S3 command_burst=40 tx_backpressure=recovered rx_overflow=1 sensor_faults=3 journal_intact=128 program8_calls=512
+HOST TIM3 uint32 wrap: 10 samples across overflow passed
+HOST all scenarios passed; no MCU timing/CPU/stack measurements were made
+make[1]: Leaving directory '/workspace/tests'
+make -C tests sanitize
+make[1]: Entering directory '/workspace/tests'
+make test BUILD=build/Linux-aarch64/sanitize CFLAGS='-std=c11 -O1 -g -Wall -Wextra -Werror -fsanitize=address,undefined -fno-omit-frame-pointer'
+make[2]: Entering directory '/workspace/tests'
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O1 -g -Wall -Wextra -Werror -fsanitize=address,undefined -fno-omit-frame-pointer test_mpu.c ../firmware/Devices/mpu6050.c -o "build/Linux-aarch64/sanitize/test_mpu"
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O1 -g -Wall -Wextra -Werror -fsanitize=address,undefined -fno-omit-frame-pointer test_parcel_rules.c ../firmware/App/parcel_rules.c -o "build/Linux-aarch64/sanitize/test_parcel_rules"
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O1 -g -Wall -Wextra -Werror -fsanitize=address,undefined -fno-omit-frame-pointer -DRUNTIME_TEST_PRINTF test_runtime.c ../firmware/Platform/runtime.c ../firmware/App/parcel_rules.c ../firmware/App/shipment_log.c ../firmware/App/run_meter.c ../firmware/Devices/mpu6050.c -o "build/Linux-aarch64/sanitize/test_runtime"
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O1 -g -Wall -Wextra -Werror -fsanitize=address,undefined -fno-omit-frame-pointer test_shipment_log.c ../firmware/App/shipment_log.c -o "build/Linux-aarch64/sanitize/test_shipment_log"
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O1 -g -Wall -Wextra -Werror -fsanitize=address,undefined -fno-omit-frame-pointer test_run_meter.c ../firmware/App/run_meter.c -o "build/Linux-aarch64/sanitize/test_run_meter"
+cc -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes -std=c11 -O1 -g -Wall -Wextra -Werror -fsanitize=address,undefined -fno-omit-frame-pointer -DRUNTIME_TEST_PRINTF test_runtime_scenarios.c ../firmware/Platform/runtime.c ../firmware/App/parcel_rules.c ../firmware/App/shipment_log.c ../firmware/App/run_meter.c ../firmware/Devices/mpu6050.c -o "build/Linux-aarch64/sanitize/test_runtime_scenarios"
+MPU6050: identity, initialization order, units, signed limits and bus failures passed
+parcel_rules: ok
+runtime: simultaneous events, GPIO mode entry, NACK recovery, ADC retry, parser and tick wrap passed
+shipment_log: 33 byte-cut boundaries, 256 corruptions, restart and capacity preservation passed (host NOR model)
+run_meter: wrap, anchored releases, exact skipped slots and completion deadlines passed
+HOST S1 fake_time_ms=200000 samples=2000 events=2
+HOST S2 fake_time_ms=3600000 samples=36000 inspection=30 nearby=60, NOT wall-clock endurance
+HOST S3 command_burst=40 tx_backpressure=recovered rx_overflow=1 sensor_faults=3 journal_intact=128 program8_calls=512
+HOST TIM3 uint32 wrap: 10 samples across overflow passed
+HOST all scenarios passed; no MCU timing/CPU/stack measurements were made
+make[2]: Leaving directory '/workspace/tests'
+make[1]: Leaving directory '/workspace/tests'

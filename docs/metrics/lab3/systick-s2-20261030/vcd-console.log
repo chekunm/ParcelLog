@@ -1,0 +1,74 @@
+{
+  "source": "docs/metrics/lab3/systick-s2-20261030/capture.vcd",
+  "sha256": "683bcd36335d28eb5177bd9af0dc304cd28b82bb4f9fdc580bd8f0acf02c4f30",
+  "duration_us": 3755372066.35,
+  "kind": "actual recorded simulator edges; not physical hardware",
+  "channels": {
+    "SAMPLE": {
+      "width": {
+        "n": 37555,
+        "min_us": 104.975,
+        "avg_us": 2148.8749593928906,
+        "max_us": 16109.1,
+        "p99_us": 2343.15
+      },
+      "period": {
+        "n": 37554,
+        "min_us": 89386.85,
+        "avg_us": 99997.63793470735,
+        "max_us": 107063.25,
+        "p99_us": 106136.3
+      }
+    },
+    "FLASH": {
+      "width": {
+        "n": 50,
+        "min_us": 7.925,
+        "avg_us": 16.394,
+        "max_us": 96.975,
+        "p99_us": 96.975
+      },
+      "period": {
+        "n": 49,
+        "min_us": 367.125,
+        "avg_us": 74686054.35561225,
+        "max_us": 532682896.05,
+        "p99_us": 532682896.05
+      }
+    },
+    "ADC_MARK": {
+      "width": {
+        "n": 37555,
+        "min_us": 63.65,
+        "avg_us": 67.46763213952869,
+        "max_us": 153.125,
+        "p99_us": 147.275
+      },
+      "period": {
+        "n": 37554,
+        "min_us": 77706.925,
+        "avg_us": 99997.45003328541,
+        "max_us": 120135.65,
+        "p99_us": 106256.95
+      }
+    },
+    "RESPONSE": {
+      "width": {
+        "n": 50,
+        "min_us": 2626.075,
+        "avg_us": 3413.04,
+        "max_us": 4475.275,
+        "p99_us": 4475.275
+      },
+      "period": {
+        "n": 49,
+        "min_us": 16258.6,
+        "avg_us": 74686365.04591836,
+        "max_us": 532682901.175,
+        "p99_us": 532682901.175
+      }
+    }
+  },
+  "pir_candidates": [],
+  "warning": "PIR\u2192next RESPONSE is only a candidate; accept after nearby_motion UART/mode review. ISR latency is excluded from firmware metric and included by LA."
+}

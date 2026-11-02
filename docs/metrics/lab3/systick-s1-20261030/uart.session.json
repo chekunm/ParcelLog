@@ -1,0 +1,22 @@
+{
+  "started_at": "2026-10-30T09:25:43.597953+02:00",
+  "duration_seconds": 454.803003333,
+  "end_reason": "duration_elapsed",
+  "commands": [
+    {
+      "elapsed_wall_s": 305.020333708,
+      "text": "stats"
+    },
+    {
+      "elapsed_wall_s": 365.048106708,
+      "text": "stats"
+    },
+    {
+      "elapsed_wall_s": 425.036368375,
+      "text": "stats"
+    }
+  ],
+  "bytes": 46061,
+  "sha256": "0144b442fa4e8e952b9a119241b0ea39832cc63be8d7d3f0bcfcb45a472b0411",
+  "source": "Actual RFC2217 bytes from ParcelLog Wokwi at localhost:4505; host schedule is not MCU time"
+}

@@ -1,0 +1,42 @@
+{
+  "started_at": "2026-10-30T07:51:02.805262+02:00",
+  "duration_seconds": 75.315419417,
+  "end_reason": "duration_elapsed",
+  "commands": [
+    {
+      "elapsed_wall_s": 0.5429377080000002,
+      "text": "status"
+    },
+    {
+      "elapsed_wall_s": 1.007563417,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 1.5254063749999993,
+      "text": "log"
+    },
+    {
+      "elapsed_wall_s": 2.0092824169999997,
+      "text": "erase CONFIRM"
+    },
+    {
+      "elapsed_wall_s": 3.003847458000001,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 3.502571542,
+      "text": "log"
+    },
+    {
+      "elapsed_wall_s": 4.041103292000001,
+      "text": "stats"
+    },
+    {
+      "elapsed_wall_s": 7.003178,
+      "text": "stats"
+    }
+  ],
+  "bytes": 16912,
+  "sha256": "9be0fcd342b6334656989e182d9e20f11dc5f2563847bcbe3773a8a3e68de80c",
+  "source": "Actual RFC2217 bytes from ParcelLog Wokwi at localhost:4505; host schedule is not MCU time"
+}

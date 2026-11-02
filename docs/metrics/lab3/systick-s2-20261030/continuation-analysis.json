@@ -1,0 +1,1443 @@
+{
+  "kind": "MCU/Wokwi UART measurement; environment must be set in origin manifest",
+  "source_log": "docs/metrics/lab3/systick-s2-20261030/uart-continuation.log",
+  "sha256": "61d0cd6fc3d80aea8a3043cd8a7a97e7e247164b20286892c61afa2cb006f958",
+  "builds": [
+    [
+      "b5284ef82242+lab3-worktree",
+      "3baa36f7992671ba"
+    ]
+  ],
+  "stats": [
+    {
+      "task": "command",
+      "n": 3134496,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 9000,
+      "jitter_min_us": 0,
+      "jitter_max_us": 18000,
+      "skipped": 56273,
+      "deadline_miss": 35
+    },
+    {
+      "task": "sample",
+      "n": 31908,
+      "min_us": 0,
+      "avg_us": 1990,
+      "max_us": 16000,
+      "jitter_min_us": -10000,
+      "jitter_max_us": 7000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "status",
+      "n": 3190,
+      "min_us": 5000,
+      "avg_us": 5139,
+      "max_us": 9000,
+      "jitter_min_us": -2000,
+      "jitter_max_us": 2000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "led",
+      "n": 6381,
+      "min_us": 0,
+      "avg_us": 186,
+      "max_us": 1000,
+      "jitter_min_us": -8000,
+      "jitter_max_us": 11000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "save",
+      "n": 49,
+      "min_us": 0,
+      "avg_us": 20,
+      "max_us": 1000
+    },
+    {
+      "task": "export",
+      "n": 192,
+      "min_us": 0,
+      "avg_us": 2354,
+      "max_us": 7000
+    },
+    {
+      "task": "loop",
+      "n": 40965381,
+      "min_us": 0,
+      "avg_us": 77,
+      "max_us": 19000
+    },
+    {
+      "task": "command_latency",
+      "n": 38,
+      "min_us": 3000,
+      "avg_us": 4815,
+      "max_us": 17000
+    },
+    {
+      "task": "pir_latency",
+      "n": 0,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 0
+    },
+    {
+      "task": "command",
+      "n": 3190390,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 9000,
+      "jitter_min_us": 0,
+      "jitter_max_us": 18000,
+      "skipped": 57324,
+      "deadline_miss": 36
+    },
+    {
+      "task": "sample",
+      "n": 32478,
+      "min_us": 0,
+      "avg_us": 1991,
+      "max_us": 16000,
+      "jitter_min_us": -10000,
+      "jitter_max_us": 7000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "status",
+      "n": 3247,
+      "min_us": 5000,
+      "avg_us": 5141,
+      "max_us": 9000,
+      "jitter_min_us": -2000,
+      "jitter_max_us": 2000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "led",
+      "n": 6495,
+      "min_us": 0,
+      "avg_us": 184,
+      "max_us": 1000,
+      "jitter_min_us": -8000,
+      "jitter_max_us": 11000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "save",
+      "n": 49,
+      "min_us": 0,
+      "avg_us": 20,
+      "max_us": 1000
+    },
+    {
+      "task": "export",
+      "n": 201,
+      "min_us": 0,
+      "avg_us": 2472,
+      "max_us": 7000
+    },
+    {
+      "task": "loop",
+      "n": 41691701,
+      "min_us": 0,
+      "avg_us": 77,
+      "max_us": 19000
+    },
+    {
+      "task": "command_latency",
+      "n": 39,
+      "min_us": 3000,
+      "avg_us": 4948,
+      "max_us": 17000
+    },
+    {
+      "task": "pir_latency",
+      "n": 0,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 0
+    },
+    {
+      "task": "command",
+      "n": 3248097,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 9000,
+      "jitter_min_us": 0,
+      "jitter_max_us": 18000,
+      "skipped": 58412,
+      "deadline_miss": 37
+    },
+    {
+      "task": "sample",
+      "n": 33066,
+      "min_us": 0,
+      "avg_us": 1991,
+      "max_us": 16000,
+      "jitter_min_us": -10000,
+      "jitter_max_us": 7000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "status",
+      "n": 3306,
+      "min_us": 5000,
+      "avg_us": 5141,
+      "max_us": 9000,
+      "jitter_min_us": -2000,
+      "jitter_max_us": 2000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "led",
+      "n": 6613,
+      "min_us": 0,
+      "avg_us": 183,
+      "max_us": 1000,
+      "jitter_min_us": -8000,
+      "jitter_max_us": 11000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "save",
+      "n": 49,
+      "min_us": 0,
+      "avg_us": 20,
+      "max_us": 1000
+    },
+    {
+      "task": "export",
+      "n": 210,
+      "min_us": 0,
+      "avg_us": 2571,
+      "max_us": 7000
+    },
+    {
+      "task": "loop",
+      "n": 42441255,
+      "min_us": 0,
+      "avg_us": 77,
+      "max_us": 19000
+    },
+    {
+      "task": "command_latency",
+      "n": 40,
+      "min_us": 3000,
+      "avg_us": 5050,
+      "max_us": 17000
+    },
+    {
+      "task": "pir_latency",
+      "n": 0,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 0
+    },
+    {
+      "task": "command",
+      "n": 3307006,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 9000,
+      "jitter_min_us": 0,
+      "jitter_max_us": 18000,
+      "skipped": 59500,
+      "deadline_miss": 38
+    },
+    {
+      "task": "sample",
+      "n": 33666,
+      "min_us": 0,
+      "avg_us": 1991,
+      "max_us": 16000,
+      "jitter_min_us": -10000,
+      "jitter_max_us": 7000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "status",
+      "n": 3366,
+      "min_us": 5000,
+      "avg_us": 5144,
+      "max_us": 9000,
+      "jitter_min_us": -2000,
+      "jitter_max_us": 2000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "led",
+      "n": 6733,
+      "min_us": 0,
+      "avg_us": 181,
+      "max_us": 1000,
+      "jitter_min_us": -8000,
+      "jitter_max_us": 11000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "save",
+      "n": 49,
+      "min_us": 0,
+      "avg_us": 20,
+      "max_us": 1000
+    },
+    {
+      "task": "export",
+      "n": 219,
+      "min_us": 0,
+      "avg_us": 2666,
+      "max_us": 7000
+    },
+    {
+      "task": "loop",
+      "n": 43205472,
+      "min_us": 0,
+      "avg_us": 77,
+      "max_us": 19000
+    },
+    {
+      "task": "command_latency",
+      "n": 41,
+      "min_us": 3000,
+      "avg_us": 5146,
+      "max_us": 17000
+    },
+    {
+      "task": "pir_latency",
+      "n": 0,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 0
+    },
+    {
+      "task": "command",
+      "n": 3333957,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 9000,
+      "jitter_min_us": 0,
+      "jitter_max_us": 18000,
+      "skipped": 60039,
+      "deadline_miss": 39
+    },
+    {
+      "task": "sample",
+      "n": 33940,
+      "min_us": 0,
+      "avg_us": 1991,
+      "max_us": 16000,
+      "jitter_min_us": -10000,
+      "jitter_max_us": 7000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "status",
+      "n": 3393,
+      "min_us": 5000,
+      "avg_us": 5143,
+      "max_us": 9000,
+      "jitter_min_us": -2000,
+      "jitter_max_us": 2000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "led",
+      "n": 6787,
+      "min_us": 0,
+      "avg_us": 180,
+      "max_us": 1000,
+      "jitter_min_us": -8000,
+      "jitter_max_us": 11000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "save",
+      "n": 49,
+      "min_us": 0,
+      "avg_us": 20,
+      "max_us": 1000
+    },
+    {
+      "task": "export",
+      "n": 228,
+      "min_us": 0,
+      "avg_us": 2754,
+      "max_us": 7000
+    },
+    {
+      "task": "loop",
+      "n": 43554468,
+      "min_us": 0,
+      "avg_us": 77,
+      "max_us": 19000
+    },
+    {
+      "task": "command_latency",
+      "n": 42,
+      "min_us": 3000,
+      "avg_us": 5238,
+      "max_us": 17000
+    },
+    {
+      "task": "pir_latency",
+      "n": 0,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 0
+    },
+    {
+      "task": "command",
+      "n": 3367541,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 9000,
+      "jitter_min_us": 0,
+      "jitter_max_us": 27000,
+      "skipped": 60705,
+      "deadline_miss": 40
+    },
+    {
+      "task": "sample",
+      "n": 34283,
+      "min_us": 0,
+      "avg_us": 1991,
+      "max_us": 16000,
+      "jitter_min_us": -10000,
+      "jitter_max_us": 7000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "status",
+      "n": 3428,
+      "min_us": 5000,
+      "avg_us": 5144,
+      "max_us": 9000,
+      "jitter_min_us": -6000,
+      "jitter_max_us": 8000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "led",
+      "n": 6856,
+      "min_us": 0,
+      "avg_us": 179,
+      "max_us": 1000,
+      "jitter_min_us": -14000,
+      "jitter_max_us": 14000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "save",
+      "n": 49,
+      "min_us": 0,
+      "avg_us": 20,
+      "max_us": 1000
+    },
+    {
+      "task": "export",
+      "n": 237,
+      "min_us": 0,
+      "avg_us": 2839,
+      "max_us": 7000
+    },
+    {
+      "task": "loop",
+      "n": 43989965,
+      "min_us": 0,
+      "avg_us": 77,
+      "max_us": 28000
+    },
+    {
+      "task": "command_latency",
+      "n": 43,
+      "min_us": 3000,
+      "avg_us": 5325,
+      "max_us": 17000
+    },
+    {
+      "task": "pir_latency",
+      "n": 0,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 0
+    },
+    {
+      "task": "command",
+      "n": 3424020,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 9000,
+      "jitter_min_us": 0,
+      "jitter_max_us": 27000,
+      "skipped": 61758,
+      "deadline_miss": 41
+    },
+    {
+      "task": "sample",
+      "n": 34858,
+      "min_us": 0,
+      "avg_us": 1991,
+      "max_us": 16000,
+      "jitter_min_us": -10000,
+      "jitter_max_us": 7000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "status",
+      "n": 3485,
+      "min_us": 5000,
+      "avg_us": 5143,
+      "max_us": 9000,
+      "jitter_min_us": -6000,
+      "jitter_max_us": 8000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "led",
+      "n": 6971,
+      "min_us": 0,
+      "avg_us": 177,
+      "max_us": 1000,
+      "jitter_min_us": -14000,
+      "jitter_max_us": 14000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "save",
+      "n": 49,
+      "min_us": 0,
+      "avg_us": 20,
+      "max_us": 1000
+    },
+    {
+      "task": "export",
+      "n": 246,
+      "min_us": 0,
+      "avg_us": 2918,
+      "max_us": 7000
+    },
+    {
+      "task": "loop",
+      "n": 44723124,
+      "min_us": 0,
+      "avg_us": 77,
+      "max_us": 28000
+    },
+    {
+      "task": "command_latency",
+      "n": 44,
+      "min_us": 3000,
+      "avg_us": 5409,
+      "max_us": 17000
+    },
+    {
+      "task": "pir_latency",
+      "n": 0,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 0
+    },
+    {
+      "task": "command",
+      "n": 3442470,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 9000,
+      "jitter_min_us": 0,
+      "jitter_max_us": 27000,
+      "skipped": 62154,
+      "deadline_miss": 42
+    },
+    {
+      "task": "sample",
+      "n": 35047,
+      "min_us": 0,
+      "avg_us": 1992,
+      "max_us": 16000,
+      "jitter_min_us": -10000,
+      "jitter_max_us": 7000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "status",
+      "n": 3504,
+      "min_us": 5000,
+      "avg_us": 5142,
+      "max_us": 9000,
+      "jitter_min_us": -6000,
+      "jitter_max_us": 8000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "led",
+      "n": 7009,
+      "min_us": 0,
+      "avg_us": 177,
+      "max_us": 1000,
+      "jitter_min_us": -14000,
+      "jitter_max_us": 14000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "save",
+      "n": 49,
+      "min_us": 0,
+      "avg_us": 20,
+      "max_us": 1000
+    },
+    {
+      "task": "export",
+      "n": 255,
+      "min_us": 0,
+      "avg_us": 2992,
+      "max_us": 7000
+    },
+    {
+      "task": "loop",
+      "n": 44961938,
+      "min_us": 0,
+      "avg_us": 77,
+      "max_us": 28000
+    },
+    {
+      "task": "command_latency",
+      "n": 45,
+      "min_us": 3000,
+      "avg_us": 5511,
+      "max_us": 17000
+    },
+    {
+      "task": "pir_latency",
+      "n": 0,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 0
+    },
+    {
+      "task": "command",
+      "n": 3498790,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 9000,
+      "jitter_min_us": 0,
+      "jitter_max_us": 27000,
+      "skipped": 63218,
+      "deadline_miss": 43
+    },
+    {
+      "task": "sample",
+      "n": 35621,
+      "min_us": 0,
+      "avg_us": 1992,
+      "max_us": 16000,
+      "jitter_min_us": -10000,
+      "jitter_max_us": 7000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "status",
+      "n": 3562,
+      "min_us": 5000,
+      "avg_us": 5142,
+      "max_us": 9000,
+      "jitter_min_us": -6000,
+      "jitter_max_us": 8000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "led",
+      "n": 7124,
+      "min_us": 0,
+      "avg_us": 175,
+      "max_us": 1000,
+      "jitter_min_us": -14000,
+      "jitter_max_us": 14000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "save",
+      "n": 49,
+      "min_us": 0,
+      "avg_us": 20,
+      "max_us": 1000
+    },
+    {
+      "task": "export",
+      "n": 264,
+      "min_us": 0,
+      "avg_us": 3060,
+      "max_us": 7000
+    },
+    {
+      "task": "loop",
+      "n": 45692083,
+      "min_us": 0,
+      "avg_us": 77,
+      "max_us": 28000
+    },
+    {
+      "task": "command_latency",
+      "n": 46,
+      "min_us": 3000,
+      "avg_us": 5586,
+      "max_us": 17000
+    },
+    {
+      "task": "pir_latency",
+      "n": 0,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 0
+    },
+    {
+      "task": "command",
+      "n": 3517361,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 14000,
+      "jitter_min_us": 0,
+      "jitter_max_us": 27000,
+      "skipped": 63594,
+      "deadline_miss": 44
+    },
+    {
+      "task": "sample",
+      "n": 35810,
+      "min_us": 0,
+      "avg_us": 1992,
+      "max_us": 16000,
+      "jitter_min_us": -10000,
+      "jitter_max_us": 7000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "status",
+      "n": 3580,
+      "min_us": 5000,
+      "avg_us": 5142,
+      "max_us": 9000,
+      "jitter_min_us": -6000,
+      "jitter_max_us": 8000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "led",
+      "n": 7161,
+      "min_us": 0,
+      "avg_us": 174,
+      "max_us": 1000,
+      "jitter_min_us": -14000,
+      "jitter_max_us": 14000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "save",
+      "n": 49,
+      "min_us": 0,
+      "avg_us": 20,
+      "max_us": 1000
+    },
+    {
+      "task": "export",
+      "n": 273,
+      "min_us": 0,
+      "avg_us": 3124,
+      "max_us": 7000
+    },
+    {
+      "task": "loop",
+      "n": 45932117,
+      "min_us": 0,
+      "avg_us": 77,
+      "max_us": 28000
+    },
+    {
+      "task": "command_latency",
+      "n": 47,
+      "min_us": 3000,
+      "avg_us": 5851,
+      "max_us": 18000
+    },
+    {
+      "task": "pir_latency",
+      "n": 0,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 0
+    },
+    {
+      "task": "command",
+      "n": 3555850,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 14000,
+      "jitter_min_us": 0,
+      "jitter_max_us": 27000,
+      "skipped": 64352,
+      "deadline_miss": 45
+    },
+    {
+      "task": "sample",
+      "n": 36203,
+      "min_us": 0,
+      "avg_us": 1992,
+      "max_us": 16000,
+      "jitter_min_us": -10000,
+      "jitter_max_us": 7000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "status",
+      "n": 3620,
+      "min_us": 5000,
+      "avg_us": 5143,
+      "max_us": 9000,
+      "jitter_min_us": -6000,
+      "jitter_max_us": 8000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "led",
+      "n": 7240,
+      "min_us": 0,
+      "avg_us": 173,
+      "max_us": 1000,
+      "jitter_min_us": -14000,
+      "jitter_max_us": 14000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "save",
+      "n": 49,
+      "min_us": 0,
+      "avg_us": 20,
+      "max_us": 1000
+    },
+    {
+      "task": "export",
+      "n": 282,
+      "min_us": 0,
+      "avg_us": 3184,
+      "max_us": 7000
+    },
+    {
+      "task": "loop",
+      "n": 46430322,
+      "min_us": 0,
+      "avg_us": 77,
+      "max_us": 28000
+    },
+    {
+      "task": "command_latency",
+      "n": 48,
+      "min_us": 3000,
+      "avg_us": 5937,
+      "max_us": 18000
+    },
+    {
+      "task": "pir_latency",
+      "n": 0,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 0
+    },
+    {
+      "task": "command",
+      "n": 3594518,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 14000,
+      "jitter_min_us": 0,
+      "jitter_max_us": 27000,
+      "skipped": 65096,
+      "deadline_miss": 46
+    },
+    {
+      "task": "sample",
+      "n": 36597,
+      "min_us": 0,
+      "avg_us": 1992,
+      "max_us": 16000,
+      "jitter_min_us": -10000,
+      "jitter_max_us": 7000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "status",
+      "n": 3659,
+      "min_us": 5000,
+      "avg_us": 5144,
+      "max_us": 9000,
+      "jitter_min_us": -6000,
+      "jitter_max_us": 8000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "led",
+      "n": 7319,
+      "min_us": 0,
+      "avg_us": 172,
+      "max_us": 1000,
+      "jitter_min_us": -14000,
+      "jitter_max_us": 14000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "save",
+      "n": 49,
+      "min_us": 0,
+      "avg_us": 20,
+      "max_us": 1000
+    },
+    {
+      "task": "export",
+      "n": 291,
+      "min_us": 0,
+      "avg_us": 3237,
+      "max_us": 7000
+    },
+    {
+      "task": "loop",
+      "n": 46930330,
+      "min_us": 0,
+      "avg_us": 77,
+      "max_us": 28000
+    },
+    {
+      "task": "command_latency",
+      "n": 49,
+      "min_us": 3000,
+      "avg_us": 6061,
+      "max_us": 18000
+    },
+    {
+      "task": "pir_latency",
+      "n": 0,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 0
+    },
+    {
+      "task": "command",
+      "n": 3640972,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 14000,
+      "jitter_min_us": 0,
+      "jitter_max_us": 27000,
+      "skipped": 65962,
+      "deadline_miss": 47
+    },
+    {
+      "task": "sample",
+      "n": 37070,
+      "min_us": 0,
+      "avg_us": 1992,
+      "max_us": 16000,
+      "jitter_min_us": -10000,
+      "jitter_max_us": 7000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "status",
+      "n": 3706,
+      "min_us": 5000,
+      "avg_us": 5144,
+      "max_us": 9000,
+      "jitter_min_us": -6000,
+      "jitter_max_us": 8000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "led",
+      "n": 7413,
+      "min_us": 0,
+      "avg_us": 171,
+      "max_us": 1000,
+      "jitter_min_us": -14000,
+      "jitter_max_us": 14000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "save",
+      "n": 50,
+      "min_us": 0,
+      "avg_us": 20,
+      "max_us": 1000
+    },
+    {
+      "task": "export",
+      "n": 300,
+      "min_us": 0,
+      "avg_us": 3286,
+      "max_us": 7000
+    },
+    {
+      "task": "loop",
+      "n": 47533127,
+      "min_us": 0,
+      "avg_us": 77,
+      "max_us": 28000
+    },
+    {
+      "task": "command_latency",
+      "n": 50,
+      "min_us": 3000,
+      "avg_us": 6140,
+      "max_us": 18000
+    },
+    {
+      "task": "pir_latency",
+      "n": 0,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 0
+    },
+    {
+      "task": "command",
+      "n": 3682919,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 14000,
+      "jitter_min_us": 0,
+      "jitter_max_us": 27000,
+      "skipped": 66770,
+      "deadline_miss": 48
+    },
+    {
+      "task": "sample",
+      "n": 37497,
+      "min_us": 0,
+      "avg_us": 1992,
+      "max_us": 16000,
+      "jitter_min_us": -10000,
+      "jitter_max_us": 7000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "status",
+      "n": 3749,
+      "min_us": 5000,
+      "avg_us": 5144,
+      "max_us": 9000,
+      "jitter_min_us": -6000,
+      "jitter_max_us": 8000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "led",
+      "n": 7499,
+      "min_us": 0,
+      "avg_us": 170,
+      "max_us": 1000,
+      "jitter_min_us": -14000,
+      "jitter_max_us": 14000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "save",
+      "n": 50,
+      "min_us": 0,
+      "avg_us": 20,
+      "max_us": 1000
+    },
+    {
+      "task": "export",
+      "n": 309,
+      "min_us": 0,
+      "avg_us": 3336,
+      "max_us": 7000
+    },
+    {
+      "task": "loop",
+      "n": 48077324,
+      "min_us": 0,
+      "avg_us": 77,
+      "max_us": 28000
+    },
+    {
+      "task": "command_latency",
+      "n": 51,
+      "min_us": 3000,
+      "avg_us": 6215,
+      "max_us": 18000
+    },
+    {
+      "task": "pir_latency",
+      "n": 0,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 0
+    }
+  ],
+  "resources": [
+    {
+      "clock": "SysTick_1ms",
+      "elapsed_hi": 0,
+      "elapsed_lo": 3190785000,
+      "sleep_hi": 0,
+      "sleep_lo": 0,
+      "stack_watermark": 828,
+      "stack_reserve": 2048,
+      "heap_arena": 1032,
+      "heap_used": 1032,
+      "heap_free": 0,
+      "rx_overflows": 0,
+      "queue_dropped": 0,
+      "save_failed": 49,
+      "intact": 0,
+      "damaged": 128,
+      "next": 128,
+      "elapsed_us": 3190785000,
+      "sleep_us": 0,
+      "active_cpu_estimate_pct": null,
+      "cpu_limit": "SysTick quantization and WFI state do not support a CPU estimate from this record"
+    },
+    {
+      "clock": "SysTick_1ms",
+      "elapsed_hi": 0,
+      "elapsed_lo": 3247729000,
+      "sleep_hi": 0,
+      "sleep_lo": 0,
+      "stack_watermark": 828,
+      "stack_reserve": 2048,
+      "heap_arena": 1032,
+      "heap_used": 1032,
+      "heap_free": 0,
+      "rx_overflows": 0,
+      "queue_dropped": 0,
+      "save_failed": 49,
+      "intact": 0,
+      "damaged": 128,
+      "next": 128,
+      "elapsed_us": 3247729000,
+      "sleep_us": 0,
+      "active_cpu_estimate_pct": null,
+      "cpu_limit": "SysTick quantization and WFI state do not support a CPU estimate from this record"
+    },
+    {
+      "clock": "SysTick_1ms",
+      "elapsed_hi": 0,
+      "elapsed_lo": 3306525000,
+      "sleep_hi": 0,
+      "sleep_lo": 0,
+      "stack_watermark": 828,
+      "stack_reserve": 2048,
+      "heap_arena": 1032,
+      "heap_used": 1032,
+      "heap_free": 0,
+      "rx_overflows": 0,
+      "queue_dropped": 0,
+      "save_failed": 49,
+      "intact": 0,
+      "damaged": 128,
+      "next": 128,
+      "elapsed_us": 3306525000,
+      "sleep_us": 0,
+      "active_cpu_estimate_pct": null,
+      "cpu_limit": "SysTick quantization and WFI state do not support a CPU estimate from this record"
+    },
+    {
+      "clock": "SysTick_1ms",
+      "elapsed_hi": 0,
+      "elapsed_lo": 3366522000,
+      "sleep_hi": 0,
+      "sleep_lo": 0,
+      "stack_watermark": 828,
+      "stack_reserve": 2048,
+      "heap_arena": 1032,
+      "heap_used": 1032,
+      "heap_free": 0,
+      "rx_overflows": 0,
+      "queue_dropped": 0,
+      "save_failed": 49,
+      "intact": 0,
+      "damaged": 128,
+      "next": 128,
+      "elapsed_us": 3366522000,
+      "sleep_us": 0,
+      "active_cpu_estimate_pct": null,
+      "cpu_limit": "SysTick quantization and WFI state do not support a CPU estimate from this record"
+    },
+    {
+      "clock": "SysTick_1ms",
+      "elapsed_hi": 0,
+      "elapsed_lo": 3394012000,
+      "sleep_hi": 0,
+      "sleep_lo": 0,
+      "stack_watermark": 828,
+      "stack_reserve": 2048,
+      "heap_arena": 1032,
+      "heap_used": 1032,
+      "heap_free": 0,
+      "rx_overflows": 0,
+      "queue_dropped": 0,
+      "save_failed": 49,
+      "intact": 0,
+      "damaged": 128,
+      "next": 128,
+      "elapsed_us": 3394012000,
+      "sleep_us": 0,
+      "active_cpu_estimate_pct": null,
+      "cpu_limit": "SysTick quantization and WFI state do not support a CPU estimate from this record"
+    },
+    {
+      "clock": "SysTick_1ms",
+      "elapsed_hi": 0,
+      "elapsed_lo": 3428262000,
+      "sleep_hi": 0,
+      "sleep_lo": 0,
+      "stack_watermark": 828,
+      "stack_reserve": 2048,
+      "heap_arena": 1032,
+      "heap_used": 1032,
+      "heap_free": 0,
+      "rx_overflows": 0,
+      "queue_dropped": 0,
+      "save_failed": 49,
+      "intact": 0,
+      "damaged": 128,
+      "next": 128,
+      "elapsed_us": 3428262000,
+      "sleep_us": 0,
+      "active_cpu_estimate_pct": null,
+      "cpu_limit": "SysTick quantization and WFI state do not support a CPU estimate from this record"
+    },
+    {
+      "clock": "SysTick_1ms",
+      "elapsed_hi": 0,
+      "elapsed_lo": 3485794000,
+      "sleep_hi": 0,
+      "sleep_lo": 0,
+      "stack_watermark": 828,
+      "stack_reserve": 2048,
+      "heap_arena": 1032,
+      "heap_used": 1032,
+      "heap_free": 0,
+      "rx_overflows": 0,
+      "queue_dropped": 0,
+      "save_failed": 49,
+      "intact": 0,
+      "damaged": 128,
+      "next": 128,
+      "elapsed_us": 3485794000,
+      "sleep_us": 0,
+      "active_cpu_estimate_pct": null,
+      "cpu_limit": "SysTick quantization and WFI state do not support a CPU estimate from this record"
+    },
+    {
+      "clock": "SysTick_1ms",
+      "elapsed_hi": 0,
+      "elapsed_lo": 3504640000,
+      "sleep_hi": 0,
+      "sleep_lo": 0,
+      "stack_watermark": 828,
+      "stack_reserve": 2048,
+      "heap_arena": 1032,
+      "heap_used": 1032,
+      "heap_free": 0,
+      "rx_overflows": 0,
+      "queue_dropped": 0,
+      "save_failed": 49,
+      "intact": 0,
+      "damaged": 128,
+      "next": 128,
+      "elapsed_us": 3504640000,
+      "sleep_us": 0,
+      "active_cpu_estimate_pct": null,
+      "cpu_limit": "SysTick quantization and WFI state do not support a CPU estimate from this record"
+    },
+    {
+      "clock": "SysTick_1ms",
+      "elapsed_hi": 0,
+      "elapsed_lo": 3562024000,
+      "sleep_hi": 0,
+      "sleep_lo": 0,
+      "stack_watermark": 828,
+      "stack_reserve": 2048,
+      "heap_arena": 1032,
+      "heap_used": 1032,
+      "heap_free": 0,
+      "rx_overflows": 0,
+      "queue_dropped": 0,
+      "save_failed": 49,
+      "intact": 0,
+      "damaged": 128,
+      "next": 128,
+      "elapsed_us": 3562024000,
+      "sleep_us": 0,
+      "active_cpu_estimate_pct": null,
+      "cpu_limit": "SysTick quantization and WFI state do not support a CPU estimate from this record"
+    },
+    {
+      "clock": "SysTick_1ms",
+      "elapsed_hi": 0,
+      "elapsed_lo": 3580971000,
+      "sleep_hi": 0,
+      "sleep_lo": 0,
+      "stack_watermark": 828,
+      "stack_reserve": 2048,
+      "heap_arena": 1032,
+      "heap_used": 1032,
+      "heap_free": 0,
+      "rx_overflows": 0,
+      "queue_dropped": 0,
+      "save_failed": 49,
+      "intact": 0,
+      "damaged": 128,
+      "next": 128,
+      "elapsed_us": 3580971000,
+      "sleep_us": 0,
+      "active_cpu_estimate_pct": null,
+      "cpu_limit": "SysTick quantization and WFI state do not support a CPU estimate from this record"
+    },
+    {
+      "clock": "SysTick_1ms",
+      "elapsed_hi": 0,
+      "elapsed_lo": 3620218000,
+      "sleep_hi": 0,
+      "sleep_lo": 0,
+      "stack_watermark": 828,
+      "stack_reserve": 2048,
+      "heap_arena": 1032,
+      "heap_used": 1032,
+      "heap_free": 0,
+      "rx_overflows": 0,
+      "queue_dropped": 0,
+      "save_failed": 49,
+      "intact": 0,
+      "damaged": 128,
+      "next": 128,
+      "elapsed_us": 3620218000,
+      "sleep_us": 0,
+      "active_cpu_estimate_pct": null,
+      "cpu_limit": "SysTick quantization and WFI state do not support a CPU estimate from this record"
+    },
+    {
+      "clock": "SysTick_1ms",
+      "elapsed_hi": 0,
+      "elapsed_lo": 3659629000,
+      "sleep_hi": 0,
+      "sleep_lo": 0,
+      "stack_watermark": 828,
+      "stack_reserve": 2048,
+      "heap_arena": 1032,
+      "heap_used": 1032,
+      "heap_free": 0,
+      "rx_overflows": 0,
+      "queue_dropped": 0,
+      "save_failed": 49,
+      "intact": 0,
+      "damaged": 128,
+      "next": 128,
+      "elapsed_us": 3659629000,
+      "sleep_us": 0,
+      "active_cpu_estimate_pct": null,
+      "cpu_limit": "SysTick quantization and WFI state do not support a CPU estimate from this record"
+    },
+    {
+      "clock": "SysTick_1ms",
+      "elapsed_hi": 0,
+      "elapsed_lo": 3706950000,
+      "sleep_hi": 0,
+      "sleep_lo": 0,
+      "stack_watermark": 828,
+      "stack_reserve": 2048,
+      "heap_arena": 1032,
+      "heap_used": 1032,
+      "heap_free": 0,
+      "rx_overflows": 0,
+      "queue_dropped": 0,
+      "save_failed": 50,
+      "intact": 0,
+      "damaged": 128,
+      "next": 128,
+      "elapsed_us": 3706950000,
+      "sleep_us": 0,
+      "active_cpu_estimate_pct": null,
+      "cpu_limit": "SysTick quantization and WFI state do not support a CPU estimate from this record"
+    },
+    {
+      "clock": "SysTick_1ms",
+      "elapsed_hi": 0,
+      "elapsed_lo": 3749705000,
+      "sleep_hi": 0,
+      "sleep_lo": 0,
+      "stack_watermark": 828,
+      "stack_reserve": 2048,
+      "heap_arena": 1032,
+      "heap_used": 1032,
+      "heap_free": 0,
+      "rx_overflows": 0,
+      "queue_dropped": 0,
+      "save_failed": 50,
+      "intact": 0,
+      "damaged": 128,
+      "next": 128,
+      "elapsed_us": 3749705000,
+      "sleep_us": 0,
+      "active_cpu_estimate_pct": null,
+      "cpu_limit": "SysTick quantization and WFI state do not support a CPU estimate from this record"
+    }
+  ],
+  "limits": "Check clock per METRICS: SysTick_1ms has 1 ms resolution; a zero interval is not WCET. TIM3_1MHz is nominal 1 us and must be validated. Aggregate maxima are not a hard WCET proof; CPU estimates exclude part of exception overhead; command latency ends before wire TX; PIR starts at ISR, not physical edge",
+  "identity_log": {
+    "path": "docs/metrics/lab3/systick-s2-20261030/uart.log",
+    "sha256": "9663bcd4361a2ca075cee80fdca00dada18c72be5970661b976643484a2e890f"
+  },
+  "identity_limit": "Banner comes from a separate capture segment; same uninterrupted run must be verified independently.",
+  "wall_session": "docs/metrics/lab3/systick-s2-20261030/uart.session.json",
+  "scenario": "S2",
+  "acceptance_checks": {
+    "periodic_count": true,
+    "mcu_elapsed_1h": true,
+    "wall_elapsed_1h": true
+  },
+  "acceptance_limit": "UART checks alone do not validate the physical GPIO latency, during-flash coincidence, power cut or two-method comparison."
+}

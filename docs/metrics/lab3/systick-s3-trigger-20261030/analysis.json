@@ -1,0 +1,125 @@
+{
+  "kind": "MCU/Wokwi UART measurement; environment must be set in origin manifest",
+  "source_log": "docs/metrics/lab3/systick-s3-trigger-20261030/uart.log",
+  "sha256": "e321a9ff119e24b9f911247cb293b3812e44983891c43594e59a2f5837a27e12",
+  "builds": [
+    [
+      "b5284ef82242+lab3-worktree",
+      "3baa36f7992671ba"
+    ]
+  ],
+  "stats": [
+    {
+      "task": "command",
+      "n": 82867,
+      "min_us": 0,
+      "avg_us": 24,
+      "max_us": 24000,
+      "jitter_min_us": 0,
+      "jitter_max_us": 34000,
+      "skipped": 3757,
+      "deadline_miss": 120
+    },
+    {
+      "task": "sample",
+      "n": 867,
+      "min_us": 0,
+      "avg_us": 2408,
+      "max_us": 19000,
+      "jitter_min_us": -16000,
+      "jitter_max_us": 16000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "status",
+      "n": 86,
+      "min_us": 5000,
+      "avg_us": 5406,
+      "max_us": 9000,
+      "jitter_min_us": -5000,
+      "jitter_max_us": 5000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "led",
+      "n": 173,
+      "min_us": 0,
+      "avg_us": 196,
+      "max_us": 1000,
+      "jitter_min_us": -14000,
+      "jitter_max_us": 14000,
+      "skipped": 0,
+      "deadline_miss": 0
+    },
+    {
+      "task": "save",
+      "n": 245,
+      "min_us": 0,
+      "avg_us": 7342,
+      "max_us": 23000
+    },
+    {
+      "task": "export",
+      "n": 0,
+      "min_us": 0,
+      "avg_us": 0,
+      "max_us": 0
+    },
+    {
+      "task": "loop",
+      "n": 1094628,
+      "min_us": 0,
+      "avg_us": 79,
+      "max_us": 35000
+    },
+    {
+      "task": "command_latency",
+      "n": 120,
+      "min_us": 15000,
+      "avg_us": 16266,
+      "max_us": 32000
+    },
+    {
+      "task": "pir_latency",
+      "n": 120,
+      "min_us": 16000,
+      "avg_us": 54083,
+      "max_us": 99000
+    }
+  ],
+  "resources": [
+    {
+      "clock": "SysTick_1ms",
+      "elapsed_hi": 0,
+      "elapsed_lo": 86640000,
+      "sleep_hi": 0,
+      "sleep_lo": 0,
+      "stack_watermark": 836,
+      "stack_reserve": 2048,
+      "heap_arena": 1032,
+      "heap_used": 1032,
+      "heap_free": 0,
+      "rx_overflows": 0,
+      "queue_dropped": 0,
+      "save_failed": 125,
+      "intact": 0,
+      "damaged": 128,
+      "next": 128,
+      "elapsed_us": 86640000,
+      "sleep_us": 0,
+      "active_cpu_estimate_pct": null,
+      "cpu_limit": "SysTick quantization and WFI state do not support a CPU estimate from this record"
+    }
+  ],
+  "limits": "Check clock per METRICS: SysTick_1ms has 1 ms resolution; a zero interval is not WCET. TIM3_1MHz is nominal 1 us and must be validated. Aggregate maxima are not a hard WCET proof; CPU estimates exclude part of exception overhead; command latency ends before wire TX; PIR starts at ISR, not physical edge",
+  "scenario": "S3",
+  "acceptance_checks": {
+    "periodic_count": false,
+    "pir_event_count": true,
+    "pir_firmware_max_120ms": true,
+    "command_max_20ms": false
+  },
+  "acceptance_limit": "UART checks alone do not validate the physical GPIO latency, during-flash coincidence, power cut or two-method comparison."
+}

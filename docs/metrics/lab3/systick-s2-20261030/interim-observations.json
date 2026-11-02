@@ -1,0 +1,351 @@
+{
+  "samples": 66,
+  "first": {
+    "at": "2026-10-30T08:04:54.014779+02:00",
+    "watch_elapsed_s": 0.0,
+    "bytes": 18824,
+    "last_tick_ms": 145018,
+    "collector_alive": true
+  },
+  "last": {
+    "at": "2026-10-30T08:37:24.359323+02:00",
+    "watch_elapsed_s": 1950.342,
+    "bytes": 252534,
+    "last_tick_ms": 2036018,
+    "collector_alive": true
+  },
+  "intervals": [
+    {
+      "wall_s": 30.004,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3600
+    },
+    {
+      "wall_s": 30.001,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3600
+    },
+    {
+      "wall_s": 30.005,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3739
+    },
+    {
+      "wall_s": 30.009,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3667
+    },
+    {
+      "wall_s": 30.003,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3600
+    },
+    {
+      "wall_s": 30.001,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3600
+    },
+    {
+      "wall_s": 30.003,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3600
+    },
+    {
+      "wall_s": 30.005,
+      "mcu_tick_ms": 29998,
+      "uart_bytes": 3667
+    },
+    {
+      "wall_s": 30.015,
+      "mcu_tick_ms": 30002,
+      "uart_bytes": 3600
+    },
+    {
+      "wall_s": 30.003,
+      "mcu_tick_ms": 29998,
+      "uart_bytes": 3600
+    },
+    {
+      "wall_s": 30.003,
+      "mcu_tick_ms": 30002,
+      "uart_bytes": 3600
+    },
+    {
+      "wall_s": 30.005,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3667
+    },
+    {
+      "wall_s": 30.005,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3600
+    },
+    {
+      "wall_s": 30.002,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3600
+    },
+    {
+      "wall_s": 30.004,
+      "mcu_tick_ms": 29998,
+      "uart_bytes": 3600
+    },
+    {
+      "wall_s": 30.006,
+      "mcu_tick_ms": 25000,
+      "uart_bytes": 3207
+    },
+    {
+      "wall_s": 30.002,
+      "mcu_tick_ms": 23000,
+      "uart_bytes": 2760
+    },
+    {
+      "wall_s": 30.005,
+      "mcu_tick_ms": 30002,
+      "uart_bytes": 4624
+    },
+    {
+      "wall_s": 30.004,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3600
+    },
+    {
+      "wall_s": 30.004,
+      "mcu_tick_ms": 29998,
+      "uart_bytes": 3808
+    },
+    {
+      "wall_s": 30.002,
+      "mcu_tick_ms": 30002,
+      "uart_bytes": 3600
+    },
+    {
+      "wall_s": 30.007,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3600
+    },
+    {
+      "wall_s": 30.006,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3600
+    },
+    {
+      "wall_s": 30.004,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3668
+    },
+    {
+      "wall_s": 30.01,
+      "mcu_tick_ms": 22000,
+      "uart_bytes": 2640
+    },
+    {
+      "wall_s": 30.005,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3600
+    },
+    {
+      "wall_s": 30.005,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3740
+    },
+    {
+      "wall_s": 30.006,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3808
+    },
+    {
+      "wall_s": 30.005,
+      "mcu_tick_ms": 27000,
+      "uart_bytes": 3240
+    },
+    {
+      "wall_s": 30.007,
+      "mcu_tick_ms": 27000,
+      "uart_bytes": 3260
+    },
+    {
+      "wall_s": 30.005,
+      "mcu_tick_ms": 28000,
+      "uart_bytes": 3388
+    },
+    {
+      "wall_s": 30.007,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3700
+    },
+    {
+      "wall_s": 30.003,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3630
+    },
+    {
+      "wall_s": 30.009,
+      "mcu_tick_ms": 15998,
+      "uart_bytes": 2032
+    },
+    {
+      "wall_s": 30.007,
+      "mcu_tick_ms": 13002,
+      "uart_bytes": 1621
+    },
+    {
+      "wall_s": 30.007,
+      "mcu_tick_ms": 29998,
+      "uart_bytes": 3700
+    },
+    {
+      "wall_s": 30.005,
+      "mcu_tick_ms": 30002,
+      "uart_bytes": 3630
+    },
+    {
+      "wall_s": 30.006,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 4662
+    },
+    {
+      "wall_s": 30.006,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3630
+    },
+    {
+      "wall_s": 30.005,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3700
+    },
+    {
+      "wall_s": 30.007,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3630
+    },
+    {
+      "wall_s": 30.01,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3630
+    },
+    {
+      "wall_s": 30.005,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3630
+    },
+    {
+      "wall_s": 30.003,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3700
+    },
+    {
+      "wall_s": 30.005,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3630
+    },
+    {
+      "wall_s": 30.003,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3774
+    },
+    {
+      "wall_s": 30.001,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3630
+    },
+    {
+      "wall_s": 30.007,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3700
+    },
+    {
+      "wall_s": 30.003,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3630
+    },
+    {
+      "wall_s": 30.006,
+      "mcu_tick_ms": 29998,
+      "uart_bytes": 3630
+    },
+    {
+      "wall_s": 30.014,
+      "mcu_tick_ms": 30002,
+      "uart_bytes": 3630
+    },
+    {
+      "wall_s": 30.006,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3700
+    },
+    {
+      "wall_s": 30.006,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3630
+    },
+    {
+      "wall_s": 30.004,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3630
+    },
+    {
+      "wall_s": 30.005,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3630
+    },
+    {
+      "wall_s": 30.005,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3700
+    },
+    {
+      "wall_s": 30.006,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3630
+    },
+    {
+      "wall_s": 30.007,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 4662
+    },
+    {
+      "wall_s": 30.004,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3774
+    },
+    {
+      "wall_s": 30.006,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3700
+    },
+    {
+      "wall_s": 30.003,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3630
+    },
+    {
+      "wall_s": 30.006,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3774
+    },
+    {
+      "wall_s": 30.006,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3774
+    },
+    {
+      "wall_s": 30.004,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3700
+    },
+    {
+      "wall_s": 30.004,
+      "mcu_tick_ms": 30000,
+      "uart_bytes": 3774
+    }
+  ],
+  "tick_delta_ms": {
+    "min": 13002,
+    "max": 30002,
+    "mean": 29092.30769230769
+  },
+  "nonadvancing_intervals": 0,
+  "note": "Snapshots describe last UART lines seen, including buffering and sampling granularity; use raw session and VCD for acceptance."
+}

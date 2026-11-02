@@ -1,0 +1,1931 @@
+{
+  "duration_ns": 108558241900,
+  "edges": [
+    {
+      "edge_ns": 3693335250,
+      "flash_start_ns": 3693235250,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        3721224375
+      ],
+      "nearby": [
+        {
+          "time_ns": 3722633025,
+          "text": "seq=4 time_ms=3716 event=nearby_motion mode=storage t_us=3718000"
+        }
+      ],
+      "latency_us": 27889.125
+    },
+    {
+      "edge_ns": 4318060975,
+      "flash_start_ns": 4317960975,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        4335987825
+      ],
+      "nearby": [
+        {
+          "time_ns": 4337767225,
+          "text": "seq=5 time_ms=4330 event=nearby_motion mode=storage t_us=4333000"
+        }
+      ],
+      "latency_us": 17926.85
+    },
+    {
+      "edge_ns": 4943263450,
+      "flash_start_ns": 4943163450,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        5021211775
+      ],
+      "nearby": [
+        {
+          "time_ns": 5022626700,
+          "text": "seq=6 time_ms=5016 event=nearby_motion mode=storage t_us=5018000"
+        }
+      ],
+      "latency_us": 77948.325
+    },
+    {
+      "edge_ns": 5593343675,
+      "flash_start_ns": 5593243675,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        5621219800
+      ],
+      "nearby": [
+        {
+          "time_ns": 5622633950,
+          "text": "seq=7 time_ms=5616 event=nearby_motion mode=storage t_us=5618000"
+        }
+      ],
+      "latency_us": 27876.125
+    },
+    {
+      "edge_ns": 6258890675,
+      "flash_start_ns": 6258790675,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        6321199700
+      ],
+      "nearby": [
+        {
+          "time_ns": 6322621875,
+          "text": "seq=8 time_ms=6316 event=nearby_motion mode=storage t_us=6318000"
+        }
+      ],
+      "latency_us": 62309.025
+    },
+    {
+      "edge_ns": 6934860100,
+      "flash_start_ns": 6934760100,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        7021005525
+      ],
+      "nearby": [
+        {
+          "time_ns": 7022430275,
+          "text": "seq=9 time_ms=7016 event=nearby_motion mode=storage t_us=7018000"
+        }
+      ],
+      "latency_us": 86145.425
+    },
+    {
+      "edge_ns": 7592696000,
+      "flash_start_ns": 7592596000,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        7621162375
+      ],
+      "nearby": [
+        {
+          "time_ns": 7622600525,
+          "text": "seq=10 time_ms=7616 event=nearby_motion mode=storage t_us=7618000"
+        }
+      ],
+      "latency_us": 28466.375
+    },
+    {
+      "edge_ns": 8209866525,
+      "flash_start_ns": 8209766525,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        8227789550
+      ],
+      "nearby": [
+        {
+          "time_ns": 8229588900,
+          "text": "seq=11 time_ms=8222 event=nearby_motion mode=storage t_us=8225000"
+        }
+      ],
+      "latency_us": 17923.025
+    },
+    {
+      "edge_ns": 8884609350,
+      "flash_start_ns": 8884509350,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        8921151300
+      ],
+      "nearby": [
+        {
+          "time_ns": 8922589950,
+          "text": "seq=12 time_ms=8916 event=nearby_motion mode=storage t_us=8918000"
+        }
+      ],
+      "latency_us": 36541.95
+    },
+    {
+      "edge_ns": 9534696075,
+      "flash_start_ns": 9534596050,
+      "offset_us": 100.025,
+      "mode": 1,
+      "responses_ns": [
+        9621112200
+      ],
+      "nearby": [
+        {
+          "time_ns": 9622546375,
+          "text": "seq=13 time_ms=9616 event=nearby_motion mode=storage t_us=9618000"
+        }
+      ],
+      "latency_us": 86416.125
+    },
+    {
+      "edge_ns": 10159775900,
+      "flash_start_ns": 10159675900,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        10221096700
+      ],
+      "nearby": [
+        {
+          "time_ns": 10222564375,
+          "text": "seq=14 time_ms=10216 event=nearby_motion mode=storage t_us=10218000"
+        }
+      ],
+      "latency_us": 61320.8
+    },
+    {
+      "edge_ns": 10826563500,
+      "flash_start_ns": 10826463500,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        10921090875
+      ],
+      "nearby": [
+        {
+          "time_ns": 10922555525,
+          "text": "seq=15 time_ms=10916 event=nearby_motion mode=storage t_us=10918000"
+        }
+      ],
+      "latency_us": 94527.375
+    },
+    {
+      "edge_ns": 11476640325,
+      "flash_start_ns": 11476540325,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        11521066375
+      ],
+      "nearby": [
+        {
+          "time_ns": 11522535775,
+          "text": "seq=16 time_ms=11516 event=nearby_motion mode=storage t_us=11518000"
+        }
+      ],
+      "latency_us": 44426.05
+    },
+    {
+      "edge_ns": 12109067350,
+      "flash_start_ns": 12108967350,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        12126990725
+      ],
+      "nearby": [
+        {
+          "time_ns": 12128833125,
+          "text": "seq=17 time_ms=12121 event=nearby_motion mode=storage t_us=12124000"
+        }
+      ],
+      "latency_us": 17923.375
+    },
+    {
+      "edge_ns": 12776549000,
+      "flash_start_ns": 12776449000,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        12821021775
+      ],
+      "nearby": [
+        {
+          "time_ns": 12822482200,
+          "text": "seq=18 time_ms=12816 event=nearby_motion mode=storage t_us=12818000"
+        }
+      ],
+      "latency_us": 44472.775
+    },
+    {
+      "edge_ns": 13426655200,
+      "flash_start_ns": 13426555200,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        13521188700
+      ],
+      "nearby": [
+        {
+          "time_ns": 13522657100,
+          "text": "seq=19 time_ms=13516 event=nearby_motion mode=storage t_us=13518000"
+        }
+      ],
+      "latency_us": 94533.5
+    },
+    {
+      "edge_ns": 14043535400,
+      "flash_start_ns": 14043435400,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        14120863850
+      ],
+      "nearby": [
+        {
+          "time_ns": 14122335125,
+          "text": "seq=20 time_ms=14116 event=nearby_motion mode=storage t_us=14118000"
+        }
+      ],
+      "latency_us": 77328.45
+    },
+    {
+      "edge_ns": 14735007700,
+      "flash_start_ns": 14734907700,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        14821023125
+      ],
+      "nearby": [
+        {
+          "time_ns": 14822494025,
+          "text": "seq=21 time_ms=14816 event=nearby_motion mode=storage t_us=14818000"
+        }
+      ],
+      "latency_us": 86015.425
+    },
+    {
+      "edge_ns": 15368370250,
+      "flash_start_ns": 15368270250,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        15420978875
+      ],
+      "nearby": [
+        {
+          "time_ns": 15422448775,
+          "text": "seq=22 time_ms=15416 event=nearby_motion mode=storage t_us=15418000"
+        }
+      ],
+      "latency_us": 52608.625
+    },
+    {
+      "edge_ns": 16028418050,
+      "flash_start_ns": 16028318050,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        16120822700
+      ],
+      "nearby": [
+        {
+          "time_ns": 16122301700,
+          "text": "seq=23 time_ms=16116 event=nearby_motion mode=storage t_us=16118000"
+        }
+      ],
+      "latency_us": 92404.65
+    },
+    {
+      "edge_ns": 16676478500,
+      "flash_start_ns": 16676378500,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        16720992300
+      ],
+      "nearby": [
+        {
+          "time_ns": 16722470200,
+          "text": "seq=24 time_ms=16716 event=nearby_motion mode=storage t_us=16718000"
+        }
+      ],
+      "latency_us": 44513.8
+    },
+    {
+      "edge_ns": 17318216375,
+      "flash_start_ns": 17318116375,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        17336138075
+      ],
+      "nearby": [
+        {
+          "time_ns": 17337988375,
+          "text": "seq=25 time_ms=17331 event=nearby_motion mode=storage t_us=17333000"
+        }
+      ],
+      "latency_us": 17921.7
+    },
+    {
+      "edge_ns": 17993310325,
+      "flash_start_ns": 17993210325,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        18020782350
+      ],
+      "nearby": [
+        {
+          "time_ns": 18022264625,
+          "text": "seq=26 time_ms=18016 event=nearby_motion mode=storage t_us=18018000"
+        }
+      ],
+      "latency_us": 27472.025
+    },
+    {
+      "edge_ns": 18643297775,
+      "flash_start_ns": 18643197775,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        18720768025
+      ],
+      "nearby": [
+        {
+          "time_ns": 18722253525,
+          "text": "seq=27 time_ms=18716 event=nearby_motion mode=storage t_us=18718000"
+        }
+      ],
+      "latency_us": 77470.25
+    },
+    {
+      "edge_ns": 19267955525,
+      "flash_start_ns": 19267855525,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        19320909625
+      ],
+      "nearby": [
+        {
+          "time_ns": 19322391025,
+          "text": "seq=28 time_ms=19316 event=nearby_motion mode=storage t_us=19318000"
+        }
+      ],
+      "latency_us": 52954.1
+    },
+    {
+      "edge_ns": 19934735625,
+      "flash_start_ns": 19934635625,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        20020916275
+      ],
+      "nearby": [
+        {
+          "time_ns": 20022407200,
+          "text": "seq=29 time_ms=20016 event=nearby_motion mode=storage t_us=20018000"
+        }
+      ],
+      "latency_us": 86180.65
+    },
+    {
+      "edge_ns": 20593299150,
+      "flash_start_ns": 20593199150,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        20620873050,
+        21036179450
+      ],
+      "nearby": [
+        {
+          "time_ns": 20622362700,
+          "text": "seq=30 time_ms=20616 event=nearby_motion mode=storage t_us=20618000"
+        }
+      ],
+      "latency_us": 27573.9
+    },
+    {
+      "edge_ns": 21217370400,
+      "flash_start_ns": 21217270400,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        21233146825
+      ],
+      "nearby": [
+        {
+          "time_ns": 21236074700,
+          "text": "seq=32 time_ms=21230 event=nearby_motion mode=storage t_us=21230000"
+        }
+      ],
+      "latency_us": 15776.425
+    },
+    {
+      "edge_ns": 21893267575,
+      "flash_start_ns": 21893167575,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        21918841650
+      ],
+      "nearby": [
+        {
+          "time_ns": 21920330900,
+          "text": "seq=33 time_ms=21916 event=nearby_motion mode=storage t_us=21916000"
+        }
+      ],
+      "latency_us": 25574.075
+    },
+    {
+      "edge_ns": 22517650325,
+      "flash_start_ns": 22517550325,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        22533419050
+      ],
+      "nearby": [
+        {
+          "time_ns": 22536353850,
+          "text": "seq=34 time_ms=22530 event=nearby_motion mode=storage t_us=22531000"
+        }
+      ],
+      "latency_us": 15768.725
+    },
+    {
+      "edge_ns": 23193170975,
+      "flash_start_ns": 23193070975,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        23220864375
+      ],
+      "nearby": [
+        {
+          "time_ns": 23222354025,
+          "text": "seq=35 time_ms=23216 event=nearby_motion mode=storage t_us=23218000"
+        }
+      ],
+      "latency_us": 27693.4
+    },
+    {
+      "edge_ns": 23835056600,
+      "flash_start_ns": 23834956600,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        23920832050
+      ],
+      "nearby": [
+        {
+          "time_ns": 23922328200,
+          "text": "seq=36 time_ms=23916 event=nearby_motion mode=storage t_us=23918000"
+        }
+      ],
+      "latency_us": 85775.45
+    },
+    {
+      "edge_ns": 24468308675,
+      "flash_start_ns": 24468208675,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        24520816300
+      ],
+      "nearby": [
+        {
+          "time_ns": 24522310450,
+          "text": "seq=37 time_ms=24516 event=nearby_motion mode=storage t_us=24518000"
+        }
+      ],
+      "latency_us": 52507.625
+    },
+    {
+      "edge_ns": 25110091300,
+      "flash_start_ns": 25109991300,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        25128011400
+      ],
+      "nearby": [
+        {
+          "time_ns": 25129874775,
+          "text": "seq=38 time_ms=25123 event=nearby_motion mode=storage t_us=25125000"
+        }
+      ],
+      "latency_us": 17920.1
+    },
+    {
+      "edge_ns": 25784061000,
+      "flash_start_ns": 25783961000,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        25820765200
+      ],
+      "nearby": [
+        {
+          "time_ns": 25822261875,
+          "text": "seq=39 time_ms=25816 event=nearby_motion mode=storage t_us=25818000"
+        }
+      ],
+      "latency_us": 36704.2
+    },
+    {
+      "edge_ns": 26418228300,
+      "flash_start_ns": 26418128300,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        26436148575
+      ],
+      "nearby": [
+        {
+          "time_ns": 26438017275,
+          "text": "seq=40 time_ms=26431 event=nearby_motion mode=storage t_us=26434000"
+        }
+      ],
+      "latency_us": 17920.275
+    },
+    {
+      "edge_ns": 27042965300,
+      "flash_start_ns": 27042865300,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        27120787625
+      ],
+      "nearby": [
+        {
+          "time_ns": 27122289525,
+          "text": "seq=41 time_ms=27116 event=nearby_motion mode=storage t_us=27118000"
+        }
+      ],
+      "latency_us": 77822.325
+    },
+    {
+      "edge_ns": 27717321725,
+      "flash_start_ns": 27717221725,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        27743498725,
+        27747757550
+      ],
+      "nearby": [
+        {
+          "time_ns": 27759217050,
+          "text": "seq=43 time_ms=27730 event=nearby_motion mode=storage t_us=27745000"
+        }
+      ],
+      "latency_us": 26177.0
+    },
+    {
+      "edge_ns": 28368337425,
+      "flash_start_ns": 28368237425,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        28418670250
+      ],
+      "nearby": [
+        {
+          "time_ns": 28420168250,
+          "text": "seq=44 time_ms=28416 event=nearby_motion mode=storage t_us=28416000"
+        }
+      ],
+      "latency_us": 50332.825
+    },
+    {
+      "edge_ns": 29026919425,
+      "flash_start_ns": 29026819425,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        29118501400
+      ],
+      "nearby": [
+        {
+          "time_ns": 29120004900,
+          "text": "seq=45 time_ms=29116 event=nearby_motion mode=storage t_us=29116000"
+        }
+      ],
+      "latency_us": 91581.975
+    },
+    {
+      "edge_ns": 29668214850,
+      "flash_start_ns": 29668114850,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        29718671650
+      ],
+      "nearby": [
+        {
+          "time_ns": 29720172150,
+          "text": "seq=46 time_ms=29716 event=nearby_motion mode=storage t_us=29716000"
+        }
+      ],
+      "latency_us": 50456.8
+    },
+    {
+      "edge_ns": 30318214800,
+      "flash_start_ns": 30318114800,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        30336140525
+      ],
+      "nearby": [
+        {
+          "time_ns": 30338018025,
+          "text": "seq=47 time_ms=30331 event=nearby_motion mode=storage t_us=30334000"
+        }
+      ],
+      "latency_us": 17925.725
+    },
+    {
+      "edge_ns": 30993329375,
+      "flash_start_ns": 30993229375,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        31020830625
+      ],
+      "nearby": [
+        {
+          "time_ns": 31022340525,
+          "text": "seq=48 time_ms=31016 event=nearby_motion mode=storage t_us=31018000"
+        }
+      ],
+      "latency_us": 27501.25
+    },
+    {
+      "edge_ns": 31643210200,
+      "flash_start_ns": 31643110200,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        31720497700
+      ],
+      "nearby": [
+        {
+          "time_ns": 31722003200,
+          "text": "seq=49 time_ms=31716 event=nearby_motion mode=storage t_us=31718000"
+        }
+      ],
+      "latency_us": 77287.5
+    },
+    {
+      "edge_ns": 32260018600,
+      "flash_start_ns": 32259918600,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        32320684800
+      ],
+      "nearby": [
+        {
+          "time_ns": 32322185950,
+          "text": "seq=50 time_ms=32316 event=nearby_motion mode=storage t_us=32318000"
+        }
+      ],
+      "latency_us": 60666.2
+    },
+    {
+      "edge_ns": 32935033025,
+      "flash_start_ns": 32934933025,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        33020620450
+      ],
+      "nearby": [
+        {
+          "time_ns": 33022118125,
+          "text": "seq=51 time_ms=33016 event=nearby_motion mode=storage t_us=33018000"
+        }
+      ],
+      "latency_us": 85587.425
+    },
+    {
+      "edge_ns": 33550870950,
+      "flash_start_ns": 33550770925,
+      "offset_us": 100.025,
+      "mode": 1,
+      "responses_ns": [
+        33620622450
+      ],
+      "nearby": [
+        {
+          "time_ns": 33622116125,
+          "text": "seq=52 time_ms=33616 event=nearby_motion mode=storage t_us=33618000"
+        }
+      ],
+      "latency_us": 69751.5
+    },
+    {
+      "edge_ns": 34210040225,
+      "flash_start_ns": 34209940225,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        34227959475
+      ],
+      "nearby": [
+        {
+          "time_ns": 34229834200,
+          "text": "seq=53 time_ms=34223 event=nearby_motion mode=storage t_us=34225000"
+        }
+      ],
+      "latency_us": 17919.25
+    },
+    {
+      "edge_ns": 34884951900,
+      "flash_start_ns": 34884851900,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        34920584125
+      ],
+      "nearby": [
+        {
+          "time_ns": 34922087275,
+          "text": "seq=54 time_ms=34916 event=nearby_motion mode=storage t_us=34918000"
+        }
+      ],
+      "latency_us": 35632.225
+    },
+    {
+      "edge_ns": 35534680575,
+      "flash_start_ns": 35534580575,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        35620608550
+      ],
+      "nearby": [
+        {
+          "time_ns": 35622110200,
+          "text": "seq=55 time_ms=35616 event=nearby_motion mode=storage t_us=35618000"
+        }
+      ],
+      "latency_us": 85927.975
+    },
+    {
+      "edge_ns": 36150555975,
+      "flash_start_ns": 36150455975,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        36220577050
+      ],
+      "nearby": [
+        {
+          "time_ns": 36222078700,
+          "text": "seq=56 time_ms=36216 event=nearby_motion mode=storage t_us=36218000"
+        }
+      ],
+      "latency_us": 70021.075
+    },
+    {
+      "edge_ns": 36834729525,
+      "flash_start_ns": 36834629525,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        36920557200
+      ],
+      "nearby": [
+        {
+          "time_ns": 36922056875,
+          "text": "seq=57 time_ms=36916 event=nearby_motion mode=storage t_us=36918000"
+        }
+      ],
+      "latency_us": 85827.675
+    },
+    {
+      "edge_ns": 37484936975,
+      "flash_start_ns": 37484836975,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        37520531200
+      ],
+      "nearby": [
+        {
+          "time_ns": 37522036375,
+          "text": "seq=58 time_ms=37516 event=nearby_motion mode=storage t_us=37518000"
+        }
+      ],
+      "latency_us": 35594.225
+    },
+    {
+      "edge_ns": 38109842725,
+      "flash_start_ns": 38109742725,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        38127761725
+      ],
+      "nearby": [
+        {
+          "time_ns": 38129637700,
+          "text": "seq=59 time_ms=38123 event=nearby_motion mode=storage t_us=38125000"
+        }
+      ],
+      "latency_us": 17919.0
+    },
+    {
+      "edge_ns": 38776790325,
+      "flash_start_ns": 38776690325,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        38820348025
+      ],
+      "nearby": [
+        {
+          "time_ns": 38821851525,
+          "text": "seq=60 time_ms=38816 event=nearby_motion mode=storage t_us=38818000"
+        }
+      ],
+      "latency_us": 43557.7
+    },
+    {
+      "edge_ns": 39426118300,
+      "flash_start_ns": 39426018300,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        39520499300
+      ],
+      "nearby": [
+        {
+          "time_ns": 39522005200,
+          "text": "seq=61 time_ms=39516 event=nearby_motion mode=storage t_us=39518000"
+        }
+      ],
+      "latency_us": 94381.0
+    },
+    {
+      "edge_ns": 40043835150,
+      "flash_start_ns": 40043735150,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        40120487550
+      ],
+      "nearby": [
+        {
+          "time_ns": 40121992450,
+          "text": "seq=62 time_ms=40116 event=nearby_motion mode=storage t_us=40118000"
+        }
+      ],
+      "latency_us": 76652.4
+    },
+    {
+      "edge_ns": 40726600225,
+      "flash_start_ns": 40726500225,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        40820482450
+      ],
+      "nearby": [
+        {
+          "time_ns": 40821987875,
+          "text": "seq=63 time_ms=40816 event=nearby_motion mode=storage t_us=40818000"
+        }
+      ],
+      "latency_us": 93882.225
+    },
+    {
+      "edge_ns": 41376583175,
+      "flash_start_ns": 41376483175,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        41420480950
+      ],
+      "nearby": [
+        {
+          "time_ns": 41421993375,
+          "text": "seq=64 time_ms=41416 event=nearby_motion mode=storage t_us=41418000"
+        }
+      ],
+      "latency_us": 43897.775
+    },
+    {
+      "edge_ns": 42028048525,
+      "flash_start_ns": 42027948525,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        42120446875
+      ],
+      "nearby": [
+        {
+          "time_ns": 42121956275,
+          "text": "seq=65 time_ms=42116 event=nearby_motion mode=storage t_us=42118000"
+        }
+      ],
+      "latency_us": 92398.35
+    },
+    {
+      "edge_ns": 42675844075,
+      "flash_start_ns": 42675744075,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        42720430125
+      ],
+      "nearby": [
+        {
+          "time_ns": 42721944025,
+          "text": "seq=66 time_ms=42716 event=nearby_motion mode=storage t_us=42718000"
+        }
+      ],
+      "latency_us": 44586.05
+    },
+    {
+      "edge_ns": 43318189100,
+      "flash_start_ns": 43318089100,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        43336113275
+      ],
+      "nearby": [
+        {
+          "time_ns": 43337997425,
+          "text": "seq=67 time_ms=43331 event=nearby_motion mode=storage t_us=43334000"
+        }
+      ],
+      "latency_us": 17924.175
+    },
+    {
+      "edge_ns": 43993121525,
+      "flash_start_ns": 43993021525,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        44026555900
+      ],
+      "nearby": [
+        {
+          "time_ns": 44040963025,
+          "text": "seq=68 time_ms=44022 event=nearby_motion mode=storage t_us=44024000"
+        }
+      ],
+      "latency_us": 33434.375
+    },
+    {
+      "edge_ns": 44601781825,
+      "flash_start_ns": 44601681825,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        44620714700
+      ],
+      "nearby": [
+        {
+          "time_ns": 44622236675,
+          "text": "seq=69 time_ms=44616 event=nearby_motion mode=storage t_us=44618000"
+        }
+      ],
+      "latency_us": 18932.875
+    },
+    {
+      "edge_ns": 45259930250,
+      "flash_start_ns": 45259830250,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        45320389950
+      ],
+      "nearby": [
+        {
+          "time_ns": 45321901125,
+          "text": "seq=70 time_ms=45316 event=nearby_motion mode=storage t_us=45318000"
+        }
+      ],
+      "latency_us": 60459.7
+    },
+    {
+      "edge_ns": 45943074400,
+      "flash_start_ns": 45942974400,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        46020200275
+      ],
+      "nearby": [
+        {
+          "time_ns": 46021716025,
+          "text": "seq=71 time_ms=46016 event=nearby_motion mode=storage t_us=46018000"
+        }
+      ],
+      "latency_us": 77125.875
+    },
+    {
+      "edge_ns": 46593189225,
+      "flash_start_ns": 46593089225,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        46620336625
+      ],
+      "nearby": [
+        {
+          "time_ns": 46621848775,
+          "text": "seq=72 time_ms=46616 event=nearby_motion mode=storage t_us=46618000"
+        }
+      ],
+      "latency_us": 27147.4
+    },
+    {
+      "edge_ns": 47200936825,
+      "flash_start_ns": 47200836825,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        47220693675
+      ],
+      "nearby": [
+        {
+          "time_ns": 47222211250,
+          "text": "seq=73 time_ms=47216 event=nearby_motion mode=storage t_us=47218000"
+        }
+      ],
+      "latency_us": 19756.85
+    },
+    {
+      "edge_ns": 47884929575,
+      "flash_start_ns": 47884829575,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        47920347025
+      ],
+      "nearby": [
+        {
+          "time_ns": 47921867175,
+          "text": "seq=74 time_ms=47916 event=nearby_motion mode=storage t_us=47918000"
+        }
+      ],
+      "latency_us": 35417.45
+    },
+    {
+      "edge_ns": 48526748450,
+      "flash_start_ns": 48526648450,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        48620356450
+      ],
+      "nearby": [
+        {
+          "time_ns": 48621880600,
+          "text": "seq=75 time_ms=48616 event=nearby_motion mode=storage t_us=48618000"
+        }
+      ],
+      "latency_us": 93608.0
+    },
+    {
+      "edge_ns": 49143374600,
+      "flash_start_ns": 49143274600,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        49220271700
+      ],
+      "nearby": [
+        {
+          "time_ns": 49221782375,
+          "text": "seq=76 time_ms=49216 event=nearby_motion mode=storage t_us=49218000"
+        }
+      ],
+      "latency_us": 76897.1
+    },
+    {
+      "edge_ns": 49825753625,
+      "flash_start_ns": 49825653625,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        49920121025
+      ],
+      "nearby": [
+        {
+          "time_ns": 49921639775,
+          "text": "seq=77 time_ms=49916 event=nearby_motion mode=storage t_us=49918000"
+        }
+      ],
+      "latency_us": 94367.4
+    },
+    {
+      "edge_ns": 50484896900,
+      "flash_start_ns": 50484796900,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        50520257625
+      ],
+      "nearby": [
+        {
+          "time_ns": 50521774775,
+          "text": "seq=78 time_ms=50516 event=nearby_motion mode=storage t_us=50518000"
+        }
+      ],
+      "latency_us": 35360.725
+    },
+    {
+      "edge_ns": 51101669825,
+      "flash_start_ns": 51101569825,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        51120758950
+      ],
+      "nearby": [
+        {
+          "time_ns": 51122284250,
+          "text": "seq=79 time_ms=51116 event=nearby_motion mode=storage t_us=51119000"
+        }
+      ],
+      "latency_us": 19089.125
+    },
+    {
+      "edge_ns": 51784314825,
+      "flash_start_ns": 51784214825,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        51820277025
+      ],
+      "nearby": [
+        {
+          "time_ns": 51821787425,
+          "text": "seq=80 time_ms=51816 event=nearby_motion mode=storage t_us=51818000"
+        }
+      ],
+      "latency_us": 35962.2
+    },
+    {
+      "edge_ns": 52418407350,
+      "flash_start_ns": 52418307350,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        52436328400
+      ],
+      "nearby": [
+        {
+          "time_ns": 52438206350,
+          "text": "seq=81 time_ms=52432 event=nearby_motion mode=storage t_us=52434000"
+        }
+      ],
+      "latency_us": 17921.05
+    },
+    {
+      "edge_ns": 53043757150,
+      "flash_start_ns": 53043657150,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        53120264200
+      ],
+      "nearby": [
+        {
+          "time_ns": 53121783600,
+          "text": "seq=82 time_ms=53116 event=nearby_motion mode=storage t_us=53118000"
+        }
+      ],
+      "latency_us": 76507.05
+    },
+    {
+      "edge_ns": 53726715600,
+      "flash_start_ns": 53726615600,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        53820233375
+      ],
+      "nearby": [
+        {
+          "time_ns": 53821741750,
+          "text": "seq=83 time_ms=53816 event=nearby_motion mode=storage t_us=53818000"
+        }
+      ],
+      "latency_us": 93517.775
+    },
+    {
+      "edge_ns": 54368321000,
+      "flash_start_ns": 54368221000,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        54420215125
+      ],
+      "nearby": [
+        {
+          "time_ns": 54421722025,
+          "text": "seq=84 time_ms=54416 event=nearby_motion mode=storage t_us=54418000"
+        }
+      ],
+      "latency_us": 51894.125
+    },
+    {
+      "edge_ns": 55027643725,
+      "flash_start_ns": 55027543725,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        55120217275
+      ],
+      "nearby": [
+        {
+          "time_ns": 55121735175,
+          "text": "seq=85 time_ms=55116 event=nearby_motion mode=storage t_us=55118000"
+        }
+      ],
+      "latency_us": 92573.55
+    },
+    {
+      "edge_ns": 55676674225,
+      "flash_start_ns": 55676574225,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        55720190775
+      ],
+      "nearby": [
+        {
+          "time_ns": 55721701675,
+          "text": "seq=86 time_ms=55716 event=nearby_motion mode=storage t_us=55718000"
+        }
+      ],
+      "latency_us": 43516.55
+    },
+    {
+      "edge_ns": 56318370350,
+      "flash_start_ns": 56318270350,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        56336292150
+      ],
+      "nearby": [
+        {
+          "time_ns": 56338173100,
+          "text": "seq=87 time_ms=56332 event=nearby_motion mode=storage t_us=56334000"
+        }
+      ],
+      "latency_us": 17921.8
+    },
+    {
+      "edge_ns": 56993164075,
+      "flash_start_ns": 56993064075,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        57026462425
+      ],
+      "nearby": [
+        {
+          "time_ns": 57040699200,
+          "text": "seq=88 time_ms=57022 event=nearby_motion mode=storage t_us=57024000"
+        }
+      ],
+      "latency_us": 33298.35
+    },
+    {
+      "edge_ns": 57625797000,
+      "flash_start_ns": 57625697000,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        57720156875
+      ],
+      "nearby": [
+        {
+          "time_ns": 57721665250,
+          "text": "seq=89 time_ms=57716 event=nearby_motion mode=storage t_us=57718000"
+        }
+      ],
+      "latency_us": 94359.875
+    },
+    {
+      "edge_ns": 58259715425,
+      "flash_start_ns": 58259615425,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        58320135375
+      ],
+      "nearby": [
+        {
+          "time_ns": 58321650500,
+          "text": "seq=90 time_ms=58316 event=nearby_motion mode=storage t_us=58318000"
+        }
+      ],
+      "latency_us": 60419.95
+    },
+    {
+      "edge_ns": 58926177050,
+      "flash_start_ns": 58926077050,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        59020109275
+      ],
+      "nearby": [
+        {
+          "time_ns": 59021621450,
+          "text": "seq=91 time_ms=59016 event=nearby_motion mode=storage t_us=59018000"
+        }
+      ],
+      "latency_us": 93932.225
+    },
+    {
+      "edge_ns": 59551457000,
+      "flash_start_ns": 59551357000,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        59619919450
+      ],
+      "nearby": [
+        {
+          "time_ns": 59621431700,
+          "text": "seq=92 time_ms=59616 event=nearby_motion mode=storage t_us=59618000"
+        }
+      ],
+      "latency_us": 68462.45
+    },
+    {
+      "edge_ns": 60201161475,
+      "flash_start_ns": 60201061475,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        60220416100
+      ],
+      "nearby": [
+        {
+          "time_ns": 60221937675,
+          "text": "seq=93 time_ms=60216 event=nearby_motion mode=storage t_us=60218000"
+        }
+      ],
+      "latency_us": 19254.625
+    },
+    {
+      "edge_ns": 60885129725,
+      "flash_start_ns": 60885029725,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        60919893600
+      ],
+      "nearby": [
+        {
+          "time_ns": 60921411125,
+          "text": "seq=94 time_ms=60916 event=nearby_motion mode=storage t_us=60918000"
+        }
+      ],
+      "latency_us": 34763.875
+    },
+    {
+      "edge_ns": 61526536350,
+      "flash_start_ns": 61526436350,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        61620039875
+      ],
+      "nearby": [
+        {
+          "time_ns": 61621551025,
+          "text": "seq=95 time_ms=61616 event=nearby_motion mode=storage t_us=61618000"
+        }
+      ],
+      "latency_us": 93503.525
+    },
+    {
+      "edge_ns": 62160088425,
+      "flash_start_ns": 62159988425,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        62220040875
+      ],
+      "nearby": [
+        {
+          "time_ns": 62221561025,
+          "text": "seq=96 time_ms=62216 event=nearby_motion mode=storage t_us=62218000"
+        }
+      ],
+      "latency_us": 59952.45
+    },
+    {
+      "edge_ns": 62826523525,
+      "flash_start_ns": 62826423525,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        62920018025
+      ],
+      "nearby": [
+        {
+          "time_ns": 62921532700,
+          "text": "seq=97 time_ms=62916 event=nearby_motion mode=storage t_us=62918000"
+        }
+      ],
+      "latency_us": 93494.5
+    },
+    {
+      "edge_ns": 63485048575,
+      "flash_start_ns": 63484948575,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        63519839450
+      ],
+      "nearby": [
+        {
+          "time_ns": 63521358200,
+          "text": "seq=98 time_ms=63516 event=nearby_motion mode=storage t_us=63518000"
+        }
+      ],
+      "latency_us": 34790.875
+    },
+    {
+      "edge_ns": 64109472150,
+      "flash_start_ns": 64109372150,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        64127399550
+      ],
+      "nearby": [
+        {
+          "time_ns": 64129282525,
+          "text": "seq=99 time_ms=64123 event=nearby_motion mode=storage t_us=64126000"
+        }
+      ],
+      "latency_us": 17927.4
+    },
+    {
+      "edge_ns": 64776622775,
+      "flash_start_ns": 64776522775,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        64820003450
+      ],
+      "nearby": [
+        {
+          "time_ns": 64821534600,
+          "text": "seq=100 time_ms=64816 event=nearby_motion mode=storage t_us=64818000"
+        }
+      ],
+      "latency_us": 43380.675
+    },
+    {
+      "edge_ns": 65434958725,
+      "flash_start_ns": 65434858700,
+      "offset_us": 100.025,
+      "mode": 1,
+      "responses_ns": [
+        65519970375
+      ],
+      "nearby": [
+        {
+          "time_ns": 65521502500,
+          "text": "seq=101 time_ms=65516 event=nearby_motion mode=storage t_us=65518000"
+        }
+      ],
+      "latency_us": 85011.65
+    },
+    {
+      "edge_ns": 66043493700,
+      "flash_start_ns": 66043393675,
+      "offset_us": 100.025,
+      "mode": 1,
+      "responses_ns": [
+        66119945125
+      ],
+      "nearby": [
+        {
+          "time_ns": 66121477025,
+          "text": "seq=102 time_ms=66116 event=nearby_motion mode=storage t_us=66118000"
+        }
+      ],
+      "latency_us": 76451.425
+    },
+    {
+      "edge_ns": 66726536775,
+      "flash_start_ns": 66726436775,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        66819919275
+      ],
+      "nearby": [
+        {
+          "time_ns": 66821449200,
+          "text": "seq=103 time_ms=66816 event=nearby_motion mode=storage t_us=66818000"
+        }
+      ],
+      "latency_us": 93382.5
+    },
+    {
+      "edge_ns": 67368388400,
+      "flash_start_ns": 67368288400,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        67419922775
+      ],
+      "nearby": [
+        {
+          "time_ns": 67421454700,
+          "text": "seq=104 time_ms=67416 event=nearby_motion mode=storage t_us=67418000"
+        }
+      ],
+      "latency_us": 51534.375
+    },
+    {
+      "edge_ns": 68027362450,
+      "flash_start_ns": 68027262450,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        68119934700
+      ],
+      "nearby": [
+        {
+          "time_ns": 68121473600,
+          "text": "seq=105 time_ms=68116 event=nearby_motion mode=storage t_us=68118000"
+        }
+      ],
+      "latency_us": 92572.25
+    },
+    {
+      "edge_ns": 68676574525,
+      "flash_start_ns": 68676474525,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        68719899950
+      ],
+      "nearby": [
+        {
+          "time_ns": 68721437350,
+          "text": "seq=106 time_ms=68716 event=nearby_motion mode=storage t_us=68718000"
+        }
+      ],
+      "latency_us": 43325.425
+    },
+    {
+      "edge_ns": 69326182825,
+      "flash_start_ns": 69326082825,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        69419886875
+      ],
+      "nearby": [
+        {
+          "time_ns": 69421422750,
+          "text": "seq=107 time_ms=69416 event=nearby_motion mode=storage t_us=69418000"
+        }
+      ],
+      "latency_us": 93704.05
+    },
+    {
+      "edge_ns": 69976573700,
+      "flash_start_ns": 69976473700,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        70019860875
+      ],
+      "nearby": [
+        {
+          "time_ns": 70021396275,
+          "text": "seq=108 time_ms=70016 event=nearby_motion mode=storage t_us=70018000"
+        }
+      ],
+      "latency_us": 43287.175
+    },
+    {
+      "edge_ns": 70592406475,
+      "flash_start_ns": 70592306475,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        70619860125
+      ],
+      "nearby": [
+        {
+          "time_ns": 70621393500,
+          "text": "seq=109 time_ms=70616 event=nearby_motion mode=storage t_us=70618000"
+        }
+      ],
+      "latency_us": 27453.65
+    },
+    {
+      "edge_ns": 71259564225,
+      "flash_start_ns": 71259464225,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        71319677950
+      ],
+      "nearby": [
+        {
+          "time_ns": 71321213700,
+          "text": "seq=110 time_ms=71316 event=nearby_motion mode=storage t_us=71318000"
+        }
+      ],
+      "latency_us": 60113.725
+    },
+    {
+      "edge_ns": 71926585575,
+      "flash_start_ns": 71926485575,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        72019813200
+      ],
+      "nearby": [
+        {
+          "time_ns": 72021343375,
+          "text": "seq=111 time_ms=72016 event=nearby_motion mode=storage t_us=72018000"
+        }
+      ],
+      "latency_us": 93227.625
+    },
+    {
+      "edge_ns": 72593317550,
+      "flash_start_ns": 72593217550,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        72619810700
+      ],
+      "nearby": [
+        {
+          "time_ns": 72621346375,
+          "text": "seq=112 time_ms=72616 event=nearby_motion mode=storage t_us=72618000"
+        }
+      ],
+      "latency_us": 26493.15
+    },
+    {
+      "edge_ns": 73210028200,
+      "flash_start_ns": 73209928200,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        73227945375
+      ],
+      "nearby": [
+        {
+          "time_ns": 73229853425,
+          "text": "seq=113 time_ms=73224 event=nearby_motion mode=storage t_us=73226000"
+        }
+      ],
+      "latency_us": 17917.175
+    },
+    {
+      "edge_ns": 73884472525,
+      "flash_start_ns": 73884372525,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        73919807125
+      ],
+      "nearby": [
+        {
+          "time_ns": 73921348250,
+          "text": "seq=114 time_ms=73916 event=nearby_motion mode=storage t_us=73918000"
+        }
+      ],
+      "latency_us": 35334.6
+    },
+    {
+      "edge_ns": 74518458575,
+      "flash_start_ns": 74518358575,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        74536385100
+      ],
+      "nearby": [
+        {
+          "time_ns": 74538287425,
+          "text": "seq=115 time_ms=74532 event=nearby_motion mode=storage t_us=74535000"
+        }
+      ],
+      "latency_us": 17926.525
+    },
+    {
+      "edge_ns": 75160098825,
+      "flash_start_ns": 75159998825,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        75219599450
+      ],
+      "nearby": [
+        {
+          "time_ns": 75221132700,
+          "text": "seq=116 time_ms=75216 event=nearby_motion mode=storage t_us=75218000"
+        }
+      ],
+      "latency_us": 59500.625
+    },
+    {
+      "edge_ns": 75826755950,
+      "flash_start_ns": 75826655950,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        75919760200
+      ],
+      "nearby": [
+        {
+          "time_ns": 75921304850,
+          "text": "seq=117 time_ms=75916 event=nearby_motion mode=storage t_us=75918000"
+        }
+      ],
+      "latency_us": 93004.25
+    },
+    {
+      "edge_ns": 76476772650,
+      "flash_start_ns": 76476672650,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        76519737200
+      ],
+      "nearby": [
+        {
+          "time_ns": 76521276850,
+          "text": "seq=118 time_ms=76516 event=nearby_motion mode=storage t_us=76518000"
+        }
+      ],
+      "latency_us": 42964.55
+    },
+    {
+      "edge_ns": 77101681000,
+      "flash_start_ns": 77101581000,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        77120100425
+      ],
+      "nearby": [
+        {
+          "time_ns": 77121766350,
+          "text": "seq=119 time_ms=77116 event=nearby_motion mode=storage t_us=77119000"
+        }
+      ],
+      "latency_us": 18419.425
+    },
+    {
+      "edge_ns": 77776769325,
+      "flash_start_ns": 77776669325,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        77819714375
+      ],
+      "nearby": [
+        {
+          "time_ns": 77821253250,
+          "text": "seq=120 time_ms=77816 event=nearby_motion mode=storage t_us=77818000"
+        }
+      ],
+      "latency_us": 42945.05
+    },
+    {
+      "edge_ns": 78420480525,
+      "flash_start_ns": 78420380525,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        78519708775
+      ],
+      "nearby": [
+        {
+          "time_ns": 78521253425,
+          "text": "seq=121 time_ms=78516 event=nearby_motion mode=storage t_us=78518000"
+        }
+      ],
+      "latency_us": 99228.25
+    },
+    {
+      "edge_ns": 79043652550,
+      "flash_start_ns": 79043552550,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        79119667525
+      ],
+      "nearby": [
+        {
+          "time_ns": 79121204450,
+          "text": "seq=122 time_ms=79116 event=nearby_motion mode=storage t_us=79118000"
+        }
+      ],
+      "latency_us": 76014.975
+    },
+    {
+      "edge_ns": 79718284100,
+      "flash_start_ns": 79718184100,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        79736208525
+      ],
+      "nearby": [
+        {
+          "time_ns": 79738112100,
+          "text": "seq=123 time_ms=79732 event=nearby_motion mode=storage t_us=79735000"
+        }
+      ],
+      "latency_us": 17924.425
+    },
+    {
+      "edge_ns": 80368318450,
+      "flash_start_ns": 80368218450,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        80419667700
+      ],
+      "nearby": [
+        {
+          "time_ns": 80421200600,
+          "text": "seq=124 time_ms=80416 event=nearby_motion mode=storage t_us=80418000"
+        }
+      ],
+      "latency_us": 51349.25
+    },
+    {
+      "edge_ns": 81026483100,
+      "flash_start_ns": 81026383100,
+      "offset_us": 100.0,
+      "mode": 1,
+      "responses_ns": [
+        81119663125,
+        98034610550,
+        105034576225
+      ],
+      "nearby": [
+        {
+          "time_ns": 81121207000,
+          "text": "seq=125 time_ms=81116 event=nearby_motion mode=storage t_us=81118000"
+        }
+      ],
+      "latency_us": 93180.025
+    }
+  ],
+  "flash_pulses": 247,
+  "good_count": 117
+}

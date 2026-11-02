@@ -1,0 +1,362 @@
+BUILD git=b5284ef82242+lab3-worktree source=3baa36f7992671ba clock_hz=48000000 timer=SysTick_1ms format=1
+seq=1 time_ms=16 event=boot mode=transit t_us=19000
+ParcelLog ready; GPIO PB0 selects transit/storage; commands: status selftest imuaddr 0x68/0x69 mark log stats erase CONFIRM
+seq=2 time_ms=26 event=mode_changed mode=storage t_us=27000
+[26 ms] selftest addr=0x68 result=0 mpu6050_ready
+seq=3 time_ms=26 event=light_ready mode=storage t_us=39000
+tick [1018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [2018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [3018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=4 time_ms=3716 event=nearby_motion mode=storage t_us=3718000
+tick [4018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=5 time_ms=4330 event=nearby_motion mode=storage t_us=4333000
+erase_ok=0 t_us=14000
+seq=6 time_ms=5016 event=nearby_motion mode=storage t_us=5018000
+tick [5021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=7 time_ms=5616 event=nearby_motion mode=storage t_us=5618000
+tick [6018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=8 time_ms=6316 event=nearby_motion mode=storage t_us=6318000
+erase_ok=0 t_us=14000
+seq=9 time_ms=7016 event=nearby_motion mode=storage t_us=7018000
+tick [7020 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=10 time_ms=7616 event=nearby_motion mode=storage t_us=7618000
+tick [8018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=11 time_ms=8222 event=nearby_motion mode=storage t_us=8225000
+erase_ok=0 t_us=15000
+seq=12 time_ms=8916 event=nearby_motion mode=storage t_us=8918000
+tick [9018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=13 time_ms=9616 event=nearby_motion mode=storage t_us=9618000
+tick [10018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=14 time_ms=10216 event=nearby_motion mode=storage t_us=10218000
+erase_ok=0 t_us=15000
+seq=15 time_ms=10916 event=nearby_motion mode=storage t_us=10918000
+tick [11018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=16 time_ms=11516 event=nearby_motion mode=storage t_us=11518000
+tick [12018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=17 time_ms=12121 event=nearby_motion mode=storage t_us=12124000
+erase_ok=0 t_us=15000
+seq=18 time_ms=12816 event=nearby_motion mode=storage t_us=12818000
+tick [13018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=19 time_ms=13516 event=nearby_motion mode=storage t_us=13518000
+tick [14018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=20 time_ms=14116 event=nearby_motion mode=storage t_us=14118000
+erase_ok=0 t_us=14000
+seq=21 time_ms=14816 event=nearby_motion mode=storage t_us=14818000
+tick [15018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=22 time_ms=15416 event=nearby_motion mode=storage t_us=15418000
+tick [16018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=23000
+seq=23 time_ms=16116 event=nearby_motion mode=storage t_us=16118000
+erase_ok=0 t_us=15000
+seq=24 time_ms=16716 event=nearby_motion mode=storage t_us=16718000
+tick [17018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=25 time_ms=17331 event=nearby_motion mode=storage t_us=17333000
+erase_ok=0 t_us=15000
+seq=26 time_ms=18016 event=nearby_motion mode=storage t_us=18018000
+tick [18021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=27 time_ms=18716 event=nearby_motion mode=storage t_us=18718000
+tick [19018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=28 time_ms=19316 event=nearby_motion mode=storage t_us=19318000
+erase_ok=0 t_us=14000
+seq=29 time_ms=20016 event=nearby_motion mode=storage t_us=20018000
+tick [20021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=30 time_ms=20616 event=nearby_motion mode=storage t_us=20618000
+tick [21016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+[21021 ms] mpu6050_read_error=2
+seq=31 time_ms=21021 event=imu_fault mode=storage t_us=21034000
+erase_ok=0 t_us=15000
+seq=32 time_ms=21230 event=nearby_motion mode=storage t_us=21230000
+erase_ok=0 t_us=15000
+seq=33 time_ms=21916 event=nearby_motion mode=storage t_us=21916000
+tick [22016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=34 time_ms=22530 event=nearby_motion mode=storage t_us=22531000
+tick [23016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0
+[23116 ms] selftest addr=0x68 result=0 mpu6050_ready
+erase_ok=0 t_us=15000
+seq=35 time_ms=23216 event=nearby_motion mode=storage t_us=23218000
+erase_ok=0 t_us=15000
+seq=36 time_ms=23916 event=nearby_motion mode=storage t_us=23918000
+tick [24018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=37 time_ms=24516 event=nearby_motion mode=storage t_us=24518000
+tick [25018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=38 time_ms=25123 event=nearby_motion mode=storage t_us=25125000
+erase_ok=0 t_us=15000
+seq=39 time_ms=25816 event=nearby_motion mode=storage t_us=25818000
+tick [26018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=40 time_ms=26431 event=nearby_motion mode=storage t_us=26434000
+tick [27018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=41 time_ms=27116 event=nearby_motion mode=storage t_us=27118000
+erase_ok=0 t_us=15000
+[27730 ms] mpu6050_read_error=2
+seq=42 time_ms=27730 event=imu_fault mode=storage t_us=27741000
+seq=43 time_ms=27730 event=nearby_motion mode=storage t_us=27745000
+tick [28016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=44 time_ms=28416 event=nearby_motion mode=storage t_us=28416000
+tick [29016 ms] mode=storage imu=error raw=0,0,0 mg=0,0,0 gyro=0,0,0 temp_mc=0 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=21000
+seq=45 time_ms=29116 event=nearby_motion mode=storage t_us=29116000
+erase_ok=0 t_us=15000
+seq=46 time_ms=29716 event=nearby_motion mode=storage t_us=29716000
+[29816 ms] selftest addr=0x68 result=0 mpu6050_ready
+tick [30018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=47 time_ms=30331 event=nearby_motion mode=storage t_us=30334000
+erase_ok=0 t_us=14000
+seq=48 time_ms=31016 event=nearby_motion mode=storage t_us=31018000
+tick [31021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=49 time_ms=31716 event=nearby_motion mode=storage t_us=31718000
+tick [32016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=50 time_ms=32316 event=nearby_motion mode=storage t_us=32318000
+erase_ok=0 t_us=15000
+seq=51 time_ms=33016 event=nearby_motion mode=storage t_us=33018000
+tick [33021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=52 time_ms=33616 event=nearby_motion mode=storage t_us=33618000
+tick [34018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=53 time_ms=34223 event=nearby_motion mode=storage t_us=34225000
+erase_ok=0 t_us=15000
+seq=54 time_ms=34916 event=nearby_motion mode=storage t_us=34918000
+tick [35018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=55 time_ms=35616 event=nearby_motion mode=storage t_us=35618000
+tick [36016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=56 time_ms=36216 event=nearby_motion mode=storage t_us=36218000
+erase_ok=0 t_us=14000
+seq=57 time_ms=36916 event=nearby_motion mode=storage t_us=36918000
+tick [37018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=58 time_ms=37516 event=nearby_motion mode=storage t_us=37518000
+tick [38018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=59 time_ms=38123 event=nearby_motion mode=storage t_us=38125000
+erase_ok=0 t_us=15000
+seq=60 time_ms=38816 event=nearby_motion mode=storage t_us=38818000
+tick [39018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=61 time_ms=39516 event=nearby_motion mode=storage t_us=39518000
+tick [40018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=62 time_ms=40116 event=nearby_motion mode=storage t_us=40118000
+erase_ok=0 t_us=14000
+seq=63 time_ms=40816 event=nearby_motion mode=storage t_us=40818000
+tick [41018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=64 time_ms=41416 event=nearby_motion mode=storage t_us=41418000
+tick [42018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=23000
+seq=65 time_ms=42116 event=nearby_motion mode=storage t_us=42118000
+erase_ok=0 t_us=15000
+seq=66 time_ms=42716 event=nearby_motion mode=storage t_us=42718000
+tick [43018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=67 time_ms=43331 event=nearby_motion mode=storage t_us=43334000
+erase_ok=0 t_us=14000
+tick [44016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=68 time_ms=44022 event=nearby_motion mode=storage t_us=44024000
+erase_ok=0 t_us=15000
+seq=69 time_ms=44616 event=nearby_motion mode=storage t_us=44618000
+tick [45016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=70 time_ms=45316 event=nearby_motion mode=storage t_us=45318000
+erase_ok=0 t_us=14000
+seq=71 time_ms=46016 event=nearby_motion mode=storage t_us=46018000
+tick [46021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=72 time_ms=46616 event=nearby_motion mode=storage t_us=46618000
+tick [47016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=73 time_ms=47216 event=nearby_motion mode=storage t_us=47218000
+erase_ok=0 t_us=15000
+seq=74 time_ms=47916 event=nearby_motion mode=storage t_us=47918000
+tick [48018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=75 time_ms=48616 event=nearby_motion mode=storage t_us=48618000
+tick [49016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=76 time_ms=49216 event=nearby_motion mode=storage t_us=49218000
+erase_ok=0 t_us=15000
+seq=77 time_ms=49916 event=nearby_motion mode=storage t_us=49918000
+tick [50018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=78 time_ms=50516 event=nearby_motion mode=storage t_us=50518000
+tick [51018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=79 time_ms=51116 event=nearby_motion mode=storage t_us=51119000
+erase_ok=0 t_us=14000
+seq=80 time_ms=51816 event=nearby_motion mode=storage t_us=51818000
+tick [52016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=81 time_ms=52432 event=nearby_motion mode=storage t_us=52434000
+tick [53018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=82 time_ms=53116 event=nearby_motion mode=storage t_us=53118000
+erase_ok=0 t_us=15000
+seq=83 time_ms=53816 event=nearby_motion mode=storage t_us=53818000
+tick [54016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=84 time_ms=54416 event=nearby_motion mode=storage t_us=54418000
+tick [55018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=23000
+seq=85 time_ms=55116 event=nearby_motion mode=storage t_us=55118000
+erase_ok=0 t_us=15000
+seq=86 time_ms=55716 event=nearby_motion mode=storage t_us=55718000
+tick [56018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=87 time_ms=56332 event=nearby_motion mode=storage t_us=56334000
+erase_ok=0 t_us=14000
+tick [57016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+seq=88 time_ms=57022 event=nearby_motion mode=storage t_us=57024000
+erase_ok=0 t_us=14000
+seq=89 time_ms=57716 event=nearby_motion mode=storage t_us=57718000
+tick [58018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=90 time_ms=58316 event=nearby_motion mode=storage t_us=58318000
+erase_ok=0 t_us=14000
+seq=91 time_ms=59016 event=nearby_motion mode=storage t_us=59018000
+tick [59021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=92 time_ms=59616 event=nearby_motion mode=storage t_us=59618000
+tick [60016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=93 time_ms=60216 event=nearby_motion mode=storage t_us=60218000
+erase_ok=0 t_us=14000
+seq=94 time_ms=60916 event=nearby_motion mode=storage t_us=60918000
+tick [61018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=95 time_ms=61616 event=nearby_motion mode=storage t_us=61618000
+tick [62018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=96 time_ms=62216 event=nearby_motion mode=storage t_us=62218000
+erase_ok=0 t_us=15000
+seq=97 time_ms=62916 event=nearby_motion mode=storage t_us=62918000
+tick [63018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=98 time_ms=63516 event=nearby_motion mode=storage t_us=63518000
+tick [64018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=99 time_ms=64123 event=nearby_motion mode=storage t_us=64126000
+erase_ok=0 t_us=14000
+seq=100 time_ms=64816 event=nearby_motion mode=storage t_us=64818000
+tick [65018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=101 time_ms=65516 event=nearby_motion mode=storage t_us=65518000
+tick [66018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=102 time_ms=66116 event=nearby_motion mode=storage t_us=66118000
+erase_ok=0 t_us=15000
+seq=103 time_ms=66816 event=nearby_motion mode=storage t_us=66818000
+tick [67018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=104 time_ms=67416 event=nearby_motion mode=storage t_us=67418000
+tick [68018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=23000
+seq=105 time_ms=68116 event=nearby_motion mode=storage t_us=68118000
+erase_ok=0 t_us=14000
+seq=106 time_ms=68716 event=nearby_motion mode=storage t_us=68718000
+tick [69018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=107 time_ms=69416 event=nearby_motion mode=storage t_us=69418000
+erase_ok=0 t_us=14000
+seq=108 time_ms=70016 event=nearby_motion mode=storage t_us=70018000
+tick [70021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=109 time_ms=70616 event=nearby_motion mode=storage t_us=70618000
+tick [71016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=110 time_ms=71316 event=nearby_motion mode=storage t_us=71318000
+erase_ok=0 t_us=14000
+seq=111 time_ms=72016 event=nearby_motion mode=storage t_us=72018000
+tick [72021 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=112 time_ms=72616 event=nearby_motion mode=storage t_us=72618000
+tick [73018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=113 time_ms=73224 event=nearby_motion mode=storage t_us=73226000
+erase_ok=0 t_us=14000
+seq=114 time_ms=73916 event=nearby_motion mode=storage t_us=73918000
+tick [74016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=115 time_ms=74532 event=nearby_motion mode=storage t_us=74535000
+tick [75018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=15000
+seq=116 time_ms=75216 event=nearby_motion mode=storage t_us=75218000
+erase_ok=0 t_us=14000
+seq=117 time_ms=75916 event=nearby_motion mode=storage t_us=75918000
+tick [76018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=1 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=118 time_ms=76516 event=nearby_motion mode=storage t_us=76518000
+tick [77018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=119 time_ms=77116 event=nearby_motion mode=storage t_us=77119000
+erase_ok=0 t_us=14000
+seq=120 time_ms=77816 event=nearby_motion mode=storage t_us=77818000
+tick [78018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=121 time_ms=78516 event=nearby_motion mode=storage t_us=78518000
+tick [79018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=122 time_ms=79116 event=nearby_motion mode=storage t_us=79118000
+erase_ok=0 t_us=15000
+seq=123 time_ms=79732 event=nearby_motion mode=storage t_us=79735000
+tick [80018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=14000
+seq=124 time_ms=80416 event=nearby_motion mode=storage t_us=80418000
+tick [81018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+erase_ok=0 t_us=22000
+seq=125 time_ms=81116 event=nearby_motion mode=storage t_us=81118000
+tick [82018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [83018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [84018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [85018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [86018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+METRICS clock=SysTick_1ms elapsed_hi=0 elapsed_lo=86640000 sleep_hi=0 sleep_lo=0 stack_watermark=836 stack_reserve=2048 heap_arena=1032 heap_used=1032 heap_free=0 rx_overflows=0 queue_dropped=0 save_failed=125 intact=0 damaged=128 next=128
+STAT task=command n=82867 min_us=0 avg_us=24 max_us=24000 jitter_min_us=0 jitter_max_us=34000 skipped=3757 deadline_miss=120
+STAT task=sample n=867 min_us=0 avg_us=2408 max_us=19000 jitter_min_us=-16000 jitter_max_us=16000 skipped=0 deadline_miss=0
+STAT task=status n=86 min_us=5000 avg_us=5406 max_us=9000 jitter_min_us=-5000 jitter_max_us=5000 skipped=0 deadline_miss=0
+STAT task=led n=173 min_us=0 avg_us=196 max_us=1000 jitter_min_us=-14000 jitter_max_us=14000 skipped=0 deadline_miss=0
+STAT task=save n=245 min_us=0 avg_us=7342 max_us=23000
+STAT task=export n=0 min_us=0 avg_us=0 max_us=0
+STAT task=loop n=1094628 min_us=0 avg_us=79 max_us=35000
+STAT task=command_latency n=120 min_us=15000 avg_us=16266 max_us=32000
+STAT task=pir_latency n=120 min_us=16000 avg_us=54083 max_us=99000
+tick [87018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [88016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [89018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [90018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [91018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [92018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [93018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [94016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [95018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [96018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [97018 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+tick [98016 ms] mode=storage imu=ok raw=0,0,16384 mg=0,0,1000 gyro=0,0,0 temp_mc=24001 light=1001 pir=0 tx_overflow=0
+[98022 ms] mpu6050_read_error=2
+seq=126 time_ms=98022 event=imu_fault mode=storage t_us=98034000
