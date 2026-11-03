@@ -1,0 +1,49 @@
+{
+  "kind": "partial static call-chain estimate, not a whole-program upper bound",
+  "largest_known_chain_bytes": 396,
+  "chain": [
+    {
+      "function": "main",
+      "frame_bytes": 64
+    },
+    {
+      "function": "runtime_poll",
+      "frame_bytes": 136
+    },
+    {
+      "function": "shipment_append",
+      "frame_bytes": 80
+    },
+    {
+      "function": "shipment_read",
+      "frame_bytes": 48
+    },
+    {
+      "function": "unpack",
+      "frame_bytes": 48
+    },
+    {
+      "function": "crc",
+      "frame_bytes": 20
+    }
+  ],
+  "calls_without_su": [
+    "UART_TxISR_16BIT.part.0",
+    "__FLASH_Program_Fast_veneer",
+    "__aeabi_uldivmod",
+    "__divsi3",
+    "__errno",
+    "__gnu_thumb1_case_uqi",
+    "__udivsi3",
+    "delay_us.constprop.0",
+    "iprintf",
+    "mallinfo",
+    "memcmp",
+    "memcpy",
+    "memset",
+    "puts",
+    "strcmp"
+  ],
+  "exception_hardware_frame_bytes": 32,
+  "limits": "ELF calls may be tail-optimized; static .su lacks libc/assembly frames and indirect callback destinations. Full bound including IRQ nesting unknown. Compare with runtime painted reserve=2048 before certifying margin."
+}

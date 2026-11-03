@@ -1,6 +1,6 @@
 # ParcelLog
 
-Прототип спостереження за посилкою на STM32C031C6: MPU6050, LDR, PIR та фізичний перемикач transit/storage. Події не встановлюють особу людини або факт відкриття упаковки. UART-журнал не переживає reset.
+Прототип спостереження за посилкою на STM32C031C6: MPU6050, LDR, PIR та фізичний перемикач transit/storage. Події не встановлюють особу людини або факт відкриття упаковки. ЛР3 додає CRC-архів подій у внутрішній flash; його робота на MCU/Wokwi ще не підтверджена.
 
 [Звіт ЛР2](docs/lab2/report.pdf) · [PRD](docs/PRD.md) · [Pinout](docs/pinout.md) · [Архітектура](docs/architecture.md) · [Власні захвати](docs/captures/README.md)
 
@@ -20,3 +20,5 @@ App і Devices не включають HAL. Platform реалізує hardware I
 Власний запис 15.10.2026 підтвердив WHO_AM_I 0x68, SCL 100 кГц, 100-мс опитування IMU/ADC, контрольований NACK і відновлення. Три host suites та ASan/UBSan пройшли. Coverage App+Devices 100% рядків,96,43% гілок; Board/HAL не включені, runtime fake перевіряється окремо. Живлення й аналогова точність фізичного стенда не вимірювались.
 
 ЛР2 у feature/lab-2; pull request до main створюється окремо.
+
+ЛР3 у `feature/lab-3`, без нових комітів. [Задачі](docs/tasks.md), [результати та межі вимірювань](docs/metrics/lab3/README.md), [обмеження](docs/limitations.md), [базова лінія ЛР4](docs/baseline-lab4.md). Команди `mark`, `log`, `stats`, `erase CONFIRM` доповнюють ЛР2. Остання команда видаляє архів, автоматичного стирання немає. Host-тести не є запуском MCU; часові вимоги S3 поки не підтверджені.

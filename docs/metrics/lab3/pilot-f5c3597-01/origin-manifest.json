@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-28T22:47:44.047078+02:00",
+  "project": "ParcelLog",
+  "source_sha256": "f5c3597ae840dba0ea35af43fb76e2002b124f66b5b93911193aebf6f7c5a610",
+  "elf_sha256": "b772c4e0a9f949321c6c726c335aca942658a0ec081b01b122ee09de296726e4",
+  "wokwi_extension": "4.1.0",
+  "conditions": "Frozen standard diagram, default sensor values, UART115200, TIM3 1MHz, existing community license; no trial activation",
+  "result": "negative capability pilot, no final S1/S2/S3",
+  "observed": [
+    "UART collector received323 bytes over65.340309042 wall seconds",
+    "BUILD source fingerprint matched",
+    "VCD span82.4933385 simulated seconds",
+    "One completed SAMPLE pulse29.680800..42.332825 ms; no subsequent periodic SAMPLE completion",
+    "Independent TX decoder shows startup BUILD, boot and ready, then selftest addr0x68 result0; log/stats/erase commands transmitted on RX, no response confirmed",
+    "FLASH marker42.460625..42.468550 ms; no durable readback or erase result received"
+  ],
+  "interpretation": "Startup progress/throughput gate failed. Clock correctness is not established. Delayed UART arrival is not a firmware clock measurement. Cause not yet isolated; do not declare storage unsupported from this pilot. Marker widths are not certified CPU metrics.",
+  "remaining": [
+    "Diagnose interrupt/timer/UART progression after first sample",
+    "Add bounded own diagnostic path if needed; collect actual HAL status/PageError/registers and complete page readback for flash failures",
+    "Revalidate clock independently against VCD before long S2",
+    "All final scenarios, runtime stack/heap, actual persistence/power loss, report and final Memo remain pending"
+  ],
+  "files": {
+    "docs/metrics/lab3/pilot-f5c3597-01/uart.log": "19e1e23e582e4218fe9b76b2debc12813fd323b6fd419be766a77219937b5e8d",
+    "docs/metrics/lab3/pilot-f5c3597-01/uart.session.json": "df8dc3546d678f59c9b8c3309e83fe8e1fb9d65341b8f223dade61f4769a7921",
+    "docs/metrics/lab3/pilot-f5c3597-01/capture-console.log": "681d9b89f84852d9bb729d792ecb8a43c58bff6ad626794c46b279ed61de51b4",
+    "docs/metrics/lab3/pilot-f5c3597-01/startup-stall.png": "0e8279206d628bdf12c5d3d0dfb839e8e1653cdc2ecc807c6dc4acca693e9919",
+    "docs/metrics/lab3/pilot-f5c3597-01/stopped-pilot.png": "228d8f4a0b6ccbf6b7cd6008ec4e5605c963a25b7e362c61fdbf72ea8be3af91",
+    "docs/metrics/lab3/pilot-f5c3597-01/vcd-analysis.json": "bfc28ce4b72ec287b1e2f191d4095b3bef2829c9a78bcc805690e3c46e0031eb",
+    "docs/metrics/lab3/pilot-f5c3597-01/vcd-analysis.wire-uart.json": "5df8d3e1bff168ea74c6c4d308e3788d887edc899d7a691e83cc115dc9087b88",
+    "docs/captures/lab3/pilot-f5c3597-01.vcd": "ebd043ac7c784551a6c69cdb30d2d449e7b58f88144701a00055fccbfc84c520",
+    "firmware/build/firmware.elf": "b772c4e0a9f949321c6c726c335aca942658a0ec081b01b122ee09de296726e4",
+    "firmware/build/firmware.hex": "2046ec0af5721ba58f425da39f81029390c8c82ddf1f11e069317321de83775a",
+    "docs/metrics/lab3/pilot-f5c3597-01/firmware.elf": "b772c4e0a9f949321c6c726c335aca942658a0ec081b01b122ee09de296726e4",
+    "docs/metrics/lab3/pilot-f5c3597-01/firmware.hex": "2046ec0af5721ba58f425da39f81029390c8c82ddf1f11e069317321de83775a"
+  },
+  "gui_cleanup": "Simulation stopped via Wokwi Stop; VCD export verified. Wokwi Terminal and own zsh killed via UI. ParcelLog window closed; cua returned noWindowsAvailable. UART collector exited.",
+  "frozen_source_archive": {
+    "path": "/Users/pliffdax/Projects/university/Study/People/Чекун Микола Олексійович/2026-Fall/SP/Lab03/Work/frozen-f5c3597ae840dba0.tar.gz",
+    "sha256": "2b6ff59b6e4bc15d82183fa641db2f0ea759e5852589c0d4f2958bd229e82fdf"
+  }
+}

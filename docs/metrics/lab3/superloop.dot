@@ -1,0 +1,16 @@
+digraph ParcelLog {
+ graph [rankdir=TB, bgcolor="white", nodesep=.25, ranksep=.3];
+ node [shape=box, style=rounded, fontname="Arial", fontsize=14, margin=".17,.1", width=4.8];
+ edge [fontname="Arial",fontsize=12];
+ init [label="HAL, SysTick 1 мс\nUART, ADC, сканування CRC журналу"];
+ command [label="UART: період 1 мс\nне більше 128 байтів і однієї команди"];
+ sample [label="Кожні 100 мс: PB0/PIR, MPU, ADC\nнезалежні правила shock/tilt/light/PIR"];
+ status [label="Статус: 1 с; LED: 500 мс"];
+ save [label="Одна подія з FIFO → flash\n3 doubleword даних + CRC/commit"];
+ output [label="Один рядок log/stats\nлише за TX free ≥ 512"];
+ sleep [label="Наступний прохід циклу\nWFI вимкнено"];
+ init -> command -> sample -> status -> save -> output -> sleep;
+ sleep -> command [label="наступний цикл",constraint=false];
+ irq [label="IRQ: UART RX/TX\nSysTick 1 мс\nPIR timestamp",style="rounded,dashed"];
+ irq -> command [style=dashed,label="черги та час",constraint=false];
+}

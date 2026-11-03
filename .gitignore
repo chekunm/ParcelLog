@@ -7,3 +7,9 @@ wokwi.vcd
 
 __pycache__/
 *.pyc
+
+# Local authoring exports and preparation files
+**/report-source/
+/docs/lab2/report.*
+!/docs/lab2/report.pdf
+/firmware/build-*/

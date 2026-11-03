@@ -1,0 +1,4 @@
+BUILD git=b5284ef82242+lab3-worktree source=f5c3597ae840dba0 clock_hz=48000000 timer=TIM3_1MHz format=1
+seq=1 time_ms=16 event=boot mode=transit t_us=19865
+ParcelLog ready; GPIO PB0 selects transit/storage; commands: status selftest imuaddr 0x68/0x69 mark log stats erase CONFIRM
+[26 ms] selftest addr=0x68 result=0 mpu6

@@ -1,0 +1,62 @@
+{
+  "started_at": "2026-10-28T22:43:50.236432+02:00",
+  "duration_seconds": 65.340309042,
+  "end_reason": "duration_elapsed",
+  "commands": [
+    {
+      "elapsed_wall_s": 2.01663525,
+      "text": "status"
+    },
+    {
+      "elapsed_wall_s": 3.050527584000001,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 4.046840459,
+      "text": "log"
+    },
+    {
+      "elapsed_wall_s": 6.022094625000001,
+      "text": "stats"
+    },
+    {
+      "elapsed_wall_s": 10.052201000000002,
+      "text": "imuaddr 0x69"
+    },
+    {
+      "elapsed_wall_s": 14.002221792000002,
+      "text": "imuaddr 0x68"
+    },
+    {
+      "elapsed_wall_s": 16.046096624999997,
+      "text": "status"
+    },
+    {
+      "elapsed_wall_s": 25.047830584000003,
+      "text": "stats"
+    },
+    {
+      "elapsed_wall_s": 30.0449355,
+      "text": "erase CONFIRM"
+    },
+    {
+      "elapsed_wall_s": 35.02524325,
+      "text": "mark"
+    },
+    {
+      "elapsed_wall_s": 36.053116334,
+      "text": "log"
+    },
+    {
+      "elapsed_wall_s": 40.012800000000006,
+      "text": "stats"
+    },
+    {
+      "elapsed_wall_s": 55.020689584,
+      "text": "stats"
+    }
+  ],
+  "bytes": 323,
+  "sha256": "19e1e23e582e4218fe9b76b2debc12813fd323b6fd419be766a77219937b5e8d",
+  "source": "Actual RFC2217 bytes from ParcelLog Wokwi at localhost:4505; host schedule is not MCU time"
+}

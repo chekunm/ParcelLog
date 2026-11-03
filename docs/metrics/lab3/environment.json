@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-28T15:03:34.856784+02:00",
+  "board": "STM32C031C6, Cortex-M0+, 48 MHz, 32 KiB flash, 12 KiB SRAM",
+  "physical_hardware": false,
+  "gui_runs_this_task": 0,
+  "cli_token_configured": false,
+  "flowcraft_export": "PATH_OUTSIDE_WORKSPACE; analysis succeeded; local Graphviz render used",
+  "gui_queue": "not admitted; no windows created",
+  "docker_image": "sha256:993d7562f820a43e5302cfcbe44ef0856b7b57c58e487b5e5d5cf8e6149ab58e",
+  "docker_target": "Ubuntu 24.04 noble, ARM GCC 13.2",
+  "host": "macOS-27.0.1-arm64-arm-64bit"
+}
