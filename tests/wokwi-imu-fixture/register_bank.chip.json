@@ -1,0 +1,1 @@
+{"name":"MPU register-bank test double","author":"ParcelLog fixture","pins":["VCC","GND","SCL","SDA","AD0"]}

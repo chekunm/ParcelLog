@@ -1,0 +1,5 @@
+# Prepared S1 and S3 inputs
+
+Each named pair contains an unexecuted diagram and Wokwi configuration for the isolated `firmware/build-independent` ELF. `S1.diagram.json` is the project's existing setup; `S3.diagram.json` uses its existing FLASH-triggered PIR fixture. For an authorized run, materialize the selected pair as `diagram.json` and `wokwi.toml` in an isolated project that retains the referenced relative paths, including the separately frozen firmware and, for S3, the trigger binary. Do not overwrite the root diagram or prior VCDs. The output paths are placeholders; use a fresh run directory and record all effective paths and hashes.
+
+Existing `docs/metrics/lab3/scenarios/S1.json` and `S3.json` are host-clock UART schedules, not proof that MCU-time events occurred. Review the schedule against the actual simulator clock and collect raw VCD and UART; verify that sensor pulses and commands really occurred and that the run provides the assignment's required sample counts. Build and host tests do not establish S1 or S3 results. S2 is not part of these inputs.

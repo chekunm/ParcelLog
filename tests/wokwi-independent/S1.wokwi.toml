@@ -1,0 +1,6 @@
+[wokwi]
+version = 1
+firmware = 'firmware/build-independent/firmware.hex'
+elf = 'firmware/build-independent/firmware.elf'
+rfc2217ServerPort = 4506
+vcdFile = 'tests/wokwi-independent/S1.vcd'

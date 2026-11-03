@@ -95,7 +95,9 @@ int main(void)
   unsigned independent = ParcelRules_Update(&rules, &sample);
   assert((independent & PARCEL_EVENT_SHOCK) && (independent & PARCEL_EVENT_NEARBY_MOTION));
   assert(!(independent & PARCEL_EVENT_LIGHT_CHANGE));
-  sample.light_valid = true; sample.light = 1500; sample.ax = 0; sample.pir_motion = false;
+  sample.light_valid = true; sample.light = 1499; sample.ax = 0; sample.pir_motion = false;
+  assert(!(ParcelRules_Update(&rules, &sample) & PARCEL_EVENT_LIGHT_CHANGE));
+  sample.light = 1500;
   assert(ParcelRules_Update(&rules, &sample) & PARCEL_EVENT_LIGHT_CHANGE);
   puts("parcel_rules: ok");
   return 0;

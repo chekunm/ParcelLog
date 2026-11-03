@@ -1,0 +1,10 @@
+[wokwi]
+version = 1
+firmware = 'firmware/build-independent/firmware.hex'
+elf = 'firmware/build-independent/firmware.elf'
+rfc2217ServerPort = 4506
+vcdFile = 'tests/wokwi-imu-fixture/capture.vcd'
+
+[[chip]]
+name = 'register-bank'
+binary = 'tests/wokwi-imu-fixture/register_bank.chip.wasm'
