@@ -15,12 +15,21 @@ static bool program(void *c, uint32_t at, const uint8_t *p) {
     return true;
 }
 static bool erase(void *c) { (void)c; memset(flash,255,sizeof flash); return true; }
+static bool erase_fails(void *c) { (void)c; return false; }
+static bool erase_reports_success_without_change(void *c) { (void)c; return true; }
 static ShipmentStorage backend = {NULL,read_flash,program,erase};
 static ShipmentEntry entry(uint8_t kind) { return (ShipmentEntry){.uptime_ms=1234,.kind=kind,.mode=1,.valid=3,.light=2345,.ax=-32768,.ay=32767,.az=16384}; }
 int main(void) {
     ShipmentLog j,recovered; ShipmentEntry first=entry(2),next=entry(9),got;
     erase(NULL); shipment_open(&j,backend); assert(j.boot==1 && j.next_slot==0);
     assert(shipment_append(&j,&first));
+    ShipmentStorage failure = backend; failure.erase = erase_fails;
+    j.storage = failure; assert(!shipment_erase(&j) && j.boot==1);
+    ShipmentEntry same_boot = entry(9); assert(shipment_append(&j,&same_boot) && same_boot.boot==1);
+    j.storage.erase = erase_reports_success_without_change;
+    assert(!shipment_erase(&j) && j.boot==1);
+    same_boot = entry(9); assert(shipment_append(&j,&same_boot) && same_boot.boot==1);
+    erase(NULL); shipment_open(&j,backend); first=entry(2); assert(shipment_append(&j,&first));
     uint8_t prefix[32]; memcpy(prefix,flash,32);
     for (int cut=0;cut<=32;++cut) {
         erase(NULL); memcpy(flash,prefix,32); shipment_open(&j,backend);
@@ -42,6 +51,13 @@ int main(void) {
     uint8_t full[4096]; memcpy(full,flash,sizeof full);
     assert(!shipment_append(&j,&next) && !memcmp(full,flash,sizeof full));
     shipment_open(&recovered,backend); assert(recovered.intact==128 && recovered.last_sequence==128 && recovered.boot==2);
+    ShipmentStorage false_success = backend;
+    false_success.erase = erase_reports_success_without_change;
+    shipment_open(&recovered, false_success);
+    assert(!shipment_erase(&recovered));
+    assert(recovered.intact == 128 && recovered.next_slot == 128);
+    assert(!memcmp(full, flash, sizeof full));
+    shipment_open(&recovered, backend);
     assert(shipment_erase(&recovered) && recovered.next_slot==0);
     puts("shipment_log: 33 byte-cut boundaries, 256 corruptions, restart and capacity preservation passed (host NOR model)");
     return 0;

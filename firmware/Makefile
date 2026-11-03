@@ -39,6 +39,9 @@ C_SOURCES =  \
 Core/Src/main.c \
 Devices/mpu6050.c \
 Platform/board.c \
+Platform/parcel_light.c \
+Platform/sensor_transport.c \
+Platform/tx_queue.c \
 Platform/runtime.c \
 App/parcel_rules.c \
 App/shipment_log.c \
@@ -116,7 +119,8 @@ AS_DEFS =
 # C defines
 C_DEFS =  \
 -DUSE_HAL_DRIVER \
--DSTM32C031xx
+-DSTM32C031xx \
+-DPARCEL_CLOCK_SYSTICK
 
 
 # AS includes

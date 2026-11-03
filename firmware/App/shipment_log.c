@@ -64,7 +64,10 @@ bool shipment_append(ShipmentLog *j, ShipmentEntry *e) {
     return true;
 }
 bool shipment_erase(ShipmentLog *j) {
-    if (!j->storage.erase(j->storage.context)) { shipment_open(j, j->storage); return false; }
+    uint32_t boot = j->boot;
+    bool erased = j->storage.erase(j->storage.context);
     shipment_open(j, j->storage);
-    return j->accessible && j->next_slot == 0;
+    bool ok = erased && j->accessible && j->next_slot == 0;
+    if (!ok) j->boot = boot;
+    return ok;
 }

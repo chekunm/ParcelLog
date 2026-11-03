@@ -159,7 +159,7 @@ void runtime_init(void) {
     printf("BUILD git=%s source=%s clock_hz=%lu timer=TIM3_1MHz format=1\r\n", BUILD_GIT, BUILD_SOURCE, (unsigned long)SystemCoreClock);
 #endif
     event(now, "boot");
-    printf("ParcelLog ready; GPIO PB0 selects transit/storage; commands: status selftest imuaddr 0x68/0x69 mark log stats erase CONFIRM\r\n");
+    printf("ParcelLog ready; PB0=mode; status selftest imuaddr 0x68/0x69 mark log stats erase CONFIRM\r\n");
 }
 static void sample_task(uint32_t now) {
         sample.pir_motion = board_motion();
