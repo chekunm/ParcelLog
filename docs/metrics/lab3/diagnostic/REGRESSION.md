@@ -1,0 +1,12 @@
+# ParcelLog: next capability experiment
+
+Frozen f5c3597 pilot is preserved in pilot-f5c3597-01 with UART, VCD, PNG, original ELF/HEX and source archive in Lab03/Work. First TX gap over1ms after normal startup starts42.504150ms, followed by322.324575ms gap, then roughly319.915ms gaps. This occurs before the nominal first65.536ms TIM3 overflow and just after first flash attempt and first WFI. The sequence makes WFI wake behaviour a hypothesis, not a proven cause. No conclusion about unsupported flash follows.
+
+New diagnostic build defaults to busy super-loop, keeps the SAME TIM3 configuration/IRQ, UART, application and storage calls. Only idle waiting is gated by exported instrument_use_wfi. GDB can switch it to1 in the same ELF, so observing the onset in the same run distinguishes WFI correlation from timer/flash/UART progression. instrument_timer_irqs counts actual timer ISR entries. uwTick, timer_high, sleep state, queues and last flash status can be read independently of UART. No fake flash delay is used.
+
+1. Diagnostic configuration: default Wokwi config with GDB33345. Start actual UART collector before resuming. Confirm ELF/source banner and actual board.
+2. Use lab3_rsp_probe.py for two3s phases: initial halted snapshot, busy run, halted snapshot, set WFI=1, run, halted snapshot. It saves raw GDB packets, actual CPU registers, TIM3/SysTick/NVIC, actual last HAL status/error/PageError and complete2048-byte readbacks of BOTH journal pages. FF counts and CRC32 are derived from these exact readbacks.
+3. Compare PC and counters across phases: many timer IRQs with no poll progress suggest IRQ starvation; WFI-phase-only TX gaps with busy-phase progression point to sleep/wake; FLASH stage/readback distinguish early storage failure from executor stall. These are diagnostic criteria, not existing results.
+4. Save independent VCD; compare SAMPLE, RX and TX time, check clock monotonicity at multiple points including TIM3 wrap. A timestamp printed much later via queued TX does not itself prove timer drift. Do not treat marker width as CPU latency before this gate.
+5. If progression works with WFI=0, retain busy-loop only as an explicit diagnostic/fallback mode. Active CPU there is physically100%; task occupancy is a separate metric. Do not claim WFI fixed until repeated independently. If both phases fail, record actual PC/registers, retain the actual diagnostic context for analysis.
+6. Only after successful gates run NEW final S1, hour S2 and S3 on one selected version. Diagnostic ablation is not a final performance scenario.

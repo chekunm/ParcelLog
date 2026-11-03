@@ -1,24 +1,7 @@
 # ParcelLog
 
-Прототип спостереження за посилкою на STM32C031C6: MPU6050, LDR, PIR та фізичний перемикач transit/storage. Події не встановлюють особу людини або факт відкриття упаковки. ЛР3 додає CRC-архів подій у внутрішній flash; його робота на MCU/Wokwi ще не підтверджена.
+Чекун Микола Олексійович, ІО-33. Спостереження за посилкою: MPU6050, LDR, PIR, transit/storage та CRC-журнал.
 
-[Звіт ЛР2](docs/lab2/report.pdf) · [PRD](docs/PRD.md) · [Pinout](docs/pinout.md) · [Архітектура](docs/architecture.md) · [Власні захвати](docs/captures/README.md)
+ЛР3 виконується без ОС. [Результати ЛР3](docs/lab3/results.md), PDF у docs/lab3, [архітектура](docs/architecture.md), [PRD](docs/PRD.md).
 
-Середовище: Ubuntu 24.04, Docker, STM32 HAL, Wokwi.
-
-```sh
-make build
-make test
-make test-linux
-make coverage
-```
-
-У VS Code відкрити корінь проєкту та виконати Wokwi: Start Simulator. Початково MPU X/Y=0, Z=1 g, gyro=0; LDR 500 lux, PIR LOW. PB0=LOW означає transit, HIGH означає storage. PIR підключено до PB1. UART 115200 8N1 приймає `status`, `selftest`, `imuaddr 0x69`, `imuaddr 0x68`. Немає команд calibrate, ack або програмного вибору mode. ADC marker PA4, LED heartbeat PA5.
-
-App і Devices не включають HAL. Platform реалізує hardware I2C AUTOEND із deadline 10 ms, ADC calibration/retry та UART IRQ queues. Старий GPIO bit-bang з ЛР1 замінено апаратним I2C; вихідні HAL/CMSIS з commit 2b82b2a збережено, SHA256 перевіряються автоматично.
-
-Власний запис 15.10.2026 підтвердив WHO_AM_I 0x68, SCL 100 кГц, 100-мс опитування IMU/ADC, контрольований NACK і відновлення. Три host suites та ASan/UBSan пройшли. Coverage App+Devices 100% рядків,96,43% гілок; Board/HAL не включені, runtime fake перевіряється окремо. Живлення й аналогова точність фізичного стенда не вимірювались.
-
-ЛР2 у feature/lab-2; pull request до main створюється окремо.
-
-ЛР3 у `feature/lab-3`, без нових комітів. [Задачі](docs/tasks.md), [результати та межі вимірювань](docs/metrics/lab3/README.md), [обмеження](docs/limitations.md), [базова лінія ЛР4](docs/baseline-lab4.md). Команди `mark`, `log`, `stats`, `erase CONFIRM` доповнюють ЛР2. Остання команда видаляє архів, автоматичного стирання немає. Host-тести не є запуском MCU; часові вимоги S3 поки не підтверджені.
+`make test` — host-тести; `make build` — ARM-збірка через Docker. Виміряні ELF/HEX та джерела збережено окремо в docs/evidence/lab3; нова збірка не успадковує старі результати автоматично. У Wokwi відкрити wokwi.toml. [Інструменти](tools/HEADLESS-TOOLS.md).
