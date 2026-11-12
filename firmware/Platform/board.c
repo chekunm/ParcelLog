@@ -9,6 +9,7 @@ static volatile uint16_t rx_head, rx_tail;
 static volatile bool rx_overflow;
 static uint8_t rx_byte, rx_ring[256];
 static uint32_t rx_times[256], rx_taken_at;
+volatile uint32_t parcel_rx_bytes, parcel_rx_dropped_bytes, parcel_ore_events;
 static volatile uint32_t pir_rose_at;
 static ParcelTxQueue tx;
 static void transmit_next(void) {
@@ -40,12 +41,14 @@ bool board_tx_overflow(void) {
 }
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *uart) {
     if (uart != &huart2) return;
+    ++parcel_rx_bytes;
     uint16_t next = (uint16_t)((rx_head + 1u) & 255u);
-    if (next == rx_tail) rx_overflow = true;
+    if (next == rx_tail) { rx_overflow = true; ++parcel_rx_dropped_bytes; }
     else { rx_ring[rx_head] = rx_byte; rx_times[rx_head] = instrument_now(); rx_head = next; }
     (void)HAL_UART_Receive_IT(&huart2, &rx_byte, 1);
 }
 void HAL_UART_ErrorCallback(UART_HandleTypeDef *uart) {
+    if (uart == &huart2 && (uart->ErrorCode & HAL_UART_ERROR_ORE)) ++parcel_ore_events;
     if (uart == &huart2) { rx_overflow = true; (void)HAL_UART_Receive_IT(&huart2, &rx_byte, 1); }
 }
 int board_get_char(void) {
@@ -86,6 +89,12 @@ unsigned board_tx_free(void) {
 uint32_t board_rx_timestamp(void) { return rx_taken_at; }
 uint32_t board_motion_timestamp(void) { return pir_rose_at; }
 void HAL_GPIO_EXTI_Rising_Callback(uint16_t pin) {
-    if (pin == GPIO_PIN_1) pir_rose_at = instrument_now();
+    if (pin == GPIO_PIN_1) {
+        pir_rose_at = instrument_now();
+#ifdef PARCEL_FREERTOS
+        extern void parcel_pir_isr(uint32_t, bool);
+        parcel_pir_isr(pir_rose_at, board_storage());
+#endif
+    }
 }
 void EXTI0_1_IRQHandler(void) { HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_1); }

@@ -8,6 +8,25 @@
 #include "build_version.h"
 #include <stdio.h>
 #include <string.h>
+#ifdef PARCEL_FREERTOS
+#include "parcel_print.h"
+#define printf parcel_printf
+#include "FreeRTOS.h"
+#include "task.h"
+#include "semphr.h"
+#include "queue.h"
+#define PARCEL_CLOCK_LABEL "SysTick_1ms"
+static SemaphoreHandle_t state_lock;
+static QueueHandle_t pir_queue;
+typedef struct {uint32_t at; bool storage;} PirEdge;
+static volatile uint32_t pir_dropped;
+static uint32_t pir_event_at;
+extern void parcel_os_report(void);
+extern void parcel_trace_arm(void);
+#endif
+#ifndef PARCEL_CLOCK_LABEL
+#define PARCEL_CLOCK_LABEL "SysTick_1ms"
+#endif
 #ifdef RUNTIME_TEST_PRINTF
 int runtime_test_printf(const char *, ...);
 #define printf runtime_test_printf
@@ -53,7 +72,13 @@ static void status(uint32_t now) {
 static void event(uint32_t now, const char *name) {
     uint32_t reacted = instrument_now();
     instrument_probe(8, true);
-    if (!strcmp(name, "nearby_motion")) meter_add(&meters[PIR_LATENCY], reacted - board_motion_timestamp());
+    if (!strcmp(name, "nearby_motion")) {
+#ifdef PARCEL_FREERTOS
+        meter_add(&meters[PIR_LATENCY], reacted - pir_event_at);
+#else
+        meter_add(&meters[PIR_LATENCY], reacted - board_motion_timestamp());
+#endif
+    }
     unsigned kind = 0;
     while (kind < 10 && strcmp(name, event_names[kind])) ++kind;
     uint8_t next = (uint8_t)((pending_head + 1u) & 7u);
@@ -79,6 +104,16 @@ static void identify(uint32_t now) {
 }
 static void command(uint32_t now) {
     line[line_size] = 0;
+#ifdef PARCEL_FREERTOS
+    if (!strcmp(line, "trace")) parcel_trace_arm();
+    else if (!strcmp(line, "tasks")) {
+        if (board_tx_free() >= 1900u) {
+            parcel_os_report();
+            printf("PIR queue_dropped=%lu\r\n", (unsigned long)pir_dropped);
+        } else printf("tasks=busy\r\n");
+    }
+    else
+#endif
     if (!strcmp(line, "status")) status(now);
     else if (!strcmp(line, "selftest")) identify(now);
     else if (!strcmp(line, "mark")) event(now, "inspection");
@@ -88,13 +123,19 @@ static void command(uint32_t now) {
         uint64_t asleep = instrument_sleep_us();
         uint32_t used, free_bytes; instrument_heap_usage(&used, &free_bytes);
 #ifdef PARCEL_CLOCK_SYSTICK
-        printf("METRICS clock=SysTick_1ms elapsed_hi=%lu elapsed_lo=%lu sleep_hi=%lu sleep_lo=%lu stack_watermark=%lu stack_reserve=2048 heap_arena=%lu heap_used=%lu heap_free=%lu rx_overflows=%lu queue_dropped=%lu save_failed=%lu intact=%u damaged=%u next=%u\r\n",
+        printf("METRICS clock=" PARCEL_CLOCK_LABEL " elapsed_hi=%lu elapsed_lo=%lu sleep_hi=%lu sleep_lo=%lu stack_watermark=%lu stack_reserve=%lu heap_arena=%lu heap_used=%lu heap_free=%lu rx_overflows=%lu queue_dropped=%lu save_failed=%lu intact=%u damaged=%u next=%u\r\n",
 #else
-        printf("METRICS clock=TIM3_1MHz elapsed_hi=%lu elapsed_lo=%lu sleep_hi=%lu sleep_lo=%lu stack_watermark=%lu stack_reserve=2048 heap_arena=%lu heap_used=%lu heap_free=%lu rx_overflows=%lu queue_dropped=%lu save_failed=%lu intact=%u damaged=%u next=%u\r\n",
+        printf("METRICS clock=TIM3_1MHz elapsed_hi=%lu elapsed_lo=%lu sleep_hi=%lu sleep_lo=%lu stack_watermark=%lu stack_reserve=%lu heap_arena=%lu heap_used=%lu heap_free=%lu rx_overflows=%lu queue_dropped=%lu save_failed=%lu intact=%u damaged=%u next=%u\r\n",
 #endif
             (unsigned long)(elapsed_us >> 32), (unsigned long)elapsed_us,
             (unsigned long)(asleep >> 32), (unsigned long)asleep,
-            (unsigned long)instrument_stack(), (unsigned long)instrument_heap(),
+            (unsigned long)instrument_stack(),
+#ifdef PARCEL_FREERTOS
+            1024ul,
+#else
+            2048ul,
+#endif
+            (unsigned long)instrument_heap(),
             (unsigned long)used, (unsigned long)free_bytes, (unsigned long)rx_lost,
             (unsigned long)log_dropped, (unsigned long)log_failed, journal.intact, journal.damaged, journal.next_slot);
     } else if (!strcmp(line, "log")) {
@@ -148,13 +189,18 @@ void runtime_init(void) {
     pending_head = pending_tail = 0; log_dropped = log_failed = rx_lost = 0;
     exporting = stats_printing = false; elapsed_us = 0;
     memset(meters, 0, sizeof meters);
-    epoch = last_loop = instrument_now(); elapsed_us = epoch;
+    last_loop = instrument_now(); elapsed_us = last_loop;
+#ifdef PARCEL_CLOCK_SYSTICK
+    epoch = now*1000u;
+#else
+    epoch = last_loop;
+#endif
     releases[COMMAND] = (Release){.period=1000, .deadline=2000, .due=epoch};
     releases[SAMPLE] = (Release){.period=100000, .deadline=120000, .due=epoch};
     releases[STATUS] = (Release){.period=1000000, .deadline=1100000, .due=epoch+1000000};
     releases[LED] = (Release){.period=500000, .deadline=550000, .due=epoch+500000};
 #ifdef PARCEL_CLOCK_SYSTICK
-    printf("BUILD git=%s source=%s clock_hz=%lu timer=SysTick_1ms format=1\r\n", BUILD_GIT, BUILD_SOURCE, (unsigned long)SystemCoreClock);
+    printf("BUILD git=%s source=%s clock_hz=%lu timer=" PARCEL_CLOCK_LABEL " format=1\r\n", BUILD_GIT, BUILD_SOURCE, (unsigned long)SystemCoreClock);
 #else
     printf("BUILD git=%s source=%s clock_hz=%lu timer=TIM3_1MHz format=1\r\n", BUILD_GIT, BUILD_SOURCE, (unsigned long)SystemCoreClock);
 #endif
@@ -189,6 +235,10 @@ static void sample_task(uint32_t now) {
             if (!light_ready) adc_retry_at = now;
             if (was_ready != light_ready) event(now, light_ready ? "light_ready" : "light_read_error");
         }
+#ifdef PARCEL_FREERTOS
+        /* Rising edges are consumed exactly once by the ISR queue task. */
+        rules.pir_active = sample.pir_motion;
+#endif
         uint32_t events = ParcelRules_Update(&rules, &sample);
         if (events & PARCEL_EVENT_SHOCK) event(now, "shock");
         if (events & PARCEL_EVENT_TILT) event(now, "tilt");
@@ -253,3 +303,74 @@ void runtime_poll(void) {
     }
     save_task(); output_task();
 }
+
+#ifdef PARCEL_FREERTOS
+void parcel_pir_isr(uint32_t at, bool storage) {
+    if (!pir_queue) return;
+    PirEdge e = {at, storage}; BaseType_t woke = pdFALSE;
+    if (xQueueSendFromISR(pir_queue, &e, &woke) != pdPASS) ++pir_dropped;
+    portYIELD_FROM_ISR(woke);
+}
+static void pir_thread(void *arg) {
+    (void)arg; PirEdge e;
+    for (;;) {
+        xQueueReceive(pir_queue, &e, portMAX_DELAY);
+        xSemaphoreTake(state_lock, portMAX_DELAY);
+        if (e.storage && rules.mode == PARCEL_STORAGE) {
+            pir_event_at=e.at; event(HAL_GetTick(), "nearby_motion");
+        }
+        xSemaphoreGive(state_lock);
+    }
+}
+static void periodic_thread(void *arg) {
+    unsigned role = (unsigned)(uintptr_t)arg;
+    /* The port reloads SysTick. Initialize anchors after that, in the first
+     * highest-priority task, before the other application threads can run. */
+    if (role == COMMAND) runtime_init();
+    TickType_t phase = xTaskGetTickCount();
+    const TickType_t step = role == SAMPLE ? pdMS_TO_TICKS(100) : 1;
+    for (;;) {
+        xSemaphoreTake(state_lock, portMAX_DELAY);
+        uint32_t start = instrument_now();
+        if (role == SAMPLE) {
+            if (release_ready(&releases[SAMPLE], start)) {
+                instrument_probe(6, true); sample_task(HAL_GetTick()); instrument_probe(6, false);
+                meter_add(&meters[SAMPLE], instrument_now()-start);
+                release_finish(&releases[SAMPLE], instrument_now());
+            }
+        } else if (role == COMMAND) {
+            if (release_ready(&releases[COMMAND], start)) {
+                commands(HAL_GetTick()); meter_add(&meters[COMMAND], instrument_now()-start);
+                release_finish(&releases[COMMAND], instrument_now());
+            }
+        } else {
+            elapsed_us += (uint32_t)(start-last_loop); last_loop=start;
+            save_task(); output_task();
+            if (release_ready(&releases[STATUS], instrument_now())) {
+                uint32_t t=instrument_now(); status(HAL_GetTick());
+                meter_add(&meters[STATUS], instrument_now()-t); release_finish(&releases[STATUS], instrument_now());
+            }
+            if (release_ready(&releases[LED], instrument_now())) {
+                uint32_t t=instrument_now(); led_on=!led_on; board_led(led_on);
+                meter_add(&meters[LED], instrument_now()-t); release_finish(&releases[LED], instrument_now());
+            }
+        }
+        xSemaphoreGive(state_lock);
+        /* Skip missed periods rather than executing a catch-up burst. */
+        TickType_t now=xTaskGetTickCount();
+        if ((TickType_t)(now-phase)>=step) phase+=((TickType_t)(now-phase)/step)*step;
+        xTaskDelayUntil(&phase, step);
+    }
+}
+void runtime_start(void) {
+    state_lock=xSemaphoreCreateMutex();
+    pir_queue=xQueueCreate(8, sizeof(PirEdge));
+    configASSERT(state_lock && pir_queue);
+    configASSERT(xTaskCreate(pir_thread,"pir",128,NULL,3,NULL)==pdPASS);
+    configASSERT(xTaskCreate(periodic_thread,"sample",224,(void *)SAMPLE,2,NULL)==pdPASS);
+    configASSERT(xTaskCreate(periodic_thread,"console",256,(void *)COMMAND,4,NULL)==pdPASS);
+    configASSERT(xTaskCreate(periodic_thread,"service",256,(void *)SAVE,1,NULL)==pdPASS);
+    vTaskStartScheduler();
+    parcel_assert("scheduler_returned",0);
+}
+#endif

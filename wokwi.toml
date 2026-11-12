@@ -1,6 +1,6 @@
 [wokwi]
 version = 1
-firmware = 'docs/evidence/lab3/firmware-seeded.hex'
-elf = 'docs/evidence/lab3/firmware.elf'
-rfc2217ServerPort = 4049
-vcdFile = 'local/demo/lab3.vcd'
+firmware = 'docs/evidence/lab4/rtos/firmware-seeded.hex'
+elf = 'docs/evidence/lab4/rtos/firmware.elf'
+rfc2217ServerPort = 48446
+vcdFile = 'local/lab4-demo/capture.vcd'

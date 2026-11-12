@@ -102,7 +102,18 @@ int main(void)
   MX_I2C1_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
+#ifdef LAB4_EXPERIMENT
+  extern void parcel_experiment_start(void);
+  parcel_experiment_start();
+#else
+#ifndef PARCEL_FREERTOS
   runtime_init();
+#endif
+#ifdef PARCEL_FREERTOS
+  extern void runtime_start(void);
+  runtime_start();
+#endif
+#endif
 
   /* USER CODE END 2 */
 

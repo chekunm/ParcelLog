@@ -1,0 +1,4 @@
+FreeRTOS-Kernel V11.1.0
+https://github.com/FreeRTOS/FreeRTOS-Kernel/tree/V11.1.0
+Archive SHA256 0e21928b3bcc4f9bcaf7333fb1c8c0299d97e2ec9e13e3faa2c5a7ac8a3bc573
+Port GCC/ARM_CM0 (ARMv6-M, Cortex-M0/M0+)

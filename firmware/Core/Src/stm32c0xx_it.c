@@ -97,7 +97,7 @@ void HardFault_Handler(void)
 /**
   * @brief This function handles System service call via SWI instruction.
   */
-void SVC_Handler(void)
+__attribute__((weak)) void SVC_Handler(void)
 {
   /* USER CODE BEGIN SVC_IRQn 0 */
 
@@ -110,7 +110,7 @@ void SVC_Handler(void)
 /**
   * @brief This function handles Pendable request for system service.
   */
-void PendSV_Handler(void)
+__attribute__((weak)) void PendSV_Handler(void)
 {
   /* USER CODE BEGIN PendSV_IRQn 0 */
 
@@ -128,9 +128,14 @@ void SysTick_Handler(void)
   /* USER CODE BEGIN SysTick_IRQn 0 */
 
   /* USER CODE END SysTick_IRQn 0 */
+#ifdef PARCEL_FREERTOS
+  extern void parcel_tick(void);
+  parcel_tick();
+#else
   instrument_irq_enter();
   HAL_IncTick();
   instrument_irq_leave();
+#endif
   /* USER CODE BEGIN SysTick_IRQn 1 */
 
   /* USER CODE END SysTick_IRQn 1 */

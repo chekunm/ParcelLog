@@ -1,8 +1,20 @@
 #include "board.h"
 #include "main.h"
+#ifdef PARCEL_FREERTOS
+#include "FreeRTOS.h"
+#include "task.h"
+#define TRANSFER_BEGIN() vTaskSuspendAll()
+#define TRANSFER_END() ((void)xTaskResumeAll())
+#else
+#define TRANSFER_BEGIN() ((void)0)
+#define TRANSFER_END() ((void)0)
+#endif
 
-/* A transaction has one deadline, including both phases of a register read.
- * I2C1 belongs to the foreground loop; IRQ handlers do not use this bus. */
+/* One10ms deadline includes both register-read phases. I2C1 is owned by
+ * the state-locked application; IRQ handlers do not access it. In the RTOS
+ * build, suspend task scheduling only during this synchronous transaction:
+ * preemption caused repeatable14-byte read timeouts in the measured setup.
+ * IRQs and HAL ticks remain active. Resume before returning to the caller. */
 typedef struct { uint32_t began; } Transfer;
 enum { TRANSFER_LIMIT_MS = 10, WIRE_BYTE_US = 120 };
 
@@ -56,6 +68,7 @@ static BusResult close_transfer(BusResult result) {
     }
     acknowledge_flags();
     I2C1->CR2 = 0;
+    TRANSFER_END();
     return result;
 }
 static void begin_phase(uint8_t address, size_t count, bool read) {
@@ -82,6 +95,7 @@ static BusResult stop_phase(const Transfer *t) {
 static BusResult sensor_write(void *unused, uint8_t address, uint8_t reg, const uint8_t *src, size_t length) {
     (void)unused;
     if (!src || !length || length > 254 || address > 127) return BUS_ERROR;
+    TRANSFER_BEGIN();
     Transfer transfer = { HAL_GetTick() };
     begin_phase(address, length + 1, false);
     BusResult result = write_byte(&transfer, reg);
@@ -92,6 +106,7 @@ static BusResult sensor_write(void *unused, uint8_t address, uint8_t reg, const 
 static BusResult sensor_read(void *unused, uint8_t address, uint8_t reg, uint8_t *dst, size_t length) {
     (void)unused;
     if (!dst || !length || length > 255 || address > 127) return BUS_ERROR;
+    TRANSFER_BEGIN();
     Transfer transfer = { HAL_GetTick() };
     begin_phase(address, 1, false);
     BusResult result = write_byte(&transfer, reg);

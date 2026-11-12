@@ -22,20 +22,29 @@ TARGET = firmware
 # debug build?
 DEBUG = 1
 # optimization
-OPT = -Os
+OPT = -Oz
 
 
 #######################################
 # paths
 #######################################
 # Build path
-BUILD_DIR = build
+BUILD_DIR = build-rtos
 
 ######################################
 # source
 ######################################
 # C sources
 C_SOURCES =  \
+Middlewares/FreeRTOS/tasks.c \
+Middlewares/FreeRTOS/queue.c \
+Middlewares/FreeRTOS/list.c \
+Middlewares/FreeRTOS/portable/GCC/ARM_CM0/port.c \
+Middlewares/FreeRTOS/portable/GCC/ARM_CM0/portasm.c \
+Middlewares/FreeRTOS/portable/MemMang/heap_4.c \
+Platform/rtos_support.c \
+Platform/rtos_experiments.c \
+Platform/parcel_print.c \
 Core/Src/main.c \
 Devices/mpu6050.c \
 Platform/board.c \
@@ -120,7 +129,7 @@ AS_DEFS =
 C_DEFS =  \
 -DUSE_HAL_DRIVER \
 -DSTM32C031xx \
--DPARCEL_CLOCK_SYSTICK
+-DPARCEL_CLOCK_SYSTICK -DPARCEL_FREERTOS $(EXTRA_DEFS)
 
 
 # AS includes
@@ -128,6 +137,8 @@ AS_INCLUDES =
 
 # C includes
 C_INCLUDES =  \
+-IMiddlewares/FreeRTOS/include \
+-IMiddlewares/FreeRTOS/portable/GCC/ARM_CM0 \
 -ICore/Inc \
 -IApp \
 -IDevices \
@@ -141,7 +152,7 @@ C_INCLUDES =  \
 # compile gcc flags
 ASFLAGS = $(MCU) $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -Wextra -fdata-sections -ffunction-sections
 
-CFLAGS += -fstack-usage -Wstack-usage=512 $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -Wextra -fdata-sections -ffunction-sections
+CFLAGS += -flto -fstack-usage -Wstack-usage=512 $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -Wextra -fdata-sections -ffunction-sections
 
 ifeq ($(DEBUG), 1)
 CFLAGS += -g -gdwarf-2
@@ -161,7 +172,7 @@ LDSCRIPT = STM32C031C6Tx_FLASH.ld
 # libraries
 LIBS = -lc -lm -lnosys 
 LIBDIR = 
-LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections,--print-memory-usage
+LDFLAGS = -flto $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections,--print-memory-usage
 
 # default action: build all
 all: $(BUILD_DIR)/$(TARGET).elf $(BUILD_DIR)/$(TARGET).hex $(BUILD_DIR)/$(TARGET).bin
@@ -176,6 +187,8 @@ vpath %.c $(sort $(dir $(C_SOURCES)))
 # list of ASM program objects
 OBJECTS += $(addprefix $(BUILD_DIR)/,$(notdir $(ASM_SOURCES:.s=.o)))
 vpath %.s $(sort $(dir $(ASM_SOURCES)))
+
+$(BUILD_DIR)/tasks.o $(BUILD_DIR)/queue.o $(BUILD_DIR)/list.o $(BUILD_DIR)/heap_4.o $(BUILD_DIR)/port.o $(BUILD_DIR)/portasm.o: CFLAGS += -fno-lto
 
 $(BUILD_DIR)/%.o: %.c Makefile | $(BUILD_DIR) 
 	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@

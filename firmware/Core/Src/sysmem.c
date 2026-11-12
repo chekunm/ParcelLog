@@ -84,7 +84,11 @@ uint32_t instrument_heap(void) {
   return __sbrk_heap_end ? (uint32_t)(__sbrk_heap_end - &_end) : 0;
 }
 void instrument_heap_usage(uint32_t *used, uint32_t *free_bytes) {
+#ifdef PARCEL_FREERTOS
+  *used = 0; *free_bytes = 0;
+#else
   struct mallinfo info = mallinfo();
   *used = (uint32_t)info.uordblks;
   *free_bytes = (uint32_t)info.fordblks;
+#endif
 }

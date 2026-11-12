@@ -1,4 +1,5 @@
 IMAGE ?= parcellog-build:lab3
+BUILD_DIR ?= build-lab4-work
 
 .PHONY: image build clean test
 
@@ -9,7 +10,7 @@ build: image
 	python3 tools/seal_build.py
 	docker run --rm -v "$(CURDIR):/workspace" -w /workspace \
 		--user "$(shell id -u):$(shell id -g)" $(IMAGE) \
-		make -C firmware all
+		make -C firmware BUILD_DIR="$(BUILD_DIR)" all
 
 clean:
 	$(MAKE) -C firmware clean
