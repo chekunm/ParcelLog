@@ -4,7 +4,7 @@ BUILD ?= build/$(PLATFORM)
 CFLAGS ?= -std=c11 -O0 -g -Wall -Wextra -Werror
 CPPFLAGS += -I../firmware/Devices -I../firmware/App -I../firmware/Platform -Ifakes
 HEADERS = $(wildcard ../firmware/App/*.h ../firmware/Devices/*.h ../firmware/Platform/*.h fakes/*.h fixtures/*.h)
-SUITES = test_mpu test_parcel_rules test_runtime test_shipment_log test_run_meter test_runtime_scenarios test_tick_clock test_tx_queue test_sensor_transport test_parcel_light
+SUITES = test_mpu test_parcel_rules test_runtime test_shipment_log test_run_meter test_runtime_scenarios test_tick_clock test_tx_queue test_sensor_transport test_parcel_light test_parcel_print test_fine_clock
 .PHONY: test sanitize
 test: $(SUITES:%=$(BUILD)/%)
 	@set -e; for suite in $(SUITES); do ./$(BUILD)/$$suite; done
@@ -37,3 +37,9 @@ $(BUILD)/test_sensor_transport: test_sensor_transport.c ../firmware/Platform/sen
 
 $(BUILD)/test_parcel_light: test_parcel_light.c ../firmware/Platform/parcel_light.c $(HEADERS) fakes/light/main.h | $(BUILD)
 	$(CC) -Ifakes/light $(CPPFLAGS) $(CFLAGS) $(filter %.c,$^) -o "$@"
+
+$(BUILD)/test_parcel_print: test_parcel_print.c ../firmware/Platform/parcel_print.c $(HEADERS) | $(BUILD)
+	$(CC) $(CPPFLAGS) $(CFLAGS) $(filter %.c,$^) -o "$@"
+
+$(BUILD)/test_fine_clock: test_fine_clock.c ../firmware/Platform/instrument.c fakes/fine-clock/main.h $(HEADERS) | $(BUILD)
+	$(CC) -Ifakes/fine-clock $(CPPFLAGS) $(CFLAGS) -DPARCEL_CLOCK_SYSTICK $(filter %.c,$^) -o "$@"

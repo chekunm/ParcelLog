@@ -49,7 +49,14 @@ int main(void) {
     erase(NULL); shipment_open(&j,backend);
     for (unsigned i=0;i<128;++i) { next=entry(i%11); assert(shipment_append(&j,&next)); }
     uint8_t full[4096]; memcpy(full,flash,sizeof full);
-    assert(!shipment_append(&j,&next) && !memcmp(full,flash,sizeof full));
+    unsigned capacity_rejected=0;
+    for (unsigned i=128;i<160;++i) {
+        next=entry(i%11);
+        if (!shipment_append(&j,&next)) ++capacity_rejected;
+        assert(!memcmp(full,flash,sizeof full));
+    }
+    assert(capacity_rejected==32 && j.intact==128 && j.next_slot==128);
+    puts("CAPACITY input=160 accepted=128 rejected=32 previous_bytes_preserved=4096");
     shipment_open(&recovered,backend); assert(recovered.intact==128 && recovered.last_sequence==128 && recovered.boot==2);
     ShipmentStorage false_success = backend;
     false_success.erase = erase_reports_success_without_change;
