@@ -1,0 +1,53 @@
+{
+  "comparison_day": "2026-11-14",
+  "identities": {
+    "rtos": {
+      "source_sha256": "81707fe1dfc828ddfb3204ceb63e2148009c5fbb566ec5d13c3f264a1c01cfdd",
+      "elf_sha256": "d20a2b698840756915a32300b60f53c54baedca1952a49923267e2c774aec972",
+      "hex_sha256": "672d265be138ec2236ee74c21c257910c04a7ff7e90cdd88be6dd89b4b139efc",
+      "source_archive_sha256": "47a05fcb368b2bc994e8bc3ecefa778a4abc8009de282582a29e838825394313",
+      "firmware_archive_build_recipe": [
+        "docker",
+        "run",
+        "--rm",
+        "-v",
+        "<source>:/workspace",
+        "-w",
+        "/workspace",
+        "parcellog-build:lab3",
+        "make",
+        "-C",
+        "firmware",
+        "BUILD_DIR=build-reproduction",
+        "all"
+      ],
+      "build_identity_limit": "Use retained build_version.h; archive recipe makes no Git actions. Baseline flags-Os,RTOS-Oz/LTO,port-fno-lto."
+    },
+    "lab3": {
+      "source_sha256": "af74d9d748fe5d1d1380682fd18e79b93f4dabcb994ea9a074afb7f7271e5550",
+      "elf_sha256": "c4735aef33d887d2250b861a9283b34362b457b0d70afe0773f874cbbe15b8d4",
+      "hex_sha256": "a4fcc0b39bc03cc8036346681dc9d747ef8e1bdfaccda69e08d32674c517a74c",
+      "source_archive_sha256": "e3de69034399bc3530aaeb576b8e182c0db78fda31146f57766a1779dffe4ee6",
+      "firmware_archive_build_recipe": [
+        "docker",
+        "run",
+        "--rm",
+        "-v",
+        "<source>:/workspace",
+        "-w",
+        "/workspace",
+        "parcellog-build:lab3",
+        "make",
+        "-C",
+        "firmware",
+        "BUILD_DIR=build-reproduction",
+        "all"
+      ],
+      "build_identity_limit": "Use retained build_version.h; archive recipe makes no Git actions. Baseline flags-Os,RTOS-Oz/LTO,port-fno-lto."
+    }
+  },
+  "source_archive_entries_verified": {
+    "rtos": 161,
+    "lab3": 114
+  }
+}
